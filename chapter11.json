@@ -1,1132 +1,1069 @@
 {
-    "title": "Time Value of Money",
+    "title": "The Basics of Capital Budgeting",
     "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-8 w-8\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z\" /></svg>",
     "sectors": {
         "sector1": {
-            "title": "Chapter 2 Questions",
+            "title": "Chapter 11 Questions",
             "questions": [
                 {
                     "q_num": 1,
-                    "topic": "Compounding",
+                    "topic": "Capital budget",
                     "type": "tf",
-                    "question": "One potential benefit from starting to invest early for retirement is that the investor can expect greater benefits from the compounding of interest.",
+                    "question": "A firm should never undertake an investment if accepting the project would lead to an increase in the firm's cost of capital.",
                     "options": ["True", "False"],
-                    "answer": "True",
+                    "answer": "False",
                     "explanation": ""
                 },
                 {
                     "q_num": 2,
-                    "topic": "PV versus FV",
+                    "topic": "PV of cash flows",
                     "type": "tf",
-                    "question": "If the discount (or interest) rate is positive, the present value of an expected series of payments will always exceed the future value of the same series.",
+                    "question": "Because 'present value' refers to the value of cash flows that occur at different points in time, a series of present values should not be summed to determine the value of a capital budgeting project.",
                     "options": ["True", "False"],
                     "answer": "False",
                     "explanation": ""
                 },
                 {
                     "q_num": 3,
-                    "topic": "PV versus FV",
+                    "topic": "NPV",
                     "type": "tf",
-                    "question": "Disregarding risk, if money has time value, it is impossible for the present value of a given sum to exceed its future value.",
-                    "options": ["True", "False"],
-                    "answer": "True",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 4,
-                    "topic": "Effective annual rate",
-                    "type": "tf",
-                    "question": "If a bank compounds savings accounts quarterly, the nominal rate will exceed the effective annual rate.",
+                    "question": "Assuming that their NPVs based on the firm's cost of capital are equal, the NPV of a project whose cash flows accrue relatively rapidly will be more sensitive to changes in the discount rate than the NPV of a project whose cash flows come in later in its life.",
                     "options": ["True", "False"],
                     "answer": "False",
                     "explanation": ""
                 },
                 {
-                    "q_num": 5,
-                    "topic": "Amortization",
+                    "q_num": 4,
+                    "topic": "IRR",
                     "type": "tf",
-                    "question": "The payment made each period on an amortized loan is constant, and it consists of some interest and some principal. The closer we are to the end of the loan's life, the greater the percentage of the payment that will be a repayment of principal.",
+                    "question": "The internal rate of return is that discount rate that equates the present value of the cash outflows (or costs) with the present value of the cash inflows.",
                     "options": ["True", "False"],
                     "answer": "True",
                     "explanation": ""
                 },
                 {
-                    "q_num": 6,
-                    "topic": "Compounding",
+                    "q_num": 5,
+                    "topic": "IRR",
                     "type": "tf",
-                    "question": "The greater the number of compounding periods within a year, then (1) the greater the future value of a lump sum investment at Time 0 and (2) the greater the present value of a given lump sum to be received at some future date.",
+                    "question": "Other things held constant, an increase in the cost of capital will result in a decrease in a project's IRR.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 6,
+                    "topic": "NPV and IRR",
+                    "type": "tf",
+                    "question": "If a project's NPV exceeds its IRR, then the project should be accepted.",
                     "options": ["True", "False"],
                     "answer": "False",
                     "explanation": ""
                 },
                 {
                     "q_num": 7,
-                    "topic": "Comparative compounding",
+                    "topic": "Mutually exclusive projects",
                     "type": "tf",
-                    "question": "Suppose an investor plans to invest a given sum of money. She can earn an effective annual rate of 5% on Security A, while Security B will provide an effective annual rate of 12%. Within 11 years' time, the compounded value of Security B will be more than twice the compounded value of Security A. (Ignore risk, and assume that compounding occurs annually.)",
+                    "question": "Conflicts between two mutually exclusive projects, where the NPV method chooses one project but the IRR method chooses the other, should generally be resolved in favor of the project with the higher NPV.",
                     "options": ["True", "False"],
                     "answer": "True",
                     "explanation": ""
                 },
                 {
                     "q_num": 8,
-                    "topic": "PV of a sum",
+                    "topic": "Reinvestment rate assumption",
                     "type": "tf",
-                    "question": "The present value of a future sum decreases as either the discount rate or the number of periods per year increases.",
+                    "question": "The NPV method's assumption that cash inflows are reinvested at the cost of capital is more reasonable than the IRR's assumption that cash flows are reinvested at the IRR. This is an important reason why the NPV method is generally preferred over the IRR method.",
                     "options": ["True", "False"],
                     "answer": "True",
                     "explanation": ""
                 },
                 {
                     "q_num": 9,
-                    "topic": "PV of an annuity",
+                    "topic": "Multiple IRRs",
                     "type": "tf",
-                    "question": "All other factors held constant, the present value of a given annual annuity decreases as the number of discounting periods per year increases.",
+                    "question": "Under certain conditions, a project may have more than one IRR. One such condition is when, in addition to the initial investment at time = 0, a negative cash flow (or cost) occurs at the end of the project's life.",
                     "options": ["True", "False"],
                     "answer": "True",
                     "explanation": ""
                 },
                 {
                     "q_num": 10,
-                    "topic": "Effective and nominal rates",
+                    "topic": "Multiple IRRs",
                     "type": "tf",
-                    "question": "As a result of compounding, the effective annual rate on a bank deposit (or a loan) is always equal to or greater than the nominal rate on the deposit (or loan).",
+                    "question": "The phenomenon called 'multiple internal rates of return' arises when two or more mutually exclusive projects that have different lives are being compared.",
                     "options": ["True", "False"],
-                    "answer": "True",
+                    "answer": "False",
                     "explanation": ""
                 },
                 {
                     "q_num": 11,
-                    "topic": "Periodic and nominal rates",
+                    "topic": "Modified IRR",
                     "type": "tf",
-                    "question": "If we are given a periodic interest rate, say a monthly rate, we can find the nominal annual rate by multiplying the periodic rate by the number of periods per year.",
+                    "question": "The modified IRR (MIRR) method has wide appeal to professors, but most business executives prefer the NPV method to either the regular or modified IRR.",
                     "options": ["True", "False"],
-                    "answer": "True",
+                    "answer": "False",
                     "explanation": ""
                 },
                 {
                     "q_num": 12,
-                    "topic": "Amortization",
+                    "topic": "Modified IRR",
                     "type": "tf",
-                    "question": "When a loan is amortized, a relatively high percentage of the payment goes to reduce the outstanding principal in the early years, and the principal repayment's percentage declines in the loan's later years.",
+                    "question": "When evaluating mutually exclusive projects, the modified IRR (MIRR) always leads to the same capital budgeting decisions as the NPV method, regardless of the relative lives or sizes of the projects being evaluated.",
                     "options": ["True", "False"],
                     "answer": "False",
                     "explanation": ""
                 },
                 {
                     "q_num": 13,
-                    "topic": "Amortization",
+                    "topic": "Payback",
                     "type": "tf",
-                    "question": "Midway through the life of an amortized loan, the percentage of the payment that represents interest is equal to the percentage that represents principal repayment. This is true regardless of the original life of the loan.",
+                    "question": "One advantage of the payback method for evaluating potential investments is that it provides some information about a project's liquidity and risk.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 14,
+                    "topic": "Ranking methods",
+                    "type": "tf",
+                    "question": "In theory, any capital budgeting investment rule should depend solely on forecasted cash flows and the opportunity cost of capital. The rule itself should not be affected by managers' tastes, the choice of accounting method, or the profitability of other independent projects.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 15,
+                    "topic": "Mutually exclusive projects",
+                    "type": "tf",
+                    "question": "When considering two mutually exclusive projects, the firm should always select that project whose internal rate of return is the highest provided the projects have the same initial cost. This statement is true regardless of whether the projects can be repeated or not.",
                     "options": ["True", "False"],
                     "answer": "False",
                     "explanation": ""
                 },
                 {
-                    "q_num": 14,
-                    "topic": "Time lines",
-                    "type": "mcq",
-                    "question": "Which of the following statements is NOT CORRECT?",
-                    "options": [
-                        "A time line is meaningful only if all cash flows occur annually.",
-                        "Time lines are useful for visualizing complex problems prior to doing actual calculations.",
-                        "Time lines can be constructed even in situations where some of the cash flows occur annually but others occur quarterly.",
-                        "Time lines can be constructed for annuities where the payments occur at either the beginning or the end of periods.",
-                        "The cash flows shown on a time line can be in the form of annuity payments, but they can also be uneven amounts."
-                    ],
-                    "answer": "A time line is meaningful only if all cash flows occur annually.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 15,
-                    "topic": "Time lines",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT?",
-                    "options": [
-                        "A time line is not meaningful unless all cash flows occur annually.",
-                        "Time lines are useful for visualizing complex problems prior to doing actual calculations.",
-                        "Time lines cannot be constructed to deal with situations where some of the cash flows occur annually but others occur quarterly.",
-                        "Time lines can only be constructed for annuities where the payments occur at the ends of the periods, i.e., for ordinary annuities.",
-                        "Time lines cannot be constructed where some of the payments constitute an annuity but others are unequal and thus are not part of the annuity."
-                    ],
-                    "answer": "Time lines are useful for visualizing complex problems prior to doing actual calculations.",
-                    "explanation": ""
-                },
-                {
                     "q_num": 16,
-                    "topic": "Effects of factors on PVs",
-                    "type": "mcq",
-                    "question": "You are analyzing the value of a potential investment by calculating the sum of the present values of its expected cash flows. Which of the following would lower the calculated value of the investment?",
-                    "options": [
-                        "The cash flows are in the form of a deferred annuity, and they total to $100,000. You learn that the annuity lasts for only 5 rather than 10 years, hence that each payment is for $20,000 rather than for $10,000.",
-                        "The discount rate increases.",
-                        "The riskiness of the investments cash flows decreases.",
-                        "The total amount of cash flows remains the same, but more of the cash flows are received in the earlier years and less are received in the later years.",
-                        "The discount rate decreases."
-                    ],
-                    "answer": "The discount rate increases.",
+                    "topic": "NPV vs IRR",
+                    "type": "tf",
+                    "question": "The primary reason that the NPV method is conceptually superior to the IRR method for evaluating mutually exclusive investments is that multiple IRRs may exist.",
+                    "options": ["True", "False"],
+                    "answer": "False",
                     "explanation": ""
                 },
                 {
                     "q_num": 17,
-                    "topic": "Annuities",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT?",
-                    "options": [
-                        "The cash flows for an ordinary (or deferred) annuity all occur at the beginning of the periods.",
-                        "If a series of unequal cash flows occurs at regular intervals, such as once a year, then the series is by definition an annuity.",
-                        "The cash flows for an annuity due must all occur at the ends of the periods.",
-                        "The cash flows for an annuity must all be equal, and they must occur at regular intervals, such as once a year or once a month.",
-                        "If some cash flows occur at the beginning of the periods while others occur at the ends, then we have what the textbook defines as a variable annuity."
-                    ],
-                    "answer": "The cash flows for an annuity must all be equal, and they must occur at regular intervals, such as once a year or once a month.",
+                    "topic": "NPV vs IRR",
+                    "type": "tf",
+                    "question": "The NPV and IRR methods, when used to evaluate independent and equally risky projects, will lead to different accept/reject decisions if their IRRs are greater than the cost of capital.",
+                    "options": ["True", "False"],
+                    "answer": "False",
                     "explanation": ""
                 },
                 {
                     "q_num": 18,
-                    "topic": "Solving for I with uneven cash flows",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT?",
-                    "options": [
-                        "If you have a series of cash flows, all of which are positive, you can solve for I, where the solution value of I causes the PV of the cash flows to equal the cash flow at Time 0.",
-                        "If you have a series of cash flows, and CF0 is negative but all of the other CFs are positive, you can solve for I, but only if the sum of the undiscounted cash flows exceeds the cost.",
-                        "To solve for I, one must identify the value of I that causes the PV of the positive CFs to equal the absolute value of the PV of the negative CFs. This is, essentially, a trial-and-error procedure that is easy with a computer or financial calculator but quite difficult otherwise.",
-                        "If you solve for I and get a negative number, then you must have made a mistake.",
-                        "If CF0 is positive and all the other CFs are negative, then you cannot solve for I."
-                    ],
-                    "answer": "To solve for I, one must identify the value of I that causes the PV of the positive CFs to equal the absolute value of the PV of the negative CFs. This is, essentially, a trial-and-error procedure that is easy with a computer or financial calculator but quite difficult otherwise.",
+                    "topic": "IRR and NPV",
+                    "type": "tf",
+                    "question": "If the IRR of normal Project X is greater than the IRR of mutually exclusive Project Y (also normal), we can conclude that the firm should select X rather than Y if X has NPV > 0.",
+                    "options": ["True", "False"],
+                    "answer": "False",
                     "explanation": ""
                 },
                 {
                     "q_num": 19,
-                    "topic": "Effective annual rate",
-                    "type": "mcq",
-                    "question": "Which of the following bank accounts has the highest effective annual return?",
-                    "options": [
-                        "An account that pays 8% nominal interest with monthly compounding.",
-                        "An account that pays 8% nominal interest with annual compounding.",
-                        "An account that pays 7% nominal interest with daily (365-day) compounding.",
-                        "An account that pays 7% nominal interest with monthly compounding.",
-                        "An account that pays 8% nominal interest with daily (365-day) compounding."
-                    ],
-                    "answer": "An account that pays 8% nominal interest with daily (365-day) compounding.",
+                    "topic": "Small business practices",
+                    "type": "tf",
+                    "question": "Small businesses make less use of DCF capital budgeting techniques than large businesses. This may reflect a lack of knowledge on the part of small firms' managers, but it may also reflect a rational conclusion that the costs of using DCF analysis outweigh the benefits of these methods for very small firms.",
+                    "options": ["True", "False"],
+                    "answer": "True",
                     "explanation": ""
                 },
                 {
                     "q_num": 20,
-                    "topic": "Quarterly compounding",
-                    "type": "mcq",
-                    "question": "Your bank account pays a 6% nominal rate of interest. The interest is compounded quarterly. Which of the following statements is CORRECT?",
-                    "options": [
-                        "The periodic rate of interest is 1.5% and the effective rate of interest is 3%.",
-                        "The periodic rate of interest is 6% and the effective rate of interest is greater than 6%.",
-                        "The periodic rate of interest is 1.5% and the effective rate of interest is greater than 6%.",
-                        "The periodic rate of interest is 3% and the effective rate of interest is 6%.",
-                        "The periodic rate of interest is 6% and the effective rate of interest is also 6%."
-                    ],
-                    "answer": "The periodic rate of interest is 1.5% and the effective rate of interest is greater than 6%.",
+                    "topic": "Replacement chain",
+                    "type": "tf",
+                    "question": "The replacement chain, or common life, approach is required when analyzing projects that have different lives regardless of whether the projects are mutually exclusive or independent.",
+                    "options": ["True", "False"],
+                    "answer": "False",
                     "explanation": ""
                 },
                 {
                     "q_num": 21,
-                    "topic": "Amortization",
-                    "type": "mcq",
-                    "question": "A $50,000 loan is to be amortized over 7 years, with annual end-of-year payments. Which of these statements is CORRECT?",
-                    "options": [
-                        "The annual payments would be larger if the interest rate were lower.",
-                        "If the loan were amortized over 10 years rather than 7 years, and if the interest rate were the same in either case, the first payment would include more dollars of interest under the 7-year amortization plan.",
-                        "The proportion of each payment that represents interest as opposed to repayment of principal would be lower if the interest rate were lower.",
-                        "The last payment would have a higher proportion of interest than the first payment.",
-                        "The proportion of interest versus principal repayment would be the same for each of the 7 payments."
-                    ],
-                    "answer": "The proportion of each payment that represents interest as opposed to repayment of principal would be lower if the interest rate were lower.",
+                    "topic": "Replacement chain",
+                    "type": "tf",
+                    "question": "Although the replacement chain approach is appealing for dealing with mutually exclusive projects that have different lives, it is not used in industry because no projects meet the assumptions the method requires.",
+                    "options": ["True", "False"],
+                    "answer": "False",
                     "explanation": ""
                 },
                 {
                     "q_num": 22,
-                    "topic": "Amortization",
-                    "type": "mcq",
-                    "question": "Which of the following statements regarding a 15-year (180-month) $125,000 fixed-rate mortgage is NOT CORRECT? (Ignore all taxes and transactions costs.)",
-                    "options": [
-                        "The remaining balance after three years will be $125,000 less the total amount of interest paid during the first 36 months.",
-                        "Because it is a fixed-rate mortgage, the monthly loan payments (that include both interest and principal payments) are constant.",
-                        "Interest payments on the mortgage will steadily decline over time.",
-                        "The proportion of the monthly payment that goes towards repayment of principal will be higher 10 years from now than it will be the first year.",
-                        "The outstanding balance gets paid off at a faster rate in the later years of a loans life."
-                    ],
-                    "answer": "The remaining balance after three years will be $125,000 less the total amount of interest paid during the first 36 months.",
+                    "topic": "Common life comparisons",
+                    "type": "tf",
+                    "question": "Extending projects with different lives to a common life for comparison purposes, while theoretically appealing, is valid only if there is a reasonably high probability that the projects will actually be repeated out beyond their initial lives.",
+                    "options": ["True", "False"],
+                    "answer": "True",
                     "explanation": ""
                 },
                 {
                     "q_num": 23,
-                    "topic": "Amortization",
-                    "type": "mcq",
-                    "question": "Which of the following statements regarding a 30-year monthly payment amortized mortgage with a nominal interest rate of 10% is CORRECT?",
-                    "options": [
-                        "The monthly payments will decline over time.",
-                        "A smaller proportion of the last monthly payment will be interest, and a larger proportion will be principal, than for the first monthly payment.",
-                        "The total dollar amount of principal being paid off each month gets smaller as the loan approaches maturity.",
-                        "The amount representing interest in the first payment would be higher if the nominal interest rate were 7% rather than 10%.",
-                        "Exactly 10% of the first monthly payment represents interest."
-                    ],
-                    "answer": "A smaller proportion of the last monthly payment will be interest, and a larger proportion will be principal, than for the first monthly payment.",
+                    "topic": "NPV and IRR",
+                    "type": "tf",
+                    "question": "A decrease in the firm's discount rate (r, or WACC) will increase projects' NPVs, which could change the accept/reject decision for any potential project. However, such a change would have no impact on the project's IRR; therefore, the accept/reject decision under the IRR method is independent of the cost of capital.",
+                    "options": ["True", "False"],
+                    "answer": "False",
                     "explanation": ""
                 },
                 {
                     "q_num": 24,
-                    "topic": "Time value concepts",
-                    "type": "mcq",
-                    "question": "Which of the following investments will have the highest future value at the end of 10 years? Assume that the effective annual rate for all investments is the same.",
-                    "options": [
-                        "Investment A pays $250 at the beginning of every year for the next 10 years (a total of 10 payments).",
-                        "Investment B pays $125 at the end of every 6-month period for the next 10 years (a total of 20 payments).",
-                        "Investment C pays $125 at the beginning of every 6-month period for the next 10 years (a total of 20 payments).",
-                        "Investment D pays $2,500 at the end of 10 years (a total of one payment).",
-                        "Investment E pays $250 at the end of every year for the next 10 years (a total of 10 payments)."
-                    ],
-                    "answer": "Investment A pays $250 at the beginning of every year for the next 10 years (a total of 10 payments).",
+                    "topic": "NPV",
+                    "type": "tf",
+                    "question": "Normal Projects Q and R have the same NPV when the discount rate is zero. However, Project Q's cash flows come in faster than those of R. Therefore, we know that at any discount rate greater than zero, R will have a higher NPV than Q.",
+                    "options": ["True", "False"],
+                    "answer": "False",
                     "explanation": ""
                 },
                 {
                     "q_num": 25,
-                    "topic": "Various concepts",
-                    "type": "mcq",
-                    "question": "A Treasury bond promises to pay a lump sum of $1,000 exactly 3 years from today. The nominal interest rate is 6%, semiannual compounding. Which of the following statements is CORRECT?",
-                    "options": [
-                        "The periodic interest rate is greater than 3%.",
-                        "The periodic rate is less than 3%.",
-                        "The present value would be greater if the lump sum were discounted back for more periods.",
-                        "The present value of the $1,000 would be smaller if interest were compounded monthly rather than semiannually.",
-                        "The PV of the $1,000 lump sum has a higher present value than the PV of a 3-year, $333.33 ordinary annuity."
-                    ],
-                    "answer": "The present value of the $1,000 would be smaller if interest were compounded monthly rather than semiannually.",
+                    "topic": "NPV",
+                    "type": "tf",
+                    "question": "Project S has a pattern of high cash flows in its early life, while Project L has a longer life, with large cash flows late in its life. Neither has negative cash flows after Year 0, and at the current cost of capital, the two projects have identical NPVs. Now suppose interest rates and money costs decline. Other things held constant, this change will cause L to become preferred to S.",
+                    "options": ["True", "False"],
+                    "answer": "True",
                     "explanation": ""
                 },
                 {
                     "q_num": 26,
-                    "topic": "Various concepts",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT, assuming positive interest rates and other things held constant?",
-                    "options": [
-                        "A 5-year, $250 annuity due will have a lower present value than a similar ordinary annuity.",
-                        "A 30-year, $150,000 amortized mortgage will have larger monthly payments than an otherwise similar 20-year mortgage.",
-                        "A typical investment's nominal interest rate will always be equal to or less than its effective annual rate.",
-                        "If an investment pays 10% interest, compounded annually, its effective annual rate will be less than 10%.",
-                        "Banks A and B offer the same nominal annual rate of interest, but A pays interest quarterly and B pays semiannually. Deposits in Bank B will have the higher future value if you leave the funds on deposit."
-                    ],
-                    "answer": "A typical investment's nominal interest rate will always be equal to or less than its effective annual rate.",
+                    "topic": "Ranking methods",
+                    "type": "tf",
+                    "question": "If you were evaluating two mutually exclusive projects for a firm with a zero cost of capital, the payback method and NPV method would always lead to the same decision on which project to undertake.",
+                    "options": ["True", "False"],
+                    "answer": "False",
                     "explanation": ""
                 },
                 {
                     "q_num": 27,
-                    "topic": "Various concepts",
-                    "type": "mcq",
-                    "question": "Which of the following statements is NOT CORRECT?",
-                    "options": [
-                        "The present value of a 3-year, $150 annuity due will exceed the present value of a 3-year, $150 ordinary annuity.",
-                        "If a loan has a nominal annual rate of 8%, then the effective rate can never be less than 8%.",
-                        "If a loan or investment has annual payments, then the effective, periodic, and nominal rates of interest will all be the same.",
-                        "The proportion of the payment that goes toward interest on a fully amortized loan declines over time.",
-                        "An investment that has a nominal rate of 6% with semiannual payments will have an effective rate that is less than 6%."
-                    ],
-                    "answer": "An investment that has a nominal rate of 6% with semiannual payments will have an effective rate that is less than 6%.",
+                    "topic": "NPV profile",
+                    "type": "tf",
+                    "question": "The IRR of normal Project X is greater than the IRR of normal Project Y, and both IRRs are greater than zero. Also, the NPV of X is greater than the NPV of Y at the cost of capital. If the two projects are mutually exclusive, Project X should definitely be selected, and the investment made, provided we have confidence in the data. Put another way, it is impossible to draw NPV profiles that would suggest not accepting Project X.",
+                    "options": ["True", "False"],
+                    "answer": "False",
                     "explanation": ""
                 },
                 {
                     "q_num": 28,
-                    "topic": "Annuities",
+                    "topic": "NPV",
                     "type": "mcq",
-                    "question": "You are considering two equally risky annuities, each of which pays $5,000 per year for 10 years. Investment ORD is an ordinary (or deferred) annuity, while Investment DUE is an annuity due. Which of the following statements is CORRECT?",
+                    "question": "Which of the following statements is CORRECT? Assume that the project being considered has normal cash flows, with one outflow followed by a series of inflows.",
                     "options": [
-                        "The present value of ORD must exceed the present value of DUE, but the future value of ORD may be less than the future value of DUE.",
-                        "The present value of DUE exceeds the present value of ORD, while the future value of DUE is less than the future value of ORD.",
-                        "The present value of ORD exceeds the present value of DUE, and the future value of ORD also exceeds the future value of DUE.",
-                        "The present value of DUE exceeds the present value of ORD, and the future value of DUE also exceeds the future value of ORD.",
-                        "If the going rate of interest decreases, say from 10% to 0%, the difference between the present value of ORD and the present value of DUE would remain constant."
+                        "A projects NPV is found by compounding the cash inflows at the IRR to find the terminal value (TV), then discounting the TV at the WACC.",
+                        "The lower the WACC used to calculate it, the lower the calculated NPV will be.",
+                        "If a projects NPV is less than zero, then its IRR must be less than the WACC.",
+                        "If a projects NPV is greater than zero, then its IRR must be less than zero.",
+                        "The NPV of a relatively low risk project should be found using a relatively high WACC."
                     ],
-                    "answer": "The present value of DUE exceeds the present value of ORD, and the future value of DUE also exceeds the future value of ORD.",
+                    "answer": "If a projects NPV is less than zero, then its IRR must be less than the WACC.",
                     "explanation": ""
                 },
                 {
                     "q_num": 29,
-                    "topic": "Effective annual rates",
+                    "topic": "IRR",
                     "type": "mcq",
-                    "question": "You plan to invest some money in a bank account. Which of the following banks provides you with the highest effective rate of interest?",
+                    "question": "Which of the following statements is CORRECT?",
                     "options": [
-                        "Bank 1; 6.1% with annual compounding.",
-                        "Bank 2; 6.0% with monthly compounding.",
-                        "Bank 3; 6.0% with annual compounding.",
-                        "Bank 4; 6.0% with quarterly compounding.",
-                        "Bank 5; 6.0% with daily (365-day) compounding."
+                        "One defect of the IRR method is that it does not take account of cash flows over a projects full life.",
+                        "One defect of the IRR method is that it does not take account of the time value of money.",
+                        "One defect of the IRR method is that it does not take account of the cost of capital.",
+                        "One defect of the IRR method is that it values a dollar received today the same as a dollar that will not be received until some time in the future.",
+                        "One defect of the IRR method is that it assumes that the cash flows to be received from a project can be reinvested at the IRR itself, and that assumption is often not valid."
                     ],
-                    "answer": "Bank 5; 6.0% with daily (365-day) compounding.",
+                    "answer": "One defect of the IRR method is that it assumes that the cash flows to be received from a project can be reinvested at the IRR itself, and that assumption is often not valid.",
                     "explanation": ""
                 },
                 {
                     "q_num": 30,
-                    "topic": "FV of a lump sum",
+                    "topic": "IRR",
                     "type": "mcq",
-                    "question": "What would the future value of $125 be after 8 years at 8.5% compound interest?",
-                    "options": ["$205.83", "$216.67", "$228.07", "$240.08", "$252.08"],
-                    "answer": "$240.08",
+                    "question": "Which of the following statements is CORRECT? Assume that the project being considered has normal cash flows, with one outflow followed by a series of inflows.",
+                    "options": [
+                        "A projects regular IRR is found by compounding the cash inflows at the WACC to find the terminal value (TV), then discounting this TV at the WACC.",
+                        "A projects regular IRR is found by discounting the cash inflows at the WACC to find the present value (PV), then compounding this PV to find the IRR.",
+                        "If a projects IRR is greater than the WACC, then its NPV must be negative.",
+                        "To find a projects IRR, we must solve for the discount rate that causes the PV of the inflows to equal the PV of the projects costs.",
+                        "To find a projects IRR, we must find a discount rate that is equal to the WACC."
+                    ],
+                    "answer": "To find a projects IRR, we must solve for the discount rate that causes the PV of the inflows to equal the PV of the projects costs.",
                     "explanation": ""
                 },
                 {
                     "q_num": 31,
-                    "topic": "FV of a lump sum",
+                    "topic": "IRR",
                     "type": "mcq",
-                    "question": "Suppose you have $1,500 and plan to purchase a 5-year certificate of deposit (CD) that pays 3.5% interest, compounded annually. How much will you have when the CD matures?",
-                    "options": ["$1,781.53", "$1,870.61", "$1,964.14", "$2,062.34", "$2,165.46"],
-                    "answer": "$1,781.53",
+                    "question": "Which of the following statements is CORRECT? Assume that the project being considered has normal cash flows, with one outflow followed by a series of inflows.",
+                    "options": [
+                        "A projects regular IRR is found by compounding the initial cost at the WACC to find the terminal value (TV), then discounting the TV at the WACC.",
+                        "A projects regular IRR is found by compounding the cash inflows at the WACC to find the present value (PV), then discounting to find the IRR.",
+                        "If a projects IRR is smaller than the WACC, then its NPV will be positive.",
+                        "A projects IRR is the discount rate that causes the PV of the inflows to equal the projects cost.",
+                        "If a projects IRR is positive, then its NPV must also be positive."
+                    ],
+                    "answer": "A projects IRR is the discount rate that causes the PV of the inflows to equal the projects cost.",
                     "explanation": ""
                 },
                 {
                     "q_num": 32,
-                    "topic": "FV of a lump sum",
+                    "topic": "Normal vs. nonnormal cash flows",
                     "type": "mcq",
-                    "question": "Last year Toto Corporation's sales were $225 million. If sales grow at 6% per year, how large (in millions) will they be 5 years later?",
-                    "options": ["$271.74", "$286.05", "$301.10", "$316.16", "$331.96"],
-                    "answer": "$301.10",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "If a project has normal cash flows, then its IRR must be positive.",
+                        "If a project has normal cash flows, then its MIRR must be positive.",
+                        "If a project has normal cash flows, then it will have exactly two real IRRs.",
+                        "The definition of normal cash flows is that the cash flow stream has one or more negative cash flows followed by a stream of positive cash flows and then one negative cash flow at the end of the projects life.",
+                        "If a project has normal cash flows, then it can have only one real IRR, whereas a project with nonnormal cash flows might have more than one real IRR."
+                    ],
+                    "answer": "If a project has normal cash flows, then it can have only one real IRR, whereas a project with nonnormal cash flows might have more than one real IRR.",
                     "explanation": ""
                 },
                 {
                     "q_num": 33,
-                    "topic": "FV of a lump sum",
+                    "topic": "Normal vs. nonnormal cash flows",
                     "type": "mcq",
-                    "question": "How much would $1, growing at 3.5% per year, be worth after 75 years?",
-                    "options": ["$12.54", "$13.20", "$13.86", "$14.55", "$15.28"],
-                    "answer": "$13.20",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "Projects with normal cash flows can have only one real IRR.",
+                        "Projects with normal cash flows can have two or more real IRRs.",
+                        "Projects with normal cash flows must have two changes in the sign of the cash flows, e.g., from negative to positive to negative. If there are more sign changes, then the cash flow stream is nonnormal.",
+                        "The multiple IRR problem can arise if a projects cash flows are normal.",
+                        "Projects with nonnormal cash flows are almost never encountered in the real world."
+                    ],
+                    "answer": "Projects with normal cash flows can have only one real IRR.",
                     "explanation": ""
                 },
                 {
                     "q_num": 34,
-                    "topic": "FV of a lump sum",
+                    "topic": "Payback",
                     "type": "mcq",
-                    "question": "You deposit $1,000 today in a savings account that pays 3.5% interest, compounded annually. How much will your account be worth at the end of 25 years?",
-                    "options": ["$2,245.08", "$2,363.24", "$2,481.41", "$2,605.48", "$2,735.75"],
-                    "answer": "$2,363.24",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "The regular payback method recognizes all cash flows over a projects life.",
+                        "The discounted payback method recognizes all cash flows over a projects life, and it also adjusts these cash flows to account for the time value of money.",
+                        "The regular payback method was, years ago, widely used, but virtually no companies even calculate the payback today.",
+                        "The regular payback is useful as an indicator of a projects liquidity because it gives managers an idea of how long it will take to recover the funds invested in a project.",
+                        "The regular payback does not consider cash flows beyond the payback year, but the discounted payback overcomes this defect."
+                    ],
+                    "answer": "The regular payback is useful as an indicator of a projects liquidity because it gives managers an idea of how long it will take to recover the funds invested in a project.",
                     "explanation": ""
                 },
                 {
                     "q_num": 35,
-                    "topic": "PV of a lump sum",
+                    "topic": "Payback",
                     "type": "mcq",
-                    "question": "Suppose a U.S. government bond promises to pay $1,000 five years from now. If the going interest rate on 5-year government bonds is 5.5%, how much is the bond worth today?",
-                    "options": ["$765.13", "$803.39", "$843.56", "$885.74", "$930.03"],
-                    "answer": "$765.13",
+                    "question": "Which of the following statements is CORRECT? Assume that the project being considered has normal cash flows, with one outflow followed by a series of inflows.",
+                    "options": [
+                        "The longer a projects payback period, the more desirable the project is normally considered to be by this criterion.",
+                        "One drawback of the payback criterion for evaluating projects is that this method does not properly account for the time value of money.",
+                        "If a projects payback is positive, then the project should be rejected because it must have a negative NPV.",
+                        "The regular payback ignores cash flows beyond the payback period, but the discounted payback method overcomes this problem.",
+                        "If a company uses the same payback requirement to evaluate all projects, say it requires a payback of 4 years or less, then the company will tend to reject projects with relatively short lives and accept long-lived projects, and this will cause its risk to increase over time."
+                    ],
+                    "answer": "One drawback of the payback criterion for evaluating projects is that this method does not properly account for the time value of money.",
                     "explanation": ""
                 },
                 {
                     "q_num": 36,
-                    "topic": "PV of a lump sum",
+                    "topic": "Payback",
                     "type": "mcq",
-                    "question": "How much would $5,000 due in 50 years be worth today if the discount rate were 7.5%?",
-                    "options": ["$109.51", "$115.27", "$121.34", "$127.72", "$134.45"],
-                    "answer": "$134.45",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "The shorter a projects payback period, the less desirable the project is normally considered to be by this criterion.",
+                        "One drawback of the payback criterion for evaluating projects is that this method does not take account of cash flows beyond the payback period.",
+                        "If a projects payback is positive, then the project should be accepted because it must have a positive NPV.",
+                        "The regular payback ignores cash flows beyond the payback period, but the discounted payback method overcomes this problem.",
+                        "One drawback of the discounted payback is that this method does not consider the time value of money, while the regular payback overcomes this drawback."
+                    ],
+                    "answer": "One drawback of the payback criterion for evaluating projects is that this method does not take account of cash flows beyond the payback period.",
                     "explanation": ""
                 },
                 {
                     "q_num": 37,
-                    "topic": "PV of a lump sum",
+                    "topic": "Ranking methods",
                     "type": "mcq",
-                    "question": "Suppose a U.S. treasury bond will pay $2,500 five years from now. If the going interest rate on 5-year treasury bonds is 4.25%, how much is the bond worth today?",
-                    "options": ["$1,928.78", "$2,030.30", "$2,131.81", "$2,238.40", "$2,350.32"],
-                    "answer": "$2,030.30",
+                    "question": "Assume a project has normal cash flows. All else equal, which of the following statements is CORRECT?",
+                    "options": [
+                        "The projects IRR increases as the WACC declines.",
+                        "The projects NPV increases as the WACC declines.",
+                        "The projects MIRR is unaffected by changes in the WACC.",
+                        "The projects regular payback increases as the WACC declines.",
+                        "The projects discounted payback increases as the WACC declines."
+                    ],
+                    "answer": "The projects NPV increases as the WACC declines.",
                     "explanation": ""
                 },
                 {
                     "q_num": 38,
-                    "topic": "Interest rate on a lump sum",
+                    "topic": "Ranking methods",
                     "type": "mcq",
-                    "question": "Suppose the U.S. Treasury offers to sell you a bond for $747.25. No payments will be made until the bond matures 5 years from now, at which time it will be redeemed for $1,000. What interest rate would you earn if you bought this bond at the offer price?",
-                    "options": ["4.37%", "4.86%", "5.40%", "6.00%", "6.60%"],
-                    "answer": "6.00%",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "The internal rate of return method (IRR) is generally regarded by academics as being the best single method for evaluating capital budgeting projects.",
+                        "The payback method is generally regarded by academics as being the best single method for evaluating capital budgeting projects.",
+                        "The discounted payback method is generally regarded by academics as being the best single method for evaluating capital budgeting projects.",
+                        "The net present value method (NPV) is generally regarded by academics as being the best single method for evaluating capital budgeting projects.",
+                        "The modified internal rate of return method (MIRR) is generally regarded by academics as being the best single method for evaluating capital budgeting projects."
+                    ],
+                    "answer": "The net present value method (NPV) is generally regarded by academics as being the best single method for evaluating capital budgeting projects.",
                     "explanation": ""
                 },
                 {
                     "q_num": 39,
-                    "topic": "Growth rate",
+                    "topic": "Normal vs. nonnormal cash flows",
                     "type": "mcq",
-                    "question": "Ten years ago, Levin Inc. earned $0.50 per share. Its earnings this year were $2.20. What was the growth rate in Levin's earnings per share (EPS) over the 10-year period?",
-                    "options": ["15.17%", "15.97%", "16.77%", "17.61%", "18.49%"],
-                    "answer": "15.97%",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "An NPV profile graph shows how a projects payback varies as the cost of capital changes.",
+                        "The NPV profile graph for a normal project will generally have a positive (upward) slope as the life of the project increases.",
+                        "An NPV profile graph is designed to give decision makers an idea about how a projects risk varies with its life.",
+                        "An NPV profile graph is designed to give decision makers an idea about how a projects contribution to the firms value varies with the cost of capital.",
+                        "We cannot draw a projects NPV profile unless we know the appropriate WACC for use in evaluating the projects NPV."
+                    ],
+                    "answer": "An NPV profile graph is designed to give decision makers an idea about how a projects contribution to the firms value varies with the cost of capital.",
                     "explanation": ""
                 },
                 {
                     "q_num": 40,
-                    "topic": "Number of periods",
+                    "topic": "NPV",
                     "type": "mcq",
-                    "question": "How many years would it take $50 to triple if it were invested in a bank that pays 3.8% per year?",
-                    "options": ["23.99", "25.26", "26.58", "27.98", "29.46"],
-                    "answer": "29.46",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "The NPV method was once the favorite of academics and business executives, but today most authorities regard the MIRR as being the best indicator of a projects profitability.",
+                        "If the cost of capital declines, this lowers a projects NPV.",
+                        "The NPV method is regarded by most academics as being the best indicator of a projects profitability, hence most academics recommend that firms use only this one method.",
+                        "A projects NPV depends on the total amount of cash flows the project produces, but because the cash flows are discounted at the WACC, it does not matter if the cash flows occur early or late in the projects life.",
+                        "The NPV and IRR methods may give different recommendations regarding which of two mutually exclusive projects should be accepted, but they always give the same recommendation regarding the acceptability of a normal, independent project."
+                    ],
+                    "answer": "The NPV and IRR methods may give different recommendations regarding which of two mutually exclusive projects should be accepted, but they always give the same recommendation regarding the acceptability of a normal, independent project.",
                     "explanation": ""
                 },
                 {
                     "q_num": 41,
-                    "topic": "Number of periods",
+                    "topic": "NPV",
                     "type": "mcq",
-                    "question": "Last year Mason Corp's earnings per share were $2.50, and its growth rate during the prior 5 years was 9.0% per year. If that growth rate were maintained, how many years would it take for Masons EPS to double?",
-                    "options": ["5.86", "6.52", "7.24", "8.04", "8.85"],
-                    "answer": "8.04",
+                    "question": "Which of the following statements is CORRECT? Assume that the project being considered has normal cash flows, with one outflow followed by a series of inflows.",
+                    "options": [
+                        "A projects NPV is generally found by compounding the cash inflows at the WACC to find the terminal value (TV), then discounting the TV at the IRR to find its PV.",
+                        "The higher the WACC used to calculate the NPV, the lower the calculated NPV will be.",
+                        "If a projects NPV is greater than zero, then its IRR must be less than the WACC.",
+                        "If a projects NPV is greater than zero, then its IRR must be less than zero.",
+                        "The NPVs of relatively risky projects should be found using relatively low WACCs."
+                    ],
+                    "answer": "The higher the WACC used to calculate the NPV, the lower the calculated NPV will be.",
                     "explanation": ""
                 },
                 {
                     "q_num": 42,
-                    "topic": "Number of periods",
+                    "topic": "Ranking conflicts",
                     "type": "mcq",
-                    "question": "You plan to invest in securities that pay 9.0%, compounded annually. If you invest $5,000 today, how many years will it take for your investment account to grow to $9,140.20?",
-                    "options": ["4.59", "5.10", "5.67", "6.30", "7.00"],
-                    "answer": "7.00",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "The NPV method assumes that cash flows will be reinvested at the WACC, while the IRR method assumes reinvestment at the IRR.",
+                        "The NPV method assumes that cash flows will be reinvested at the risk-free rate, while the IRR method assumes reinvestment at the IRR.",
+                        "The NPV method assumes that cash flows will be reinvested at the WACC, while the IRR method assumes reinvestment at the risk-free rate.",
+                        "The NPV method does not consider all relevant cash flows, particularly cash flows beyond the payback period.",
+                        "The IRR method does not consider all relevant cash flows, particularly cash flows beyond the payback period."
+                    ],
+                    "answer": "The NPV method assumes that cash flows will be reinvested at the WACC, while the IRR method assumes reinvestment at the IRR.",
                     "explanation": ""
                 },
                 {
                     "q_num": 43,
-                    "topic": "FV of an ordinary annuity",
+                    "topic": "NPV and IRR",
                     "type": "mcq",
-                    "question": "You want to buy a new sports car 3 years from now, and you plan to save $4,200 per year, beginning one year from today. You will deposit your savings in an account that pays 5.2% interest. How much will you have just after you make the 3rd deposit, 3 years from now?",
-                    "options": ["$11,973.07", "$12,603.23", "$13,266.56", "$13,929.88", "$14,626.38"],
-                    "answer": "$13,266.56",
+                    "question": "Which of the following statements is CORRECT? Assume that the project being considered has normal cash flows, with one outflow followed by a series of inflows.",
+                    "options": [
+                        "If Project A has a higher IRR than Project B, then Project A must have the lower NPV.",
+                        "If Project A has a higher IRR than Project B, then Project A must also have a higher NPV.",
+                        "The IRR calculation implicitly assumes that all cash flows are reinvested at the WACC.",
+                        "The IRR calculation implicitly assumes that cash flows are withdrawn from the business rather than being reinvested in the business.",
+                        "If a project has normal cash flows and its IRR exceeds its WACC, then the projects NPV must be positive."
+                    ],
+                    "answer": "If a project has normal cash flows and its IRR exceeds its WACC, then the projects NPV must be positive.",
                     "explanation": ""
                 },
                 {
                     "q_num": 44,
-                    "topic": "FV of an ordinary annuity",
+                    "topic": "NPV profiles",
                     "type": "mcq",
-                    "question": "You want to go to Europe 5 years from now, and you can save $3,100 per year, beginning one year from today. You plan to deposit the funds in a mutual fund which you expect to return 8.5% per year. Under these conditions, how much will you have just after you make the 5th deposit, 5 years from now?",
-                    "options": ["$18,368.66", "$19,287.09", "$20,251.44", "$21,264.02", "$22,327.22"],
-                    "answer": "$18,368.66",
+                    "question": "Projects A and B have identical expected lives and identical initial cash outflows (costs). However, most of one projects cash flows come in the early years, while most of the other projects cash flows occur in the later years. Which of the following statements is CORRECT?",
+                    "options": [
+                        "More of Project As cash flows occur in the later years.",
+                        "More of Project Bs cash flows occur in the later years.",
+                        "We must have information on the cost of capital in order to determine which project has the larger early cash flows.",
+                        "The NPV profile graph is inconsistent with the statement made in the problem.",
+                        "The crossover rate, i.e., the rate at which Projects A and B have the same NPV, is greater than either projects IRR."
+                    ],
+                    "answer": "More of Project As cash flows occur in the later years.",
                     "explanation": ""
                 },
                 {
                     "q_num": 45,
-                    "topic": "FV of an annuity due",
+                    "topic": "NPV profiles",
                     "type": "mcq",
-                    "question": "You want to buy a new sports car 3 years from now, and you plan to save $4,200 per year, beginning immediately. You will make 3 deposits in an account that pays 5.2% interest. Under these assumptions, how much will you have 3 years from today?",
-                    "options": ["$13,956.42", "$14,654.24", "$15,386.95", "$16,156.30", "$16,964.11"],
-                    "answer": "$13,956.42",
+                    "question": "Projects S and L both have an initial cost of $10,000, followed by a series of positive cash inflows. Project Ss undiscounted net cash flows total to $20,000, while Ls total undiscounted flows are $30,000. At a WACC of 10%, the two projects have identical NPVs. Which projects NPV is more sensitive to changes in the WACC?",
+                    "options": [
+                        "Project S.",
+                        "Project L.",
+                        "Both projects are equally sensitive to changes in the WACC since their NPVs are equal at all costs of capital.",
+                        "Neither project is sensitive to changes in the discount rate, since both have NPV profiles that are horizontal.",
+                        "The solution cannot be determined because the problem gives us no information that can be used to determine the projects relative IRRs."
+                    ],
+                    "answer": "Project L.",
                     "explanation": ""
                 },
                 {
                     "q_num": 46,
-                    "topic": "FV of an annuity due",
+                    "topic": "NPV profiles",
                     "type": "mcq",
-                    "question": "You want to go to Europe 5 years from now, and you can save $3,100 per year, beginning immediately. You plan to deposit the funds in a mutual fund which you expect to return 8.5% per year. Under these conditions, how much will you have just after you make the 5th deposit, 5 years from now?",
-                    "options": ["$17,986.82", "$18,933.49", "$19,929.99", "$20,926.49", "$21,972.82"],
-                    "answer": "$19,929.99",
+                    "question": "Projects C and D are mutually exclusive and have normal cash flows. Project C has a higher NPV if the WACC is less than 12%, whereas Project D has a higher NPV if the WACC exceeds 12%. Which of the following statements is CORRECT?",
+                    "options": [
+                        "Project D has a higher IRR.",
+                        "Project D is probably larger in scale than Project C.",
+                        "Project C probably has a faster payback.",
+                        "Project C has a higher IRR.",
+                        "The crossover rate between the two projects is below 12%."
+                    ],
+                    "answer": "Project D has a higher IRR.",
                     "explanation": ""
                 },
                 {
                     "q_num": 47,
-                    "topic": "PV of an ordinary annuity",
+                    "topic": "Multiple IRRs",
                     "type": "mcq",
-                    "question": "What is the PV of an ordinary annuity with 10 payments of $2,700 if the appropriate interest rate is 6.5%?",
-                    "options": ["$15,809.44", "$16,641.51", "$17,517.38", "$18,439.35", "$19,409.84"],
-                    "answer": "$19,409.84",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "For a project to have more than one IRR, then both IRRs must be greater than the WACC.",
+                        "If two projects are mutually exclusive, then they are likely to have multiple IRRs.",
+                        "If a project is independent, then it cannot have multiple IRRs.",
+                        "Multiple IRRs can only occur if the signs of the cash flows change more than once.",
+                        "If a project has two IRRs, then the smaller one is the one that is most relevant, and it should be accepted and relied upon."
+                    ],
+                    "answer": "Multiple IRRs can only occur if the signs of the cash flows change more than once.",
                     "explanation": ""
                 },
                 {
                     "q_num": 48,
-                    "topic": "PV of an ordinary annuity",
+                    "topic": "Payback",
                     "type": "mcq",
-                    "question": "You have a chance to buy an annuity that pays $1,200 at the end of each year for 3 years. You could earn 5.5% on your money in other investments with equal risk. What is the most you should pay for the annuity?",
-                    "options": ["$2,636.98", "$2,775.77", "$2,921.86", "$3,075.64", "$3,237.52"],
-                    "answer": "$3,237.52",
+                    "question": "The regular payback method has a number of disadvantages, some of which are listed below. Which of these items is NOT a disadvantage of this method?",
+                    "options": [
+                        "Lack of an objective, market-determined benchmark for making decisions.",
+                        "Ignores cash flows beyond the payback period.",
+                        "Does not directly account for the time value of money.",
+                        "Does not provide any indication regarding a projects liquidity.",
+                        "Does not directly account for differences in risk among projects."
+                    ],
+                    "answer": "Does not provide any indication regarding a projects liquidity.",
                     "explanation": ""
                 },
                 {
                     "q_num": 49,
-                    "topic": "PV of an ordinary annuity",
+                    "topic": "NPV, IRR, and MIRR",
                     "type": "mcq",
-                    "question": "Your aunt is about to retire, and she wants to buy an annuity that will supplement her income by $65,000 per year for 25 years, beginning a year from today. The going rate on such annuities is 6.25%. How much would it cost her to buy such an annuity today?",
-                    "options": ["$770,963.15", "$811,540.16", "$852,117.17", "$894,723.02", "$939,459.18"],
-                    "answer": "$811,540.16",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "If a project with normal cash flows has an IRR greater than the WACC, the project must have a positive NPV.",
+                        "If Project As IRR exceeds Project Bs, then A must have the higher NPV.",
+                        "A projects MIRR can never exceed its IRR.",
+                        "If a project with normal cash flows has an IRR less than the WACC, the project must have a positive NPV.",
+                        "If the NPV is negative, the IRR must also be negative."
+                    ],
+                    "answer": "If a project with normal cash flows has an IRR greater than the WACC, the project must have a positive NPV.",
                     "explanation": ""
                 },
                 {
                     "q_num": 50,
-                    "topic": "PV of an annuity due",
+                    "topic": "NPV, IRR, and MIRR",
                     "type": "mcq",
-                    "question": "What is the PV of an annuity due with 10 payments of $2,700 at an interest rate of 6.5%?",
-                    "options": ["$20,671.48", "$21,705.06", "$22,790.31", "$23,929.82", "$25,126.31"],
-                    "answer": "$20,671.48",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "The MIRR and NPV decision criteria can never conflict.",
+                        "The IRR method can never be subject to the multiple IRR problem, while the MIRR method can be.",
+                        "One reason some people prefer the MIRR to the regular IRR is that the MIRR is based on what is generally a more reasonable assumption about the reinvestment rate than the regular IRR.",
+                        "The higher the WACC, the shorter the discounted payback period.",
+                        "The MIRR method assumes that cash flows are reinvested at the crossover rate."
+                    ],
+                    "answer": "One reason some people prefer the MIRR to the regular IRR is that the MIRR is based on what is generally a more reasonable assumption about the reinvestment rate than the regular IRR.",
                     "explanation": ""
                 },
                 {
                     "q_num": 51,
-                    "topic": "PV of an annuity due",
+                    "topic": "NPV, IRR, and MIRR",
                     "type": "mcq",
-                    "question": "You have a chance to buy an annuity that pays $550 at the beginning of each year for 3 years. You could earn 5.5% on your money in other investments with equal risk. What is the most you should pay for the annuity?",
-                    "options": ["$1,412.84", "$1,487.20", "$1,565.48", "$1,643.75", "$1,725.94"],
-                    "answer": "$1,565.48",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "For independent projects, the NPV, IRR, MIRR, and discounted payback (using a payback requirement of 3 years or less) methods always lead to the same accept/reject decisions for a given project.",
+                        "For mutually exclusive projects with normal cash flows, the NPV and MIRR methods can never conflict, but their results could conflict with the discounted payback and the regular IRR methods.",
+                        "Multiple IRRs can exist, but not multiple MIRRs. This is one reason some people favor the MIRR over the regular IRR.",
+                        "If a firm uses the discounted payback method with a required payback of 4 years, then it will accept more projects than if it used as its cutoff criterion a regular payback of 4 years.",
+                        "The percentage difference between the MIRR and the IRR is equal to the projects WACC."
+                    ],
+                    "answer": "Multiple IRRs can exist, but not multiple MIRRs. This is one reason some people favor the MIRR over the regular IRR.",
                     "explanation": ""
                 },
                 {
                     "q_num": 52,
-                    "topic": "PV of an annuity due",
+                    "topic": "NPV, IRR, and MIRR",
                     "type": "mcq",
-                    "question": "Your aunt is about to retire, and she wants to buy an annuity that will provide her with $65,000 of income a year for 25 years, with the first payment coming immediately. The going rate on such annuities is 6.25%. How much would it cost her to buy the annuity today?",
-                    "options": ["$739,281.38", "$778,190.93", "$819,148.35", "$862,261.42", "$905,374.49"],
-                    "answer": "$862,261.42",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "For a project with normal cash flows, any change in the WACC will change both the NPV and the IRR.",
+                        "To find the MIRR, we first compound cash flows at the regular IRR to find the TV, and then we discount the TV at the WACC to find the PV.",
+                        "The NPV and IRR methods both assume cash flows can be reinvested at the WACC. However, the MIRR method assumes reinvestment at the MIRR itself.",
+                        "If two projects have the same cost, and if their NPV profiles cross in the upper right quadrant, then the project with the higher IRR probably has more of its cash flows coming in the later years.",
+                        "If two projects have the same cost, and if their NPV profiles cross in the upper right quadrant, then the project with the lower IRR probably has more of its cash flows coming in the later years."
+                    ],
+                    "answer": "If two projects have the same cost, and if their NPV profiles cross in the upper right quadrant, then the project with the lower IRR probably has more of its cash flows coming in the later years.",
                     "explanation": ""
                 },
                 {
                     "q_num": 53,
-                    "topic": "PV of an annuity due",
+                    "topic": "NPV, IRR, and MIRR",
                     "type": "mcq",
-                    "question": "You own an oil well that will pay you $30,000 per year for 10 years, with the first payment being made today. If you think a fair return on the well is 8.5%, how much should you ask for if you decide to sell it?",
-                    "options": ["$202,893", "$213,572", "$224,250", "$235,463", "$247,236"],
-                    "answer": "$213,572",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "One advantage of the NPV over the IRR is that NPV takes account of cash flows over a projects full life whereas IRR does not.",
+                        "One advantage of the NPV over the IRR is that NPV assumes that cash flows will be reinvested at the WACC, whereas IRR assumes that cash flows are reinvested at the IRR. The NPV assumption is generally more likely to be appropriate.",
+                        "One advantage of the NPV over the MIRR method is that NPV takes account of cash flows over a projects full life whereas MIRR does not.",
+                        "One advantage of the NPV over the MIRR method is that NPV discounts cash flows whereas the MIRR is based on undiscounted cash flows.",
+                        "Since cash flows under the IRR and MIRR are both discounted at the same rate (the WACC), these two methods always rank mutually exclusive projects in the same order."
+                    ],
+                    "answer": "One advantage of the NPV over the IRR is that NPV assumes that cash flows will be reinvested at the WACC, whereas IRR assumes that cash flows are reinvested at the IRR. The NPV assumption is generally more likely to be appropriate.",
                     "explanation": ""
                 },
                 {
                     "q_num": 54,
-                    "topic": "PV of an ordinary annuity plus an ending payment",
+                    "topic": "Misc. concepts",
                     "type": "mcq",
-                    "question": "Whats the present value of a 4-year ordinary annuity of $2,250 per year plus an additional $3,000 at the end of Year 4 if the interest rate is 5%?",
-                    "options": ["$8,508.74", "$8,956.56", "$9,427.96", "$9,924.17", "$10,446.50"],
-                    "answer": "$10,446.50",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "The IRR method appeals to some managers because it gives an estimate of the rate of return on projects rather than a dollar amount, which the NPV method provides.",
+                        "The discounted payback method eliminates all of the problems associated with the payback method.",
+                        "When evaluating independent projects, the NPV and IRR methods often yield conflicting results regarding a project's acceptability.",
+                        "To find the MIRR, we discount the TV at the IRR.",
+                        "A projects NPV profile must intersect the X-axis at the projects WACC."
+                    ],
+                    "answer": "The IRR method appeals to some managers because it gives an estimate of the rate of return on projects rather than a dollar amount, which the NPV method provides.",
                     "explanation": ""
                 },
                 {
                     "q_num": 55,
-                    "topic": "Payments on an ordinary annuity",
+                    "topic": "NPV profiles",
                     "type": "mcq",
-                    "question": "Suppose you inherited $275,000 and invested it at 8.25% per year. How much could you withdraw at the end of each of the next 20 years?",
-                    "options": ["$28,532.45", "$29,959.08", "$31,457.03", "$33,029.88", "$34,681.37"],
-                    "answer": "$28,532.45",
+                    "question": "Projects S and L are equally risky, mutually exclusive, and have normal cash flows. Project S has an IRR of 15%, while Project Ls IRR is 12%. The two projects have the same NPV when the WACC is 7%. Which of the following statements is CORRECT?",
+                    "options": [
+                        "If the WACC is 10%, both projects will have positive NPVs.",
+                        "If the WACC is 6%, Project S will have the higher NPV.",
+                        "If the WACC is 13%, Project S will have the lower NPV.",
+                        "If the WACC is 10%, both projects will have a negative NPV.",
+                        "Project Ss NPV is more sensitive to changes in WACC than Project L."
+                    ],
+                    "answer": "If the WACC is 10%, both projects will have positive NPVs.",
                     "explanation": ""
                 },
                 {
                     "q_num": 56,
-                    "topic": "Payments on an ordinary annuity",
+                    "topic": "NPV profiles",
                     "type": "mcq",
-                    "question": "Your uncle has $375,000 and wants to retire. He expects to live for another 25 years, and to be able to earn 7.5% on his invested funds. How much could he withdraw at the end of each of the next 25 years and end up with zero in the account?",
-                    "options": ["$28,843.38", "$30,361.46", "$31,959.43", "$33,641.50", "$35,323.58"],
-                    "answer": "$33,641.50",
+                    "question": "Westchester Corp. is considering two equally risky, mutually exclusive projects, both of which projects have normal cash flows. Project A has an IRR of IRR of 11%, while Project B's IRR is 14%. When the WACC is 8%, the projects have the same NPV. Given this information, which of the following statements is CORRECT?",
+                    "options": [
+                        "If the WACC is 13%, Project As NPV will be higher than Project Bs.",
+                        "If the WACC is 9%, Project As NPV will be higher than Project Bs.",
+                        "If the WACC is 6%, Project Bs NPV will be higher than Project As.",
+                        "If the WACC is greater than 14%, Project As IRR will exceed Project Bs.",
+                        "If the WACC is 9%, Project Bs NPV will be higher than Project As."
+                    ],
+                    "answer": "If the WACC is 9%, Project Bs NPV will be higher than Project As.",
                     "explanation": ""
                 },
                 {
                     "q_num": 57,
-                    "topic": "Payments on an annuity due",
+                    "topic": "NPV profiles",
                     "type": "mcq",
-                    "question": "Your uncle has $375,000 and wants to retire. He expects to live for another 25 years, and he also expects to earn 7.5% on his invested funds. How much could he withdraw at the beginning of each of the next 25 years and end up with zero in the account?",
-                    "options": ["$28,243.21", "$29,729.70", "$31,294.42", "$32,859.14", "$34,502.10"],
-                    "answer": "$31,294.42",
+                    "question": "You are considering two mutually exclusive, equally risky, projects. Both have IRRs that exceed the WACC that is used to evaluate them. Which of the following statements is CORRECT? Assume that the projects have normal cash flows, with one outflow followed by a series of inflows.",
+                    "options": [
+                        "If the two projects' NPV profiles do not cross in the upper right quadrant, then there will be a sharp conflict as to which one should be selected.",
+                        "If the cost of capital is greater than the crossover rate, then the IRR and the NPV criteria will not result in a conflict between the projects. One project will rank higher by both criteria.",
+                        "If the cost of capital is less than the crossover rate, then the IRR and the NPV criteria will not result in a conflict between the projects. One project will rank higher by both criteria.",
+                        "For a conflict to exist between NPV and IRR, the initial investment cost of one project must exceed the cost of the other.",
+                        "For a conflict to exist between NPV and IRR, one project must have an increasing stream of cash flows over time while the other has a decreasing stream. If both sets of cash flows are increasing or decreasing, then it would be impossible for a conflict to exist, even if one project is larger than the other."
+                    ],
+                    "answer": "If the cost of capital is greater than the crossover rate, then the IRR and the NPV criteria will not result in a conflict between the projects. One project will rank higher by both criteria.",
                     "explanation": ""
                 },
                 {
                     "q_num": 58,
-                    "topic": "Payments on an annuity due",
+                    "topic": "NPV profiles",
                     "type": "mcq",
-                    "question": "Suppose you inherited $275,000 and invested it at 8.25% per year. How much could you withdraw at the beginning of each of the next 20 years?",
-                    "options": ["$22,598.63", "$23,788.03", "$25,040.03", "$26,357.92", "$27,675.82"],
-                    "answer": "$26,357.92",
+                    "question": "Project Xs IRR is 19% and Project Ys IRR is 17%. The projects have the same risk and the same lives, and each has constant cash flows during each year of their lives. If the WACC is 10%, Project Y has a higher NPV than X. Given this information, which of the following statements is CORRECT?",
+                    "options": [
+                        "The crossover rate between the two projects must be less than 10%.",
+                        "The crossover rate between the two projects must be greater than 10%.",
+                        "If the WACC is 8%, Project X will have the higher NPV.",
+                        "If the WACC is 18%, Project Y will have the higher NPV.",
+                        "Project X is larger in the sense that it has the higher initial cost."
+                    ],
+                    "answer": "The crossover rate between the two projects must be greater than 10%.",
                     "explanation": ""
                 },
                 {
                     "q_num": 59,
-                    "topic": "Years to deplete an ordinary annuity",
+                    "topic": "NPV profiles",
                     "type": "mcq",
-                    "question": "Your uncle has $375,000 invested at 7.5%, and he now wants to retire. He wants to withdraw $35,000 at the end of each year, beginning at the end of this year. How many years will it take to exhaust his funds, i.e., run the account down to zero?",
-                    "options": ["22.50", "23.63", "24.81", "26.05", "27.35"],
-                    "answer": "22.50",
+                    "question": "Projects S and L both have normal cash flows, and the projects have the same risk, hence both are evaluated with the same WACC, 10%. However, S has a higher IRR than L. Which of the following statements is CORRECT?",
+                    "options": [
+                        "Project S must have a higher NPV than Project L.",
+                        "If Project S has a positive NPV, Project L must also have a positive NPV.",
+                        "If the WACC falls, each projects IRR will increase.",
+                        "If the WACC increases, each projects IRR will decrease.",
+                        "If Projects S and L have the same NPV at the current WACC, 10%, then Project L, the one with the lower IRR, would have a higher NPV if the WACC used to evaluate the projects declined."
+                    ],
+                    "answer": "If Projects S and L have the same NPV at the current WACC, 10%, then Project L, the one with the lower IRR, would have a higher NPV if the WACC used to evaluate the projects declined.",
                     "explanation": ""
                 },
                 {
                     "q_num": 60,
-                    "topic": "Years to deplete an annuity due",
+                    "topic": "NPV profiles",
                     "type": "mcq",
-                    "question": "Your uncle has $500,000 invested at 7.5%, and he now wants to retire. He wants to withdraw $40,000 at the beginning of each year, beginning immediately. How many years will it take to exhaust his funds, i.e., run the account down to zero?",
-                    "options": ["23.16", "24.38", "25.66", "27.01", "28.44"],
-                    "answer": "28.44",
+                    "question": "Which of the following statements is CORRECT? Assume that all projects being considered have normal cash flows and are equally risky.",
+                    "options": [
+                        "If a projects IRR is equal to its WACC, then, under all reasonable conditions, the projects NPV must be negative.",
+                        "If a projects IRR is equal to its WACC, then under all reasonable conditions, the projects IRR must be negative.",
+                        "If a projects IRR is equal to its WACC, then under all reasonable conditions the projects NPV must be zero.",
+                        "There is no necessary relationship between a projects IRR, its WACC, and its NPV.",
+                        "When evaluating mutually exclusive projects, those projects with relatively long lives will tend to have relatively high NPVs when the cost of capital is relatively high."
+                    ],
+                    "answer": "If a projects IRR is equal to its WACC, then under all reasonable conditions the projects NPV must be zero.",
                     "explanation": ""
                 },
                 {
                     "q_num": 61,
-                    "topic": "Interest rate implicit in an annuity",
+                    "topic": "NPV profiles",
                     "type": "mcq",
-                    "question": "You just won the state lottery, and you have a choice between receiving $3,500,000 today or a 10-year annuity of $500,000, with the first payment coming one year from today. What rate of return is built into the annuity?",
-                    "options": ["6.72%", "7.07%", "7.43%", "7.80%", "8.19%"],
-                    "answer": "7.07%",
+                    "question": "A company is choosing between two projects. The larger project has an initial cost of $100,000, annual cash flows of $30,000 for 5 years, and an IRR of 15.24%. The smaller project has an initial cost of $50,000, annual cash flows of $16,000 for 5 years, and an IRR of 16.63%. The projects are equally risky. Which of the following statements is CORRECT?",
+                    "options": [
+                        "Since the smaller project has the higher IRR, the two projects NPV profiles cannot cross, and the smaller project's NPV will be higher at all positive values of WACC.",
+                        "Since the smaller project has the higher IRR, the two projects NPV profiles will cross, and the larger project will look better based on the NPV at all positive values of WACC.",
+                        "If the company uses the NPV method, it will tend to favor smaller, shorter-term projects over larger, longer-term projects, regardless of how high or low the WACC is.",
+                        "Since the smaller project has the higher IRR but the larger project has the higher NPV at a zero discount rate, the two projects NPV profiles will cross, and the larger project will have the higher NPV if the WACC is less than the crossover rate.",
+                        "Since the smaller project has the higher IRR and the larger NPV at a zero discount rate, the two projects NPV profiles will cross, and the larger smaller project will look better if the WACC is less than the crossover rate."
+                    ],
+                    "answer": "Since the smaller project has the higher IRR but the larger project has the higher NPV at a zero discount rate, the two projects NPV profiles will cross, and the larger project will have the higher NPV if the WACC is less than the crossover rate.",
                     "explanation": ""
                 },
                 {
                     "q_num": 62,
-                    "topic": "Interest rate implicit in an annuity",
+                    "topic": "NPV and mutually exclusive projects",
                     "type": "mcq",
-                    "question": "Your girlfriend just won the Florida lottery. She has the choice of $15,000,000 today or a 20-year annuity of $1,050,000, with the first payment coming one year from today. What rate of return is built into the annuity?",
-                    "options": ["2.79%", "3.10%", "3.44%", "3.79%", "4.17%"],
-                    "answer": "3.44%",
+                    "question": "McCall Manufacturing has a WACC of 10%. The firm is considering two normal, equally risky, mutually exclusive, but not repeatable projects. The two projects have the same investment costs, but Project A has an IRR of 15%, while Project B has an IRR of 20%. Which of the following statements is CORRECT?",
+                    "options": [
+                        "Each project must have a negative NPV.",
+                        "Since the projects are mutually exclusive, the firm should always select Project B.",
+                        "If the crossover rate is 8%, Project B will have the higher NPV.",
+                        "Only one project has a positive NPV.",
+                        "If the crossover rate is 8%, Project A will have a higher NPV than Project B."
+                    ],
+                    "answer": "If the crossover rate is 8%, Project B will have the higher NPV.",
                     "explanation": ""
                 },
                 {
                     "q_num": 63,
-                    "topic": "Interest rate implicit in an annuity due",
+                    "topic": "Choosing among mutually exclusive projects",
                     "type": "mcq",
-                    "question": "Assume that you own an annuity that will pay you $15,000 per year for 12 years, with the first payment being made today. Your uncle offers to give you $120,000 for the annuity. If you sell it, what rate of return would your uncle earn on his investment?",
-                    "options": ["6.85%", "7.21%", "7.59%", "7.99%", "8.41%"],
-                    "answer": "8.41%",
+                    "question": "Projects A and B are mutually exclusive and have normal cash flows. Project A has an IRR of 15% and B's IRR is 20%. The companys WACC is 12%, and at that rate Project A has the higher NPV. Which of the following statements is CORRECT?",
+                    "options": [
+                        "The crossover rate for the two projects must be less than 12%.",
+                        "Assuming the timing pattern of the two projects cash flows is the same, Project B probably has a higher cost (and larger scale).",
+                        "Assuming the two projects have the same scale, Project B probably has a faster payback than Project A.",
+                        "The crossover rate for the two projects must be 12%.",
+                        "Since B has the higher IRR, then it must also have the higher NPV if the crossover rate is less than the WACC of 12%."
+                    ],
+                    "answer": "Assuming the two projects have the same scale, Project B probably has a faster payback than Project A.",
                     "explanation": ""
                 },
                 {
                     "q_num": 64,
-                    "topic": "PV of a perpetuity",
+                    "topic": "Multiple IRRs",
                     "type": "mcq",
-                    "question": "Whats the present value of a perpetuity that pays $250 per year if the appropriate interest rate is 5%?",
-                    "options": ["$4,750.00", "$5,000.00", "$5,250.00", "$5,512.50", "$5,788.13"],
-                    "answer": "$5,000.00",
+                    "question": "You are on the staff of Camden Inc. The CFO believes project acceptance should be based on the NPV, but Steve Camden, the president, insists that no project can be accepted unless its IRR exceeds the projects risk-adjusted WACC. Now you must make a recommendation on a project that has a cost of $15,000 and two cash flows: $110,000 at the end of Year 1 and -$100,000 at the end of Year 2. The president and the CFO both agree that the appropriate WACC for this project is 10%. At 10%, the NPV is $2,355.37, but you find two IRRs, one at 6.33% and one at 527%, and a MIRR of 11.32%. Which of the following statements best describes your optimal recommendation, i.e., the analysis and recommendation that is best for the company and least likely to get you in trouble with either the CFO or the president?",
+                    "options": [
+                        "You should recommend that the project be rejected because its NPV is negative and its IRR is less than the WACC.",
+                        "You should recommend that the project be rejected because, although its NPV is positive, it has an IRR that is less than the WACC.",
+                        "You should recommend that the project be accepted because (1) its NPV is positive and (2) although it has two IRRs, in this case it would be better to focus on the MIRR, which exceeds the WACC. You should explain this to the president and tell him that that the firms value will increase if the project is accepted.",
+                        "You should recommend that the project be rejected because (1) although its NPV is positive and (2) it has two IRRs, one of which is less than the WACC, which indicates that the firms value will decline if the project is accepted.",
+                        "You should recommend that the project be rejected because, although its NPV is positive, its MIRR is less than the WACC, and that indicates that the firms value will decline if it is accepted."
+                    ],
+                    "answer": "You should recommend that the project be accepted because (1) its NPV is positive and (2) although it has two IRRs, in this case it would be better to focus on the MIRR, which exceeds the WACC. You should explain this to the president and tell him that that the firms value will increase if the project is accepted.",
                     "explanation": ""
                 },
                 {
                     "q_num": 65,
-                    "topic": "Rate of return on a perpetuity",
+                    "topic": "MIRR",
                     "type": "mcq",
-                    "question": "Whats the rate of return you would earn if you paid $950 for a perpetuity that pays $85 per year?",
-                    "options": ["6.52%", "7.25%", "8.05%", "8.95%", "9.84%"],
-                    "answer": "8.95%",
+                    "question": "Which of the following statements is CORRECT? Assume that the project being considered has normal cash flows, with one outflow followed by a series of inflows.",
+                    "options": [
+                        "A projects MIRR is always greater than its regular IRR.",
+                        "A projects MIRR is always less than its regular IRR.",
+                        "If a projects IRR is greater than its WACC, then the MIRR will be less than the IRR.",
+                        "If a projects IRR is greater than its WACC, then the MIRR will be greater than the IRR.",
+                        "To find a projects MIRR, we compound cash inflows at the IRR and then discount the terminal value back to t = 0 at the WACC."
+                    ],
+                    "answer": "If a projects IRR is greater than its WACC, then the MIRR will be less than the IRR.",
                     "explanation": ""
                 },
                 {
                     "q_num": 66,
-                    "topic": "PV of an uneven cash flow stream",
+                    "topic": "MIRR",
                     "type": "mcq",
-                    "question": "At a rate of 6.25%, what is the present value of the following cash flow stream? $0 at Time 0; $75 at the end of Year 1; $225 at the end of Year 2; $0 at the end of Year 3; and $300 at the end of Year 4?",
-                    "options": ["$411.57", "$433.23", "$456.03", "$480.03", "$505.30"],
-                    "answer": "$505.30",
+                    "question": "Which of the following statements is CORRECT? Assume that the project being considered has normal cash flows, with one cash outflow at t = 0 followed by a series of positive cash flows.",
+                    "options": [
+                        "A projects MIRR is always greater than its regular IRR.",
+                        "A projects MIRR is always less than its regular IRR.",
+                        "If a projects IRR is greater than its WACC, then its MIRR will be greater than the IRR.",
+                        "To find a projects MIRR, we compound cash inflows at the regular IRR and then find the discount rate that causes the PV of the terminal value to equal the initial cost.",
+                        "To find a projects MIRR, the textbook procedure compounds cash inflows at the WACC and then finds the discount rate that causes the PV of the terminal value to equal the initial cost."
+                    ],
+                    "answer": "To find a projects MIRR, the textbook procedure compounds cash inflows at the WACC and then finds the discount rate that causes the PV of the terminal value to equal the initial cost.",
                     "explanation": ""
                 },
                 {
                     "q_num": 67,
-                    "topic": "PV of an uneven cash flow stream",
+                    "topic": "NPV (constant cash flows; 3 years)",
                     "type": "mcq",
-                    "question": "What is the present value of the following cash flow stream at an interest rate of 12.0% per year? $0 at Time 0; $1,500 at the end of Year 1; $3,000 at the end of Year 2; $4,500 at the end of Year 3; and $6,000 at the end of Year 4.",
-                    "options": ["$9,699.16", "$10,209.64", "$10,746.99", "$11,284.34", "$11,848.55"],
-                    "answer": "$10,746.99",
+                    "question": "Edmondson Electric Systems is considering a project that has the following cash flow and WACC data. What is the project's NPV? Note that if a project's projected NPV is negative, it should be rejected.\nWACC: 10.00%\nYear: 0 | 1 | 2 | 3\nCash flows: -$1,000 | $500 | $500 | $500",
+                    "options": ["$243.43", "$255.60", "$268.38", "$281.80", "$295.89"],
+                    "answer": "$243.43",
                     "explanation": ""
                 },
                 {
                     "q_num": 68,
-                    "topic": "PV of an uneven cash flow stream",
+                    "topic": "NPV (constant cash flows; 4 years)",
                     "type": "mcq",
-                    "question": "An investment promises the following cash flow stream: $750 at Time 0; $2,450 at the end of Year 1 (or at t = 1); $3,175 at the end of Year 2; and $4,400 at the end of Year 3. At a discount rate of 8.0%, what is the present value of the cash flow stream?",
-                    "options": ["$7,916.51", "$8,333.17", "$8,771.76", "$9,233.43", "$9,695.10"],
-                    "answer": "$9,233.43",
+                    "question": "Johnson Enterprises considering a project that has the following cash flow and WACC data. What is the project's NPV? Note that if a project's projected NPV is negative, it should be rejected.\nWACC: 10.00%\nYear: 0 | 1 | 2 | 3 | 4\nCash flows: -$1,000 | $350 | $350 | $350 | $350",
+                    "options": ["$98.78", "$103.98", "$109.45", "$114.93", "$120.67"],
+                    "answer": "$109.45",
                     "explanation": ""
                 },
                 {
                     "q_num": 69,
-                    "topic": "PV of an uneven cash flow stream",
+                    "topic": "NPV (constant cash flows; 5 years)",
                     "type": "mcq",
-                    "question": "What is the present value of the following cash flow stream if the interest rate is 6.0% per year? 0 at Time 0; $1,000 at the end of Year 1; and $2,000 at the end of Years 2, 3, and 4.",
-                    "options": ["$5,986.81", "$6,286.16", "$6,600.46", "$6,930.49", "$7,277.01"],
-                    "answer": "$5,986.81",
+                    "question": "Humboldt Inc. is considering a project that has the following cash flow and WACC data. What is the project's NPV? Note that if a project's projected NPV is negative, it should be rejected.\nWACC: 9.00%\nYear: 0 | 1 | 2 | 3 | 4 | 5\nCash flows: -$1,000 | $300 | $300 | $300 | $300 | $300",
+                    "options": ["$135.94", "$143.09", "$150.62", "$158.55", "$166.90"],
+                    "answer": "$166.90",
                     "explanation": ""
                 },
                 {
                     "q_num": 70,
-                    "topic": "FV of a lump sum, semiannual compounding",
+                    "topic": "IRR (constant cash flows; 3 years)",
                     "type": "mcq",
-                    "question": "Whats the future value of $1,500 after 5 years if the appropriate interest rate is 6%, compounded semiannually?",
-                    "options": ["$1,819.33", "$1,915.08", "$2,015.87", "$2,116.67", "$2,222.50"],
-                    "answer": "$2,015.87",
+                    "question": "Tucker Corp. is considering a project that has the following cash flow data. What is the project's IRR? Note that a project's projected IRR can be negative, in which case it will be rejected.\nYear: 0 | 1 | 2 | 3\nCash flows: -$1,000 | $450 | $450 | $450",
+                    "options": ["15.82%", "16.65%", "17.48%", "18.36%", "19.27%"],
+                    "answer": "16.65%",
                     "explanation": ""
                 },
                 {
                     "q_num": 71,
-                    "topic": "PV of a lump sum, semiannual compounding",
+                    "topic": "IRR (constant cash flows; 4 years)",
                     "type": "mcq",
-                    "question": "Whats the present value of $1,500 discounted back 5 years if the appropriate interest rate is 6%, compounded semiannually?",
-                    "options": ["$956.95", "$1,007.32", "$1,060.33", "$1,116.14", "$1,171.95"],
-                    "answer": "$1,116.14",
+                    "question": "Levin Company is considering a project that has the following cash flow data. What is the project's IRR? Note that a project's projected IRR can be negative, in which case it will be rejected.\nYear: 0 | 1 | 2 | 3 | 4\nCash flows: -$1,000 | $400 | $400 | $400 | $400",
+                    "options": ["15.94%", "17.71%", "19.68%", "21.86%", "24.05%"],
+                    "answer": "21.86%",
                     "explanation": ""
                 },
                 {
                     "q_num": 72,
-                    "topic": "Years to deplete an ordinary annuity",
+                    "topic": "IRR (constant cash flows; 5 years)",
                     "type": "mcq",
-                    "question": "Your uncle has $300,000 invested at 7.5%, and he now wants to retire. He wants to withdraw $35,000 at the end of each year, beginning at the end of this year. He also wants to have $25,000 left to give you when he ceases to withdraw funds from the account. For how many years can he make the $35,000 withdrawals and still have $25,000 left in the end?",
-                    "options": ["14.21", "14.96", "15.71", "16.49", "17.32"],
-                    "answer": "14.96",
+                    "question": "Frye Foods is considering a project that has the following cash flow data. What is the project's IRR? Note that a project's projected IRR can be negative, in which case it will be rejected.\nYear: 0 | 1 | 2 | 3 | 4 | 5\nCash flows: -$1,000 | $325 | $325 | $325 | $325 | $325",
+                    "options": ["18.72%", "19.65%", "20.64%", "21.67%", "22.75%"],
+                    "answer": "18.72%",
                     "explanation": ""
                 },
                 {
                     "q_num": 73,
-                    "topic": "Years to deplete an annuity due",
+                    "topic": "Payback (constant cash flows; 3 years)",
                     "type": "mcq",
-                    "question": "Your uncle has $300,000 invested at 7.5%, and he now wants to retire. He wants to withdraw $35,000 at the beginning of each year, beginning immediately. He also wants to have $25,000 left to give you when he ceases to withdraw funds from the account. For how many years can he make the $35,000 withdrawals and still have $25,000 left in the end?",
-                    "options": ["11.98", "12.61", "13.27", "13.94", "14.63"],
-                    "answer": "13.27",
+                    "question": "Wells Inc. is considering a project that has the following cash flow data. What is the project's payback?\nYear: 0 | 1 | 2 | 3\nCash flows: -$1,000 | $500 | $500 | $500",
+                    "options": ["1.62 years", "1.80 years", "2.00 years", "2.20 years", "2.42 years"],
+                    "answer": "2.00 years",
                     "explanation": ""
                 },
                 {
                     "q_num": 74,
-                    "topic": "Interest rate implicit in an annuity due",
+                    "topic": "Replacement chain--nonalgorithmic",
                     "type": "mcq",
-                    "question": "You agree to make 24 deposits of $500 at the beginning of each month into a bank account. At the end of the 24th month, you will have $13,000 in your account. If the bank compounds interest monthly, what nominal annual interest rate will you be earning?",
-                    "options": ["7.62%", "8.00%", "8.40%", "8.82%", "9.26%"],
-                    "answer": "7.62%",
+                    "question": "Wachowicz Inc. is considering two average-risk alternative ways of producing its patented polo shirts. Process S has a cost of $8,000 and will produce net cash flows of $5,000 per year for 2 years. Process L will cost $11,500 and will produce cash flows of $4,000 per year for 4 years. The company has a contract that requires it to produce the shirts for 4 years, but the patent will expire after 4 years, so the shirts will not be produced after the 4th year. Inflation is expected to be zero during the next 4 years. If cash inflows occur at the end of each year, and if the cost of capital is 10%, by what amount will the better project increase the firms value?",
+                    "options": ["$677.69", "$1,098.89", "$1,179.46", "$1,237.76", "$1,312.31"],
+                    "answer": "$1,237.76",
                     "explanation": ""
                 },
                 {
                     "q_num": 75,
-                    "topic": "Payments on a perpetuity",
+                    "topic": "NPV, IRR, and payback--nonalgorithmic",
                     "type": "mcq",
-                    "question": "What annual payment would you have to receive in order to earn a 7.5% rate of return on a perpetuity that has a cost of $1,250?",
-                    "options": ["$89.06", "$93.75", "$98.44", "$103.36", "$108.53"],
-                    "answer": "$93.75",
+                    "question": "Van Auken Inc. is considering a project that has the following cash flows:\nYear | Cash Flow\n--- | ---\n0 | -$1,000\n1 | 400\n2 | 300\n3 | 500\n4 | 400\nThe companys WACC is 10%. What are the projects payback, internal rate of return, and net present value?",
+                    "options": [
+                        "Payback = 2.4, IRR = 10.00%, NPV = $600.",
+                        "Payback = 2.4, IRR = 21.22%, NPV = $260.",
+                        "Payback = 2.6, IRR = 21.22%, NPV = $300.",
+                        "Payback = 2.6, IRR = 21.22%, NPV = $260.",
+                        "Payback = 2.6, IRR = 24.12%, NPV = $300."
+                    ],
+                    "answer": "Payback = 2.6, IRR = 21.22%, NPV = $260.",
                     "explanation": ""
                 },
                 {
                     "q_num": 76,
-                    "topic": "FV of an uneven cash flow stream",
+                    "topic": "NPV (uneven cash flows; 3 years)",
                     "type": "mcq",
-                    "question": "At a rate of 6.5%, what is the future value of the following cash flow stream? $0 at Time 0; $75 at the end of Year 1; $225 at the end of Year 2; $0 at the end of Year 3; and $300 at the end of Year 4?",
-                    "options": ["$526.01", "$553.69", "$582.83", "$613.51", "$645.80"],
-                    "answer": "$645.80",
+                    "question": "Adler Enterprises is considering a project that has the following cash flow and WACC data. What is the project's NPV? Note that a project's projected NPV can be negative, in which case it will be rejected.\nWACC: 10.00%\nYear: 0 | 1 | 2 | 3\nCash flows: -$1,000 | $450 | $460 | $470",
+                    "options": ["$142.37", "$149.49", "$156.97", "$164.82", "$173.06"],
+                    "answer": "$142.37",
                     "explanation": ""
                 },
                 {
                     "q_num": 77,
-                    "topic": "Interest rate built into uneven CF stream",
+                    "topic": "NPV (uneven cash flows; 3 years)",
                     "type": "mcq",
-                    "question": "An investment costs $1,000 (CF at t = 0) and is expected to produce cash flows of $75 at the end of each of the next 5 years, then an additional lump sum payment of $1,000 at the end of the 5th year. What is the expected rate of return on this investment?",
-                    "options": ["6.77%", "7.13%", "7.50%", "7.88%", "8.27%"],
-                    "answer": "7.50%",
+                    "question": "Babcock Inc. is considering a project that has the following cash flow and WACC data. What is the project's NPV? Note that a project's projected NPV can be negative, in which case it will be rejected.\nWACC: 10.00%\nYear: 0 | 1 | 2 | 3\nCash flows: -$950 | $500 | $400 | $300",
+                    "options": ["$54.62", "$57.49", "$60.52", "$63.54", "$66.72"],
+                    "answer": "$60.52",
                     "explanation": ""
                 },
                 {
                     "q_num": 78,
-                    "topic": "Interest rate built into uneven CF stream",
+                    "topic": "NPV (uneven cash flows; 4 years)",
                     "type": "mcq",
-                    "question": "An investment costs $725 and is expected to produce cash flows of $75 at the end of Year 1, $100 at the end of Year 2, $85 at the end of Year 3, and $625 at the end of Year 4. What rate of return would you earn if you bought this investment?",
-                    "options": ["4.93%", "5.19%", "5.46%", "5.75%", "6.05%"],
-                    "answer": "6.05%",
+                    "question": "Rappaport Enterprises is considering a project that has the following cash flow and WACC data. What is the project's NPV? Note that a project's projected NPV can be negative, in which case it will be rejected.\nWACC: 10.00%\nYear: 0 | 1 | 2 | 3 | 4\nCash flows: -$1,000 | $400 | $405 | $410 | $415",
+                    "options": ["$190.16", "$211.29", "$234.77", "$260.85", "$289.84"],
+                    "answer": "$289.84",
                     "explanation": ""
                 },
                 {
                     "q_num": 79,
-                    "topic": "FV of a lump sum, monthly compounding",
+                    "topic": "NPV (uneven cash flows; 5 years)",
                     "type": "mcq",
-                    "question": "Whats the future value of $1,500 after 5 years if the appropriate interest rate is 6%, compounded monthly?",
-                    "options": ["$1,922.11", "$2,023.28", "$2,124.44", "$2,230.66", "$2,342.19"],
-                    "answer": "$2,023.28",
+                    "question": "Barry Company is considering a project that has the following cash flow and WACC data. What is the project's NPV? Note that a project's projected NPV can be negative, in which case it will be rejected.\nWACC: 10.00%\nYear: 0 | 1 | 2 | 3 | 4 | 5\nCash flows: -$1,200 | $400 | $395 | $390 | $385 | $380",
+                    "options": ["$253.81", "$282.01", "$310.21", "$341.23", "$375.35"],
+                    "answer": "$282.01",
                     "explanation": ""
                 },
                 {
                     "q_num": 80,
-                    "topic": "PV of a lump sum, monthly compounding",
+                    "topic": "IRR (uneven cash flows; 3 years)",
                     "type": "mcq",
-                    "question": "Whats the present value of $1,525 discounted back 5 years if the appropriate interest rate is 6%, compounded monthly?",
-                    "options": ["$969.34", "$1,020.36", "$1,074.06", "$1,130.59", "$1,187.12"],
-                    "answer": "$1,130.59",
+                    "question": "Choi Computer Systems is considering a project that has the following cash flow data. What is the project's IRR? Note that a project's projected IRR can be less than the WACC (and even negative), in which case it will be rejected.\nYear: 0 | 1 | 2 | 3\nCash flows: -$1,000 | $450 | $470 | $490",
+                    "options": ["13.89%", "15.43%", "17.15%", "19.05%", "20.96%"],
+                    "answer": "19.05%",
                     "explanation": ""
                 },
                 {
                     "q_num": 81,
-                    "topic": "APR vs. EAR",
+                    "topic": "IRR (uneven cash flows; 4 years)",
                     "type": "mcq",
-                    "question": "Credit card issuers must by law print the Annual Percentage Rate (APR) on their monthly statements. If the APR is stated to be 18.00%, with interest paid monthly, what is the card's EFF%?",
-                    "options": ["18.58%", "19.56%", "20.54%", "21.57%", "22.65%"],
-                    "answer": "19.56%",
+                    "question": "Rentz Recreation Inc. is considering a project that has the following cash flow data. What is the project's IRR? Note that a project's projected IRR can be less than the WACC (and even negative), in which case it will be rejected.\nYear: 0 | 1 | 2 | 3 | 4\nCash flows: -$650 | $250 | $230 | $210 | $190",
+                    "options": ["14.04%", "15.44%", "16.99%", "18.69%", "20.56%"],
+                    "answer": "14.04%",
                     "explanation": ""
                 },
                 {
                     "q_num": 82,
-                    "topic": "Comparing the effective cost of two bank loans",
+                    "topic": "IRR (uneven cash flows; 5 years)",
                     "type": "mcq",
-                    "question": "East Coast Bank offers to lend you $25,000 at a nominal rate of 7.5%, compounded monthly. The loan (principal plus interest) must be repaid at the end of the year. Midwest Bank also offers to lend you the $25,000, but it will charge an annual rate of 8.3%, with no interest due until the end of the year. What is the difference in the effective annual rates charged by the two banks?",
-                    "options": ["0.93%", "0.77%", "0.64%", "0.54%", "0.43%"],
-                    "answer": "0.54%",
+                    "question": "Thompson Stores is considering a project that has the following cash flow data. What is the project's IRR? Note that a project's projected IRR can be less than the WACC (and even negative), in which case it will be rejected.\nYear: 0 | 1 | 2 | 3 | 4 | 5\nCash flows: -$1,000 | $300 | $295 | $290 | $285 | $270",
+                    "options": ["11.16%", "12.40%", "13.78%", "15.16%", "16.68%"],
+                    "answer": "13.78%",
                     "explanation": ""
                 },
                 {
                     "q_num": 83,
-                    "topic": "Nominal rate vs. EFF%",
+                    "topic": "Crossover rate--nonalgorithmic",
                     "type": "mcq",
-                    "question": "Suppose a bank offers to lend you $10,000 for one year at a nominal annual rate of 10.25%, but you must make interest payments at the end of each quarter and then pay off the $10,000 principal amount at the end of the year. What is the effective annual rate on the loan?",
-                    "options": ["6.99%", "7.76%", "8.63%", "9.59%", "10.65%"],
-                    "answer": "10.65%",
+                    "question": "ZumBahlen Inc. is considering the following mutually exclusive projects:\nProject A: CF0=-$5,000, CF1=$200, CF2=$800, CF3=$3,000, CF4=$5,000\nProject B: CF0=-$5,000, CF1=$3,000, CF2=$3,000, CF3=$800, CF4=$200\nAt what cost of capital will the net present value of the two projects be the same? (That is, what is the crossover rate?)",
+                    "options": ["15.68%", "16.15%", "16.74%", "17.33%", "17.80%"],
+                    "answer": "16.15%",
                     "explanation": ""
                 },
                 {
                     "q_num": 84,
-                    "topic": "Nominal rate vs. EFF%",
+                    "topic": "Crossover rate--nonalgorithmic",
                     "type": "mcq",
-                    "question": "Suppose a bank offers to lend you $10,000 for 1 year on a loan contract that calls for you to make interest payments of $250.00 at the end of each quarter and then pay off the principal amount at the end of the year. What is the effective annual rate on the loan?",
-                    "options": ["8.46%", "8.90%", "9.37%", "9.86%", "10.38%"],
-                    "answer": "10.38%",
+                    "question": "Steve Hawke is a big football star who has been offered contracts by two different teams. The payments (in millions of dollars) under the two contracts are shown below:\nTeam A: CF0=$8.0, CF1=$4.0, CF2=$4.0, CF3=$4.0, CF4=$4.0\nTeam B: CF0=$2.5, CF1=$4.0, CF2=$4.0, CF3=$8.0, CF4=$8.0\nSteve plans to accept the contract that provides him with the highest net present value. At what discount rate would he be indifferent between the two contracts?",
+                    "options": ["10.85%", "11.35%", "12.66%", "13.98%", "15.01%"],
+                    "answer": "11.35%",
                     "explanation": ""
                 },
                 {
                     "q_num": 85,
-                    "topic": "Nominal rate vs. EAR",
+                    "topic": "Crossover rate--nonalgorithmic",
                     "type": "mcq",
-                    "question": "If a bank pays a 4.50% nominal rate, with monthly compounding on deposits, what effective annual rate (EFF%) does the bank pay?",
-                    "options": ["3.01%", "3.35%", "3.72%", "4.13%", "4.59%"],
-                    "answer": "4.59%",
+                    "question": "Aubey Inc. is considering two projects that have the following cash flows:\nProject 1: CF0=-$2,000, CF1=$500, CF2=$700, CF3=$800, CF4=$1,000, CF5=$1,100\nProject 2: CF0=-$1,900, CF1=$1,100, CF2=$900, CF3=$800, CF4=$600, CF5=$400\nAt what cost of capital would the two projects have the same net present value?",
+                    "options": ["4.73%", "5.85%", "6.70%", "7.50%", "8.20%"],
+                    "answer": "5.85%",
                     "explanation": ""
                 },
                 {
                     "q_num": 86,
-                    "topic": "Nominal rate vs. EAR",
+                    "topic": "Crossover rate--nonalgorithmic",
                     "type": "mcq",
-                    "question": "Suppose your credit card issuer states that it charges a 15.00% nominal annual rate. If you must make monthly payments, which amounts to monthly compounding, what is the effective annual rate?",
-                    "options": ["15.27%", "16.08%", "16.88%", "17.72%", "18.61%"],
-                    "answer": "16.08%",
+                    "question": "Anderson Associates is considering two mutually exclusive projects that have the following cash flows:\nProject A: CF0=-$10,000, CF1=$1,000, CF2=$2,000, CF3=$6,000, CF4=$6,000\nProject B: CF0=-$8,000, CF1=$7,000, CF2=$1,000, CF3=$1,000, CF4=$1,000\nAt what cost of capital do the two projects have the same net present value? (That is, what is the crossover rate?)",
+                    "options": ["11.20%", "12.26%", "12.54%", "13.03%", "14.15%"],
+                    "answer": "13.03%",
                     "explanation": ""
                 },
                 {
                     "q_num": 87,
-                    "topic": "Interest charges, simple interest",
+                    "topic": "Crossover rate--nonalgorithmic",
                     "type": "mcq",
-                    "question": "Pace Co. borrowed $25,000 at a rate of 7.25%, simple interest, with interest paid at the end of each month. The bank uses a 360-day year. How much interest would Pace have to pay in a 30-day month?",
-                    "options": ["$136.32", "$143.49", "$151.04", "$158.59", "$166.52"],
-                    "answer": "$151.04",
+                    "question": "Flint Fruits is considering two equally risky, mutually exclusive projects, Projects A and B, that have the following cash flows:\nProject A: CF0=-$100,000, CF1=$40,000, CF2=$25,000, CF3=$70,000, CF4=$40,000\nProject B: CF0=-$100,000, CF1=$30,000, CF2=$15,000, CF3=$80,000, CF4=$55,000\nAt what WACC would the two projects have the same NPV?",
+                    "options": ["9.56%", "10.33%", "11.21%", "12.55%", "14.49%"],
+                    "answer": "11.21%",
                     "explanation": ""
                 },
                 {
                     "q_num": 88,
-                    "topic": "Fractional time periods",
+                    "topic": "Crossover rate--nonalgorithmic",
                     "type": "mcq",
-                    "question": "Suppose you deposited $5,000 in a bank account that pays 5.25% with daily compounding and a 360-day year. How much could you withdraw after 8 months, assuming each month has 30 days?",
-                    "options": ["$5,178.09", "$5,436.99", "$5,708.84", "$5,994.28", "$6,294.00"],
-                    "answer": "$5,178.09",
+                    "question": "Rivoli Roofing is considering mutually exclusive Projects A and B, which have the following cash flows:\nProject A: CF0=-$200, CF1=$20, CF2=$30, CF3=$40, CF4=$50, CF5=$60\nProject B: CF0=-$300, CF1=$90, CF2=$70, CF3=$60, CF4=$50, CF5=$40\nAt what cost of capital would the two projects have the same net present value (NPV)?",
+                    "options": ["6.22%", "7.11%", "8.45%", "9.32%", "10.32%"],
+                    "answer": "9.32%",
                     "explanation": ""
                 },
                 {
                     "q_num": 89,
-                    "topic": "Loan amortization: payment",
+                    "topic": "MIRR (constant cash flows; 3 years)",
                     "type": "mcq",
-                    "question": "Suppose you borrowed $12,000 at a rate of 9% and must repay it in 4 equal installments at the end of each of the next 4 years. How large would your payments be?",
-                    "options": ["$3,704.02", "$3,889.23", "$4,083.69", "$4,287.87", "$4,502.26"],
-                    "answer": "$3,704.02",
+                    "question": "Edelman Electric Systems is considering a project that has the following cash flow and WACC data. What is the project's MIRR? Note that a project's projected MIRR can be less than the WACC (and even negative), in which case it will be rejected.\nWACC: 10.00%\nYear: 0 | 1 | 2 | 3\nCash flows: -$800 | $350 | $350 | $350",
+                    "options": ["8.62%", "9.58%", "10.64%", "11.82%", "13.14%"],
+                    "answer": "13.14%",
                     "explanation": ""
                 },
                 {
                     "q_num": 90,
-                    "topic": "Loan amortization: payment",
+                    "topic": "MIRR (uneven cash flows; 4 years)",
                     "type": "mcq",
-                    "question": "Suppose you are buying your first house for $210,000, and are making a $20,000 down payment. You have arranged to finance the remaining amount with a 30-year, monthly payment, amortized mortgage at a 6.5% nominal interest rate. What will your equal monthly payments be?",
-                    "options": ["$1,083.84", "$1,140.88", "$1,200.93", "$1,260.98", "$1,324.02"],
-                    "answer": "$1,200.93",
+                    "question": "Hindelang Inc. is considering a project that has the following cash flow and WACC data. What is the project's MIRR? Note that a project's projected MIRR can be less than the WACC (and even negative), in which case it will be rejected.\nWACC: 10.00%\nYear: 0 | 1 | 2 | 3 | 4\nCash flows: -$900 | $300 | $320 | $340 | $360",
+                    "options": ["12.61%", "14.01%", "15.41%", "16.95%", "18.64%"],
+                    "answer": "14.01%",
                     "explanation": ""
                 },
                 {
                     "q_num": 91,
-                    "topic": "Loan amortization: interest",
+                    "topic": "Payback (uneven cash flows; 5 years)",
                     "type": "mcq",
-                    "question": "Suppose you borrowed $12,000 at a rate of 9% and must repay it in 4 equal installments at the end of each of the next 4 years. How much interest would you have to pay in the first year?",
-                    "options": ["$925.97", "$974.70", "$1,026.00", "$1,080.00", "$1,134.00"],
-                    "answer": "$1,080.00",
+                    "question": "Stewart Associates is considering a project that has the following cash flow data. What is the project's payback?\nYear: 0 | 1 | 2 | 3 | 4 | 5\nCash flows: -$1,000 | $300 | $310 | $320 | $330 | $340",
+                    "options": ["2.11 years", "2.34 years", "2.60 years", "2.89 years", "3.21 years"],
+                    "answer": "3.21 years",
                     "explanation": ""
                 },
-                {
-                    "q_num": 92,
-                    "topic": "Loan amortization: interest",
-                    "type": "mcq",
-                    "question": "You plan to borrow $30,000 at a 7% annual interest rate. The terms require you to amortize the loan with 6 equal end-of-year payments. How much interest would you be paying in Year 2?",
-                    "options": ["$1,548.79", "$1,630.30", "$1,716.11", "$1,806.43", "$1,896.75"],
-                    "answer": "$1,806.43",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 93,
-                    "topic": "Loan amortization: interest",
-                    "type": "mcq",
-                    "question": "You plan to borrow $75,000 at a 7% annual interest rate. The terms require you to amortize the loan with 10 equal end-of-year payments. How much interest would you be paying in Year 2?",
-                    "options": ["$4,395.19", "$4,626.52", "$4,870.02", "$5,113.52", "$5,369.19"],
-                    "answer": "$4,870.02",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 94,
-                    "topic": "Loan amortization: payment",
-                    "type": "mcq",
-                    "question": "Suppose you take out a $10,000 loan at a 6% nominal annual rate. The terms of the loan require you to make 12 equal end-of-month payments each year for 4 years, and then an additional final (balloon) payment of $4,000 at the end of the last month. What will your equal monthly payments be?",
-                    "options": ["$131.06", "$137.96", "$145.22", "$152.86", "$160.91"],
-                    "answer": "$160.91",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 95,
-                    "topic": "Growing annuity: calculating the real rate",
-                    "type": "mcq",
-                    "question": "You plan to make annual deposits into a bank account that pays a 5.00% nominal annual rate. You think inflation will amount to 2.50% per year. What is the expected annual real rate at which your money will grow?",
-                    "options": ["1.98%", "2.20%", "2.44%", "2.68%", "2.95%"],
-                    "answer": "2.44%",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 96,
-                    "topic": "Growing annuity due: withdraw constant real amt",
-                    "type": "mcq",
-                    "question": "Your father now has $1,000,000 invested in an account that pays 9.00%. He expects inflation to average 3%, and he wants to make annual constant dollar (real) beginning-of-year withdrawals over each of the next 20 years and end up with a zero balance after the 20th year. How large will his initial withdrawal (and thus constant dollar (real) withdrawals) be?",
-                    "options": ["$66,154.58", "$69,636.40", "$73,301.47", "$77,159.45", "$81,220.47"],
-                    "answer": "$81,220.47",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 97,
-                    "topic": "Annuity due, N, monthly compounding",
-                    "type": "mcq",
-                    "question": "You are considering investing in a Third World bank account that pays a nominal annual rate of 18%, compounded monthly. If you invest $5,000 at the beginning of each month, how many months will it take for your account to grow to $250,000? Round fractional years up.",
-                    "options": ["23", "27", "32", "38", "44"],
-                    "answer": "38",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 98,
-                    "topic": "Annuity, N, monthly compounding",
-                    "type": "mcq",
-                    "question": "You are considering investing in a bank account that pays a nominal annual rate of 6%, compounded monthly. If you invest $5,000 at the end of each month, how many months will it take for your account to grow to $200,000? Round fractional years up.",
-                    "options": ["33", "37", "41", "45", "49"],
-                    "answer": "37",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 99,
-                    "topic": "Int rate, annuity, mos compounding",
-                    "type": "mcq",
-                    "question": "Your childs orthodontist offers you two alternative payment plans. The first plan requires a $4,000 immediate up-front payment. The second plan requires you to make monthly payments of $137.41, payable at the end of each month for 3 years. What nominal annual interest rate is built into the monthly payment plan?",
-                    "options": ["12.31%", "12.96%", "13.64%", "14.36%", "15.08%"],
-                    "answer": "14.36%",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 100,
-                    "topic": "N, lifetime vs. annual pmts",
-                    "type": "mcq",
-                    "question": "Your subscription to Investing Wisely Weekly is about to expire. You plan to subscribe to the magazine for the rest of your life, and you can renew it by paying $75 annually, beginning immediately, or you can get a lifetime subscription for $750, also payable immediately. Assuming you can earn 5.5% on your funds and the annual renewal rate will remain constant, how many years must you live to make the lifetime subscription the better buy? Round fractional years up. (Hint: Be sure to remember that you are solving for how many years you must live, not for how many payments must be made.)",
-                    "options": ["7", "8", "9", "11", "13"],
-                    "answer": "13",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 101,
-                    "topic": "Non-annual compounding",
-                    "type": "mcq",
-                    "question": "You just deposited $2,500 in a bank account that pays a 12% nominal interest rate, compounded quarterly. If you also add another $5,000 to the account one year (12 months) from now and another $7,500 to the account two years from now, how much will be in the account three years (12 quarters) from now?",
-                    "options": ["$17,422.59", "$18,339.57", "$19,256.55", "$20,219.37", "$21,230.34"],
-                    "answer": "$18,339.57",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 102,
-                    "topic": "Compare effective cost of two bank loans",
-                    "type": "mcq",
-                    "question": "Merchants Bank offers to lend you $30,000 at a nominal rate of 6.0%, simple interest, with interest paid quarterly. Gold Coast Bank offers to lend you the $30,000, but it will charge 7.0%, simple interest, with interest paid at the end of the year. What's the difference in the effective annual rates charged by the two banks?",
-                    "options": ["1.49%", "1.24%", "1.04%", "0.86%", "0.69%"],
-                    "answer": "0.86%",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 103,
-                    "topic": "Loan amortization: principal repayment",
-                    "type": "mcq",
-                    "question": "Suppose you borrowed $12,000 at a rate of 9% and must repay it in 4 equal installments at the end of each of the next 4 years. By how much would you reduce the amount you owe in the first year?",
-                    "options": ["$2,492.82", "$2,624.02", "$2,755.23", "$2,892.99", "$3,037.64"],
-                    "answer": "$2,624.02",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 104,
-                    "topic": "Loan amortization: ending balance",
-                    "type": "mcq",
-                    "question": "Suppose you borrowed $12,000 at a rate of 9% and must repay it in 4 equal installments at the end of each of the next 4 years. How much would you still owe at the end of the first year, after you have made the first payment?",
-                    "options": ["$7,636.79", "$8,038.73", "$8,461.82", "$8,907.18", "$9,375.98"],
-                    "answer": "$9,375.98",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 105,
-                    "topic": "Retirement planning",
-                    "type": "mcq",
-                    "question": "Your sister turned 35 today, and she is planning to save $5,000 per year for retirement, with the first deposit to be made one year from today. She will invest in a mutual fund that will provide a return of 8% per year. She plans to retire 30 years from today, when she turns 65, and she expects to live for 25 years after retirement, to age 90. Under these assumptions, how much can she spend in each year after she retires? Her first withdrawal will be made at the end of her first retirement year.",
-                    "options": ["$47,888", "$50,408", "$53,061", "$55,714", "$58,500"],
-                    "answer": "$53,061",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 106,
-                    "topic": "Loan amort: int rate, % of pmt toward principal",
-                    "type": "mcq",
-                    "question": "Your company has just taken out a 1-year installment loan for $72,500. The nominal rate is 12.0%, but with equal end-of-month payments. What percentage of the 2nd monthly payment will go toward the repayment of principal?",
-                    "options": ["73.01%", "76.85%", "80.89%", "85.15%", "89.63%"],
-                    "answer": "89.63%",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 107,
-                    "topic": "Loan amort: pmt and % of pmt toward interest",
-                    "type": "mcq",
-                    "question": "A homeowner just obtained a 30-year amortized mortgage loan for $150,000 at a nominal annual rate of 6.5%, with 360 end-of-month payments. What percentage of the total payments made during the first 3 months will go toward payment of interest?",
-                    "options": ["81.34%", "85.62%", "89.90%", "94.40%", "99.12%"],
-                    "answer": "85.62%",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 108,
-                    "topic": "Growing annuity: withdrawing constant real amt",
-                    "type": "mcq",
-                    "question": "Your father now has $1,000,000 invested in an account that pays 9.00%. He expects inflation to average 3%, and he wants to make annual constant dollar (real) end-of-year withdrawals over each of the next 20 years and end up with a zero balance after the 20th year. How large will his initial withdrawal (and thus constant dollar (real) withdrawals) be?",
-                    "options": ["$68,139.22", "$71,725.49", "$75,500.52", "$79,474.23", "$83,657.08"],
-                    "answer": "$83,657.08",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 109,
-                    "topic": "Growing annuity",
-                    "type": "mcq",
-                    "question": "You anticipate that you will need $1,500,000 when you retire 30 years from now. You plan to make 30 deposits, beginning today, in a bank account that will pay 6% interest, compounded annually. You expect to receive annual raises of 4%, so you will increase the amount you deposit each year by 4%. (That is, your 2nd deposit will be 4% greater than your first, the 3rd will be 4% greater than the 2nd, etc.) How much must your 1st deposit be if you are to meet your goal?",
-                    "options": ["$10,216.60", "$10,754.31", "$11,320.33", "$11,886.35", "$12,480.66"],
-                    "answer": "$11,320.33",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 110,
-                    "topic": "Growing annuity",
-                    "type": "mcq",
-                    "question": "You want to accumulate $2,500,000 in your 401(k) plan by your retirement date, which is 35 years from now. You will make 30 deposits into your plan, with the first deposit occurring today. The plan's rate of return typically averages 9%. You expect to increase each deposit by 2% as your income grows with inflation. (That is, your 2nd deposit will be 2% greater than your first, the 3rd will be 2% greater than the 2nd, etc.) How much must your 1st deposit at t = 0 be to enable you to meet your goal?",
-                    "options": ["$8,718.90", "$9,154.84", "$9,612.58", "$10,093.21", "$10,597.87"],
-                    "answer": "$8,718.90",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 111,
-                    "topic": "Retirement planning",
-                    "type": "mcq",
-                    "question": "Steve and Ed are cousins who were both born on the same day. Both turned 25 today. Their grandfather began putting $2,500 per year into a trust fund for Steve on his 20th birthday, and he just made a 6th payment into the fund. The grandfather (or his estate's trustee) will continue with these $2,500 payments until a 46th and final payment is made on Steve's 65th birthday. The grandfather set things up this way because he wants Steve to work, not to be a 'trust fund baby,' but he also wants to ensure that Steve is provided for in his old age. Until now, the grandfather has been disappointed with Ed, hence has not given him anything. However, they recently reconciled, and the grandfather decided to make an equivalent provision for Ed. He will make the first payment to a trust for Ed later today, and he has instructed his trustee to make additional equal annual payments each year until Ed turns 65, when the 41st and final payment will be made. If both trusts earn an annual return of 8%, how much must the grandfather put into Ed's trust today and each subsequent year to enable him to have the same retirement nest egg as Steve after the last payment is made on their 65th birthday?",
-                    "options": ["$3,726", "$3,912", "$4,107", "$4,313", "$4,528"],
-                    "answer": "$3,726",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 112,
-                    "topic": "FV of uneven CF stream",
-                    "type": "mcq",
-                    "question": "After graduation, you plan to work for Dynamo Corporation for 12 years and then start your own business. You expect to save and deposit $7,500 a year for the first 6 years and $15,000 annually for the following 6 years, with the first deposit being made a year from today. In addition, your grandfather just gave you a $25,000 graduation gift which you will deposit immediately. If the account earns 9% compounded annually, how much will you have when you start your business 12 years from now?",
-                    "options": ["$238,176", "$250,712", "$263,907", "$277,797", "$291,687"],
-                    "answer": "$277,797",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 113,
-                    "topic": "Find CF for given return",
-                    "type": "mcq",
-                    "question": "You are negotiating to make a 7-year loan of $25,000 to Breck Inc. To repay you, Breck will pay $2,500 at the end of Year 1, $5,000 at the end of Year 2, and $7,500 at the end of Year 3, plus a fixed but currently unspecified cash flow, X, at the end of Years 4 through 7. Breck is essentially riskless, so you are confident the payments will be made, and you regard 8% as an appropriate rate of return on low risk 7-year loans. What cash flow must the investment provide at the end of each of the final 4 years, that is, what is X?",
-                    "options": ["$4,271.67", "$4,496.49", "$4,733.15", "$4,969.81", "$5,218.30"],
-                    "answer": "$4,733.15",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 114,
-                    "topic": "Saving for college",
-                    "type": "mcq",
-                    "question": "John and Daphne are saving for their daughter Ellen's college education. Ellen is now 10 years old and will be entering college 8 years from now (t = 8). College tuition and expenses at State U. are currently $14,500 a year, but they are expected to increase at a rate of 3.5% a year. They expect Ellen to graduate in 4 years. (If Ellen wants to go to graduate school, she will be on her own.) Tuition and other costs will be due at the beginning of each school year (at t = 8, 9, 10, and 11). So far, John and Daphne have accumulated $15,000 in the college savings account. Their long-run financial plan is to add an additional $5,000 at the beginning of each of the next 4 years (at t = 0, 1, 2, and 3). Then they plan to make 4 equal annual contributions at the end of each of the following 5 years (t = 4, 5, 6, 7, and 8). They expect their investment account to earn 9%. How large must the annual payments be at t = 4, 5, 6, 7, and 8 to meet Ellen's anticipated college costs?",
-                    "options": ["$777.96", "$818.91", "$862.01", "$907.38", "$955.13"],
-                    "answer": "$955.13",
-                    "explanation": ""
-                }
             ]
         }
     }
