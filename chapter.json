@@ -1,0 +1,20 @@
+{
+    "title": "Ten Principles of Economics",
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-8 w-8\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10\" /></svg>",
+    "sectors": {
+        "sector1": {
+            "title": "Introduction & Scarcity",
+            "questions": [
+                { "q_num": 1, "topic": "Economy", "type": "mcq", "question": "The English word that comes from the Greek word for 'one who manages a household' is", "options": ["market.", "consumer.", "producer.", "economy."], "answer": "economy.", "explanation": "The word 'economy' comes from the Greek word 'oikonomos', which translates to 'one who manages a household'. This reflects the idea that households and economies face many similar decisions about resource allocation." },
+                { "q_num": 2, "topic": "Economy", "type": "mcq", "question": "The word 'economy' comes from the Greek word oikonomos, which means", "options": ["'environment.'", "'production.'", "'one who manages a household.'", "'one who makes decisions.'"], "answer": "'one who manages a household.'", "explanation": "The Greek root 'oikonomos' directly translates to 'one who manages a household,' highlighting the foundation of economics in managing resources." },
+                { "q_num": 3, "topic": "Resources | Scarcity", "type": "mcq", "question": "Resources are", "options": ["scarce for households but plentiful for economies.", "plentiful for households but scarce for economies.", "scarce for households and scarce for economies.", "plentiful for households and plentiful for economies."], "answer": "scarce for households and scarce for economies.", "explanation": "Scarcity, the limited nature of society's resources, is a fundamental problem that affects both individual households and entire economies." }
+            ]
+        },
+        "sector2": {
+            "title": "How People Make Decisions (Principles 1-4)",
+            "questions": [
+                { "q_num": 1, "topic": "Principle 1: People Face Trade-offs", "type": "mcq", "question": "The adage, 'There is no such thing as a free lunch,' means", "options": ["even people on welfare have to pay for food.", "the cost of living is always increasing.", "people face tradeoffs.", "all costs are included in the price of a product."], "answer": "people face tradeoffs.", "explanation": "To get something we like, we usually have to give up something else that we also like. Making decisions requires trading off one goal against another." }
+            ]
+        }
+    }
+}
