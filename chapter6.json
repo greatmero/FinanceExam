@@ -1,0 +1,1295 @@
+{
+    "title": "Risk, Return, and the CAPM",
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-8 w-8\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13 7h8m0 0v8m0-8l-8 8-4-4-6 6\" /></svg>",
+    "sectors": {
+        "sector1": {
+            "title": "Chapter 6 Questions",
+            "questions": [
+                {
+                    "q_num": 1,
+                    "topic": "Payoff matrix",
+                    "type": "tf",
+                    "question": "A payoff matrix shows the set of possible rates of return on an investment, along with their probabilities of occurrence, and the investment's expected rate of return as found by multiplying each outcome or 'state' by its probability.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 2,
+                    "topic": "Portfolio risk",
+                    "type": "tf",
+                    "question": "When adding a new stock to an existing portfolio, the higher (or more positive) the degree of correlation between the new stock and those already in the portfolio, the less the additional stock will reduce the portfolio's risk.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 3,
+                    "topic": "Portfolio risk",
+                    "type": "tf",
+                    "question": "Diversification can reduce the riskiness of a portfolio of stocks.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 4,
+                    "topic": "Portfolio return",
+                    "type": "tf",
+                    "question": "The realized return on a stock portfolio is the weighted average of the expected returns on the stocks in the portfolio.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 5,
+                    "topic": "Standard deviation",
+                    "type": "tf",
+                    "question": "The tighter the probability distribution of its expected future returns, the greater the risk of a given investment as measured by its standard deviation.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 6,
+                    "topic": "Coefficient of variation",
+                    "type": "tf",
+                    "question": "The coefficient of variation, calculated as the standard deviation of expected returns divided by the expected return, is a standardized measure of the risk per unit of expected return.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 7,
+                    "topic": "CV vs. SD",
+                    "type": "tf",
+                    "question": "The standard deviation is a better measure of risk than the coefficient of variation if the expected returns of the securities being compared differ significantly.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 8,
+                    "topic": "Risk aversion",
+                    "type": "tf",
+                    "question": "Risk-averse investors require higher rates of return on investments whose returns are highly uncertain.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 9,
+                    "topic": "Risk and expected return",
+                    "type": "tf",
+                    "question": "Companies should under no conditions take actions that increase their risk relative to the market, regardless of how much those actions would increase the firm's expected rate of return.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 10,
+                    "topic": "CAPM and risk",
+                    "type": "tf",
+                    "question": "One key conclusion of the Capital Asset Pricing Model is that the value an asset should be measured by considering both the risk and the expected return of the asset assuming that the asset is held in a well-diversified portfolio. The risk of the asset held in isolation is not relevant under the CAPM.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 11,
+                    "topic": "CAPM and risk",
+                    "type": "tf",
+                    "question": "According to the Capital Asset Pricing Model, investors are primarily concerned with portfolio risk, not the risks of individual stocks held in isolation. Thus, the relevant risk of a stock is the stock's contribution to the riskiness of a well-diversified portfolio.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 12,
+                    "topic": "Physical assets",
+                    "type": "tf",
+                    "question": "Most corporations earn returns for their stockholders by acquiring and operating tangible and intangible assets. The relevant risk of such assets should be measured in terms of their effects on the risk of the firm's stockholders.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 13,
+                    "topic": "Market risk",
+                    "type": "tf",
+                    "question": "Market risk refers to the tendency of a stock to move with the general stock market. A stock with above-average market risk will tend to be more volatile than an average stock, and its beta will be greater than 1.0.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 14,
+                    "topic": "Market risk",
+                    "type": "tf",
+                    "question": "An individual stock's diversifiable risk, which is measured by the stock's beta, can be lowered by adding more stocks to the portfolio in which the stock is held.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 15,
+                    "topic": "Beta coefficient",
+                    "type": "tf",
+                    "question": "A stock's beta measures its diversifiable (or company-specific) risk relative to the diversifiable risks of other firms.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 16,
+                    "topic": "Beta coefficient",
+                    "type": "tf",
+                    "question": "A stock's beta is more relevant as a measure of risk to an investor who holds only one stock than to an investor who holds a well-diversified portfolio.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 17,
+                    "topic": "Changes in beta",
+                    "type": "tf",
+                    "question": "A firm can change its beta through managerial decisions, including capital budgeting and capital structure decisions.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 18,
+                    "topic": "Required return",
+                    "type": "tf",
+                    "question": "The required rate of return on a firm's common stock is determined only by the firm's market risk. If its market risk is known, and if that risk is expected to remain constant, then analysts have all the information they need to calculate the firm's required rate of return.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 19,
+                    "topic": "SML",
+                    "type": "tf",
+                    "question": "The slope of the SML is determined by the value of beta.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 20,
+                    "topic": "SML",
+                    "type": "tf",
+                    "question": "The slope of the SML is determined by investors' aversion to risk. The greater the marginal investor's risk aversion, the steeper the SML.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 21,
+                    "topic": "SML and risk aversion",
+                    "type": "tf",
+                    "question": "If investors become less averse to risk, the slope of the Security Market Line (SML) will increase.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 22,
+                    "topic": "Variance",
+                    "type": "tf",
+                    "question": "Variance is a measure of the variability of returns, and since it involves squaring the deviation of each actual return from the expected return, it is always larger than its square root, its standard deviation.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 23,
+                    "topic": "Expected return",
+                    "type": "tf",
+                    "question": "If the expected rate of return for a particular stock, as seen by the marginal investor, exceeds its required rate of return, we should soon observe an increase in demand for the stock, and the price will likely increase until a price is established that equates the expected return with the required return. The sooner this equilibrium is reached, the more efficient the market is judged to be.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 24,
+                    "topic": "Coefficient of variation",
+                    "type": "tf",
+                    "question": "Because of differences in the expected returns of different investments, the standard deviation is not always an adequate measure of risk. However, the coefficient of variation adjusts for differences in expected returns and thus allows investors to make better comparisons of investments' stand-alone risk.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 25,
+                    "topic": "Risk aversion",
+                    "type": "tf",
+                    "question": "'Risk aversion' implies that investors require higher expected returns on risky securities if they are to be induced to purchase them.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 26,
+                    "topic": "Risk premiums and risk aversion",
+                    "type": "tf",
+                    "question": "Risk aversion is a general dislike for risk, and a preference for certainty. If risk aversion exists in the market, then investors in general are willing to accept somewhat lower returns on less risky securities. Different investors have different degrees of risk aversion, and the end result is that investors with greater risk aversion tend to hold lower risk (and therefore lower expected return) securities than investors who have more tolerance for risk.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 27,
+                    "topic": "Portfolio risk",
+                    "type": "tf",
+                    "question": "Portfolio A has but one security, while Portfolio B has 100 securities. Because of diversification effects, we would expect Portfolio B to have the lower risk. However, it is possible for Portfolio A to be less risky.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 28,
+                    "topic": "Portfolio risk",
+                    "type": "tf",
+                    "question": "Portfolio A has but one stock, while Portfolio B consists of all stocks that trade in the market, each held in proportion to its market value. Because of its diversification, Portfolio B will by definition be riskless.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 29,
+                    "topic": "Portfolio risk",
+                    "type": "tf",
+                    "question": "A portfolio's risk is measured by the weighted average of the standard deviations of the securities in the portfolio. It is this aspect of portfolios that allows investors to combine stocks and actually reduce the riskiness of a portfolio.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 30,
+                    "topic": "Portfolio risk and return",
+                    "type": "tf",
+                    "question": "The distributions of rates of return for Companies AA and BB are given below:\nState of Economy | Probability of State Occurring | AA | BB\n--- | --- | --- | ---\nBoom | 0.2 | 30% | -10%\nNormal | 0.6 | 10% | 5%\nRecession | 0.2 | -5% | 50%\nWe can conclude from the above information that any rational risk-averse investor will add Security AA to a well-diversified portfolio over Security BB.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 31,
+                    "topic": "Correlation coefficient and risk",
+                    "type": "tf",
+                    "question": "Even if the correlation between the returns on two securities is +1.0, if the securities are combined in the correct proportions, the resulting 2-asset portfolio will have less risk than either security held alone.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 32,
+                    "topic": "Company-specific risk",
+                    "type": "tf",
+                    "question": "Bad managerial judgments or unforeseen negative events that happen to a firm are defined as 'company-specific,' or 'unsystematic,' events, and their effects on investment risk can in theory be diversified away.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 33,
+                    "topic": "Beta coefficient",
+                    "type": "tf",
+                    "question": "Assume that two investors each hold a portfolio, and that portfolio is their only asset. Investor A's portfolio has a beta of minus 2.0, while Investor B's portfolio has a beta of plus 2.0. Assuming that the unsystematic risks of the stocks in the two portfolios are the same, then the two investors face the same amount of risk. However, the holders of either portfolio could lower their risks, and by exactly the same amount, by adding some 'normal' stocks with beta = 1.0.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 34,
+                    "topic": "Portfolio beta",
+                    "type": "tf",
+                    "question": "We will generally find that the beta of a single security is more stable over time than the beta of a diversified portfolio.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 35,
+                    "topic": "Diversification effects",
+                    "type": "tf",
+                    "question": "If an investor buys enough stocks, he or she can, through diversification, eliminate all of the market risk inherent in owning stocks, but as a general rule it will not be possible to eliminate all company-specific risk.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 36,
+                    "topic": "CAPM",
+                    "type": "tf",
+                    "question": "The CAPM is built on historic conditions, although in most cases we use expected future data in applying it. Because betas used in the CAPM are calculated using expected future data, they are not subject to changes in future volatility. This is one of the strengths of the CAPM.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 37,
+                    "topic": "CAPM and inflation",
+                    "type": "tf",
+                    "question": "If the price of money (e.g., interest rates and equity capital costs) increases due to an increase in anticipated inflation, the risk-free rate will also increase. If there is no change in investors' risk aversion, then the market risk premium (rM - rRF) will remain constant. Also, if there is no change in stocks' betas, then the required rate of return on each stock as measured by the CAPM will increase by the same amount as the increase in expected inflation.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 38,
+                    "topic": "Market risk premium",
+                    "type": "tf",
+                    "question": "Since the market return represents the expected return on an average stock, that return has a certain amount of risk. As a result, there exists a market risk premium, which is the amount over and above the risk-free rate, that is required to compensate stock investors for assuming an average amount of risk.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 39,
+                    "topic": "SML",
+                    "type": "tf",
+                    "question": "If you plotted the returns of a given stock against those of the market, and if you found that the slope of the regression line was negative, the CAPM would indicate that the required rate of return on the stock should be greater than the risk-free rate for a well-diversified investor, assuming that the observed relationship is expected to continue into the future.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 40,
+                    "topic": "SML",
+                    "type": "tf",
+                    "question": "The Y-axis intercept of the SML represents the required return of a portfolio with a beta of zero, or the risk-free rate.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 41,
+                    "topic": "Changes in beta",
+                    "type": "tf",
+                    "question": "Any change in beta is likely to affect the required rate of return on a stock, which implies that a change in beta will likely have an impact on the stock's price.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 42,
+                    "topic": "Standard deviation",
+                    "type": "mcq",
+                    "question": "A highly risk-averse investor is considering adding one additional stock to a 3-stock portfolio, to form a 4-stock portfolio. The three stocks currently held all have b = 1.0 and a perfect positive correlation with the market. Potential new Stocks A and B both have expected returns of 15%, and both are equally correlated with the market, with r = 0.75. However, Stock A's standard deviation of returns is 12% versus 8% for Stock B. Which stock should this investor add to his or her portfolio, or does the choice matter?",
+                    "options": [
+                        "Either A or B, i.e., the investor should be indifferent between the two.",
+                        "Stock A.",
+                        "Stock B.",
+                        "Neither A nor B, as neither has a return sufficient to compensate for risk.",
+                        "Add A, since its beta must be lower."
+                    ],
+                    "answer": "Stock B.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 43,
+                    "topic": "Portfolio risk",
+                    "type": "mcq",
+                    "question": "Stocks A and B both have an expected return of 10% and a standard deviation of returns of 25%. Stock A has a beta of 0.8 and Stock B has a beta of 1.2. The correlation coefficient, r, between the two stocks is 0.6. Portfolio P is a portfolio with 50% invested in Stock A and 50% invested in B. Which of the following statements is CORRECT?",
+                    "options": [
+                        "Portfolio P has a standard deviation of 25% and a beta of 1.0.",
+                        "Based on the information we are given, and assuming those are the views of the marginal investor, it is apparent that the two stocks are in equilibrium.",
+                        "Portfolio P has more market risk than Stock A but less market risk than Stock B.",
+                        "Stock A should have a higher expected return than Stock B as viewed by the marginal investor.",
+                        "Portfolio P has a coefficient of variation equal to 2.5."
+                    ],
+                    "answer": "Portfolio P has more market risk than Stock A but less market risk than Stock B.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 44,
+                    "topic": "Portfolio risk",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "An investor can eliminate virtually all market risk if he or she holds a very large and well diversified portfolio of stocks.",
+                        "The higher the correlation between the stocks in a portfolio, the lower the risk inherent in the portfolio.",
+                        "It is impossible to have a situation where the market risk of a single stock is less than that of a portfolio that includes the stock.",
+                        "Once a portfolio has about 40 stocks, adding additional stocks will not reduce its risk by even a small amount.",
+                        "An investor can eliminate virtually all diversifiable risk if he or she holds a very large, well diversified portfolio of stocks."
+                    ],
+                    "answer": "An investor can eliminate virtually all diversifiable risk if he or she holds a very large, well diversified portfolio of stocks.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 45,
+                    "topic": "Portfolio risk and beta",
+                    "type": "mcq",
+                    "question": "Stock A has a beta = 0.8, while Stock B has a beta = 1.6. Which of the following statements is CORRECT?",
+                    "options": [
+                        "Stock Bs required return is double that of Stock As.",
+                        "If the marginal investor becomes more risk averse, the required return on Stock B will increase by more than the required return on Stock A.",
+                        "An equally weighted portfolio of Stocks A and B will have a beta lower than 1.2.",
+                        "If the marginal investor becomes more risk averse, the required return on Stock A will increase by more than the required return on Stock B.",
+                        "If the risk-free rate increases but the market risk premium remains constant, the required return on Stock A will increase by more than that on Stock B."
+                    ],
+                    "answer": "If the marginal investor becomes more risk averse, the required return on Stock B will increase by more than the required return on Stock A.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 46,
+                    "topic": "Portfolio risk and beta",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "If you add enough randomly selected stocks to a portfolio, you can completely eliminate all of the market risk from the portfolio.",
+                        "If you were restricted to investing in publicly traded common stocks, yet you wanted to minimize the riskiness of your portfolio as measured by its beta, then according to the CAPM theory you should invest an equal amount of money in each stock in the market. That is, if there were 10,000 traded stocks in the world, the least risky possible portfolio would include some shares of each one.",
+                        "If you formed a portfolio that consisted of all stocks with betas less than 1.0, which is about half of all stocks, the portfolio would itself have a beta coefficient that is equal to the weighted average beta of the stocks in the portfolio, and that portfolio would have less risk than a portfolio that consisted of all stocks in the market.",
+                        "Market risk can be eliminated by forming a large portfolio, and if some Treasury bonds are held in the portfolio, the portfolio can be made to be completely riskless.",
+                        "A portfolio that consists of all stocks in the market would have a required return that is equal to the riskless rate."
+                    ],
+                    "answer": "If you formed a portfolio that consisted of all stocks with betas less than 1.0, which is about half of all stocks, the portfolio would itself have a beta coefficient that is equal to the weighted average beta of the stocks in the portfolio, and that portfolio would have less risk than a portfolio that consisted of all stocks in the market.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 47,
+                    "topic": "Market risk",
+                    "type": "mcq",
+                    "question": "Inflation, recession, and high interest rates are economic events that are best characterized as being",
+                    "options": [
+                        "systematic risk factors that can be diversified away.",
+                        "company-specific risk factors that can be diversified away.",
+                        "among the factors that are responsible for market risk.",
+                        "risks that are beyond the control of investors and thus should not be considered by security analysts or portfolio managers.",
+                        "irrelevant except to governmental authorities like the Federal Reserve."
+                    ],
+                    "answer": "among the factors that are responsible for market risk.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 48,
+                    "topic": "Beta coefficients",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "The beta of a portfolio of stocks is always smaller than the betas of any of the individual stocks.",
+                        "If you found a stock with a zero historical beta and held it as the only stock in your portfolio, you would by definition have a riskless portfolio.",
+                        "The beta coefficient of a stock is normally found by regressing past returns on a stock against past market returns. One could also construct a scatter diagram of returns on the stock versus those on the market, estimate the slope of the line of best fit, and use it as beta. However, this historical beta may differ from the beta that exists in the future.",
+                        "The beta of a portfolio of stocks is always larger than the betas of any of the individual stocks.",
+                        "It is theoretically possible for a stock to have a beta of 1.0. If a stock did have a beta of 1.0, then, at least in theory, its required rate of return would be equal to the risk-free (default-free) rate of return, rRF."
+                    ],
+                    "answer": "The beta coefficient of a stock is normally found by regressing past returns on a stock against past market returns. One could also construct a scatter diagram of returns on the stock versus those on the market, estimate the slope of the line of best fit, and use it as beta. However, this historical beta may differ from the beta that exists in the future.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 49,
+                    "topic": "Beta coefficients",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "Collections Inc. is in the business of collecting past-due accounts for other companies, i.e., it is a collection agency. Collections revenues, profits, and stock price tend to rise during recessions. This suggests that Collections Inc.s beta should be quite high, say 2.0, because it does so much better than most other companies when the economy is weak.",
+                        "Suppose the returns on two stocks are negatively correlated. One has a beta of 1.2 as determined in a regression analysis using data for the last 5 years, while the other has a beta of -0.6. The returns on the stock with the negative beta will be negatively correlated with returns on most other stocks in the market during that 5-year period.",
+                        "Suppose you are managing a stock portfolio, and you have information that leads you to believe the stock market is likely to be very strong in the immediate future. That is, you are convinced that the market is about to rise sharply. You should sell your high-beta stocks and buy low-beta stocks in order to take advantage of the expected market move.",
+                        "You think that investor sentiment is about to change, and investors are about to become more risk averse. This suggests that you should re-balance your portfolio to include more high-beta stocks.",
+                        "If the market risk premium remains constant, but the risk-free rate declines, then the required returns on low beta stocks will rise while those on high beta stocks will decline."
+                    ],
+                    "answer": "Suppose the returns on two stocks are negatively correlated. One has a beta of 1.2 as determined in a regression analysis using data for the last 5 years, while the other has a beta of -0.6. The returns on the stock with the negative beta will be negatively correlated with returns on most other stocks in the market during that 5-year period.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 50,
+                    "topic": "Beta coefficients",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "If a company with a high-beta stock merges with a low-beta company, the best estimate of the new merged companys beta is 1.0.",
+                        "Logically, it is easier to estimate the betas associated with capital budgeting projects than the betas associated with stocks, especially if the projects are closely associated with research and development activities.",
+                        "The beta of an average stock, or the market, can change over time, sometimes drastically.",
+                        "If a newly issued stock does not have a past history that can be used as a basis for calculating beta, then we should always estimate that its beta will turn out to be 1.0. This is especially true if the company finances with more debt than the average firm.",
+                        "During a period when a company is undergoing a change such as increasing its use of leverage or taking on riskier projects, the calculated historical beta may be drastically different than the true or expected future beta."
+                    ],
+                    "answer": "During a period when a company is undergoing a change such as increasing its use of leverage or taking on riskier projects, the calculated historical beta may be drastically different than the true or expected future beta.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 51,
+                    "topic": "Beta coefficients",
+                    "type": "mcq",
+                    "question": "Stock A's beta is 1.5 and Stock B's beta is 0.5. Which of the following statements must be true, assuming the CAPM is correct.",
+                    "options": [
+                        "Stock A would be a more desirable addition to a portfolio than Stock B.",
+                        "In equilibrium, the expected return on Stock B will be greater than that on Stock A.",
+                        "When held in isolation, Stock A has more risk than Stock B.",
+                        "Stock B would be a more desirable addition to a portfolio than Stock A.",
+                        "In equilibrium, the expected return on Stock A will be greater than that on Stock B."
+                    ],
+                    "answer": "In equilibrium, the expected return on Stock A will be greater than that on Stock B.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 52,
+                    "topic": "Beta coefficients",
+                    "type": "mcq",
+                    "question": "Stock X has a beta of 0.5 and Stock Y has a beta of 1.5. Which of the following statements must be true, according to the CAPM?",
+                    "options": [
+                        "If you invest $50,000 in Stock X and $50,000 in Stock Y, your 2-stock portfolio will have a beta significantly lower than 1.0, provided the returns on the two stocks are not perfectly correlated.",
+                        "Stock Ys return during the coming year will be higher than Stock Xs return.",
+                        "If expected inflation increases but the market risk premium is unchanged, the required returns on the two stocks will increase by the same amount.",
+                        "Stock Ys return has a higher standard deviation than Stock X.",
+                        "If the market risk premium declines, but the risk-free rate is unchanged, Stock X will have a larger decline in its required return than will Stock Y."
+                    ],
+                    "answer": "If expected inflation increases but the market risk premium is unchanged, the required returns on the two stocks will increase by the same amount.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 53,
+                    "topic": "Portfolio risk concepts",
+                    "type": "mcq",
+                    "question": "Consider the following information for three stocks, A, B, and C, and portfolios of these stocks. The stocks' returns are positively but not perfectly positively correlated with one another, i.e., the correlation coefficients are all between 0 and 1.\nStock | Expected Return | Standard Deviation | Beta\n--- | --- | --- | ---\nStock A | 10% | 20% | 1.0\nStock B | 10% | 10% | 1.0\nStock C | 12% | 12% | 1.4\nPortfolio AB has half of its funds invested in Stock A and half in Stock B. Portfolio ABC has one third of its funds invested in each of the three stocks. The risk-free rate is 5%, and the market is in equilibrium, so required returns equal expected returns. Which of the following statements is CORRECT?",
+                    "options": [
+                        "Portfolio AB has a standard deviation of 20%.",
+                        "Portfolio ABs coefficient of variation is greater than 2.0.",
+                        "Portfolio ABs required return is greater than the required return on Stock A.",
+                        "Portfolio ABCs expected return is 10.67%.",
+                        "Portfolio ABC has a standard deviation of 20%."
+                    ],
+                    "answer": "Portfolio ABCs expected return is 10.67%.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 54,
+                    "topic": "Portfolio return, CAPM, and beta",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "If the returns on two stocks are perfectly positively correlated (i.e., the correlation coefficient is +1) and the stocks have equal standard deviations, an equally weighted portfolio of the two stocks will have a standard deviation that is less than that of the individual stocks.",
+                        "A portfolio with a large number of randomly selected stocks would have more market risk than a single stock that has a beta of 0.5, assuming that the stock's beta was correctly calculated and is stable.",
+                        "If a stock has a negative beta, its expected return must be negative.",
+                        "A portfolio with a large number of randomly selected stocks would have less market risk than a single stock that has a beta of 0.5.",
+                        "According to the CAPM, stocks with higher standard deviations of returns must also have higher expected returns."
+                    ],
+                    "answer": "A portfolio with a large number of randomly selected stocks would have more market risk than a single stock that has a beta of 0.5, assuming that the stock's beta was correctly calculated and is stable.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 55,
+                    "topic": "Risk analysis and portfolio diversification",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "A stocks beta is less relevant as a measure of risk to an investor with a well-diversified portfolio than to an investor who holds only that one stock.",
+                        "If an investor buys enough stocks, he or she can, through diversification, eliminate all of the diversifiable risk inherent in owning stocks. Therefore, if a portfolio contained all publicly traded stocks, it would be essentially riskless.",
+                        "The required return on a firms common stock is, in theory, determined solely by its market risk. If the market risk is known, and if that risk is expected to remain constant, then no other information is required to specify the firms required return.",
+                        "Portfolio diversification reduces the variability of returns (as measured by the standard deviation) of each individual stock held in a portfolio.",
+                        "A securitys beta measures its non-diversifiable, or market, risk relative to that of an average stock."
+                    ],
+                    "answer": "A securitys beta measures its non-diversifiable, or market, risk relative to that of an average stock.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 56,
+                    "topic": "Risk analysis and portfolio diversification",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "A large portfolio of randomly selected stocks will always have a standard deviation of returns that is less than the standard deviation of a portfolio with fewer stocks, regardless of how the stocks in the smaller portfolio are selected.",
+                        "Company-specific (or diversifiable) risk can be reduced by forming a large portfolio, but normally even highly-diversified portfolios are subject to market (or systematic) risk.",
+                        "A large portfolio of randomly selected stocks will have a standard deviation of returns that is greater than the standard deviation of a 1-stock portfolio if that one stock has a beta less than 1.0.",
+                        "A large portfolio of stocks whose betas are greater than 1.0 will have less market risk than a single stock with a beta = 0.8.",
+                        "If you add enough randomly selected stocks to a portfolio, you can completely eliminate all of the market risk from the portfolio."
+                    ],
+                    "answer": "Company-specific (or diversifiable) risk can be reduced by forming a large portfolio, but normally even highly-diversified portfolios are subject to market (or systematic) risk.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 57,
+                    "topic": "Portfolio risk, return, and beta",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "A two-stock portfolio will always have a lower standard deviation than a one-stock portfolio.",
+                        "A portfolio that consists of 40 stocks that are not highly correlated with the market will probably be less risky than a portfolio of 40 stocks that are highly correlated with the market, assuming the stocks all have the same standard deviations.",
+                        "A two-stock portfolio will always have a lower beta than a one-stock portfolio.",
+                        "If portfolios are formed by randomly selecting stocks, a 10-stock portfolio will always have a lower beta than a one-stock portfolio.",
+                        "A stock with an above-average standard deviation must also have an above-average beta."
+                    ],
+                    "answer": "A portfolio that consists of 40 stocks that are not highly correlated with the market will probably be less risky than a portfolio of 40 stocks that are highly correlated with the market, assuming the stocks all have the same standard deviations.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 58,
+                    "topic": "Portfolio risk and return",
+                    "type": "mcq",
+                    "question": "Stock A has an expected return of 12%, a beta of 1.2, and a standard deviation of 20%. Stock B also has a beta of 1.2, an expected return of 10%, and a standard deviation of 15%. Portfolio AB has $900,000 invested in Stock A and $300,000 invested in Stock B. The correlation between the two stocks returns is zero (that is, rA,B = 0). Which of the following statements is CORRECT?",
+                    "options": [
+                        "Portfolio ABs standard deviation is 17.5%.",
+                        "The stocks are not in equilibrium based on the CAPM; if A is valued correctly, then B is overvalued.",
+                        "The stocks are not in equilibrium based on the CAPM; if A is valued correctly, then B is undervalued.",
+                        "Portfolio ABs expected return is 11.0%.",
+                        "Portfolio ABs beta is less than 1.2."
+                    ],
+                    "answer": "The stocks are not in equilibrium based on the CAPM; if A is valued correctly, then B is overvalued.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 59,
+                    "topic": "Portfolio risk and return",
+                    "type": "mcq",
+                    "question": "For a portfolio of 40 randomly selected stocks, which of the following is most likely to be true?",
+                    "options": [
+                        "The riskiness of the portfolio is greater than the riskiness of each of the stocks if each was held in isolation.",
+                        "The riskiness of the portfolio is the same as the riskiness of each of the stocks if each was held in isolation.",
+                        "The beta of the portfolio is less than the average of the betas of the individual stocks.",
+                        "The beta of the portfolio is equal to the average of the betas of the individual stocks.",
+                        "The beta of the portfolio is larger than the average of the betas of the individual stocks."
+                    ],
+                    "answer": "The beta of the portfolio is equal to the average of the betas of the individual stocks.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 60,
+                    "topic": "Portfolio risk and return",
+                    "type": "mcq",
+                    "question": "Which of the following statements best describes what you should expect to happen if you randomly select stocks and add them to your portfolio?",
+                    "options": [
+                        "Adding more such stocks will reduce the portfolios unsystematic, or diversifiable, risk.",
+                        "Adding more such stocks will increase the portfolios expected rate of return.",
+                        "Adding more such stocks will reduce the portfolios beta coefficient and thus its systematic risk.",
+                        "Adding more such stocks will have no effect on the portfolios risk.",
+                        "Adding more such stocks will reduce the portfolios market risk but not its unsystematic risk."
+                    ],
+                    "answer": "Adding more such stocks will reduce the portfolios unsystematic, or diversifiable, risk.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 61,
+                    "topic": "Portfolio risk and return",
+                    "type": "mcq",
+                    "question": "Bob has a $50,000 stock portfolio with a beta of 1.2, an expected return of 10.8%, and a standard deviation of 25%. Becky also has a $50,000 portfolio, but it has a beta of 0.8, an expected return of 9.2%, and a standard deviation that is also 25%. The correlation coefficient, r, between Bobs and Beckys portfolios is zero. If Bob and Becky marry and combine their portfolios, which of the following best describes their combined $100,000 portfolio?",
+                    "options": [
+                        "The combined portfolios expected return will be less than the simple weighted average of the expected returns of the two individual portfolios, 10.0%.",
+                        "The combined portfolios beta will be equal to a simple average of the betas of the two individual portfolios, 1.0; its expected return will be equal to a simple weighted average of the expected returns of the two individual portfolios, 10.0%; and its standard deviation will be less than the simple average of the two portfolios standard deviations, 25%.",
+                        "The combined portfolios expected return will be greater than the simple weighted average of the expected returns of the two individual portfolios, 10.0%.",
+                        "The combined portfolios standard deviation will be greater than the simple average of the two portfolios standard deviations, 25%.",
+                        "The combined portfolios standard deviation will be equal to a simple average of the two portfolios standard deviations, 25%."
+                    ],
+                    "answer": "The combined portfolios beta will be equal to a simple average of the betas of the two individual portfolios, 1.0; its expected return will be equal to a simple weighted average of the expected returns of the two individual portfolios, 10.0%; and its standard deviation will be less than the simple average of the two portfolios standard deviations, 25%.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 62,
+                    "topic": "Portfolio risk and return",
+                    "type": "mcq",
+                    "question": "Your portfolio consists of $50,000 invested in Stock X and $50,000 invested in Stock Y. Both stocks have an expected return of 15%, betas of 1.6, and standard deviations of 30%. The returns of the two stocks are independent, so the correlation coefficient between them, rXY, is zero. Which of the following statements best describes the characteristics of your 2-stock portfolio?",
+                    "options": [
+                        "Your portfolio has a standard deviation of 30%, and its expected return is 15%.",
+                        "Your portfolio has a standard deviation less than 30%, and its beta is greater than 1.6.",
+                        "Your portfolio has a beta equal to 1.6, and its expected return is 15%.",
+                        "Your portfolio has a beta greater than 1.6, and its expected return is greater than 15%.",
+                        "Your portfolio has a standard deviation greater than 30% and a beta equal to 1.6."
+                    ],
+                    "answer": "Your portfolio has a beta equal to 1.6, and its expected return is 15%.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 63,
+                    "topic": "Portfolio risk and return",
+                    "type": "mcq",
+                    "question": "Which of the following is most likely to occur as you add randomly selected stocks to your portfolio, which currently consists of 3 average stocks?",
+                    "options": [
+                        "The diversifiable risk of your portfolio will likely decline, but the market risk should not be expected to change.",
+                        "The expected return of your portfolio is likely to decline.",
+                        "The diversifiable risk will remain the same, but the market risk will likely decline.",
+                        "Both the diversifiable risk and the market risk of your portfolio are likely to decline.",
+                        "The total risk of your portfolio should decline, and as a result, the expected rate of return on the portfolio should also decline."
+                    ],
+                    "answer": "The diversifiable risk of your portfolio will likely decline, but the market risk should not be expected to change.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 64,
+                    "topic": "Portfolio risk and return",
+                    "type": "mcq",
+                    "question": "Stock X has a beta of 0.7 and Stock Y has a beta of 1.3. The standard deviation of each stocks returns is 20%. The stocks returns are independent of each other, i.e., the correlation coefficient, r, between them is zero. Portfolio P consists of 50% X and 50% Y. Given this information, which of the following statements is CORRECT?",
+                    "options": [
+                        "Portfolio P has a standard deviation of 20%.",
+                        "The required return on Portfolio P is equal to the market risk premium (rM rRF).",
+                        "Portfolio P has a beta of 0.7.",
+                        "Portfolio P has a beta of 1.0 and a required return that is equal to the riskless rate, rRF.",
+                        "Portfolio P has the same required return as the market (rM)."
+                    ],
+                    "answer": "Portfolio P has the same required return as the market (rM).",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 65,
+                    "topic": "Portfolio risk and return",
+                    "type": "mcq",
+                    "question": "Jane has a portfolio of 20 average stocks, and Dick has a portfolio of 2 average stocks. Assuming the market is in equilibrium, which of the following statements is CORRECT?",
+                    "options": [
+                        "Janes portfolio will have less diversifiable risk and also less market risk than Dicks portfolio.",
+                        "The required return on Janes portfolio will be lower than that on Dicks portfolio because Jane's portfolio will have less total risk.",
+                        "Dick's portfolio will have more diversifiable risk, the same market risk, and thus more total risk than Jane's portfolio, but the required (and expected) returns will be the same on both portfolios.",
+                        "If the two portfolios have the same beta, their required returns will be the same, but Janes portfolio will have less market risk than Dicks.",
+                        "The expected return on Janes portfolio must be lower than the expected return on Dicks portfolio because Jane is more diversified."
+                    ],
+                    "answer": "Dick's portfolio will have more diversifiable risk, the same market risk, and thus more total risk than Jane's portfolio, but the required (and expected) returns will be the same on both portfolios.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 66,
+                    "topic": "Portfolio risk and return",
+                    "type": "mcq",
+                    "question": "Stocks A and B each have an expected return of 12%, a beta of 1.2, and a standard deviation of 25%. The returns on the two stocks have a correlation of 0.6. Portfolio P has 50% in Stock A and 50% in Stock B. Which of the following statements is CORRECT?",
+                    "options": [
+                        "Portfolio P has a beta that is greater than 1.2.",
+                        "Portfolio P has a standard deviation that is greater than 25%.",
+                        "Portfolio P has an expected return that is less than 12%.",
+                        "Portfolio P has a standard deviation that is less than 25%.",
+                        "Portfolio P has a beta that is less than 1.2."
+                    ],
+                    "answer": "Portfolio P has a standard deviation that is less than 25%.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 67,
+                    "topic": "Portfolio risk and return",
+                    "type": "mcq",
+                    "question": "Stocks A, B, and C all have an expected return of 10% and a standard deviation of 25%. Stocks A and B have returns that are independent of one another, i.e., their correlation coefficient, r, equals zero. Stocks A and C have returns that are negatively correlated with one another, i.e., r is less than 0. Portfolio AB is a portfolio with half of its money invested in Stock A and half in Stock B. Portfolio AC is a portfolio with half of its money invested in Stock A and half invested in Stock C. Which of the following statements is CORRECT?",
+                    "options": [
+                        "Portfolio AC has an expected return that is less than 10%.",
+                        "Portfolio AC has an expected return that is greater than 25%.",
+                        "Portfolio AB has a standard deviation that is greater than 25%.",
+                        "Portfolio AB has a standard deviation that is equal to 25%.",
+                        "Portfolio AC has a standard deviation that is less than 25%."
+                    ],
+                    "answer": "Portfolio AC has a standard deviation that is less than 25%.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 68,
+                    "topic": "Portfolio risk and return",
+                    "type": "mcq",
+                    "question": "Stocks A and B each have an expected return of 15%, a standard deviation of 20%, and a beta of 1.2. The returns on the two stocks have a correlation coefficient of +0.6. You have a portfolio that consists of 50% A and 50% B. Which of the following statements is CORRECT?",
+                    "options": [
+                        "The portfolios beta is less than 1.2.",
+                        "The portfolios expected return is 15%.",
+                        "The portfolios standard deviation is greater than 20%.",
+                        "The portfolios beta is greater than 1.2.",
+                        "The portfolios standard deviation is 20%."
+                    ],
+                    "answer": "The portfolios expected return is 15%.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 69,
+                    "topic": "Portfolio risk and return",
+                    "type": "mcq",
+                    "question": "Stock A has a beta of 0.8, Stock B has a beta of 1.0, and Stock C has a beta of 1.2. Portfolio P has 1/3 of its value invested in each stock. Each stock has a standard deviation of 25%, and their returns are independent of one another, i.e., the correlation coefficients between each pair of stock is zero. Assuming the market is in equilibrium, which of the following statements is CORRECT?",
+                    "options": [
+                        "Portfolio Ps expected return is greater than the expected return on Stock B.",
+                        "Portfolio Ps expected return is equal to the expected return on Stock A.",
+                        "Portfolio Ps expected return is less than the expected return on Stock B.",
+                        "Portfolio Ps expected return is equal to the expected return on Stock B.",
+                        "Portfolio Ps expected return is greater than the expected return on Stock C."
+                    ],
+                    "answer": "Portfolio Ps expected return is equal to the expected return on Stock B.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 70,
+                    "topic": "Market risk premium",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT? (Assume that the risk-free rate is a constant.)",
+                    "options": [
+                        "If the market risk premium increases by 1%, then the required return will increase for stocks that have a beta greater than 1.0, but it will decrease for stocks that have a beta less than 1.0.",
+                        "The effect of a change in the market risk premium depends on the slope of the yield curve.",
+                        "If the market risk premium increases by 1%, then the required return on all stocks will rise by 1%.",
+                        "If the market risk premium increases by 1%, then the required return will increase by 1% for a stock that has a beta of 1.0.",
+                        "The effect of a change in the market risk premium depends on the level of the risk-free rate."
+                    ],
+                    "answer": "If the market risk premium increases by 1%, then the required return will increase by 1% for a stock that has a beta of 1.0.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 71,
+                    "topic": "Risk and return",
+                    "type": "mcq",
+                    "question": "Over the past 75 years, we have observed that investments with the highest average annual returns also tend to have the highest standard deviations of annual returns. This observation supports the notion that there is a positive correlation between risk and return. Which of the following answers correctly ranks investments from highest to lowest risk (and return), where the security with the highest risk is shown first, the one with the lowest risk last?",
+                    "options": [
+                        "Small-company stocks, long-term corporate bonds, large-company stocks, long-term government bonds, U.S. Treasury bills.",
+                        "Large-company stocks, small-company stocks, long-term corporate bonds, U.S. Treasury bills, long-term government bonds.",
+                        "Small-company stocks, large-company stocks, long-term corporate bonds, long-term government bonds, U.S. Treasury bills.",
+                        "U.S. Treasury bills, long-term government bonds, long-term corporate bonds, small-company stocks, large-company stocks.",
+                        "Large-company stocks, small-company stocks, long-term corporate bonds, long-term government bonds, U.S. Treasury bills."
+                    ],
+                    "answer": "Small-company stocks, large-company stocks, long-term corporate bonds, long-term government bonds, U.S. Treasury bills.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 72,
+                    "topic": "Required return",
+                    "type": "mcq",
+                    "question": "During the next year, the market risk premium, (rM - rRF), is expected to fall, while the risk-free rate, rRF, is expected to remain the same. Given this forecast, which of the following statements is CORRECT?",
+                    "options": [
+                        "The required return will increase for stocks with a beta less than 1.0 and will decrease for stocks with a beta greater than 1.0.",
+                        "The required return on all stocks will remain unchanged.",
+                        "The required return will fall for all stocks, but it will fall more for stocks with higher betas.",
+                        "The required return for all stocks will fall by the same amount.",
+                        "The required return will fall for all stocks, but it will fall less for stocks with higher betas."
+                    ],
+                    "answer": "The required return will fall for all stocks, but it will fall more for stocks with higher betas.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 73,
+                    "topic": "CAPM",
+                    "type": "mcq",
+                    "question": "The risk-free rate is 6%; Stock A has a beta of 1.0; Stock B has a beta of 2.0; and the market risk premium, rM rRF, is positive. Which of the following statements is CORRECT?",
+                    "options": [
+                        "If the risk-free rate increases but the market risk premium stays unchanged, Stock Bs required return will increase by more than Stock As.",
+                        "Stock Bs required rate of return is twice that of Stock A.",
+                        "If Stock As required return is 11%, then the market risk premium is 5%.",
+                        "If Stock Bs required return is 11%, then the market risk premium is 5%.",
+                        "If the risk-free rate remains constant but the market risk premium increases, Stock As required return will increase by more than Stock Bs."
+                    ],
+                    "answer": "If Stock As required return is 11%, then the market risk premium is 5%.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 74,
+                    "topic": "CAPM and required return",
+                    "type": "mcq",
+                    "question": "Assume that in recent years both expected inflation and the market risk premium (rM rRF) have declined. Assume also that all stocks have positive betas. Which of the following would be most likely to have occurred as a result of these changes?",
+                    "options": [
+                        "The required returns on all stocks have fallen, but the decline has been greater for stocks with lower betas.",
+                        "The required returns on all stocks have fallen, but the fall has been greater for stocks with higher betas.",
+                        "The average required return on the market, rM, has remained constant, but the required returns have fallen for stocks that have betas greater than 1.0.",
+                        "Required returns have increased for stocks with betas greater than 1.0 but have declined for stocks with betas less than 1.0.",
+                        "The required returns on all stocks have fallen by the same amount."
+                    ],
+                    "answer": "The required returns on all stocks have fallen, but the fall has been greater for stocks with higher betas.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 75,
+                    "topic": "CAPM and required return",
+                    "type": "mcq",
+                    "question": "Assume that the risk-free rate is 5%. Which of the following statements is CORRECT?",
+                    "options": [
+                        "If a stock has a negative beta, its required return under the CAPM would be less than 5%.",
+                        "If a stocks beta doubled, its required return under the CAPM would also double.",
+                        "If a stocks beta doubled, its required return under the CAPM would more than double.",
+                        "If a stocks beta were 1.0, its required return under the CAPM would be 5%.",
+                        "If a stocks beta were less than 1.0, its required return under the CAPM would be less than 5%."
+                    ],
+                    "answer": "If a stock has a negative beta, its required return under the CAPM would be less than 5%.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 76,
+                    "topic": "CAPM and required return",
+                    "type": "mcq",
+                    "question": "Stock HB has a beta of 1.5 and Stock LB has a beta of 0.5. The market is in equilibrium, with required returns equaling expected returns. Which of the following statements is CORRECT?",
+                    "options": [
+                        "If expected inflation remains constant but the market risk premium (rM - rRF) declines, the required return of Stock LB will decline but the required return of Stock HB will increase.",
+                        "If both expected inflation and the market risk premium (rM - rRF) increase, the required return on Stock HB will increase by more than that on Stock LB.",
+                        "If both expected inflation and the market risk premium (rM - rRF) increase, the required returns of both stocks will increase by the same amount.",
+                        "Since the market is in equilibrium, the required returns of the two stocks should be the same.",
+                        "If expected inflation remains constant but the market risk premium (rM - rRF) declines, the required return on Stock HB will decline but the required return of Stock LB will increase."
+                    ],
+                    "answer": "If both expected inflation and the market risk premium (rM - rRF) increase, the required return on Stock HB will increase by more than that on Stock LB.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 77,
+                    "topic": "CAPM and required return",
+                    "type": "mcq",
+                    "question": "Stock A has a beta of 0.8, Stock B has a beta of 1.0, and Stock C has a beta of 1.2. Portfolio P has equal amounts invested in each of the three stocks. Each of the stocks has a standard deviation of 25%. The returns on the three stocks are independent of one another (i.e., the correlation coefficients all equal zero). Assume that there is an increase in the market risk premium, but the risk-free rate remains unchanged. Which of the following statements is CORRECT?",
+                    "options": [
+                        "The required return of all stocks will remain unchanged since there was no change in their betas.",
+                        "The required return on Stock A will increase by less than the increase in the market risk premium, while the required return on Stock C will increase by more than the increase in the market risk premium.",
+                        "The required return on the average stock will remain unchanged, but the returns of riskier stocks (such as Stock C) will increase while the returns of safer stocks (such as Stock A) will decrease.",
+                        "The required returns on all three stocks will increase by the amount of the increase in the market risk premium.",
+                        "The required return on the average stock will remain unchanged, but the returns of riskier stocks (such as Stock C) will decrease while the returns on safer stocks (such as Stock A) will increase."
+                    ],
+                    "answer": "The required return on Stock A will increase by less than the increase in the market risk premium, while the required return on Stock C will increase by more than the increase in the market risk premium.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 78,
+                    "topic": "CAPM and required return",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "If a companys beta doubles, then its required rate of return will also double.",
+                        "Other things held constant, if investors suddenly became convinced that there would be deflation in the economy, then the required returns on all stocks should increase.",
+                        "If a companys beta were cut in half, then its required rate of return would also be halved.",
+                        "If the risk-free rate rises by 0.5% but the market risk premium declines by that same amount, then the required rates of return on stocks with betas less than average will decline while returns on stocks with above average betas will increase.",
+                        "If the risk-free rate rises by 0.5% but the market risk premium declines by that same amount, then the required rates of return on an average stock will remain unchanged, but required returns on stocks with betas less than 1.0 will rise."
+                    ],
+                    "answer": "If the risk-free rate rises by 0.5% but the market risk premium declines by that same amount, then the required rates of return on an average stock will remain unchanged, but required returns on stocks with betas less than 1.0 will rise.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 79,
+                    "topic": "CAPM, beta, and required return",
+                    "type": "mcq",
+                    "question": "Currently, the risk-free rate is 6% and the market risk premium is 5%. Given this information, which of the following statements is CORRECT?",
+                    "options": [
+                        "An index fund with beta = 1.0 should have a required return of 11%.",
+                        "If a stock has a negative beta, its required return must also be negative.",
+                        "An index fund with beta = 1.0 should have a required return less than 11%.",
+                        "If a stocks beta doubles, its required return must also double.",
+                        "An index fund with beta = 1.0 should have a required return greater than 11%."
+                    ],
+                    "answer": "An index fund with beta = 1.0 should have a required return of 11%.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 80,
+                    "topic": "SML",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "The slope of the security market line is equal to the market risk premium.",
+                        "Lower beta stocks have higher required returns.",
+                        "A stocks beta indicates its company-specific risk.",
+                        "Company-specific risk cannot be diversified away.",
+                        "Two securities with the same stand-alone risk will have the same betas."
+                    ],
+                    "answer": "The slope of the security market line is equal to the market risk premium.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 81,
+                    "topic": "SML",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "Beta is measured by the slope of the security market.",
+                        "If the risk-free rate rises, then the market risk premium will also rise.",
+                        "If a companys beta is halved, then its required return will also be halved.",
+                        "If a companys beta doubles, then its required return will also double.",
+                        "The slope of the security market line is equal to the market risk premium, (rM rRF)."
+                    ],
+                    "answer": "The slope of the security market line is equal to the market risk premium, (rM rRF).",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 82,
+                    "topic": "SML",
+                    "type": "mcq",
+                    "question": "Stock A has a beta of 1.2 and a standard deviation of 20%. Stock B has a beta of 0.8 and a standard deviation of 25%. Portfolio P has $200,000 consisting of $100,000 invested in Stock A and $100,000 in Stock B. Which of the following statements is CORRECT? (Assume that stocks are in equilibrium.)",
+                    "options": [
+                        "Stock As returns are less highly correlated with the returns on most other stocks than are Bs returns.",
+                        "Stock B has a higher required rate of return than Stock A.",
+                        "Portfolio P has a standard deviation of 22.5%.",
+                        "More information is needed to determine the portfolios beta.",
+                        "Portfolio P has a beta equal to 1.0."
+                    ],
+                    "answer": "Portfolio P has a beta equal to 1.0.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 83,
+                    "topic": "SML",
+                    "type": "mcq",
+                    "question": "Nile Foods stock has a beta of 1.4, while Elba Eateries stock has a beta of 0.7. Assume that the risk-free rate, rRF, is 5.5% and the market risk premium, (rM rRF), equals 4%. Which of the following statements is CORRECT?",
+                    "options": [
+                        "If the risk-free rate increases but the market risk premium remains unchanged, the required return will increase for both stocks but the increase will be larger for Nile since it has a higher beta.",
+                        "If the market risk premium increases but the risk-free rate remains unchanged, Niles required return will increase because it has a beta greater than 1.0 but Elbas will decline because it has a beta less than 1.0.",
+                        "Since Niles beta is twice that of Elbas, its required rate of return will also be twice that of Elbas.",
+                        "If the risk-free rate increases while the market risk premium remains constant, then the required return on an average stock will increase.",
+                        "If the market risk premium decreases but the risk-free rate remains unchanged, Niles required return will decrease because it has a beta greater than 1.0 and Elbas will also decrease, but by more than Niles because it has a beta less than 1.0."
+                    ],
+                    "answer": "If the risk-free rate increases while the market risk premium remains constant, then the required return on an average stock will increase.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 84,
+                    "topic": "SML",
+                    "type": "mcq",
+                    "question": "Stock X has a beta of 0.6, while Stock Y has a beta of 1.4. Which of the following statements is CORRECT?",
+                    "options": [
+                        "A portfolio consisting of $50,000 invested in Stock X and $50,000 invested in Stock Y will have a required return that exceeds that of the overall market.",
+                        "Stock Y must have a higher expected return and a higher standard deviation than Stock X.",
+                        "If expected inflation increases (but the market risk premium is unchanged), the required return on both stocks will decrease by the same amount.",
+                        "If the market risk premium decreases but expected inflation is unchanged, the required return on both stocks will decrease, but the decrease will be greater for Stock Y.",
+                        "If expected inflation decreases (but the market risk premium is unchanged), the required return on both stocks will decrease but the decrease will be greater for Stock Y."
+                    ],
+                    "answer": "If the market risk premium decreases but expected inflation is unchanged, the required return on both stocks will decrease, but the decrease will be greater for Stock Y.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 85,
+                    "topic": "SML",
+                    "type": "mcq",
+                    "question": "Stock A has a beta of 0.8 and Stock B has a beta of 1.2. 50% of Portfolio P is invested in Stock A and 50% is invested in Stock B. If the market risk premium (rM rRF) were to increase but the risk-free rate (rRF) remained constant, which of the following would occur?",
+                    "options": [
+                        "The required return will increase for both stocks but the increase will be greater for Stock B than for Stock A.",
+                        "The required return will decrease by the same amount for both Stock A and Stock B.",
+                        "The required return will increase for Stock A but will decrease for Stock B.",
+                        "The required return on Portfolio P will remain unchanged.",
+                        "The required return will increase for Stock B but will decrease for Stock A."
+                    ],
+                    "answer": "The required return will increase for both stocks but the increase will be greater for Stock B than for Stock A.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 86,
+                    "topic": "SML",
+                    "type": "mcq",
+                    "question": "Stock A has a beta of 0.7, whereas Stock B has a beta of 1.3. Portfolio P has 50% invested in both A and B. Which of the following would occur if the market risk premium increased by 1%? (Assume that the risk-free rate remains constant.)",
+                    "options": [
+                        "The required return on Portfolio P would increase by 1%.",
+                        "The required return on both stocks would increase by 1%.",
+                        "The required return on Portfolio P would remain unchanged.",
+                        "The required return on Stock A would increase by more than 1%, while the return on Stock B would increase by less than 1%.",
+                        "The required return for Stock A would fall, but the required return for Stock B would increase."
+                    ],
+                    "answer": "The required return on Portfolio P would increase by 1%.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 87,
+                    "topic": "SML",
+                    "type": "mcq",
+                    "question": "Assume that the risk-free rate remains constant, but the market risk premium declines. Which of the following is most likely to occur?",
+                    "options": [
+                        "The required return on a stock with beta = 1.0 will not change.",
+                        "The required return on a stock with beta > 1.0 will increase.",
+                        "The return on the market will remain constant.",
+                        "The return on the market will increase.",
+                        "The required return on a stock with beta < 1.0 will decline."
+                    ],
+                    "answer": "The required return on a stock with beta < 1.0 will decline.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 88,
+                    "topic": "SML",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "The slope of the SML is determined by the value of beta.",
+                        "The SML shows the relationship between companies required returns and their diversifiable risks. The slope and intercept of this line cannot be influenced by a firms managers, but the position of the company on the line can be influenced by managers.",
+                        "Suppose you plotted the returns of a given stock against those of the market, and you found that the slope of the regression line was negative. The CAPM would indicate that the required rate of return on the stock should be less than the risk-free rate for a well-diversified investor, assuming investors in the market expect the observed relationship to continue on into the future.",
+                        "If investors become less risk averse, the slope of the Security Market Line will increase.",
+                        "If a company increases its use of debt, this is likely to cause the slope of its SML to increase, indicating a higher required return on the stock."
+                    ],
+                    "answer": "Suppose you plotted the returns of a given stock against those of the market, and you found that the slope of the regression line was negative. The CAPM would indicate that the required rate of return on the stock should be less than the risk-free rate for a well-diversified investor, assuming investors in the market expect the observed relationship to continue on into the future.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 89,
+                    "topic": "SML",
+                    "type": "mcq",
+                    "question": "Other things held constant, if the expected inflation rate decreases and investors also become more risk averse, the Security Market Line would shift in this manner:",
+                    "options": [
+                        "Down and have a steeper slope.",
+                        "Up and have a less steep slope.",
+                        "Up and keep the same slope.",
+                        "Down and keep the same slope.",
+                        "Down and have a less steep slope."
+                    ],
+                    "answer": "Down and have a steeper slope.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 90,
+                    "topic": "SML",
+                    "type": "mcq",
+                    "question": "Assume that the risk-free rate, rRF, increases but the market risk premium, (rM rRF) declines, with the net effect being that the overall required return on the market, rM, remains constant. Which of the following statements is CORRECT?",
+                    "options": [
+                        "The required return of all stocks will increase by the amount of the increase in the risk-free rate.",
+                        "The required return will decline for stocks that have a beta less than 1.0 but will increase for stocks that have a beta greater than 1.0.",
+                        "Since the overall return on the market stays constant, the required return on each individual stock will remain constant.",
+                        "The required return will increase for stocks that have a beta less than 1.0 but decline for stocks that have a beta greater than 1.0.",
+                        "The required return of all stocks will fall by the amount of the decline in the market risk premium."
+                    ],
+                    "answer": "The required return will increase for stocks that have a beta less than 1.0 but decline for stocks that have a beta greater than 1.0.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 91,
+                    "topic": "SML, CAPM, and beta",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "If a stock has a beta equal to 1.0, its required rate of return will be unaffected by changes in the market risk premium.",
+                        "The slope of the security market line is beta.",
+                        "A stock with a negative beta must in theory have a negative required rate of return.",
+                        "If a stocks beta doubles, its required rate of return must also double.",
+                        "If a stocks returns are negatively correlated with returns on most other stocks, the stocks beta will be negative."
+                    ],
+                    "answer": "If a stocks returns are negatively correlated with returns on most other stocks, the stocks beta will be negative.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 92,
+                    "topic": "SML and risk aversion",
+                    "type": "mcq",
+                    "question": "Assume that investors have recently become more risk averse, so the market risk premium has increased. Also, assume that the risk-free rate and expected inflation have not changed. Which of the following is most likely to occur?",
+                    "options": [
+                        "The required rate of return for an average stock will increase by an amount equal to the increase in the market risk premium.",
+                        "The required rate of return will decline for stocks whose betas are less than 1.0.",
+                        "The required rate of return on the market, rM, will not change as a result of these changes.",
+                        "The required rate of return for each individual stock in the market will increase by an amount equal to the increase in the market risk premium.",
+                        "The required rate of return on a riskless bond will decline."
+                    ],
+                    "answer": "The required rate of return for an average stock will increase by an amount equal to the increase in the market risk premium.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 93,
+                    "topic": "SML, CAPM, and portfolio risk",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "A graph of the SML as applied to individual stocks would show required rates of return on the vertical axis and standard deviations of returns on the horizontal axis.",
+                        "The CAPM has been thoroughly tested, and the theory has been confirmed beyond any reasonable doubt.",
+                        "If two normal or typical stocks were combined to form a 2-stock portfolio, the portfolios expected return would be a weighted average of the stocks expected returns, but the portfolios standard deviation would probably be greater than the average of the stocks standard deviations.",
+                        "If investors become more risk averse, then (1) the slope of the SML would increase and (2) the required rate of return on low-beta stocks would increase by more than the required return on high-beta stocks.",
+                        "An increase in expected inflation, combined with a constant real risk-free rate and a constant market risk premium, would lead to identical increases in the required return on a riskless asset and on an average stock, other things held constant."
+                    ],
+                    "answer": "An increase in expected inflation, combined with a constant real risk-free rate and a constant market risk premium, would lead to identical increases in the required return on a riskless asset and on an average stock, other things held constant.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 94,
+                    "topic": "Risk concepts",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "When company-specific risk has been diversified away, the inherent risk that remains is market risk, which is constant for all stocks in the market.",
+                        "Portfolio diversification reduces the variability of returns on an individual stock.",
+                        "Risk refers to the chance that some unfavorable event will occur, and a probability distribution is completely described by a listing of the likelihoods of unfavorable events.",
+                        "The SML relates a stock's required return to its market risk. The slope and intercept of this line cannot be controlled by the firms' managers, but managers can influence their firms' positions on the line.",
+                        "A stock with a beta of -1.0 has zero market risk if held in a 1-stock portfolio."
+                    ],
+                    "answer": "The SML relates a stock's required return to its market risk. The slope and intercept of this line cannot be controlled by the firms' managers, but managers can influence their firms' positions on the line.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 95,
+                    "topic": "Risk measures",
+                    "type": "mcq",
+                    "question": "You observe the following information regarding Companies X and Y:\n- Company X has a higher expected return than Company Y.\n- Company X has a lower standard deviation of returns than Company Y.\n- Company X has a higher beta than Company Y.\nGiven this information, which of the following statements is CORRECT?",
+                    "options": [
+                        "Company X has more company-specific risk than Company Y.",
+                        "Company X has a lower coefficient of variation than Company Y.",
+                        "Company X has less market risk than Company Y.",
+                        "Company Xs returns will be negative when Ys returns are positive.",
+                        "Company Xs stock is a better buy than Company Ys stock."
+                    ],
+                    "answer": "Company X has a lower coefficient of variation than Company Y.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 96,
+                    "topic": "Portfolio return",
+                    "type": "mcq",
+                    "question": "The risk-free rate is 6% and the market risk premium is 5%. Your $1 million portfolio consists of $700,000 invested in a stock that has a beta of 1.2 and $300,000 invested in a stock that has a beta of 0.8. Which of the following statements is CORRECT?",
+                    "options": [
+                        "If the stock market is efficient, your portfolios expected return should equal the expected return on the market, which is 11%.",
+                        "The required return on the market is 10%.",
+                        "The portfolios required return is less than 11%.",
+                        "If the risk-free rate remains unchanged but the market risk premium increases by 2%, your portfolios required return will increase by more than 2%.",
+                        "If the market risk premium remains unchanged but expected inflation increases by 2%, your portfolios required return will increase by more than 2%."
+                    ],
+                    "answer": "If the risk-free rate remains unchanged but the market risk premium increases by 2%, your portfolios required return will increase by more than 2%.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 97,
+                    "topic": "Portfolio risk and return",
+                    "type": "mcq",
+                    "question": "Stock A has an expected return of 10% and a standard deviation of 20%. Stock B has an expected return of 13% and a standard deviation of 30%. The risk-free rate is 5% and the market risk premium, rM - rRF, is 6%. Assume that the market is in equilibrium. Portfolio AB has 50% invested in Stock A and 50% invested in Stock B. The returns of Stock A and Stock B are independent of one another, i.e., the correlation coefficient between them is zero. Which of the following statements is CORRECT?",
+                    "options": [
+                        "Stock As beta is 0.8333.",
+                        "Since the two stocks have zero correlation, Portfolio AB is riskless.",
+                        "Stock Bs beta is 1.0000.",
+                        "Portfolio ABs required return is 11%.",
+                        "Portfolio ABs standard deviation is 25%."
+                    ],
+                    "answer": "Stock As beta is 0.8333.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 98,
+                    "topic": "Portfolio risk and return",
+                    "type": "mcq",
+                    "question": "Stock A has a beta of 1.2 and a standard deviation of 25%. Stock B has a beta of 1.4 and a standard deviation of 20%. Portfolio AB was created by investing in a combination of Stocks A and B. Portfolio AB has a beta of 1.25 and a standard deviation of 18%. Which of the following statements is CORRECT?",
+                    "options": [
+                        "Stock A has more market risk than Portfolio AB.",
+                        "Stock A has more market risk than Stock B but less stand-alone risk.",
+                        "Portfolio AB has more money invested in Stock A than in stock B.",
+                        "Portfolio AB has the same amount of money invested in each of the two stocks.",
+                        "Portfolio AB has more money invested in Stock B than in Stock A."
+                    ],
+                    "answer": "Portfolio AB has more money invested in Stock A than in stock B.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 99,
+                    "topic": "SML",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "If Mutual Fund A held equal amounts of 100 stocks, each of which had a beta of 1.0, and Mutual Fund B held equal amounts of 10 stocks with betas of 1.0, then the two mutual funds would both have betas of 1.0. Thus, they would be equally risky from an investors standpoint, assuming the investors only asset is one or the other of the mutual funds.",
+                        "If investors become more risk averse but rRF does not change, then the required rate of return on high-beta stocks will rise and the required return on low-beta stocks will decline, but the required return on an average-risk stock will not change.",
+                        "An investor who holds just one stock will generally be exposed to more risk than an investor who holds a portfolio of stocks, assuming the stocks are all equally risky. Since the holder of the 1-stock portfolio is exposed to more risk, he or she can expect to earn a higher rate of return to compensate for the greater risk.",
+                        "The slope of the yield curve has no effect on the slope of the SML.",
+                        "Assume that the required rate of return on the market, rM, is given and fixed at 10%. If the yield curve were upward-sloping, then the Security Market Line (SML) would have a steeper slope if 1-year Treasury securities were used as the risk-free rate than if 30-year Treasury bonds were used for rRF."
+                    ],
+                    "answer": "Assume that the required rate of return on the market, rM, is given and fixed at 10%. If the yield curve were upward-sloping, then the Security Market Line (SML) would have a steeper slope if 1-year Treasury securities were used as the risk-free rate than if 30-year Treasury bonds were used for rRF.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 100,
+                    "topic": "Expected return",
+                    "type": "mcq",
+                    "question": "J. Harper Inc.'s stock has a 50% chance of producing a 35% return, a 30% chance of producing a 10% return, and a 20% chance of producing a -28% return. What is Harper's expected return?",
+                    "options": ["14.16%", "14.53%", "14.90%", "15.27%", "15.65%"],
+                    "answer": "14.90%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 101,
+                    "topic": "Coefficient of variation",
+                    "type": "mcq",
+                    "question": "Rosenberg Inc. is considering a capital budgeting project that has an expected return of 20% and a standard deviation of 25%. What is the project's coefficient of variation?",
+                    "options": ["1.25", "1.31", "1.38", "1.45", "1.52"],
+                    "answer": "1.25",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 102,
+                    "topic": "Portfolio beta",
+                    "type": "mcq",
+                    "question": "Keith Johnson has $100,000 invested in a 2-stock portfolio. $30,000 is invested in Potts Manufacturing and the remainder is invested in Stohs Corporation. Potts' beta is 1.60 and Stohs beta is 0.60. What is the portfolio's beta?",
+                    "options": ["0.60", "0.66", "0.74", "0.82", "0.90"],
+                    "answer": "0.90",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 103,
+                    "topic": "Portfolio beta",
+                    "type": "mcq",
+                    "question": "Rick Kish has a $100,000 stock portfolio. $32,000 is invested in a stock with a beta of 0.75 and the remainder is invested in a stock with a beta of 1.38. These are the only two investments in his portfolio. What is his portfolios beta?",
+                    "options": ["1.18", "1.24", "1.30", "1.36", "1.43"],
+                    "answer": "1.18",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 104,
+                    "topic": "Market risk premium",
+                    "type": "mcq",
+                    "question": "A stock has an expected return of 12.60%. Its beta is 1.49 and the risk-free rate is 5.00%. What is the market risk premium?",
+                    "options": ["5.10%", "5.23%", "5.36%", "5.49%", "5.63%"],
+                    "answer": "5.10%",
+                    "explanation": ""
+                }
+            ]
+        }
+    }
+}
