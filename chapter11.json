@@ -1,1069 +1,505 @@
 {
     "title": "The Basics of Capital Budgeting",
-    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-8 w-8\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z\" /></svg>",
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-8 w-8\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v.01M12 12v.01M12 12a2 2 0 01-2-2h4a2 2 0 01-2 2zm0 0V9m0 3v2m6-6H6a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V9a2 2 0 00-2-2z\" /></svg>",
     "sectors": {
         "sector1": {
-            "title": "Chapter 11 Questions",
+            "title": "Chapter 11 Questions (90-122)",
             "questions": [
                 {
-                    "q_num": 1,
-                    "topic": "Capital budget",
-                    "type": "tf",
-                    "question": "A firm should never undertake an investment if accepting the project would lead to an increase in the firm's cost of capital.",
-                    "options": ["True", "False"],
-                    "answer": "False",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 2,
-                    "topic": "PV of cash flows",
-                    "type": "tf",
-                    "question": "Because 'present value' refers to the value of cash flows that occur at different points in time, a series of present values should not be summed to determine the value of a capital budgeting project.",
-                    "options": ["True", "False"],
-                    "answer": "False",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 3,
-                    "topic": "NPV",
-                    "type": "tf",
-                    "question": "Assuming that their NPVs based on the firm's cost of capital are equal, the NPV of a project whose cash flows accrue relatively rapidly will be more sensitive to changes in the discount rate than the NPV of a project whose cash flows come in later in its life.",
-                    "options": ["True", "False"],
-                    "answer": "False",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 4,
-                    "topic": "IRR",
-                    "type": "tf",
-                    "question": "The internal rate of return is that discount rate that equates the present value of the cash outflows (or costs) with the present value of the cash inflows.",
-                    "options": ["True", "False"],
-                    "answer": "True",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 5,
-                    "topic": "IRR",
-                    "type": "tf",
-                    "question": "Other things held constant, an increase in the cost of capital will result in a decrease in a project's IRR.",
-                    "options": ["True", "False"],
-                    "answer": "False",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 6,
-                    "topic": "NPV and IRR",
-                    "type": "tf",
-                    "question": "If a project's NPV exceeds its IRR, then the project should be accepted.",
-                    "options": ["True", "False"],
-                    "answer": "False",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 7,
-                    "topic": "Mutually exclusive projects",
-                    "type": "tf",
-                    "question": "Conflicts between two mutually exclusive projects, where the NPV method chooses one project but the IRR method chooses the other, should generally be resolved in favor of the project with the higher NPV.",
-                    "options": ["True", "False"],
-                    "answer": "True",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 8,
-                    "topic": "Reinvestment rate assumption",
-                    "type": "tf",
-                    "question": "The NPV method's assumption that cash inflows are reinvested at the cost of capital is more reasonable than the IRR's assumption that cash flows are reinvested at the IRR. This is an important reason why the NPV method is generally preferred over the IRR method.",
-                    "options": ["True", "False"],
-                    "answer": "True",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 9,
-                    "topic": "Multiple IRRs",
-                    "type": "tf",
-                    "question": "Under certain conditions, a project may have more than one IRR. One such condition is when, in addition to the initial investment at time = 0, a negative cash flow (or cost) occurs at the end of the project's life.",
-                    "options": ["True", "False"],
-                    "answer": "True",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 10,
-                    "topic": "Multiple IRRs",
-                    "type": "tf",
-                    "question": "The phenomenon called 'multiple internal rates of return' arises when two or more mutually exclusive projects that have different lives are being compared.",
-                    "options": ["True", "False"],
-                    "answer": "False",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 11,
-                    "topic": "Modified IRR",
-                    "type": "tf",
-                    "question": "The modified IRR (MIRR) method has wide appeal to professors, but most business executives prefer the NPV method to either the regular or modified IRR.",
-                    "options": ["True", "False"],
-                    "answer": "False",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 12,
-                    "topic": "Modified IRR",
-                    "type": "tf",
-                    "question": "When evaluating mutually exclusive projects, the modified IRR (MIRR) always leads to the same capital budgeting decisions as the NPV method, regardless of the relative lives or sizes of the projects being evaluated.",
-                    "options": ["True", "False"],
-                    "answer": "False",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 13,
-                    "topic": "Payback",
-                    "type": "tf",
-                    "question": "One advantage of the payback method for evaluating potential investments is that it provides some information about a project's liquidity and risk.",
-                    "options": ["True", "False"],
-                    "answer": "True",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 14,
-                    "topic": "Ranking methods",
-                    "type": "tf",
-                    "question": "In theory, any capital budgeting investment rule should depend solely on forecasted cash flows and the opportunity cost of capital. The rule itself should not be affected by managers' tastes, the choice of accounting method, or the profitability of other independent projects.",
-                    "options": ["True", "False"],
-                    "answer": "True",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 15,
-                    "topic": "Mutually exclusive projects",
-                    "type": "tf",
-                    "question": "When considering two mutually exclusive projects, the firm should always select that project whose internal rate of return is the highest provided the projects have the same initial cost. This statement is true regardless of whether the projects can be repeated or not.",
-                    "options": ["True", "False"],
-                    "answer": "False",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 16,
-                    "topic": "NPV vs IRR",
-                    "type": "tf",
-                    "question": "The primary reason that the NPV method is conceptually superior to the IRR method for evaluating mutually exclusive investments is that multiple IRRs may exist.",
-                    "options": ["True", "False"],
-                    "answer": "False",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 17,
-                    "topic": "NPV vs IRR",
-                    "type": "tf",
-                    "question": "The NPV and IRR methods, when used to evaluate independent and equally risky projects, will lead to different accept/reject decisions if their IRRs are greater than the cost of capital.",
-                    "options": ["True", "False"],
-                    "answer": "False",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 18,
-                    "topic": "IRR and NPV",
-                    "type": "tf",
-                    "question": "If the IRR of normal Project X is greater than the IRR of mutually exclusive Project Y (also normal), we can conclude that the firm should select X rather than Y if X has NPV > 0.",
-                    "options": ["True", "False"],
-                    "answer": "False",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 19,
-                    "topic": "Small business practices",
-                    "type": "tf",
-                    "question": "Small businesses make less use of DCF capital budgeting techniques than large businesses. This may reflect a lack of knowledge on the part of small firms' managers, but it may also reflect a rational conclusion that the costs of using DCF analysis outweigh the benefits of these methods for very small firms.",
-                    "options": ["True", "False"],
-                    "answer": "True",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 20,
-                    "topic": "Replacement chain",
-                    "type": "tf",
-                    "question": "The replacement chain, or common life, approach is required when analyzing projects that have different lives regardless of whether the projects are mutually exclusive or independent.",
-                    "options": ["True", "False"],
-                    "answer": "False",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 21,
-                    "topic": "Replacement chain",
-                    "type": "tf",
-                    "question": "Although the replacement chain approach is appealing for dealing with mutually exclusive projects that have different lives, it is not used in industry because no projects meet the assumptions the method requires.",
-                    "options": ["True", "False"],
-                    "answer": "False",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 22,
-                    "topic": "Common life comparisons",
-                    "type": "tf",
-                    "question": "Extending projects with different lives to a common life for comparison purposes, while theoretically appealing, is valid only if there is a reasonably high probability that the projects will actually be repeated out beyond their initial lives.",
-                    "options": ["True", "False"],
-                    "answer": "True",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 23,
-                    "topic": "NPV and IRR",
-                    "type": "tf",
-                    "question": "A decrease in the firm's discount rate (r, or WACC) will increase projects' NPVs, which could change the accept/reject decision for any potential project. However, such a change would have no impact on the project's IRR; therefore, the accept/reject decision under the IRR method is independent of the cost of capital.",
-                    "options": ["True", "False"],
-                    "answer": "False",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 24,
-                    "topic": "NPV",
-                    "type": "tf",
-                    "question": "Normal Projects Q and R have the same NPV when the discount rate is zero. However, Project Q's cash flows come in faster than those of R. Therefore, we know that at any discount rate greater than zero, R will have a higher NPV than Q.",
-                    "options": ["True", "False"],
-                    "answer": "False",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 25,
-                    "topic": "NPV",
-                    "type": "tf",
-                    "question": "Project S has a pattern of high cash flows in its early life, while Project L has a longer life, with large cash flows late in its life. Neither has negative cash flows after Year 0, and at the current cost of capital, the two projects have identical NPVs. Now suppose interest rates and money costs decline. Other things held constant, this change will cause L to become preferred to S.",
-                    "options": ["True", "False"],
-                    "answer": "True",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 26,
-                    "topic": "Ranking methods",
-                    "type": "tf",
-                    "question": "If you were evaluating two mutually exclusive projects for a firm with a zero cost of capital, the payback method and NPV method would always lead to the same decision on which project to undertake.",
-                    "options": ["True", "False"],
-                    "answer": "False",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 27,
-                    "topic": "NPV profile",
-                    "type": "tf",
-                    "question": "The IRR of normal Project X is greater than the IRR of normal Project Y, and both IRRs are greater than zero. Also, the NPV of X is greater than the NPV of Y at the cost of capital. If the two projects are mutually exclusive, Project X should definitely be selected, and the investment made, provided we have confidence in the data. Put another way, it is impossible to draw NPV profiles that would suggest not accepting Project X.",
-                    "options": ["True", "False"],
-                    "answer": "False",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 28,
-                    "topic": "NPV",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT? Assume that the project being considered has normal cash flows, with one outflow followed by a series of inflows.",
-                    "options": [
-                        "A projects NPV is found by compounding the cash inflows at the IRR to find the terminal value (TV), then discounting the TV at the WACC.",
-                        "The lower the WACC used to calculate it, the lower the calculated NPV will be.",
-                        "If a projects NPV is less than zero, then its IRR must be less than the WACC.",
-                        "If a projects NPV is greater than zero, then its IRR must be less than zero.",
-                        "The NPV of a relatively low risk project should be found using a relatively high WACC."
-                    ],
-                    "answer": "If a projects NPV is less than zero, then its IRR must be less than the WACC.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 29,
-                    "topic": "IRR",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT?",
-                    "options": [
-                        "One defect of the IRR method is that it does not take account of cash flows over a projects full life.",
-                        "One defect of the IRR method is that it does not take account of the time value of money.",
-                        "One defect of the IRR method is that it does not take account of the cost of capital.",
-                        "One defect of the IRR method is that it values a dollar received today the same as a dollar that will not be received until some time in the future.",
-                        "One defect of the IRR method is that it assumes that the cash flows to be received from a project can be reinvested at the IRR itself, and that assumption is often not valid."
-                    ],
-                    "answer": "One defect of the IRR method is that it assumes that the cash flows to be received from a project can be reinvested at the IRR itself, and that assumption is often not valid.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 30,
-                    "topic": "IRR",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT? Assume that the project being considered has normal cash flows, with one outflow followed by a series of inflows.",
-                    "options": [
-                        "A projects regular IRR is found by compounding the cash inflows at the WACC to find the terminal value (TV), then discounting this TV at the WACC.",
-                        "A projects regular IRR is found by discounting the cash inflows at the WACC to find the present value (PV), then compounding this PV to find the IRR.",
-                        "If a projects IRR is greater than the WACC, then its NPV must be negative.",
-                        "To find a projects IRR, we must solve for the discount rate that causes the PV of the inflows to equal the PV of the projects costs.",
-                        "To find a projects IRR, we must find a discount rate that is equal to the WACC."
-                    ],
-                    "answer": "To find a projects IRR, we must solve for the discount rate that causes the PV of the inflows to equal the PV of the projects costs.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 31,
-                    "topic": "IRR",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT? Assume that the project being considered has normal cash flows, with one outflow followed by a series of inflows.",
-                    "options": [
-                        "A projects regular IRR is found by compounding the initial cost at the WACC to find the terminal value (TV), then discounting the TV at the WACC.",
-                        "A projects regular IRR is found by compounding the cash inflows at the WACC to find the present value (PV), then discounting to find the IRR.",
-                        "If a projects IRR is smaller than the WACC, then its NPV will be positive.",
-                        "A projects IRR is the discount rate that causes the PV of the inflows to equal the projects cost.",
-                        "If a projects IRR is positive, then its NPV must also be positive."
-                    ],
-                    "answer": "A projects IRR is the discount rate that causes the PV of the inflows to equal the projects cost.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 32,
-                    "topic": "Normal vs. nonnormal cash flows",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT?",
-                    "options": [
-                        "If a project has normal cash flows, then its IRR must be positive.",
-                        "If a project has normal cash flows, then its MIRR must be positive.",
-                        "If a project has normal cash flows, then it will have exactly two real IRRs.",
-                        "The definition of normal cash flows is that the cash flow stream has one or more negative cash flows followed by a stream of positive cash flows and then one negative cash flow at the end of the projects life.",
-                        "If a project has normal cash flows, then it can have only one real IRR, whereas a project with nonnormal cash flows might have more than one real IRR."
-                    ],
-                    "answer": "If a project has normal cash flows, then it can have only one real IRR, whereas a project with nonnormal cash flows might have more than one real IRR.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 33,
-                    "topic": "Normal vs. nonnormal cash flows",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT?",
-                    "options": [
-                        "Projects with normal cash flows can have only one real IRR.",
-                        "Projects with normal cash flows can have two or more real IRRs.",
-                        "Projects with normal cash flows must have two changes in the sign of the cash flows, e.g., from negative to positive to negative. If there are more sign changes, then the cash flow stream is nonnormal.",
-                        "The multiple IRR problem can arise if a projects cash flows are normal.",
-                        "Projects with nonnormal cash flows are almost never encountered in the real world."
-                    ],
-                    "answer": "Projects with normal cash flows can have only one real IRR.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 34,
-                    "topic": "Payback",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT?",
-                    "options": [
-                        "The regular payback method recognizes all cash flows over a projects life.",
-                        "The discounted payback method recognizes all cash flows over a projects life, and it also adjusts these cash flows to account for the time value of money.",
-                        "The regular payback method was, years ago, widely used, but virtually no companies even calculate the payback today.",
-                        "The regular payback is useful as an indicator of a projects liquidity because it gives managers an idea of how long it will take to recover the funds invested in a project.",
-                        "The regular payback does not consider cash flows beyond the payback year, but the discounted payback overcomes this defect."
-                    ],
-                    "answer": "The regular payback is useful as an indicator of a projects liquidity because it gives managers an idea of how long it will take to recover the funds invested in a project.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 35,
-                    "topic": "Payback",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT? Assume that the project being considered has normal cash flows, with one outflow followed by a series of inflows.",
-                    "options": [
-                        "The longer a projects payback period, the more desirable the project is normally considered to be by this criterion.",
-                        "One drawback of the payback criterion for evaluating projects is that this method does not properly account for the time value of money.",
-                        "If a projects payback is positive, then the project should be rejected because it must have a negative NPV.",
-                        "The regular payback ignores cash flows beyond the payback period, but the discounted payback method overcomes this problem.",
-                        "If a company uses the same payback requirement to evaluate all projects, say it requires a payback of 4 years or less, then the company will tend to reject projects with relatively short lives and accept long-lived projects, and this will cause its risk to increase over time."
-                    ],
-                    "answer": "One drawback of the payback criterion for evaluating projects is that this method does not properly account for the time value of money.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 36,
-                    "topic": "Payback",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT?",
-                    "options": [
-                        "The shorter a projects payback period, the less desirable the project is normally considered to be by this criterion.",
-                        "One drawback of the payback criterion for evaluating projects is that this method does not take account of cash flows beyond the payback period.",
-                        "If a projects payback is positive, then the project should be accepted because it must have a positive NPV.",
-                        "The regular payback ignores cash flows beyond the payback period, but the discounted payback method overcomes this problem.",
-                        "One drawback of the discounted payback is that this method does not consider the time value of money, while the regular payback overcomes this drawback."
-                    ],
-                    "answer": "One drawback of the payback criterion for evaluating projects is that this method does not take account of cash flows beyond the payback period.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 37,
-                    "topic": "Ranking methods",
-                    "type": "mcq",
-                    "question": "Assume a project has normal cash flows. All else equal, which of the following statements is CORRECT?",
-                    "options": [
-                        "The projects IRR increases as the WACC declines.",
-                        "The projects NPV increases as the WACC declines.",
-                        "The projects MIRR is unaffected by changes in the WACC.",
-                        "The projects regular payback increases as the WACC declines.",
-                        "The projects discounted payback increases as the WACC declines."
-                    ],
-                    "answer": "The projects NPV increases as the WACC declines.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 38,
-                    "topic": "Ranking methods",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT?",
-                    "options": [
-                        "The internal rate of return method (IRR) is generally regarded by academics as being the best single method for evaluating capital budgeting projects.",
-                        "The payback method is generally regarded by academics as being the best single method for evaluating capital budgeting projects.",
-                        "The discounted payback method is generally regarded by academics as being the best single method for evaluating capital budgeting projects.",
-                        "The net present value method (NPV) is generally regarded by academics as being the best single method for evaluating capital budgeting projects.",
-                        "The modified internal rate of return method (MIRR) is generally regarded by academics as being the best single method for evaluating capital budgeting projects."
-                    ],
-                    "answer": "The net present value method (NPV) is generally regarded by academics as being the best single method for evaluating capital budgeting projects.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 39,
-                    "topic": "Normal vs. nonnormal cash flows",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT?",
-                    "options": [
-                        "An NPV profile graph shows how a projects payback varies as the cost of capital changes.",
-                        "The NPV profile graph for a normal project will generally have a positive (upward) slope as the life of the project increases.",
-                        "An NPV profile graph is designed to give decision makers an idea about how a projects risk varies with its life.",
-                        "An NPV profile graph is designed to give decision makers an idea about how a projects contribution to the firms value varies with the cost of capital.",
-                        "We cannot draw a projects NPV profile unless we know the appropriate WACC for use in evaluating the projects NPV."
-                    ],
-                    "answer": "An NPV profile graph is designed to give decision makers an idea about how a projects contribution to the firms value varies with the cost of capital.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 40,
-                    "topic": "NPV",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT?",
-                    "options": [
-                        "The NPV method was once the favorite of academics and business executives, but today most authorities regard the MIRR as being the best indicator of a projects profitability.",
-                        "If the cost of capital declines, this lowers a projects NPV.",
-                        "The NPV method is regarded by most academics as being the best indicator of a projects profitability, hence most academics recommend that firms use only this one method.",
-                        "A projects NPV depends on the total amount of cash flows the project produces, but because the cash flows are discounted at the WACC, it does not matter if the cash flows occur early or late in the projects life.",
-                        "The NPV and IRR methods may give different recommendations regarding which of two mutually exclusive projects should be accepted, but they always give the same recommendation regarding the acceptability of a normal, independent project."
-                    ],
-                    "answer": "The NPV and IRR methods may give different recommendations regarding which of two mutually exclusive projects should be accepted, but they always give the same recommendation regarding the acceptability of a normal, independent project.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 41,
-                    "topic": "NPV",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT? Assume that the project being considered has normal cash flows, with one outflow followed by a series of inflows.",
-                    "options": [
-                        "A projects NPV is generally found by compounding the cash inflows at the WACC to find the terminal value (TV), then discounting the TV at the IRR to find its PV.",
-                        "The higher the WACC used to calculate the NPV, the lower the calculated NPV will be.",
-                        "If a projects NPV is greater than zero, then its IRR must be less than the WACC.",
-                        "If a projects NPV is greater than zero, then its IRR must be less than zero.",
-                        "The NPVs of relatively risky projects should be found using relatively low WACCs."
-                    ],
-                    "answer": "The higher the WACC used to calculate the NPV, the lower the calculated NPV will be.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 42,
-                    "topic": "Ranking conflicts",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT?",
-                    "options": [
-                        "The NPV method assumes that cash flows will be reinvested at the WACC, while the IRR method assumes reinvestment at the IRR.",
-                        "The NPV method assumes that cash flows will be reinvested at the risk-free rate, while the IRR method assumes reinvestment at the IRR.",
-                        "The NPV method assumes that cash flows will be reinvested at the WACC, while the IRR method assumes reinvestment at the risk-free rate.",
-                        "The NPV method does not consider all relevant cash flows, particularly cash flows beyond the payback period.",
-                        "The IRR method does not consider all relevant cash flows, particularly cash flows beyond the payback period."
-                    ],
-                    "answer": "The NPV method assumes that cash flows will be reinvested at the WACC, while the IRR method assumes reinvestment at the IRR.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 43,
-                    "topic": "NPV and IRR",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT? Assume that the project being considered has normal cash flows, with one outflow followed by a series of inflows.",
-                    "options": [
-                        "If Project A has a higher IRR than Project B, then Project A must have the lower NPV.",
-                        "If Project A has a higher IRR than Project B, then Project A must also have a higher NPV.",
-                        "The IRR calculation implicitly assumes that all cash flows are reinvested at the WACC.",
-                        "The IRR calculation implicitly assumes that cash flows are withdrawn from the business rather than being reinvested in the business.",
-                        "If a project has normal cash flows and its IRR exceeds its WACC, then the projects NPV must be positive."
-                    ],
-                    "answer": "If a project has normal cash flows and its IRR exceeds its WACC, then the projects NPV must be positive.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 44,
-                    "topic": "NPV profiles",
-                    "type": "mcq",
-                    "question": "Projects A and B have identical expected lives and identical initial cash outflows (costs). However, most of one projects cash flows come in the early years, while most of the other projects cash flows occur in the later years. Which of the following statements is CORRECT?",
-                    "options": [
-                        "More of Project As cash flows occur in the later years.",
-                        "More of Project Bs cash flows occur in the later years.",
-                        "We must have information on the cost of capital in order to determine which project has the larger early cash flows.",
-                        "The NPV profile graph is inconsistent with the statement made in the problem.",
-                        "The crossover rate, i.e., the rate at which Projects A and B have the same NPV, is greater than either projects IRR."
-                    ],
-                    "answer": "More of Project As cash flows occur in the later years.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 45,
-                    "topic": "NPV profiles",
-                    "type": "mcq",
-                    "question": "Projects S and L both have an initial cost of $10,000, followed by a series of positive cash inflows. Project Ss undiscounted net cash flows total to $20,000, while Ls total undiscounted flows are $30,000. At a WACC of 10%, the two projects have identical NPVs. Which projects NPV is more sensitive to changes in the WACC?",
-                    "options": [
-                        "Project S.",
-                        "Project L.",
-                        "Both projects are equally sensitive to changes in the WACC since their NPVs are equal at all costs of capital.",
-                        "Neither project is sensitive to changes in the discount rate, since both have NPV profiles that are horizontal.",
-                        "The solution cannot be determined because the problem gives us no information that can be used to determine the projects relative IRRs."
-                    ],
-                    "answer": "Project L.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 46,
-                    "topic": "NPV profiles",
-                    "type": "mcq",
-                    "question": "Projects C and D are mutually exclusive and have normal cash flows. Project C has a higher NPV if the WACC is less than 12%, whereas Project D has a higher NPV if the WACC exceeds 12%. Which of the following statements is CORRECT?",
-                    "options": [
-                        "Project D has a higher IRR.",
-                        "Project D is probably larger in scale than Project C.",
-                        "Project C probably has a faster payback.",
-                        "Project C has a higher IRR.",
-                        "The crossover rate between the two projects is below 12%."
-                    ],
-                    "answer": "Project D has a higher IRR.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 47,
-                    "topic": "Multiple IRRs",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT?",
-                    "options": [
-                        "For a project to have more than one IRR, then both IRRs must be greater than the WACC.",
-                        "If two projects are mutually exclusive, then they are likely to have multiple IRRs.",
-                        "If a project is independent, then it cannot have multiple IRRs.",
-                        "Multiple IRRs can only occur if the signs of the cash flows change more than once.",
-                        "If a project has two IRRs, then the smaller one is the one that is most relevant, and it should be accepted and relied upon."
-                    ],
-                    "answer": "Multiple IRRs can only occur if the signs of the cash flows change more than once.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 48,
-                    "topic": "Payback",
-                    "type": "mcq",
-                    "question": "The regular payback method has a number of disadvantages, some of which are listed below. Which of these items is NOT a disadvantage of this method?",
-                    "options": [
-                        "Lack of an objective, market-determined benchmark for making decisions.",
-                        "Ignores cash flows beyond the payback period.",
-                        "Does not directly account for the time value of money.",
-                        "Does not provide any indication regarding a projects liquidity.",
-                        "Does not directly account for differences in risk among projects."
-                    ],
-                    "answer": "Does not provide any indication regarding a projects liquidity.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 49,
-                    "topic": "NPV, IRR, and MIRR",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT?",
-                    "options": [
-                        "If a project with normal cash flows has an IRR greater than the WACC, the project must have a positive NPV.",
-                        "If Project As IRR exceeds Project Bs, then A must have the higher NPV.",
-                        "A projects MIRR can never exceed its IRR.",
-                        "If a project with normal cash flows has an IRR less than the WACC, the project must have a positive NPV.",
-                        "If the NPV is negative, the IRR must also be negative."
-                    ],
-                    "answer": "If a project with normal cash flows has an IRR greater than the WACC, the project must have a positive NPV.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 50,
-                    "topic": "NPV, IRR, and MIRR",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT?",
-                    "options": [
-                        "The MIRR and NPV decision criteria can never conflict.",
-                        "The IRR method can never be subject to the multiple IRR problem, while the MIRR method can be.",
-                        "One reason some people prefer the MIRR to the regular IRR is that the MIRR is based on what is generally a more reasonable assumption about the reinvestment rate than the regular IRR.",
-                        "The higher the WACC, the shorter the discounted payback period.",
-                        "The MIRR method assumes that cash flows are reinvested at the crossover rate."
-                    ],
-                    "answer": "One reason some people prefer the MIRR to the regular IRR is that the MIRR is based on what is generally a more reasonable assumption about the reinvestment rate than the regular IRR.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 51,
-                    "topic": "NPV, IRR, and MIRR",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT?",
-                    "options": [
-                        "For independent projects, the NPV, IRR, MIRR, and discounted payback (using a payback requirement of 3 years or less) methods always lead to the same accept/reject decisions for a given project.",
-                        "For mutually exclusive projects with normal cash flows, the NPV and MIRR methods can never conflict, but their results could conflict with the discounted payback and the regular IRR methods.",
-                        "Multiple IRRs can exist, but not multiple MIRRs. This is one reason some people favor the MIRR over the regular IRR.",
-                        "If a firm uses the discounted payback method with a required payback of 4 years, then it will accept more projects than if it used as its cutoff criterion a regular payback of 4 years.",
-                        "The percentage difference between the MIRR and the IRR is equal to the projects WACC."
-                    ],
-                    "answer": "Multiple IRRs can exist, but not multiple MIRRs. This is one reason some people favor the MIRR over the regular IRR.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 52,
-                    "topic": "NPV, IRR, and MIRR",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT?",
-                    "options": [
-                        "For a project with normal cash flows, any change in the WACC will change both the NPV and the IRR.",
-                        "To find the MIRR, we first compound cash flows at the regular IRR to find the TV, and then we discount the TV at the WACC to find the PV.",
-                        "The NPV and IRR methods both assume cash flows can be reinvested at the WACC. However, the MIRR method assumes reinvestment at the MIRR itself.",
-                        "If two projects have the same cost, and if their NPV profiles cross in the upper right quadrant, then the project with the higher IRR probably has more of its cash flows coming in the later years.",
-                        "If two projects have the same cost, and if their NPV profiles cross in the upper right quadrant, then the project with the lower IRR probably has more of its cash flows coming in the later years."
-                    ],
-                    "answer": "If two projects have the same cost, and if their NPV profiles cross in the upper right quadrant, then the project with the lower IRR probably has more of its cash flows coming in the later years.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 53,
-                    "topic": "NPV, IRR, and MIRR",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT?",
-                    "options": [
-                        "One advantage of the NPV over the IRR is that NPV takes account of cash flows over a projects full life whereas IRR does not.",
-                        "One advantage of the NPV over the IRR is that NPV assumes that cash flows will be reinvested at the WACC, whereas IRR assumes that cash flows are reinvested at the IRR. The NPV assumption is generally more likely to be appropriate.",
-                        "One advantage of the NPV over the MIRR method is that NPV takes account of cash flows over a projects full life whereas MIRR does not.",
-                        "One advantage of the NPV over the MIRR method is that NPV discounts cash flows whereas the MIRR is based on undiscounted cash flows.",
-                        "Since cash flows under the IRR and MIRR are both discounted at the same rate (the WACC), these two methods always rank mutually exclusive projects in the same order."
-                    ],
-                    "answer": "One advantage of the NPV over the IRR is that NPV assumes that cash flows will be reinvested at the WACC, whereas IRR assumes that cash flows are reinvested at the IRR. The NPV assumption is generally more likely to be appropriate.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 54,
-                    "topic": "Misc. concepts",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT?",
-                    "options": [
-                        "The IRR method appeals to some managers because it gives an estimate of the rate of return on projects rather than a dollar amount, which the NPV method provides.",
-                        "The discounted payback method eliminates all of the problems associated with the payback method.",
-                        "When evaluating independent projects, the NPV and IRR methods often yield conflicting results regarding a project's acceptability.",
-                        "To find the MIRR, we discount the TV at the IRR.",
-                        "A projects NPV profile must intersect the X-axis at the projects WACC."
-                    ],
-                    "answer": "The IRR method appeals to some managers because it gives an estimate of the rate of return on projects rather than a dollar amount, which the NPV method provides.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 55,
-                    "topic": "NPV profiles",
-                    "type": "mcq",
-                    "question": "Projects S and L are equally risky, mutually exclusive, and have normal cash flows. Project S has an IRR of 15%, while Project Ls IRR is 12%. The two projects have the same NPV when the WACC is 7%. Which of the following statements is CORRECT?",
-                    "options": [
-                        "If the WACC is 10%, both projects will have positive NPVs.",
-                        "If the WACC is 6%, Project S will have the higher NPV.",
-                        "If the WACC is 13%, Project S will have the lower NPV.",
-                        "If the WACC is 10%, both projects will have a negative NPV.",
-                        "Project Ss NPV is more sensitive to changes in WACC than Project L."
-                    ],
-                    "answer": "If the WACC is 10%, both projects will have positive NPVs.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 56,
-                    "topic": "NPV profiles",
-                    "type": "mcq",
-                    "question": "Westchester Corp. is considering two equally risky, mutually exclusive projects, both of which projects have normal cash flows. Project A has an IRR of IRR of 11%, while Project B's IRR is 14%. When the WACC is 8%, the projects have the same NPV. Given this information, which of the following statements is CORRECT?",
-                    "options": [
-                        "If the WACC is 13%, Project As NPV will be higher than Project Bs.",
-                        "If the WACC is 9%, Project As NPV will be higher than Project Bs.",
-                        "If the WACC is 6%, Project Bs NPV will be higher than Project As.",
-                        "If the WACC is greater than 14%, Project As IRR will exceed Project Bs.",
-                        "If the WACC is 9%, Project Bs NPV will be higher than Project As."
-                    ],
-                    "answer": "If the WACC is 9%, Project Bs NPV will be higher than Project As.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 57,
-                    "topic": "NPV profiles",
-                    "type": "mcq",
-                    "question": "You are considering two mutually exclusive, equally risky, projects. Both have IRRs that exceed the WACC that is used to evaluate them. Which of the following statements is CORRECT? Assume that the projects have normal cash flows, with one outflow followed by a series of inflows.",
-                    "options": [
-                        "If the two projects' NPV profiles do not cross in the upper right quadrant, then there will be a sharp conflict as to which one should be selected.",
-                        "If the cost of capital is greater than the crossover rate, then the IRR and the NPV criteria will not result in a conflict between the projects. One project will rank higher by both criteria.",
-                        "If the cost of capital is less than the crossover rate, then the IRR and the NPV criteria will not result in a conflict between the projects. One project will rank higher by both criteria.",
-                        "For a conflict to exist between NPV and IRR, the initial investment cost of one project must exceed the cost of the other.",
-                        "For a conflict to exist between NPV and IRR, one project must have an increasing stream of cash flows over time while the other has a decreasing stream. If both sets of cash flows are increasing or decreasing, then it would be impossible for a conflict to exist, even if one project is larger than the other."
-                    ],
-                    "answer": "If the cost of capital is greater than the crossover rate, then the IRR and the NPV criteria will not result in a conflict between the projects. One project will rank higher by both criteria.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 58,
-                    "topic": "NPV profiles",
-                    "type": "mcq",
-                    "question": "Project Xs IRR is 19% and Project Ys IRR is 17%. The projects have the same risk and the same lives, and each has constant cash flows during each year of their lives. If the WACC is 10%, Project Y has a higher NPV than X. Given this information, which of the following statements is CORRECT?",
-                    "options": [
-                        "The crossover rate between the two projects must be less than 10%.",
-                        "The crossover rate between the two projects must be greater than 10%.",
-                        "If the WACC is 8%, Project X will have the higher NPV.",
-                        "If the WACC is 18%, Project Y will have the higher NPV.",
-                        "Project X is larger in the sense that it has the higher initial cost."
-                    ],
-                    "answer": "The crossover rate between the two projects must be greater than 10%.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 59,
-                    "topic": "NPV profiles",
-                    "type": "mcq",
-                    "question": "Projects S and L both have normal cash flows, and the projects have the same risk, hence both are evaluated with the same WACC, 10%. However, S has a higher IRR than L. Which of the following statements is CORRECT?",
-                    "options": [
-                        "Project S must have a higher NPV than Project L.",
-                        "If Project S has a positive NPV, Project L must also have a positive NPV.",
-                        "If the WACC falls, each projects IRR will increase.",
-                        "If the WACC increases, each projects IRR will decrease.",
-                        "If Projects S and L have the same NPV at the current WACC, 10%, then Project L, the one with the lower IRR, would have a higher NPV if the WACC used to evaluate the projects declined."
-                    ],
-                    "answer": "If Projects S and L have the same NPV at the current WACC, 10%, then Project L, the one with the lower IRR, would have a higher NPV if the WACC used to evaluate the projects declined.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 60,
-                    "topic": "NPV profiles",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT? Assume that all projects being considered have normal cash flows and are equally risky.",
-                    "options": [
-                        "If a projects IRR is equal to its WACC, then, under all reasonable conditions, the projects NPV must be negative.",
-                        "If a projects IRR is equal to its WACC, then under all reasonable conditions, the projects IRR must be negative.",
-                        "If a projects IRR is equal to its WACC, then under all reasonable conditions the projects NPV must be zero.",
-                        "There is no necessary relationship between a projects IRR, its WACC, and its NPV.",
-                        "When evaluating mutually exclusive projects, those projects with relatively long lives will tend to have relatively high NPVs when the cost of capital is relatively high."
-                    ],
-                    "answer": "If a projects IRR is equal to its WACC, then under all reasonable conditions the projects NPV must be zero.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 61,
-                    "topic": "NPV profiles",
-                    "type": "mcq",
-                    "question": "A company is choosing between two projects. The larger project has an initial cost of $100,000, annual cash flows of $30,000 for 5 years, and an IRR of 15.24%. The smaller project has an initial cost of $50,000, annual cash flows of $16,000 for 5 years, and an IRR of 16.63%. The projects are equally risky. Which of the following statements is CORRECT?",
-                    "options": [
-                        "Since the smaller project has the higher IRR, the two projects NPV profiles cannot cross, and the smaller project's NPV will be higher at all positive values of WACC.",
-                        "Since the smaller project has the higher IRR, the two projects NPV profiles will cross, and the larger project will look better based on the NPV at all positive values of WACC.",
-                        "If the company uses the NPV method, it will tend to favor smaller, shorter-term projects over larger, longer-term projects, regardless of how high or low the WACC is.",
-                        "Since the smaller project has the higher IRR but the larger project has the higher NPV at a zero discount rate, the two projects NPV profiles will cross, and the larger project will have the higher NPV if the WACC is less than the crossover rate.",
-                        "Since the smaller project has the higher IRR and the larger NPV at a zero discount rate, the two projects NPV profiles will cross, and the larger smaller project will look better if the WACC is less than the crossover rate."
-                    ],
-                    "answer": "Since the smaller project has the higher IRR but the larger project has the higher NPV at a zero discount rate, the two projects NPV profiles will cross, and the larger project will have the higher NPV if the WACC is less than the crossover rate.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 62,
-                    "topic": "NPV and mutually exclusive projects",
-                    "type": "mcq",
-                    "question": "McCall Manufacturing has a WACC of 10%. The firm is considering two normal, equally risky, mutually exclusive, but not repeatable projects. The two projects have the same investment costs, but Project A has an IRR of 15%, while Project B has an IRR of 20%. Which of the following statements is CORRECT?",
-                    "options": [
-                        "Each project must have a negative NPV.",
-                        "Since the projects are mutually exclusive, the firm should always select Project B.",
-                        "If the crossover rate is 8%, Project B will have the higher NPV.",
-                        "Only one project has a positive NPV.",
-                        "If the crossover rate is 8%, Project A will have a higher NPV than Project B."
-                    ],
-                    "answer": "If the crossover rate is 8%, Project B will have the higher NPV.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 63,
-                    "topic": "Choosing among mutually exclusive projects",
-                    "type": "mcq",
-                    "question": "Projects A and B are mutually exclusive and have normal cash flows. Project A has an IRR of 15% and B's IRR is 20%. The companys WACC is 12%, and at that rate Project A has the higher NPV. Which of the following statements is CORRECT?",
-                    "options": [
-                        "The crossover rate for the two projects must be less than 12%.",
-                        "Assuming the timing pattern of the two projects cash flows is the same, Project B probably has a higher cost (and larger scale).",
-                        "Assuming the two projects have the same scale, Project B probably has a faster payback than Project A.",
-                        "The crossover rate for the two projects must be 12%.",
-                        "Since B has the higher IRR, then it must also have the higher NPV if the crossover rate is less than the WACC of 12%."
-                    ],
-                    "answer": "Assuming the two projects have the same scale, Project B probably has a faster payback than Project A.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 64,
-                    "topic": "Multiple IRRs",
-                    "type": "mcq",
-                    "question": "You are on the staff of Camden Inc. The CFO believes project acceptance should be based on the NPV, but Steve Camden, the president, insists that no project can be accepted unless its IRR exceeds the projects risk-adjusted WACC. Now you must make a recommendation on a project that has a cost of $15,000 and two cash flows: $110,000 at the end of Year 1 and -$100,000 at the end of Year 2. The president and the CFO both agree that the appropriate WACC for this project is 10%. At 10%, the NPV is $2,355.37, but you find two IRRs, one at 6.33% and one at 527%, and a MIRR of 11.32%. Which of the following statements best describes your optimal recommendation, i.e., the analysis and recommendation that is best for the company and least likely to get you in trouble with either the CFO or the president?",
-                    "options": [
-                        "You should recommend that the project be rejected because its NPV is negative and its IRR is less than the WACC.",
-                        "You should recommend that the project be rejected because, although its NPV is positive, it has an IRR that is less than the WACC.",
-                        "You should recommend that the project be accepted because (1) its NPV is positive and (2) although it has two IRRs, in this case it would be better to focus on the MIRR, which exceeds the WACC. You should explain this to the president and tell him that that the firms value will increase if the project is accepted.",
-                        "You should recommend that the project be rejected because (1) although its NPV is positive and (2) it has two IRRs, one of which is less than the WACC, which indicates that the firms value will decline if the project is accepted.",
-                        "You should recommend that the project be rejected because, although its NPV is positive, its MIRR is less than the WACC, and that indicates that the firms value will decline if it is accepted."
-                    ],
-                    "answer": "You should recommend that the project be accepted because (1) its NPV is positive and (2) although it has two IRRs, in this case it would be better to focus on the MIRR, which exceeds the WACC. You should explain this to the president and tell him that that the firms value will increase if the project is accepted.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 65,
-                    "topic": "MIRR",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT? Assume that the project being considered has normal cash flows, with one outflow followed by a series of inflows.",
-                    "options": [
-                        "A projects MIRR is always greater than its regular IRR.",
-                        "A projects MIRR is always less than its regular IRR.",
-                        "If a projects IRR is greater than its WACC, then the MIRR will be less than the IRR.",
-                        "If a projects IRR is greater than its WACC, then the MIRR will be greater than the IRR.",
-                        "To find a projects MIRR, we compound cash inflows at the IRR and then discount the terminal value back to t = 0 at the WACC."
-                    ],
-                    "answer": "If a projects IRR is greater than its WACC, then the MIRR will be less than the IRR.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 66,
-                    "topic": "MIRR",
-                    "type": "mcq",
-                    "question": "Which of the following statements is CORRECT? Assume that the project being considered has normal cash flows, with one cash outflow at t = 0 followed by a series of positive cash flows.",
-                    "options": [
-                        "A projects MIRR is always greater than its regular IRR.",
-                        "A projects MIRR is always less than its regular IRR.",
-                        "If a projects IRR is greater than its WACC, then its MIRR will be greater than the IRR.",
-                        "To find a projects MIRR, we compound cash inflows at the regular IRR and then find the discount rate that causes the PV of the terminal value to equal the initial cost.",
-                        "To find a projects MIRR, the textbook procedure compounds cash inflows at the WACC and then finds the discount rate that causes the PV of the terminal value to equal the initial cost."
-                    ],
-                    "answer": "To find a projects MIRR, the textbook procedure compounds cash inflows at the WACC and then finds the discount rate that causes the PV of the terminal value to equal the initial cost.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 67,
-                    "topic": "NPV (constant cash flows; 3 years)",
-                    "type": "mcq",
-                    "question": "Edmondson Electric Systems is considering a project that has the following cash flow and WACC data. What is the project's NPV? Note that if a project's projected NPV is negative, it should be rejected.\nWACC: 10.00%\nYear: 0 | 1 | 2 | 3\nCash flows: -$1,000 | $500 | $500 | $500",
-                    "options": ["$243.43", "$255.60", "$268.38", "$281.80", "$295.89"],
-                    "answer": "$243.43",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 68,
-                    "topic": "NPV (constant cash flows; 4 years)",
-                    "type": "mcq",
-                    "question": "Johnson Enterprises considering a project that has the following cash flow and WACC data. What is the project's NPV? Note that if a project's projected NPV is negative, it should be rejected.\nWACC: 10.00%\nYear: 0 | 1 | 2 | 3 | 4\nCash flows: -$1,000 | $350 | $350 | $350 | $350",
-                    "options": ["$98.78", "$103.98", "$109.45", "$114.93", "$120.67"],
-                    "answer": "$109.45",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 69,
-                    "topic": "NPV (constant cash flows; 5 years)",
-                    "type": "mcq",
-                    "question": "Humboldt Inc. is considering a project that has the following cash flow and WACC data. What is the project's NPV? Note that if a project's projected NPV is negative, it should be rejected.\nWACC: 9.00%\nYear: 0 | 1 | 2 | 3 | 4 | 5\nCash flows: -$1,000 | $300 | $300 | $300 | $300 | $300",
-                    "options": ["$135.94", "$143.09", "$150.62", "$158.55", "$166.90"],
-                    "answer": "$166.90",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 70,
-                    "topic": "IRR (constant cash flows; 3 years)",
-                    "type": "mcq",
-                    "question": "Tucker Corp. is considering a project that has the following cash flow data. What is the project's IRR? Note that a project's projected IRR can be negative, in which case it will be rejected.\nYear: 0 | 1 | 2 | 3\nCash flows: -$1,000 | $450 | $450 | $450",
-                    "options": ["15.82%", "16.65%", "17.48%", "18.36%", "19.27%"],
-                    "answer": "16.65%",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 71,
-                    "topic": "IRR (constant cash flows; 4 years)",
-                    "type": "mcq",
-                    "question": "Levin Company is considering a project that has the following cash flow data. What is the project's IRR? Note that a project's projected IRR can be negative, in which case it will be rejected.\nYear: 0 | 1 | 2 | 3 | 4\nCash flows: -$1,000 | $400 | $400 | $400 | $400",
-                    "options": ["15.94%", "17.71%", "19.68%", "21.86%", "24.05%"],
-                    "answer": "21.86%",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 72,
-                    "topic": "IRR (constant cash flows; 5 years)",
-                    "type": "mcq",
-                    "question": "Frye Foods is considering a project that has the following cash flow data. What is the project's IRR? Note that a project's projected IRR can be negative, in which case it will be rejected.\nYear: 0 | 1 | 2 | 3 | 4 | 5\nCash flows: -$1,000 | $325 | $325 | $325 | $325 | $325",
-                    "options": ["18.72%", "19.65%", "20.64%", "21.67%", "22.75%"],
-                    "answer": "18.72%",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 73,
-                    "topic": "Payback (constant cash flows; 3 years)",
-                    "type": "mcq",
-                    "question": "Wells Inc. is considering a project that has the following cash flow data. What is the project's payback?\nYear: 0 | 1 | 2 | 3\nCash flows: -$1,000 | $500 | $500 | $500",
-                    "options": ["1.62 years", "1.80 years", "2.00 years", "2.20 years", "2.42 years"],
-                    "answer": "2.00 years",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 74,
-                    "topic": "Replacement chain--nonalgorithmic",
-                    "type": "mcq",
-                    "question": "Wachowicz Inc. is considering two average-risk alternative ways of producing its patented polo shirts. Process S has a cost of $8,000 and will produce net cash flows of $5,000 per year for 2 years. Process L will cost $11,500 and will produce cash flows of $4,000 per year for 4 years. The company has a contract that requires it to produce the shirts for 4 years, but the patent will expire after 4 years, so the shirts will not be produced after the 4th year. Inflation is expected to be zero during the next 4 years. If cash inflows occur at the end of each year, and if the cost of capital is 10%, by what amount will the better project increase the firms value?",
-                    "options": ["$677.69", "$1,098.89", "$1,179.46", "$1,237.76", "$1,312.31"],
-                    "answer": "$1,237.76",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 75,
-                    "topic": "NPV, IRR, and payback--nonalgorithmic",
-                    "type": "mcq",
-                    "question": "Van Auken Inc. is considering a project that has the following cash flows:\nYear | Cash Flow\n--- | ---\n0 | -$1,000\n1 | 400\n2 | 300\n3 | 500\n4 | 400\nThe companys WACC is 10%. What are the projects payback, internal rate of return, and net present value?",
-                    "options": [
-                        "Payback = 2.4, IRR = 10.00%, NPV = $600.",
-                        "Payback = 2.4, IRR = 21.22%, NPV = $260.",
-                        "Payback = 2.6, IRR = 21.22%, NPV = $300.",
-                        "Payback = 2.6, IRR = 21.22%, NPV = $260.",
-                        "Payback = 2.6, IRR = 24.12%, NPV = $300."
-                    ],
-                    "answer": "Payback = 2.6, IRR = 21.22%, NPV = $260.",
-                    "explanation": ""
-                },
-                {
-                    "q_num": 76,
+                    "q_num": 90,
                     "topic": "NPV (uneven cash flows; 3 years)",
                     "type": "mcq",
-                    "question": "Adler Enterprises is considering a project that has the following cash flow and WACC data. What is the project's NPV? Note that a project's projected NPV can be negative, in which case it will be rejected.\nWACC: 10.00%\nYear: 0 | 1 | 2 | 3\nCash flows: -$1,000 | $450 | $460 | $470",
-                    "options": ["$142.37", "$149.49", "$156.97", "$164.82", "$173.06"],
+                    "question": "Adler Enterprises is considering a project that has the following cash flow and WACC data. What is the project's NPV? Note that a project's projected NPV can be negative, in which case it will be rejected.\nWACC: 10.00%\nYear: 0, 1, 2, 3\nCash flows: -$1,000, $450, $460, $470",
+                    "options": [
+                        "$142.37",
+                        "$149.49",
+                        "$156.97",
+                        "$164.82",
+                        "$173.06"
+                    ],
                     "answer": "$142.37",
                     "explanation": ""
                 },
                 {
-                    "q_num": 77,
+                    "q_num": 91,
                     "topic": "NPV (uneven cash flows; 3 years)",
                     "type": "mcq",
-                    "question": "Babcock Inc. is considering a project that has the following cash flow and WACC data. What is the project's NPV? Note that a project's projected NPV can be negative, in which case it will be rejected.\nWACC: 10.00%\nYear: 0 | 1 | 2 | 3\nCash flows: -$950 | $500 | $400 | $300",
-                    "options": ["$54.62", "$57.49", "$60.52", "$63.54", "$66.72"],
+                    "question": "Babcock Inc. is considering a project that has the following cash flow and WACC data. What is the project's NPV? Note that a project's projected NPV can be negative, in which case it will be rejected.\nWACC: 10.00%\nYear: 0, 1, 2, 3\nCash flows: -$950, $500, $400, $300",
+                    "options": [
+                        "$54.62",
+                        "$57.49",
+                        "$60.52",
+                        "$63.54",
+                        "$66.72"
+                    ],
                     "answer": "$60.52",
                     "explanation": ""
                 },
                 {
-                    "q_num": 78,
+                    "q_num": 92,
                     "topic": "NPV (uneven cash flows; 4 years)",
                     "type": "mcq",
-                    "question": "Rappaport Enterprises is considering a project that has the following cash flow and WACC data. What is the project's NPV? Note that a project's projected NPV can be negative, in which case it will be rejected.\nWACC: 10.00%\nYear: 0 | 1 | 2 | 3 | 4\nCash flows: -$1,000 | $400 | $405 | $410 | $415",
-                    "options": ["$190.16", "$211.29", "$234.77", "$260.85", "$289.84"],
+                    "question": "Rappaport Enterprises is considering a project that has the following cash flow and WACC data. What is the project's NPV? Note that a project's projected NPV can be negative, in which case it will be rejected.\nWACC: 10.00%\nYear: 0, 1, 2, 3, 4\nCash flows: -$1,000, $400, $405, $410, $415",
+                    "options": [
+                        "$190.16",
+                        "$211.29",
+                        "$234.77",
+                        "$260.85",
+                        "$289.84"
+                    ],
                     "answer": "$289.84",
                     "explanation": ""
                 },
                 {
-                    "q_num": 79,
+                    "q_num": 93,
                     "topic": "NPV (uneven cash flows; 5 years)",
                     "type": "mcq",
-                    "question": "Barry Company is considering a project that has the following cash flow and WACC data. What is the project's NPV? Note that a project's projected NPV can be negative, in which case it will be rejected.\nWACC: 10.00%\nYear: 0 | 1 | 2 | 3 | 4 | 5\nCash flows: -$1,200 | $400 | $395 | $390 | $385 | $380",
-                    "options": ["$253.81", "$282.01", "$310.21", "$341.23", "$375.35"],
+                    "question": "Barry Company is considering a project that has the following cash flow and WACC data. What is the project's NPV? Note that a project's projected NPV can be negative, in which case it will be rejected.\nWACC: 10.00%\nYear: 0, 1, 2, 3, 4, 5\nCash flows: -$1,200, $400, $395, $390, $385, $380",
+                    "options": [
+                        "$253.81",
+                        "$282.01",
+                        "$310.21",
+                        "$341.23",
+                        "$375.35"
+                    ],
                     "answer": "$282.01",
                     "explanation": ""
                 },
                 {
-                    "q_num": 80,
+                    "q_num": 94,
                     "topic": "IRR (uneven cash flows; 3 years)",
                     "type": "mcq",
-                    "question": "Choi Computer Systems is considering a project that has the following cash flow data. What is the project's IRR? Note that a project's projected IRR can be less than the WACC (and even negative), in which case it will be rejected.\nYear: 0 | 1 | 2 | 3\nCash flows: -$1,000 | $450 | $470 | $490",
-                    "options": ["13.89%", "15.43%", "17.15%", "19.05%", "20.96%"],
+                    "question": "Choi Computer Systems is considering a project that has the following cash flow data. What is the project's IRR? Note that a project's projected IRR can be less than the WACC (and even negative), in which case it will be rejected.\nYear: 0, 1, 2, 3\nCash flows: -$1,000, $450, $470, $490",
+                    "options": [
+                        "13.89%",
+                        "15.43%",
+                        "17.15%",
+                        "19.05%",
+                        "20.96%"
+                    ],
                     "answer": "19.05%",
                     "explanation": ""
                 },
                 {
-                    "q_num": 81,
+                    "q_num": 95,
                     "topic": "IRR (uneven cash flows; 4 years)",
                     "type": "mcq",
-                    "question": "Rentz Recreation Inc. is considering a project that has the following cash flow data. What is the project's IRR? Note that a project's projected IRR can be less than the WACC (and even negative), in which case it will be rejected.\nYear: 0 | 1 | 2 | 3 | 4\nCash flows: -$650 | $250 | $230 | $210 | $190",
-                    "options": ["14.04%", "15.44%", "16.99%", "18.69%", "20.56%"],
+                    "question": "Rentz Recreation Inc. is considering a project that has the following cash flow data. What is the project's IRR? Note that a project's projected IRR can be less than the WACC (and even negative), in which case it will be rejected.\nYear: 0, 1, 2, 3, 4\nCash flows: -$650, $250, $230, $210, $190",
+                    "options": [
+                        "14.04%",
+                        "15.44%",
+                        "16.99%",
+                        "18.69%",
+                        "20.56%"
+                    ],
                     "answer": "14.04%",
                     "explanation": ""
                 },
                 {
-                    "q_num": 82,
+                    "q_num": 96,
                     "topic": "IRR (uneven cash flows; 5 years)",
                     "type": "mcq",
-                    "question": "Thompson Stores is considering a project that has the following cash flow data. What is the project's IRR? Note that a project's projected IRR can be less than the WACC (and even negative), in which case it will be rejected.\nYear: 0 | 1 | 2 | 3 | 4 | 5\nCash flows: -$1,000 | $300 | $295 | $290 | $285 | $270",
-                    "options": ["11.16%", "12.40%", "13.78%", "15.16%", "16.68%"],
+                    "question": "Thompson Stores is considering a project that has the following cash flow data. What is the project's IRR? Note that a project's projected IRR can be less than the WACC (and even negative), in which case it will be rejected.\nYear: 0, 1, 2, 3, 4, 5\nCash flows: -$1,000, $300, $295, $290, $285, $270",
+                    "options": [
+                        "11.16%",
+                        "12.40%",
+                        "13.78%",
+                        "15.16%",
+                        "16.68%"
+                    ],
                     "answer": "13.78%",
                     "explanation": ""
                 },
                 {
-                    "q_num": 83,
+                    "q_num": 97,
                     "topic": "Crossover rate--nonalgorithmic",
                     "type": "mcq",
-                    "question": "ZumBahlen Inc. is considering the following mutually exclusive projects:\nProject A: CF0=-$5,000, CF1=$200, CF2=$800, CF3=$3,000, CF4=$5,000\nProject B: CF0=-$5,000, CF1=$3,000, CF2=$3,000, CF3=$800, CF4=$200\nAt what cost of capital will the net present value of the two projects be the same? (That is, what is the crossover rate?)",
-                    "options": ["15.68%", "16.15%", "16.74%", "17.33%", "17.80%"],
+                    "question": "ZumBahlen Inc. is considering the following mutually exclusive projects:\nProject A: Year 0: -$5,000, Year 1: $200, Year 2: $800, Year 3: $3,000, Year 4: $5,000\nProject B: Year 0: -$5,000, Year 1: $3,000, Year 2: $3,000, Year 3: $800, Year 4: $200\nAt what cost of capital will the net present value of the two projects be the same? (That is, what is the crossover rate?)",
+                    "options": [
+                        "15.68%",
+                        "16.15%",
+                        "16.74%",
+                        "17.33%",
+                        "17.80%"
+                    ],
                     "answer": "16.15%",
                     "explanation": ""
                 },
                 {
-                    "q_num": 84,
+                    "q_num": 98,
                     "topic": "Crossover rate--nonalgorithmic",
                     "type": "mcq",
-                    "question": "Steve Hawke is a big football star who has been offered contracts by two different teams. The payments (in millions of dollars) under the two contracts are shown below:\nTeam A: CF0=$8.0, CF1=$4.0, CF2=$4.0, CF3=$4.0, CF4=$4.0\nTeam B: CF0=$2.5, CF1=$4.0, CF2=$4.0, CF3=$8.0, CF4=$8.0\nSteve plans to accept the contract that provides him with the highest net present value. At what discount rate would he be indifferent between the two contracts?",
-                    "options": ["10.85%", "11.35%", "12.66%", "13.98%", "15.01%"],
+                    "question": "Steve Hawke is a big football star who has been offered contracts by two different teams. The payments (in millions of dollars) under the two contracts are shown below:\nTeam A: Year 0: $8.0, Year 1: $4.0, Year 2: $4.0, Year 3: $4.0, Year 4: $4.0\nTeam B: Year 0: $2.5, Year 1: $4.0, Year 2: $4.0, Year 3: $8.0, Year 4: $8.0\nSteve plans to accept the contract that provides him with the highest net present value. At what discount rate would he be indifferent between the two contracts?",
+                    "options": [
+                        "10.85%",
+                        "11.35%",
+                        "12.66%",
+                        "13.98%",
+                        "15.01%"
+                    ],
                     "answer": "11.35%",
                     "explanation": ""
                 },
                 {
-                    "q_num": 85,
+                    "q_num": 99,
                     "topic": "Crossover rate--nonalgorithmic",
                     "type": "mcq",
-                    "question": "Aubey Inc. is considering two projects that have the following cash flows:\nProject 1: CF0=-$2,000, CF1=$500, CF2=$700, CF3=$800, CF4=$1,000, CF5=$1,100\nProject 2: CF0=-$1,900, CF1=$1,100, CF2=$900, CF3=$800, CF4=$600, CF5=$400\nAt what cost of capital would the two projects have the same net present value?",
-                    "options": ["4.73%", "5.85%", "6.70%", "7.50%", "8.20%"],
+                    "question": "Aubey Inc. is considering two projects that have the following cash flows:\nProject 1: Year 0: -$2,000, Year 1: $500, Year 2: $700, Year 3: $800, Year 4: $1,000, Year 5: $1,100\nProject 2: Year 0: -$1,900, Year 1: $1,100, Year 2: $900, Year 3: $800, Year 4: $600, Year 5: $400\nAt what cost of capital would the two projects have the same net present value?",
+                    "options": [
+                        "4.73%",
+                        "5.85%",
+                        "6.70%",
+                        "7.50%",
+                        "8.20%"
+                    ],
                     "answer": "5.85%",
                     "explanation": ""
                 },
                 {
-                    "q_num": 86,
+                    "q_num": 100,
                     "topic": "Crossover rate--nonalgorithmic",
                     "type": "mcq",
-                    "question": "Anderson Associates is considering two mutually exclusive projects that have the following cash flows:\nProject A: CF0=-$10,000, CF1=$1,000, CF2=$2,000, CF3=$6,000, CF4=$6,000\nProject B: CF0=-$8,000, CF1=$7,000, CF2=$1,000, CF3=$1,000, CF4=$1,000\nAt what cost of capital do the two projects have the same net present value? (That is, what is the crossover rate?)",
-                    "options": ["11.20%", "12.26%", "12.54%", "13.03%", "14.15%"],
+                    "question": "Anderson Associates is considering two mutually exclusive projects that have the following cash flows:\nProject A: Year 0: -$10,000, Year 1: $1,000, Year 2: $2,000, Year 3: $6,000, Year 4: $6,000\nProject B: Year 0: -$8,000, Year 1: $7,000, Year 2: $1,000, Year 3: $1,000, Year 4: $1,000\nAt what cost of capital do the two projects have the same net present value? (That is, what is the crossover rate?)",
+                    "options": [
+                        "11.20%",
+                        "12.26%",
+                        "12.54%",
+                        "13.03%",
+                        "14.15%"
+                    ],
                     "answer": "13.03%",
                     "explanation": ""
                 },
                 {
-                    "q_num": 87,
+                    "q_num": 101,
                     "topic": "Crossover rate--nonalgorithmic",
                     "type": "mcq",
-                    "question": "Flint Fruits is considering two equally risky, mutually exclusive projects, Projects A and B, that have the following cash flows:\nProject A: CF0=-$100,000, CF1=$40,000, CF2=$25,000, CF3=$70,000, CF4=$40,000\nProject B: CF0=-$100,000, CF1=$30,000, CF2=$15,000, CF3=$80,000, CF4=$55,000\nAt what WACC would the two projects have the same NPV?",
-                    "options": ["9.56%", "10.33%", "11.21%", "12.55%", "14.49%"],
+                    "question": "Flint Fruits is considering two equally risky, mutually exclusive projects, Projects A and B, that have the following cash flows:\nYear 0: A=-$100,000, B=-$100,000\nYear 1: A=$40,000, B=$30,000\nYear 2: A=$25,000, B=$15,000\nYear 3: A=$70,000, B=$80,000\nYear 4: A=$40,000, B=$55,000\nAt what WACC would the two projects have the same NPV?",
+                    "options": [
+                        "9.56%",
+                        "10.33%",
+                        "11.21%",
+                        "12.55%",
+                        "14.49%"
+                    ],
                     "answer": "11.21%",
                     "explanation": ""
                 },
                 {
-                    "q_num": 88,
+                    "q_num": 102,
                     "topic": "Crossover rate--nonalgorithmic",
                     "type": "mcq",
-                    "question": "Rivoli Roofing is considering mutually exclusive Projects A and B, which have the following cash flows:\nProject A: CF0=-$200, CF1=$20, CF2=$30, CF3=$40, CF4=$50, CF5=$60\nProject B: CF0=-$300, CF1=$90, CF2=$70, CF3=$60, CF4=$50, CF5=$40\nAt what cost of capital would the two projects have the same net present value (NPV)?",
-                    "options": ["6.22%", "7.11%", "8.45%", "9.32%", "10.32%"],
+                    "question": "Rivoli Roofing is considering mutually exclusive Projects A and B, which have the following cash flows:\nYear 0: A=-$200, B=-$300\nYear 1: A=$20, B=$90\nYear 2: A=$30, B=$70\nYear 3: A=$40, B=$60\nYear 4: A=$50, B=$50\nYear 5: A=$60, B=$40\nAt what cost of capital would the two projects have the same net present value (NPV)?",
+                    "options": [
+                        "6.22%",
+                        "7.11%",
+                        "8.45%",
+                        "9.32%",
+                        "10.32%"
+                    ],
                     "answer": "9.32%",
                     "explanation": ""
                 },
                 {
-                    "q_num": 89,
+                    "q_num": 103,
                     "topic": "MIRR (constant cash flows; 3 years)",
                     "type": "mcq",
-                    "question": "Edelman Electric Systems is considering a project that has the following cash flow and WACC data. What is the project's MIRR? Note that a project's projected MIRR can be less than the WACC (and even negative), in which case it will be rejected.\nWACC: 10.00%\nYear: 0 | 1 | 2 | 3\nCash flows: -$800 | $350 | $350 | $350",
-                    "options": ["8.62%", "9.58%", "10.64%", "11.82%", "13.14%"],
+                    "question": "Edelman Electric Systems is considering a project that has the following cash flow and WACC data. What is the project's MIRR? Note that a project's projected MIRR can be less than the WACC (and even negative), in which case it will be rejected.\nWACC: 10.00%\nYear: 0, 1, 2, 3\nCash flows: -$800, $350, $350, $350",
+                    "options": [
+                        "8.62%",
+                        "9.58%",
+                        "10.64%",
+                        "11.82%",
+                        "13.14%"
+                    ],
                     "answer": "13.14%",
                     "explanation": ""
                 },
                 {
-                    "q_num": 90,
+                    "q_num": 104,
                     "topic": "MIRR (uneven cash flows; 4 years)",
                     "type": "mcq",
-                    "question": "Hindelang Inc. is considering a project that has the following cash flow and WACC data. What is the project's MIRR? Note that a project's projected MIRR can be less than the WACC (and even negative), in which case it will be rejected.\nWACC: 10.00%\nYear: 0 | 1 | 2 | 3 | 4\nCash flows: -$900 | $300 | $320 | $340 | $360",
-                    "options": ["12.61%", "14.01%", "15.41%", "16.95%", "18.64%"],
+                    "question": "Hindelang Inc. is considering a project that has the following cash flow and WACC data. What is the project's MIRR? Note that a project's projected MIRR can be less than the WACC (and even negative), in which case it will be rejected.\nWACC: 10.00%\nYear: 0, 1, 2, 3, 4\nCash flows: -$900, $300, $320, $340, $360",
+                    "options": [
+                        "12.61%",
+                        "14.01%",
+                        "15.41%",
+                        "16.95%",
+                        "18.64%"
+                    ],
                     "answer": "14.01%",
                     "explanation": ""
                 },
                 {
-                    "q_num": 91,
+                    "q_num": 105,
                     "topic": "Payback (uneven cash flows; 5 years)",
                     "type": "mcq",
-                    "question": "Stewart Associates is considering a project that has the following cash flow data. What is the project's payback?\nYear: 0 | 1 | 2 | 3 | 4 | 5\nCash flows: -$1,000 | $300 | $310 | $320 | $330 | $340",
-                    "options": ["2.11 years", "2.34 years", "2.60 years", "2.89 years", "3.21 years"],
+                    "question": "Stewart Associates is considering a project that has the following cash flow data. What is the project's payback?\nYear: 0, 1, 2, 3, 4, 5\nCash flows: -$1,000, $300, $310, $320, $330, $340",
+                    "options": [
+                        "2.11 years",
+                        "2.34 years",
+                        "2.60 years",
+                        "2.89 years",
+                        "3.21 years"
+                    ],
                     "answer": "3.21 years",
                     "explanation": ""
                 },
+                {
+                    "q_num": 106,
+                    "topic": "Discounted payback (constant CFs; 3 years)",
+                    "type": "mcq",
+                    "question": "Garvin Enterprises is considering a project that has the following cash flow and WACC data. What is the project's discounted payback?\nWACC: 10.00%\nYear: 0, 1, 2, 3\nCash flows: -$1,000, $500, $500, $500",
+                    "options": [
+                        "2.12 years",
+                        "2.35 years",
+                        "2.59 years",
+                        "2.85 years",
+                        "3.13 years"
+                    ],
+                    "answer": "2.35 years",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 107,
+                    "topic": "Discounted payback (uneven CFs, 4 years)",
+                    "type": "mcq",
+                    "question": "Bey Bikes is considering a project that has the following cash flow and WACC data. What is the project's discounted payback?\nWACC: 10.00%\nYear: 0, 1, 2, 3, 4\nCash flows: -$1,000, $525, $485, $445, $405",
+                    "options": [
+                        "1.72 years",
+                        "1.92 years",
+                        "2.13 years",
+                        "2.36 years",
+                        "2.60 years"
+                    ],
+                    "answer": "2.36 years",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 108,
+                    "topic": "Replacement chain--nonalgorithmic",
+                    "type": "mcq",
+                    "question": "Walker & Campsey wants to invest in a new computer system, and management has narrowed the choice to Systems A and B.\nSystem A requires an up-front cost of $100,000, after which it generates positive after-tax cash flows of $60,000 at the end of each of the next 2 years. The system could be replaced every 2 years, and the cash inflows and outflows would remain the same.\nSystem B also requires an up-front cost of $100,000, after which it would generate positive after-tax cash flows of $48,000 at the end of each of the next 3 years. System B can be replaced every 3 years, but each time the system is replaced, both the cash outflows and cash inflows would increase by 10%.\nThe company needs a computer system for 6 years, after which the current owners plan to retire and liquidate the firm. The company's cost of capital is 11%. What is the NPV (on a 6-year extended basis) of the system that adds the most value?",
+                    "options": [
+                        "$17,298.30",
+                        "$22,634.77",
+                        "$31,211.52",
+                        "$38,523.43",
+                        "$46,143.21"
+                    ],
+                    "answer": "$31,211.52",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 109,
+                    "topic": "Replacement chain--nonalgorithmic",
+                    "type": "mcq",
+                    "question": "Mountain Fresh Water Company is considering two mutually exclusive machines. Machine A has an up-front cost of $100,000 (CF0 = -100,000), and it produces positive after-tax cash inflows of $40,000 a year at the end of each of the next 6 years.\nMachine B has an up-front cost of $50,000(CF0 = -50,000), and it produces after-tax cash inflows of $30,000 a year at the end of the next 3 years. After 3 years, Machine B can be replaced at a cost of $55,000 (paid at t = 3). The replacement machine will produce after-tax cash inflows of $32,000 a year for 3 years (inflows received at t = 4, 5, and 6).\nThe companys cost of capital is 10.5%. What is the net present value (on a 6-year extended basis) of the more profitable machine?",
+                    "options": [
+                        "$23,950",
+                        "$41,656",
+                        "$56,238",
+                        "$62,456",
+                        "$71,687"
+                    ],
+                    "answer": "$71,687",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 110,
+                    "topic": "Replacement chain--nonalgorithmic",
+                    "type": "mcq",
+                    "question": "A small manufacturer is considering two alternative machines. Machine A costs $1.0 million, has an expected life of 5 years, and generates after-tax cash flows of $350,000 per year. At the end of 5 years, the salvage value of the machine is zero, but the company will be able to purchase another Machine A at a cost of $1.2 million. The second Machine A will generate after-tax cash flows of $375,000 a year for another 5 years, at which time its salvage value will again be zero. Alternatively, the company can buy Machine B at a cost of $1.5 million today. Machine B will produce after-tax cash flows of $400,000 a year for 10 years, after which it will have an after-tax salvage value of $100,000. Assume that the cost of capital is 12%. If the company chooses the machine that adds the most value to the firm, by how much will the company's value increase?",
+                    "options": [
+                        "$347,802.00",
+                        "$451,775.21",
+                        "$633,481.19",
+                        "$792,286.54",
+                        "$841,357.66"
+                    ],
+                    "answer": "$792,286.54",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 111,
+                    "topic": "Replacement chain--nonalgorithmic",
+                    "type": "mcq",
+                    "question": "Pinkerton Truck Rental is considering two mutually exclusive engine development projects. The RPX design has an expected life of 4 years and projected cash inflows are $3.6 million at the end of each of the first 2 years and $1.8 million in each of the next 2 years. The RPB design is more flexible and has an 8-year life. The projected end-of-year flows from the RPB design are $2.4 million in each of the first two years and $2.0 million in each of the next six years. Both projects require an initial investment of $5.4 million, and Pinkerton's cost of capital is 12%. Frequent changes in engine technology make engine development risky, but Pinkerton feels that the basic designs can be refined and modified. Thus, Pinkerton often assumes that continuous replacements can be made as a project's life ends. What is the net present value (on an 8-year extended basis) of the project with the most value to the company?",
+                    "options": [
+                        "$3.976 million",
+                        "$4.325 million",
+                        "$5.085 million",
+                        "$5.211 million",
+                        "$5.861 million"
+                    ],
+                    "answer": "$5.211 million",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 112,
+                    "topic": "Replacement chain--nonalgorithmic",
+                    "type": "mcq",
+                    "question": "Owens Mills Corp. is considering two mutually exclusive machines. Machine A requires an up-front expenditure at t = 0 of $450,000, it has an expected life of 2 years, and it will generate positive after-tax cash flows of $350,000 per year (all cash flows are realized at the end of the year) for 2 years. At the end of 2 years, the machine will have zero salvage value, but every two years the company can purchase a replacement machine with the same cost and identical cash inflows.\nAlternatively, it can choose Machine B, which requires an expenditure of $1 million at t = 0, has an expected life of 4 years, and will generate positive after-tax cash flows of $350,000 per year (all cash flows are realized at year end). At the end of 4 years, Machine B will have an after-tax salvage value of $100,000.\nThe cost of capital is 10%. What is the net present value (on an extended 4-year life) of the better machine?",
+                    "options": [
+                        "$157,438",
+                        "$177,754",
+                        "$287,552",
+                        "$355,508",
+                        "$500,000"
+                    ],
+                    "answer": "$287,552",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 113,
+                    "topic": "NPV vs IRR (constant CFs; 3 years)",
+                    "type": "mcq",
+                    "question": "Last month, Smith Systems Inc. decided to accept the project whose cash flows are shown below. However, before actually starting the project, the Federal Reserve took actions that lowered interest rates and therefore Smith's WACC. By how much did the change in the WACC affect the project's forecasted NPV? Assume that the Fed action does not affect the cash flows, and note that a project's projected NPV can be negative, in which case it should be rejected.\nNew WACC: 8.00%, Old WACC: 11.00%\nYear: 0, 1, 2, 3\nCash flows: -$1,000, $500, $500, $500",
+                    "options": [
+                        "$57.18",
+                        "$60.19",
+                        "$63.36",
+                        "$66.69",
+                        "$70.03"
+                    ],
+                    "answer": "$66.69",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 114,
+                    "topic": "NPV vs IRR (uneven CFs; 3 yrs)",
+                    "type": "mcq",
+                    "question": "The Federal Reserve recently shifted its monetary policy, causing Lasik Vision's WACC to change. Lasik had recently analyzed the project whose cash flows are shown below. However, the CFO wants to reconsider this and all other proposed projects in view of the Fed action. How much did the changed WACC cause the forecasted NPV to change? Assume that the Fed action does not affect the cash flows, and note that a project's projected NPV can be negative, in which case it should be rejected.\nNew WACC: 7.00%, Old WACC: 10.00%\nYear: 0, 1, 2, 3\nCash flows: -$1,000, $500, $520, $540",
+                    "options": [
+                        "$72.27",
+                        "$75.88",
+                        "$79.68",
+                        "$83.66",
+                        "$87.85"
+                    ],
+                    "answer": "$72.27",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 115,
+                    "topic": "NPV and payback--nonalgorithmic",
+                    "type": "mcq",
+                    "question": "Sorenson Stores is considering a project that has the following cash flows:\nYear 0: CF0 = ?\nYear 1: $2,000\nYear 2: $3,000\nYear 3: $3,000\nYear 4: $1,500\nThe project has a payback of 2.5 years, and the firms cost of capital is 12%. What is the projects NPV?",
+                    "options": [
+                        "$577.68",
+                        "$765.91",
+                        "$1,049.80",
+                        "$2,761.32",
+                        "$3,765.91"
+                    ],
+                    "answer": "$765.91",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 116,
+                    "topic": "NPV vs IRR (size differential & conflict)",
+                    "type": "mcq",
+                    "question": "A firm is considering Projects S and L, whose cash flows are shown below. These projects are mutually exclusive, equally risky, and not repeatable. The CEO wants to use the IRR criterion, while the CFO favors the NPV method, and you were hired to advise the firm on the best procedure. If the CEO's preferred criterion is used, how much value will the firm lose as a result of this decision?\nWACC: 13.00%\nCFS: -$1,025, $375, $380, $385, $390\nCFL: -$2,150, $750, $759, $768, $777",
+                    "options": [
+                        "$5.83",
+                        "$6.14",
+                        "$6.46",
+                        "$6.79",
+                        "$7.13"
+                    ],
+                    "answer": "$6.46",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 117,
+                    "topic": "NPV vs IRR (size differential, may be conflict)",
+                    "type": "mcq",
+                    "question": "Scanlon Inc. is considering Projects S and L, whose cash flows are shown below. These projects are mutually exclusive, equally risky, and not repeatable. If the decision is made by choosing the project with the higher IRR, how much value will be forgone? Note that under certain conditions choosing projects on the basis of the IRR will not cause any value to be lost because the one with the higher IRR will also have the higher NPV, so no value will be lost if the IRR method is used.\nWACC: 10.00%\nCFS: -$2,050, $750, $760, $770, $780\nCFL: -$4,300, $1,500, $1,518, $1,536, $1,554",
+                    "options": [
+                        "$146.59",
+                        "$154.30",
+                        "$162.42",
+                        "$178.67",
+                        "$187.60"
+                    ],
+                    "answer": "$162.42",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 118,
+                    "topic": "NPV vs IRR (timing differences, may be conflict)",
+                    "type": "mcq",
+                    "question": "Moerdyk & Co. is considering Projects S and L, whose cash flows are shown below. These projects are mutually exclusive, equally risky, and not repeatable. If the decision is made by choosing the project with the higher IRR, how much value will be forgone? Note that under certain conditions choosing projects on the basis of the IRR will not cause any value to be lost because the one with the higher IRR will also have the higher NPV, i.e., no conflict will exist.\nWACC: 12.00%\nCFS: -$1,025, $650, $450, $250, $50\nCFL: -$1,025, $100, $300, $500, $700",
+                    "options": [
+                        "-$1.60",
+                        "-$1.44",
+                        "-$1.30",
+                        "-$1.17",
+                        "$0.00"
+                    ],
+                    "answer": "$0.00",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 119,
+                    "topic": "NPV vs IRR (timing differences, may be conflict)",
+                    "type": "mcq",
+                    "question": "Sadik Company is considering Projects S and L, whose cash flows are shown below. These projects are mutually exclusive, equally risky, and are not repeatable. If the decision is made by choosing the project with the higher IRR, how much value will be forgone? Note that under some conditions choosing projects on the basis of the IRR will cause $0.00 value to be lost.\nWACC: 8.00%\nCFS: -$1,050, $675, $650\nCFL: -$1,050, $360, $360, $360, $360",
+                    "options": [
+                        "$9.09",
+                        "$10.10",
+                        "$11.10",
+                        "$12.22",
+                        "$13.44"
+                    ],
+                    "answer": "$10.10",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 120,
+                    "topic": "NPV vs MIRR (size differences)",
+                    "type": "mcq",
+                    "question": "Nast Inc. is considering Projects S and L, whose cash flows are shown below. These projects are mutually exclusive, equally risky, and not repeatable. If the decision is made by choosing the project with the higher MIRR rather than the one with the higher NPV, how much value will be forgone? Note that under some conditions choosing projects on the basis of the MIRR will cause $0.00 value to be lost.\nWACC: 9.00%\nCFS: -$1,100, $375, $375, $375, $375\nCFL: -$2,200, $725, $725, $725, $725",
+                    "options": [
+                        "$24.71",
+                        "$27.46",
+                        "$30.51",
+                        "$33.90",
+                        "$37.29"
+                    ],
+                    "answer": "$33.90",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 121,
+                    "topic": "NPV vs payback",
+                    "type": "mcq",
+                    "question": "Yonan Inc. is considering Projects S and L, whose cash flows are shown below. These projects are mutually exclusive, equally risky, and not repeatable. If the decision is made by choosing the project with the shorter payback, some value may be forgone. How much value will be lost in this instance? Note that under some conditions choosing projects on the basis of the shorter payback will not cause value to be lost.\nWACC: 10.00%\nCFS: -$1,000, $500, $800, $0, $0\nCFL: -$2,100, $400, $800, $800, $1,000",
+                    "options": [
+                        "$55.16",
+                        "$66.42",
+                        "$78.79",
+                        "$93.16",
+                        "$96.16"
+                    ],
+                    "answer": "$93.16",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 122,
+                    "topic": "IRR vs MIRR",
+                    "type": "mcq",
+                    "question": "Pappas Products is considering Projects S and L, whose cash flows are shown below. These projects are mutually exclusive, equally risky, and not repeatable. The CEO believes the IRR is the best selection criterion, while the CFO advocates the MIRR. If the decision is made by choosing the project with the higher IRR rather than the one with the higher MIRR, how much, if any, value will be forgone? Note that under some conditions the choice will have no effect on the value gained or lost.\nWACC: 11.00%\nCFS: -$1,100, $550, $600, $100, $100\nCFL: -$2,700, $650, $725, $800, $1,400",
+                    "options": [
+                        "-$1.60",
+                        "-$1.44",
+                        "-$1.30",
+                        "$0.00",
+                        "$1.60"
+                    ],
+                    "answer": "$0.00",
+                    "explanation": ""
+                }
             ]
         }
     }
