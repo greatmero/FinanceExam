@@ -1,0 +1,930 @@
+{
+    "title": "BONDS, BOND VALUATION, AND INTEREST RATES",
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-8 w-8\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10\" /></svg>",
+    "sectors": {
+        "sector1": {
+            "title": "True/False",
+            "questions": [
+                {
+                    "q_num": 1,
+                    "topic": "(5.2) Issuing bonds",
+                    "type": "tf",
+                    "question": "If a firm raises capital by selling new bonds, it is called the \"issuing firm,\" and the coupon rate is generally set equal to the required rate on bonds of equal risk.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 2,
+                    "topic": "(5.2) Call provision",
+                    "type": "tf",
+                    "question": "A call provision gives bondholders the right to demand, or \"call for,\" repayment of a bond. Typically, calls are exercised if interest rates rise, because when rates rise the bondholder can get the principal amount back and reinvest it elsewhere at higher rates.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 3,
+                    "topic": "(5.2) Sinking fund",
+                    "type": "tf",
+                    "question": "Sinking funds are devices used to force companies to retire bonds on a scheduled basis prior to their maturity. Many bond indentures allow the company to acquire bonds for a sinking fund by either purchasing bonds in the market or selecting the bonds to be acquired by a lottery administered by the trustee through a call at face value.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 4,
+                    "topic": "(5.2) Zero coupon bond",
+                    "type": "tf",
+                    "question": "A zero coupon bond is a bond that pays no interest and is offered (and subsequently sells initially) at par. These bonds provide compensation to investors in the form of capital appreciation.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 5,
+                    "topic": "(5.2) Floating-rate debt",
+                    "type": "tf",
+                    "question": "The desire for floating-rate bonds, and consequently their increased usage, arose out of the experience of the early 1980s, when inflation pushed interest rates up to very high levels and thus caused sharp declines in the prices of outstanding bonds.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 6,
+                    "topic": "(5.3) Discounted cash flows",
+                    "type": "tf",
+                    "question": "The market value of any real or financial asset, including stocks, bonds, or art work purchased in hope of selling it at a profit, may be estimated by determining future cash flows and then discounting them back to the present.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 7,
+                    "topic": "(5.3) Bond prices and interest rates",
+                    "type": "tf",
+                    "question": "For bonds, price sensitivity to a given change in interest rates is generally greater the longer before the bond matures.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 8,
+                    "topic": "(5.11) Mortgage bond",
+                    "type": "tf",
+                    "question": "As a general rule, a company's debentures have higher required interest rates than its mortgage bonds because mortgage bonds are backed by specific assets while debentures are unsecured.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 9,
+                    "topic": "(5.11) Debt coupon rate",
+                    "type": "tf",
+                    "question": "Other things equal, a firm will have to pay a higher coupon rate on its subordinated debentures than on its second mortgage bonds.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 10,
+                    "topic": "(5.11) Bond ratings and required returns",
+                    "type": "tf",
+                    "question": "There is an inverse relationship between bonds' quality ratings and their required rates of return. Thus, the required return is lowest for AAA-rated bonds, and required returns increase as the ratings get lower.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 11,
+                    "topic": "(5.13) Interest rate risk",
+                    "type": "tf",
+                    "question": "A bond that had a 20-year original maturity with 1 year left to maturity has more interest rate price risk than a 10-year original maturity bond with 1 year left to maturity. (Assume that the bonds have equal default risk and equal coupon rates, and they cannot be called.)",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 12,
+                    "topic": "(5.13) Interest rate risk",
+                    "type": "tf",
+                    "question": "Because short-term interest rates are much more volatile than long-term rates, you would, in the real world, generally be subject to much more interest rate price risk if you purchased a 30-day bond than if you bought a 30-year bond.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 13,
+                    "topic": "(5.15) Junk bond",
+                    "type": "tf",
+                    "question": "Junk bonds are high risk, high yield debt instruments. They are often used to finance leveraged buyouts and mergers, and to provide financing to companies of questionable financial strength.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 14,
+                    "topic": "(5.2) Callable bonds",
+                    "type": "tf",
+                    "question": "A bond that is callable has a chance of being retired earlier than its stated term to maturity. Therefore, if the yield curve is upward sloping, an outstanding callable bond should have a lower yield to maturity than an otherwise identical noncallable bond.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 15,
+                    "topic": "(5.2) Income bond",
+                    "type": "tf",
+                    "question": "Income bonds pay interest only if the issuing company actually earns the indicated interest. Thus, these securities cannot bankrupt a company, and this makes them safer from an investor's perspective than regular bonds.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 16,
+                    "topic": "(5.2) Sinking fund",
+                    "type": "tf",
+                    "question": "You are considering 2 bonds that will be issued tomorrow. Both are rated triple B (BBB, the lowest investment-grade rating), both mature in 20 years, both have a 10% coupon, neither can be called except for sinking fund purposes, and both are offered to you at their $1,000 par values. However, Bond SF has a sinking fund while Bond NSF does not. Under the sinking fund, the company must call and pay off 5% of the bonds at par each year. The yield curve at the time is upward sloping. The bond's prices, being equal, are probably not in equilibrium, as Bond SF, which has the sinking fund, would generally be expected to have a higher yield than Bond NSF.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 17,
+                    "topic": "(5.2) Floating-rate debt",
+                    "type": "tf",
+                    "question": "Floating-rate debt is advantageous to investors because the interest rate moves up if market rates rise. Since floating-rate debt shifts interest rate risk to companies, it offers no advantages to issuers.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 18,
+                    "topic": "(5.3) Bond premiums and discounts",
+                    "type": "tf",
+                    "question": "A bond has a $1,000 par value, makes annual interest payments of $100, has 5 years to maturity, cannot be called, and is not expected to default. The bond should sell at a premium if interest rates are below 10% and at a discount if interest rates are greater than 10%.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 19,
+                    "topic": "(5.3) Bond value--annual payment",
+                    "type": "tf",
+                    "question": "You have funds that you want to invest in bonds, and you just noticed in the financial pages of the local newspaper that you can buy a $1,000 par value bond for $800. The coupon rate is 10% (with annual payments), and there are 10 years before the bond will mature and pay off its $1,000 par value. You should buy the bond if your required return on bonds with this risk is 12%.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 20,
+                    "topic": "(5.5) Bond value",
+                    "type": "tf",
+                    "question": "If the required rate of return on a bond (rd) is greater than its coupon interest rate and will remain above that rate, then the market value of the bond will always be below its par value until the bond matures, at which time its market value will equal its par value. (Accrued interest between interest payment dates should not be considered when answering this question.)",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 21,
+                    "topic": "(5.11) Restrictive covenants",
+                    "type": "tf",
+                    "question": "\"Restrictive covenants\" are designed primarily to protect bondholders by constraining the actions of managers. Such covenants are spelled out in bond indentures.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 22,
+                    "topic": "(5.13) Prices and interest rates",
+                    "type": "tf",
+                    "question": "The prices of high-coupon bonds tend to be less sensitive to a given change in interest rates than low-coupon bonds, other things held constant.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                }
+            ]
+        },
+        "sector2": {
+            "title": "Multiple Choice",
+            "questions": [
+                {
+                    "q_num": 1,
+                    "topic": "(5.5) Interest rates",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["You hold two bonds. One is a 10-year, zero coupon, issue and the other is a 10-year bond that pays a 6% annual coupon. The same market rate, 6%, applies to both bonds. If the market rate rises from the current level, the zero coupon bond will experience the larger percentage decline.", "The time to maturity does not affect the change in the value of a bond in response to a given change in interest rates.", "You hold two bonds. One is a 10-year, zero coupon, bond and the other is a 10-year bond that pays a 6% annual coupon. The same market rate, 6%, applies to both bonds. If the market rate rises from the current level, the zero coupon bond will experience the smaller percentage decline.", "The shorter the time to maturity, the greater the change in the value of a bond in response to a given change in interest rates.", "The longer the time to maturity, the smaller the change in the value of a bond in response to a given change in interest rates."],
+                    "answer": "You hold two bonds. One is a 10-year, zero coupon, issue and the other is a 10-year bond that pays a 6% annual coupon. The same market rate, 6%, applies to both bonds. If the market rate rises from the current level, the zero coupon bond will experience the larger percentage decline.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 2,
+                    "topic": "(5.5) Callable bond",
+                    "type": "mcq",
+                    "question": "Which of the following events would make it more likely that a company would choose to call its outstanding callable bonds?",
+                    "options": ["The company's bonds are downgraded.", "Market interest rates rise sharply.", "Market interest rates decline sharply.", "The company's financial situation deteriorates significantly.", "Inflation increases significantly."],
+                    "answer": "Market interest rates decline sharply.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 3,
+                    "topic": "(Comp: 5.3,5.4) Bond concepts",
+                    "type": "mcq",
+                    "question": "A 10-year bond with a 9% annual coupon has a yield to maturity of 8%. Which of the following statements is CORRECT?",
+                    "options": ["If the yield to maturity remains constant, the bond's price one year from now will be higher than its current price.", "The bond is selling below its par value.", "The bond is selling at a discount.", "If the yield to maturity remains constant, the bond's price one year from now will be lower than its current price.", "The bond's current yield is greater than 9%."],
+                    "answer": "If the yield to maturity remains constant, the bond's price one year from now will be lower than its current price.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 4,
+                    "topic": "(Comp: 5.4,5.11,5.16) Bonds, default risk",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["All else equal, senior debt generally has a lower yield to maturity than subordinated debt.", "An indenture is a bond that is less risky than a mortgage bond.", "The expected return on a corporate bond will generally exceed the bond's yield to maturity.", "If a bond's coupon rate exceeds its yield to maturity, then its expected return to investors exceeds the yield to maturity.", "Under our bankruptcy laws, any firm that is in financial distress will be forced to declare bankruptcy and then be liquidated."],
+                    "answer": "All else equal, senior debt generally has a lower yield to maturity than subordinated debt.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 5,
+                    "topic": "(5.2) Call provision",
+                    "type": "mcq",
+                    "question": "Tucker Corporation is planning to issue new 20-year bonds. Initially, the plan was to make the bonds non-callable. If the bonds were made callable after 5 years at a 5% call premium, how would this affect their required rate of return?",
+                    "options": ["Because of the call premium, the required rate of return would decline.", "There is no reason to expect a change in the required rate of return.", "The required rate of return would decline because the bond would then be less risky to a bondholder.", "The required rate of return would increase because the bond would then be more risky to a bondholder.", "It is impossible to say without more information."],
+                    "answer": "The required rate of return would increase because the bond would then be more risky to a bondholder.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 6,
+                    "topic": "(5.3) Bond coupon rate",
+                    "type": "mcq",
+                    "question": "Under normal conditions, which of the following would be most likely to increase the coupon rate required to enable a bond to be issued at par?",
+                    "options": ["Adding additional restrictive covenants that limit management's actions.", "Adding a call provision.", "The rating agencies change the bond's rating from Baa to Aaa.", "Making the bond a first mortgage bond rather than a debenture.", "Adding a sinking fund."],
+                    "answer": "Adding a call provision.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 7,
+                    "topic": "(5.13) Interest rate risk",
+                    "type": "mcq",
+                    "question": "Which of the following bonds would have the greatest percentage increase in value if all interest rates fall by 1%?",
+                    "options": ["10-year, zero coupon bond.", "20-year, 10% coupon bond.", "20-year, 5% coupon bond.", "1-year, 10% coupon bond.", "20-year, zero coupon bond."],
+                    "answer": "20-year, zero coupon bond.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 8,
+                    "topic": "(5.13) Interest rate risk",
+                    "type": "mcq",
+                    "question": "Assume that all interest rates in the economy decline from 10% to 9%. Which of the following bonds would have the largest percentage increase in price?",
+                    "options": ["An 8-year bond with a 9% coupon.", "A 1-year bond with a 15% coupon.", "A 3-year bond with a 10% coupon.", "A 10-year zero coupon bond.", "A 10-year bond with a 10% coupon."],
+                    "answer": "A 10-year zero coupon bond.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 9,
+                    "topic": "(5.13) Interest rate risk",
+                    "type": "mcq",
+                    "question": "Which of the following bonds has the greatest interest rate price risk?",
+                    "options": ["A 10-year $100 annuity.", "A 10-year, $1,000 face value, zero coupon bond.", "A 10-year, $1,000 face value, 10% coupon bond with annual interest payments.", "All 10-year bonds have the same price risk since they have the same maturity.", "A 10-year, $1,000 face value, 10% coupon bond with semiannual interest payments."],
+                    "answer": "A 10-year, $1,000 face value, zero coupon bond.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 10,
+                    "topic": "(5.13) Interest rate risk",
+                    "type": "mcq",
+                    "question": "If its yield to maturity declined by 1%, which of the following bonds would have the largest percentage increase in value?",
+                    "options": ["A 1-year zero coupon bond.", "A 1-year bond with an 8% coupon.", "A 10-year bond with an 8% coupon.", "A 10-year bond with a 12% coupon.", "A 10-year zero coupon bond."],
+                    "answer": "A 10-year zero coupon bond.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 11,
+                    "topic": "(5.2) Sinking funds",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["Sinking fund provisions sometimes turn out to adversely affect bondholders, and this is most likely to occur if interest rates decline after the bond has been issued.", "Most sinking funds require the issuer to provide funds to a trustee, who saves the money so that it will be available to pay off bondholders when the bonds mature.", "A sinking fund provision makes a bond more risky to investors at the time of issuance.", "Sinking fund provisions never require companies to retire their debt; they only establish targets for the company to reduce its debt over time.", "If interest rates have increased since a company issued bonds with a sinking fund, the company is less likely to retire the bonds by buying them back in the open market, as opposed to calling them in at the sinking fund call price."],
+                    "answer": "Sinking fund provisions sometimes turn out to adversely affect bondholders, and this is most likely to occur if interest rates decline after the bond has been issued.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 12,
+                    "topic": "(5.2) Convertible, callable bonds",
+                    "type": "mcq",
+                    "question": "Amram Inc. can issue a 20-year bond with a 6% annual coupon. This bond is not convertible, is not callable, and has no sinking fund. Alternatively, Amram could issue a 20-year bond that is convertible into common equity, may be called, and has a sinking fund. Which of the following most accurately describes the coupon rate that Amram would have to pay on the convertible, callable bond?",
+                    "options": ["Exactly equal to 6%.", "It could be less than, equal to, or greater than 6%.", "Greater than 6%.", "Exactly equal to 8%.", "Less than 6%."],
+                    "answer": "It could be less than, equal to, or greater than 6%.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 13,
+                    "topic": "(5.3) Bond concepts",
+                    "type": "mcq",
+                    "question": "Three $1,000 face value bonds that mature in 10 years have the same level of risk, hence their YTMs are equal. Bond A has an 8% annual coupon, Bond B has a 10% annual coupon, and Bond C has a 12% annual coupon. Bond B sells at par. Assuming interest rates remain constant for the next 10 years, which of the following statements is CORRECT?",
+                    "options": ["Bond A's current yield will increase each year.", "Since the bonds have the same YTM, they should all have the same price, and since interest rates are not expected to change, their prices should all remain at their current levels until maturity.", "Bond C sells at a premium (its price is greater than par), and its price is expected to increase over the next year.", "Bond A sells at a discount (its price is less than par), and its price is expected to increase over the next year.", "Over the next year, Bond A's price is expected to decrease, Bond B's price is expected to stay the same, and Bond C's price is expected to increase."],
+                    "answer": "Bond A sells at a discount (its price is less than par), and its price is expected to increase over the next year.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 14,
+                    "topic": "(5.4) Bond yields",
+                    "type": "mcq",
+                    "question": "A 10-year corporate bond has an annual coupon of 9%. The bond is currently selling at par ($1,000). Which of the following statements is NOT CORRECT?",
+                    "options": ["The bond's expected capital gains yield is positive.", "The bond's yield to maturity is 9%.", "The bond's current yield is 9%.", "If the bond's yield to maturity remains constant, the bond will continue to sell at par.", "The bond's current yield exceeds its capital gains yield."],
+                    "answer": "The bond's expected capital gains yield is positive.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 15,
+                    "topic": "(5.4) Bond yields",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["A zero coupon bond's current yield is equal to its yield to maturity.", "If a bond's yield to maturity exceeds its coupon rate, the bond will sell at par.", "All else equal, if a bond's yield to maturity increases, its price will fall.", "If a bond's yield to maturity exceeds its coupon rate, the bond will sell at a premium over par.", "All else equal, if a bond's yield to maturity increases, its current yield will fall."],
+                    "answer": "All else equal, if a bond's yield to maturity increases, its price will fall.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 16,
+                    "topic": "(5.4) Bond yields",
+                    "type": "mcq",
+                    "question": "A 15-year bond with a face value of $1,000 currently sells for $850. Which of the following statements is CORRECT?",
+                    "options": ["The bond's coupon rate exceeds its current yield.", "The bond's current yield exceeds its yield to maturity.", "The bond's yield to maturity is greater than its coupon rate.", "The bond's current yield is equal to its coupon rate.", "If the yield to maturity stays constant until the bond matures, the bond's price will remain at $850."],
+                    "answer": "The bond's yield to maturity is greater than its coupon rate.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 17,
+                    "topic": "(5.4) Bond yields",
+                    "type": "mcq",
+                    "question": "A 10-year bond pays an annual coupon, its YTM is 8%, and it currently trades at a premium. Which of the following statements is CORRECT?",
+                    "options": ["The bond's current yield is less than 8%.", "If the yield to maturity remains at 8%, then the bond's price will decline over the next year.", "The bond's coupon rate is less than 8%.", "If the yield to maturity increases, then the bond's price will increase.", "If the yield to maturity remains at 8%, then the bond's price will remain constant over the next year."],
+                    "answer": "If the yield to maturity remains at 8%, then the bond's price will decline over the next year.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 18,
+                    "topic": "(5.4) Bond yields",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["If a bond is selling at a discount, the yield to call is a better measure of return than the yield to maturity.", "On an expected yield basis, the expected capital gains yield will always be positive because an investor would not purchase a bond with an expected capital loss.", "On an expected yield basis, the expected current yield will always be positive because an investor would not purchase a bond that is not expected to pay any cash coupon interest.", "If a coupon bond is selling at par, its current yield equals its yield to maturity.", "The current yield on Bond A exceeds the current yield on Bond B; therefore, Bond A must have a higher yield to maturity than Bond B."],
+                    "answer": "If a coupon bond is selling at par, its current yield equals its yield to maturity.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 19,
+                    "topic": "(5.5) Interest rates and bond prices",
+                    "type": "mcq",
+                    "question": "A 12-year bond has an annual coupon rate of 9%. The coupon rate will remain fixed until the bond matures. The bond has a yield to maturity of 7%. Which of the following statements is CORRECT?",
+                    "options": ["If market interest rates decline, the price of the bond will also decline.", "The bond is currently selling at a price below its par value.", "If market interest rates remain unchanged, the bond's price one year from now will be lower than it is today.", "The bond should currently be selling at its par value.", "If market interest rates remain unchanged, the bond's price one year from now will be higher than it is today."],
+                    "answer": "If market interest rates remain unchanged, the bond's price one year from now will be lower than it is today.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 20,
+                    "topic": "(5.5) Interest rates and bond prices",
+                    "type": "mcq",
+                    "question": "A 10-year Treasury bond has an 8% coupon, and an 8-year Treasury bond has a 10% coupon. Both bonds have the same yield to maturity. If the yield to maturity of both bonds increases by the same amount, which of the following statements would be CORRECT?",
+                    "options": ["The prices of both bonds will decrease by the same amount.", "Both bonds would decline in price, but the 10-year bond would have the greater percentage decline in price.", "The prices of both bonds would increase by the same amount.", "One bond's price would increase, while the other bond's price would decrease.", "The prices of the two bonds would remain constant."],
+                    "answer": "Both bonds would decline in price, but the 10-year bond would have the greater percentage decline in price.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 21,
+                    "topic": "(5.5) Bond yields and prices",
+                    "type": "mcq",
+                    "question": "You are considering two bonds. Bond A has a 9% annual coupon while Bond B has a 6% annual coupon. Both bonds have a 7% yield to maturity, and the YTM is expected to remain constant. Which of the following statements is CORRECT?",
+                    "options": ["The price of Bond B will decrease over time, but the price of Bond A will increase over time.", "The prices of both bonds will remain unchanged.", "The price of Bond A will decrease over time, but the price of Bond B will increase over time.", "The prices of both bonds will increase by 7% per year.", "The prices of both bonds will increase over time, but the price of Bond A will increase by more."],
+                    "answer": "The price of Bond A will decrease over time, but the price of Bond B will increase over time.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 22,
+                    "topic": "(5.7) Interest rates",
+                    "type": "mcq",
+                    "question": "Assume that interest rates on 20-year Treasury and corporate bonds with different ratings, all of which are noncallable, are as follows:\nT-bond = 7.72% A = 9.64%\nAAA = 8.72% BBB = 10.18%\nThe differences in rates among these issues were most probably caused primarily by:",
+                    "options": ["Real risk-free rate differences.", "Tax effects.", "Default risk differences.", "Maturity risk differences.", "Inflation differences."],
+                    "answer": "Default risk differences.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 23,
+                    "topic": "(5.13) Interest vs. reinvestment rate risk",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["All else equal, high-coupon bonds have less reinvestment rate risk than low-coupon bonds.", "All else equal, long-term bonds have less interest rate price risk than short-term bonds.", "All else equal, low-coupon bonds have less interest rate price risk than high-coupon bonds.", "All else equal, short-term bonds have less reinvestment rate risk than long-term bonds.", "All else equal, long-term bonds have less reinvestment rate risk than short-term bonds."],
+                    "answer": "All else equal, long-term bonds have less reinvestment rate risk than short-term bonds.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 24,
+                    "topic": "(5.13) Interest vs. reinvestment rate risk",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["One advantage of a zero coupon Treasury bond is that no one who owns the bond has to pay any taxes on it until it matures or is sold.", "Long-term bonds have less interest rate price risk but more reinvestment rate risk than short-term bonds.", "If interest rates increase, all bond prices will increase, but the increase will be greater for bonds that have less interest rate risk.", "Relative to a coupon-bearing bond with the same maturity, a zero coupon bond has more interest rate price risk but less reinvestment rate risk.", "Long-term bonds have less interest rate price risk and also less reinvestment rate risk than short-term bonds."],
+                    "answer": "Relative to a coupon-bearing bond with the same maturity, a zero coupon bond has more interest rate price risk but less reinvestment rate risk.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 25,
+                    "topic": "(5.14) Term structure of interest rates",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["If inflation is expected to increase in the future, and if the maturity risk premium (MRP) is greater than zero, then the yield curve will have an upward slope.", "If the maturity risk premium (MRP) is greater than zero, then the yield curve must have an upward slope.", "Because long-term bonds are riskier than short-term bonds, yields on long-term Treasury bonds will always be higher than yields on short-term T-bonds.", "If the maturity risk premium (MRP) equals zero, the yield curve must be flat.", "The yield curve can never be downward sloping."],
+                    "answer": "If inflation is expected to increase in the future, and if the maturity risk premium (MRP) is greater than zero, then the yield curve will have an upward slope.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 26,
+                    "topic": "(Comp: 5.3-5.5) Bond concepts",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["If a coupon bond is selling at par, its current yield equals its yield to maturity.", "If a coupon bond is selling at a discount, its price will continue to decline until it reaches its par value at maturity.", "If interest rates increase, the price of a 10-year coupon bond will decline by a greater percentage than the price of a 10-year zero coupon bond.", "If a bond's yield to maturity exceeds its annual coupon, then the bond will trade at a premium.", "If a coupon bond is selling at a premium, its current yield equals its yield to maturity."],
+                    "answer": "If a coupon bond is selling at par, its current yield equals its yield to maturity.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 27,
+                    "topic": "(Comp: 5.3,5.4) Bond concepts",
+                    "type": "mcq",
+                    "question": "A Treasury bond has an 8% annual coupon and a 7.5% yield to maturity. Which of the following statements is CORRECT?",
+                    "options": ["The bond sells at a price below par.", "The bond has a current yield greater than 8%.", "The bond sells at a discount.", "The bond's required rate of return is less than 7.5%.", "If the yield to maturity remains constant, the price of the bond will decline over time."],
+                    "answer": "If the yield to maturity remains constant, the price of the bond will decline over time.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 28,
+                    "topic": "(Comp: 5.4,5.5) Bond concepts",
+                    "type": "mcq",
+                    "question": "An investor is considering buying one of two 10-year, $1,000 face value bonds: Bond A has a 7% annual coupon, while Bond B has a 9% annual coupon. Both bonds have a yield to maturity of 8%, which is expected to remain constant for the next 10 years. Which of the following statements is CORRECT?",
+                    "options": ["Bond B has a higher price than Bond A today, but one year from now the bonds will have the same price.", "One year from now, Bond A's price will be higher than it is today.", "Bond A's current yield is greater than 8%.", "Bond A has a higher price than Bond B today, but one year from now the bonds will have the same price.", "Both bonds have the same price today, and the price of each bond is expected to remain constant until the bonds mature."],
+                    "answer": "One year from now, Bond A's price will be higher than it is today.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 29,
+                    "topic": "(Comp: 5.3,5.4,5.13) Bond concepts",
+                    "type": "mcq",
+                    "question": "Which of the following statements is NOT CORRECT?",
+                    "options": ["If a bond is selling at a discount to par, its current yield will be less than its yield to maturity.", "All else equal, bonds with longer maturities have more interest rate (price) risk than bonds with shorter maturities.", "If a bond is selling at its par value, its current yield equals its yield to maturity.", "If a bond is selling at a premium, its current yield will be greater than its yield to maturity.", "All else equal, bonds with larger coupons have greater interest rate (price) risk than bonds with smaller coupons."],
+                    "answer": "All else equal, bonds with larger coupons have greater interest rate (price) risk than bonds with smaller coupons.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 30,
+                    "topic": "(Comp: 5.2,5.3,5.5,5.13) Bond concepts",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["If a 10-year, $1,000 par, zero coupon bond were issued at a price that gave investors a 10% yield to maturity, and if interest rates then dropped to the point where rd = YTM = 5%, the bond would sell at a premium over its $1,000 par value.", "If a 10-year, $1,000 par, 10% coupon bond were issued at par, and if interest rates then dropped to the point where rd = YTM = 5%, we could be sure that the bond would sell at a premium above its $1,000 par value.", "Other things held constant, a corporation would rather issue noncallable bonds than callable bonds.", "Other things held constant, a callable bond would have a lower required rate of return than a noncallable bond.", "Reinvestment rate risk is worse from an investor's standpoint than interest rate price risk if the investor has a short investment time horizon."],
+                    "answer": "If a 10-year, $1,000 par, 10% coupon bond were issued at par, and if interest rates then dropped to the point where rd = YTM = 5%, we could be sure that the bond would sell at a premium above its $1,000 par value.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 31,
+                    "topic": "(Comp: 5.4,5.5) Bond concepts",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["If the Federal Reserve unexpectedly announces that it expects inflation to increase, then we would probably observe an immediate increase in bond prices.", "The total yield on a bond is derived from dividends plus changes in the price of the bond.", "Bonds are riskier than common stocks and therefore have higher required returns.", "Bonds issued by larger companies always have lower yields to maturity (less risk) than bonds issued by smaller companies.", "The market value of a bond will always approach its par value as its maturity date approaches, provided the bond's required return remains constant."],
+                    "answer": "The market value of a bond will always approach its par value as its maturity date approaches, provided the bond's required return remains constant.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 32,
+                    "topic": "(Comp: 5.3-5.5) Bond concepts",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["If a coupon bond is selling at par, its current yield equals its yield to maturity.", "If rates fall after its issue, a zero coupon bond could trade at a price above its par value.", "If rates fall rapidly, a zero coupon bond's expected appreciation could become negative.", "If a firm moves from a position of strength toward financial distress, its bond's yield to maturity would probably decline.", "If a bond is selling at a premium, this implies that its yield to maturity exceeds its coupon rate."],
+                    "answer": "If a coupon bond is selling at par, its current yield equals its yield to maturity.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 33,
+                    "topic": "(Comp: 5.5,5.13) Bond concepts",
+                    "type": "mcq",
+                    "question": "Bond X has an 8% annual coupon, Bond Y has a 10% annual coupon, and Bond Z has a 12% annual coupon. Each of the bonds has a maturity of 10 years and a yield to maturity of 10%. Which of the following statements is CORRECT?",
+                    "options": ["If the bonds' market interest rate remain at 10%, Bond Z's price will be lower one year from now than it is today.", "Bond X has the greatest reinvestment rate risk.", "If market interest rates decline, all of the bonds will have an increase in price, and Bond Z will have the largest percentage increase in price.", "If market interest rates remain at 10%, Bond Z's price will be 10% higher one year from today.", "If market interest rates increase, Bond X's price will increase, Bond Z's price will decline, and Bond Y's price will remain the same."],
+                    "answer": "If the bonds' market interest rate remain at 10%, Bond Z's price will be lower one year from now than it is today.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 34,
+                    "topic": "(Comp: 5.3-5.5,5.13) Bond concepts",
+                    "type": "mcq",
+                    "question": "Bonds A, B, and C all have a maturity of 10 years and a yield to maturity of 7%. Bond A's price exceeds its par value, Bond B's price equals its par value, and Bond C's price is less than its par value. Which of the following statements is CORRECT?",
+                    "options": ["If the yield to maturity on each bond decreases to 6%, Bond A will have the largest percentage increase in its price.", "Bond A has the most interest rate risk.", "If the yield to maturity on the three bonds remains constant, the prices of the three bonds will remain the same over the next year.", "If the yield to maturity on each bond increases to 8%, the prices of all three bonds will decline.", "Bond C sells at a premium over its par value."],
+                    "answer": "If the yield to maturity on each bond increases to 8%, the prices of all three bonds will decline.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 35,
+                    "topic": "(Comp: 5.2,5.4,5.5,5.13) Bond concepts",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["10-year, zero coupon bonds have higher reinvestment rate risk than 10-year, 10% coupon bonds.", "A 10-year, 10% coupon bond has less reinvestment rate risk than a 10-year, 5% coupon bond (assuming all else equal).", "The total return on a bond during a given year is the sum of the coupon interest payments received during the year and the change in the value of the bond from the beginning to the end of the year.", "The price of a 20-year, 10% bond is less sensitive to changes in interest rates than the price of a 5-year, 10% bond.", "A $1,000 bond with $100 annual interest payments that has 5 years to maturity and is not expected to default would sell at a discount if interest rates were below 9% and at a premium if interest rates were greater than 11%."],
+                    "answer": "The total return on a bond during a given year is the sum of the coupon interest payments received during the year and the change in the value of the bond from the beginning to the end of the year.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 36,
+                    "topic": "(Comp: 5.3,5.4) Bond yields",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["The yield to maturity for a coupon bond that sells at a premium consists entirely of a positive capital gains yield; it has a zero current interest yield.", "The market value of a bond will always approach its par value as its maturity date approaches. This holds true even if the firm has filed for bankruptcy.", "Rising inflation makes the actual yield to maturity on a bond greater than a quoted yield to maturity that is based on market prices.", "The yield to maturity on a coupon bond that sells at its par value consists entirely of a current interest yield; it has a zero expected capital gains yield.", "On an expected yield basis, the expected capital gains yield will always be positive because an investor would not purchase a bond with an expected capital loss."],
+                    "answer": "The yield to maturity on a coupon bond that sells at its par value consists entirely of a current interest yield; it has a zero expected capital gains yield.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 37,
+                    "topic": "(Comp: 5.3,5.4) Bond yields",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["If a coupon bond is selling at a premium, then the bond's current yield is zero.", "If a coupon bond is selling at a discount, then the bond's expected capital gains yield is negative.", "If a bond is selling at a discount, the yield to call is a better measure of the expected return than the yield to maturity.", "The current yield on Bond A exceeds the current yield on Bond B. Therefore, Bond A must have a higher yield to maturity than Bond B.", "If a coupon bond is selling at par, its current yield equals its yield to maturity."],
+                    "answer": "If a coupon bond is selling at par, its current yield equals its yield to maturity.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 38,
+                    "topic": "(Comp: 5.7,5.9,5.13,5.14) Yield curve",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["If inflation is expected to increase in the future, and if the maturity risk premium (MRP) is greater than zero, then the yield curve will have an upward slope.", "If the maturity risk premium (MRP) is greater than zero, then the yield curve must have an upward slope.", "Because long-term bonds are riskier than short-term bonds, yields on long-term Treasury bonds will always be higher than yields on short-term T-bonds.", "If the maturity risk premium (MRP) equals zero, the yield curve must be flat.", "The yield curve can never be downward sloping."],
+                    "answer": "If inflation is expected to increase in the future, and if the maturity risk premium (MRP) is greater than zero, then the yield curve will have an upward slope.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 39,
+                    "topic": "(Comp: 5.7,5.9,5.13,5.14) Yield curve",
+                    "type": "mcq",
+                    "question": "Assume that the current corporate bond yield curve is upward sloping. Under this condition, then we could be sure that",
+                    "options": ["Inflation is expected to decline in the future.", "The economy is not in a recession.", "Long-term bonds are a better buy than short-term bonds.", "Maturity risk premiums could help to explain the yield curve's upward slope.", "Long-term interest rates are more volatile than short-term rates."],
+                    "answer": "Maturity risk premiums could help to explain the yield curve's upward slope.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 40,
+                    "topic": "(Comp: 5.7,5.9,5.11,5.13,5.14) Yield curve",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["The higher the maturity risk premium, the higher the probability that the yield curve will be inverted.", "The most likely explanation for an inverted yield curve is that investors expect inflation to increase.", "The most likely explanation for an inverted yield curve is that investors expect inflation to decrease.", "If the yield curve is inverted, short-term bonds have lower yields than long-term bonds.", "Inverted yield curves can exist for Treasury bonds, but because of default premiums, the corporate yield curve can never be inverted."],
+                    "answer": "The most likely explanation for an inverted yield curve is that investors expect inflation to decrease.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 41,
+                    "topic": "(Comp: 5.7,5.9,5.11,5.13,5.14) Corporate yield curve",
+                    "type": "mcq",
+                    "question": "Short Corp. just issued bonds that will mature in 10 years, and Long Corp. issued bonds that will mature in 20 years. Both bonds promise to pay a semiannual coupon, they are not callable or convertible, and they are equally liquid. Further, assume that the Treasury yield curve is based only on expectations about future inflation, i.e., that the maturity risk premium is zero for T-bonds. Under these conditions, which of the following statements is correct?",
+                    "options": ["If the Treasury yield curve is upward sloping and Short has less default risk than Long, then Short's bonds must under all conditions have the lower yield.", "If the Treasury yield curve is downward sloping, Long's bonds must under all conditions have the lower yield.", "If the yield curve for Treasury securities is upward sloping, Long's bonds must under all conditions have a higher yield than Short's bonds.", "If the yield curve for Treasury securities is flat, Short's bond must under all conditions have the same yield as Long's bonds.", "If Long's and Short's bonds have the same default risk, their yields must under all conditions be equal."],
+                    "answer": "If the Treasury yield curve is upward sloping and Short has less default risk than Long, then Short's bonds must under all conditions have the lower yield.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 42,
+                    "topic": "(Comp: 5.3-5.5) Bond rates and prices",
+                    "type": "mcq",
+                    "question": "Bond A has a 9% annual coupon, while Bond B has a 7% annual coupon. Both bonds have the same maturity, a face value of $1,000, and an 8% yield to maturity. Which of the following statements is CORRECT?",
+                    "options": ["Bond A's capital gains yield is greater than Bond B's capital gains yield.", "Bond A trades at a discount, whereas Bond B trades at a premium.", "If the yield to maturity for both bonds remains at 8%, Bond A's price one year from now will be higher than it is today, but Bond B's price one year from now will be lower than it is today.", "If the yield to maturity for both bonds immediately decreases to 6%, Bond A's bond will have a larger percentage increase in value.", "Bond A's current yield is greater than that of Bond B."],
+                    "answer": "Bond A's current yield is greater than that of Bond B.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 43,
+                    "topic": "(Comp: 5.2,5.4,5.5) Callable bond",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["Two bonds have the same maturity and the same coupon rate. However, one is callable and the other is not. The difference in prices between the bonds will be greater if the current market interest rate is below the coupon rate than if it is above the coupon rate.", "A callable 10-year, 10% bond should sell at a higher price than an otherwise similar noncallable bond.", "Corporate treasurers dislike issuing callable bonds because these bonds may require the company to raise additional funds earlier than would be true if noncallable bonds with the same maturity were used.", "Two bonds have the same maturity and the same coupon rate. However, one is callable and the other is not. The difference in prices between the bonds will be greater if the current market interest rate is above the coupon rate than if it is below the coupon rate.", "The actual life of a callable bond will always be equal to or less than the actual life of a noncallable bond with the same maturity. Therefore, if the yield curve is upward sloping, the required rate of return will be lower on the callable bond."],
+                    "answer": "Two bonds have the same maturity and the same coupon rate. However, one is callable and the other is not. The difference in prices between the bonds will be greater if the current market interest rate is below the coupon rate than if it is above the coupon rate.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 44,
+                    "topic": "(Comp: 5.2,5.11) Costs of types of debt",
+                    "type": "mcq",
+                    "question": "A company is planning to raise $1,000,000 to finance a new plant. Which of the following statements is CORRECT?",
+                    "options": ["The company would be especially eager to have a call provision included in the indenture if its management thinks that interest rates are almost certain to rise in the foreseeable future.", "If debt is used to raise the million dollars, but $500,000 is raised as first mortgage bonds on the new plant and $500,000 as debentures, the interest rate on the first mortgage bonds would be lower than it would be if the entire $1 million were raised by selling first mortgage bonds.", "If two tiers of debt are used (with one senior and one subordinated debt class), the subordinated debt will carry a lower interest rate.", "If debt is used to raise the million dollars, the cost of the debt would be lower if the debt were in the form of a fixed-rate bond rather than a floating-rate bond.", "If debt is used to raise the million dollars, the cost of the debt would be higher if the debt were in the form of a mortgage bond rather than an unsecured term loan."],
+                    "answer": "If debt is used to raise the million dollars, but $500,000 is raised as first mortgage bonds on the new plant and $500,000 as debentures, the interest rate on the first mortgage bonds would be lower than it would be if the entire $1 million were raised by selling first mortgage bonds.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 45,
+                    "topic": "(Comp: 5.2,5.11,5.15) Types of debt",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["Junior debt is debt that has been more recently issued, and in bankruptcy it is paid off after senior debt because the senior debt was issued first.", "Subordinated debt has less default risk than senior debt.", "Convertible bonds have lower coupon rates than non-convertible bonds of similar default risk because they offer the possibility of capital gains.", "Junk bonds typically provide a lower yield to maturity than investment-grade bonds.", "A debenture is a secured bond that is backed by some or all of the firm's fixed assets."],
+                    "answer": "Convertible bonds have lower coupon rates than non-convertible bonds of similar default risk because they offer the possibility of capital gains.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 46,
+                    "topic": "(Comp: 5.2,5.4,5.16) Miscellaneous concepts",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["One disadvantage of zero coupon bonds is that the issuing firm cannot realize any tax savings from the debt until the bonds mature.", "Other things held constant, a callable bond should have a lower yield to maturity than a noncallable bond.", "Once a firm declares bankruptcy, it must then be liquidated by the trustee, who uses the proceeds to pay bondholders, unpaid wages, taxes, and lawyer fees.", "Income bonds must pay interest only if the company earns the interest. Thus, these securities cannot bankrupt a company prior to their maturity, and this makes them safer to the issuing corporation than \"regular\" bonds.", "A firm with a sinking fund that gave it the choice of calling the required bonds at par or buying the bonds in the open market would generally choose the open market purchase if the coupon rate exceeded the going interest rate."],
+                    "answer": "Income bonds must pay interest only if the company earns the interest. Thus, these securities cannot bankrupt a company prior to their maturity, and this makes them safer to the issuing corporation than \"regular\" bonds.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 47,
+                    "topic": "(Comp: 5.3-5.5,5.16) Miscellaneous concepts",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["The total return on a bond during a given year consists only of the coupon interest payments received.", "All else equal, a bond that has a coupon rate of 10% will sell at a discount if the required return for bonds of similar risk is 8%.", "The price of a discount bond will increase over time, assuming that the bond's yield to maturity remains constant.", "For a given firm, its debentures are likely to have a lower yield to maturity than its mortgage bonds.", "When large firms are in financial distress, they are almost always liquidated, whereas smaller firms are generally reorganized."],
+                    "answer": "The price of a discount bond will increase over time, assuming that the bond's yield to maturity remains constant.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 48,
+                    "topic": "(Comp: 5.4,5.11,5.16) Default and bankruptcy",
+                    "type": "mcq",
+                    "question": "Which of the following statements is NOT CORRECT?",
+                    "options": ["All else equal, secured debt is less risky than unsecured debt.", "The expected return on a corporate bond must be less than its promised return if the probability of default is greater than zero.", "All else equal, senior debt has less default risk than subordinated debt.", "A company's bond rating is affected by its financial ratios and provisions in its indenture.", "Under Chapter 11 of the Bankruptcy Act, the assets of a firm that declares bankruptcy must be liquidated, and the sale proceeds must be used to pay off its debt according to the seniority of the debt as spelled out in the Act."],
+                    "answer": "Under Chapter 11 of the Bankruptcy Act, the assets of a firm that declares bankruptcy must be liquidated, and the sale proceeds must be used to pay off its debt according to the seniority of the debt as spelled out in the Act.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 49,
+                    "topic": "(Comp: 5.3,5.4) Call provision",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["A bond is likely to be called if its coupon rate is below its YTM.", "A bond is likely to be called if its market price is below its par value.", "Even if a bond's YTC exceeds its YTM, an investor with an investment horizon longer than the bond's maturity would be worse off if the bond were called.", "A bond is likely to be called if its market price is equal to its par value.", "A bond is likely to be called if it sells at a discount below par."],
+                    "answer": "Even if a bond's YTC exceeds its YTM, an investor with an investment horizon longer than the bond's maturity would be worse off if the bond were called.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 50,
+                    "topic": "(5.4) Current yield and yield to maturity",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["Assume that two bonds have equal maturities and are of equal risk, but one bond sells at par while the other sells at a premium above par. The premium bond must have a lower current yield and a higher capital gains yield than the par bond.", "A bond's current yield must always be either equal to its yield to maturity or between its yield to maturity and its coupon rate.", "If a bond sells at par, then its current yield will be less than its yield to maturity.", "If a bond sells for less than par, then its yield to maturity is less than its coupon rate.", "A discount bond's price declines each year until it matures, when its value equals its par value."],
+                    "answer": "A bond's current yield must always be either equal to its yield to maturity or between its yield to maturity and its coupon rate.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 51,
+                    "topic": "(5.5) Effect of interest rate on bond prices",
+                    "type": "mcq",
+                    "question": "Assume that a 10-year Treasury bond has a 12% annual coupon, while a 15-year T-bond has an 8% annual coupon. Assume also that the yield curve is flat, and all Treasury securities have a 10% yield to maturity. Which of the following statements is CORRECT?",
+                    "options": ["If interest rates decline, the prices of both bonds will increase, but the 15-year bond would have a larger percentage increase in price.", "If interest rates decline, the prices of both bonds will increase, but the 10-year bond would have a larger percentage increase in price.", "The 10-year bond would sell at a discount, while the 15-year bond would sell at a premium.", "The 10-year bond would sell at a premium, while the 15-year bond would sell at par.", "If the yield to maturity on both bonds remains at 10% over the next year, the price of the 10-year bond would increase, but the price of the 15-year bond would fall."],
+                    "answer": "If interest rates decline, the prices of both bonds will increase, but the 15-year bond would have a larger percentage increase in price.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 52,
+                    "topic": "(5.11) Bond indenture",
+                    "type": "mcq",
+                    "question": "Listed below are some provisions that are often contained in bond indentures. Which of these provisions, viewed alone, would tend to reduce the yield to maturity that investors would otherwise require on a newly issued bond?\n1. Fixed assets are used as security for a bond.\n2. A given bond is subordinated to other classes of debt.\n3. The bond can be converted into the firm's common stock.\n4. The bond has a sinking fund.\n5. The bond has a call provision.\n6. The indenture contains covenants that prevent the use of additional debt.",
+                    "options": ["1, 3, 4, 6", "1, 4, 6", "1, 2, 3, 4, 6", "1, 2, 3, 4, 5, 6", "1, 3, 4, 5, 6"],
+                    "answer": "1, 3, 4, 6",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 53,
+                    "topic": "(5.11) Types of debt and their relative costs",
+                    "type": "mcq",
+                    "question": "Suppose a new company decides to raise a total of $200 million, with $100 million as common equity and $100 million as long-term debt. The debt can be mortgage bonds or debentures, but by an iron-clad provision in its charter, the company can never raise any additional debt beyond the original $100 million. Given these conditions, which of the following statements is CORRECT?",
+                    "options": ["The higher the percentage of debt represented by mortgage bonds, the riskier both types of bonds will be and, consequently, the higher the firm's total dollar interest charges will be.", "If the debt were raised by issuing $50 million of debentures and $50 million of first mortgage bonds, we could be certain that the firm's total interest expense would be lower than if the debt were raised by issuing $100 million of debentures.", "In this situation, we cannot tell for sure how, or whether, the firm's total interest expense on the $100 million of debt would be affected by the mix of debentures versus first mortgage bonds. The interest rate on each of the two types of bonds would increase as the percentage of mortgage bonds used was increased, but the result might well be such that the firm's total interest charges would not be affected materially by the mix between the two.", "The higher the percentage of debentures, the greater the risk borne by each debenture, and thus the higher the required rate of return on the debentures.", "If the debt were raised by issuing $50 million of debentures and $50 million of first mortgage bonds, we could be certain that the firm's total interest expense would be lower than if the debt were raised by issuing $100 million of first mortgage bonds."],
+                    "answer": "In this situation, we cannot tell for sure how, or whether, the firm's total interest expense on the $100 million of debt would be affected by the mix of debentures versus first mortgage bonds. The interest rate on each of the two types of bonds would increase as the percentage of mortgage bonds used was increased, but the result might well be such that the firm's total interest charges would not be affected materially by the mix between the two.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 54,
+                    "topic": "(5.13) Interest rate and reinvestment rate risk",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["A zero coupon bond of any maturity will have more interest rate price risk than any coupon bond, even a perpetuity.", "If their maturities and other characteristics were the same, a 5% coupon bond would have more interest rate price risk than a 10% coupon bond.", "A 10-year coupon bond would have more reinvestment rate risk than a 5-year coupon bond, but all 10-year coupon bonds have the same amount of reinvestment rate risk.", "A 10-year coupon bond would have more interest rate price risk than a 5-year coupon bond, but all 10-year coupon bonds have the same amount of interest rate price risk.", "If their maturities and other characteristics were the same, a 5% coupon bond would have less interest rate price risk than a 10% coupon bond."],
+                    "answer": "If their maturities and other characteristics were the same, a 5% coupon bond would have more interest rate price risk than a 10% coupon bond.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 55,
+                    "topic": "(Comp: 5.4,5.5) Bond yields and prices",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["If two bonds have the same maturity, the same yield to maturity, and the same level of risk, the bonds should sell for the same price regardless of the bond's coupon rates.", "All else equal, an increase in interest rates will have a greater effect on the prices of short-term than long-term bonds.", "All else equal, an increase in interest rates will have a greater effect on higher-coupon bonds than it will have on lower-coupon bonds.", "If a bond's yield to maturity exceeds its coupon rate, the bond's price must be less than its maturity value.", "If a bond's yield to maturity exceeds its coupon rate, the bond's current yield must be less than its coupon rate."],
+                    "answer": "If a bond's yield to maturity exceeds its coupon rate, the bond's price must be less than its maturity value.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 56,
+                    "topic": "(Comp: 5.2,5.5,5.13) Bond concepts",
+                    "type": "mcq",
+                    "question": "Assuming all else is constant, which of the following statements is CORRECT?",
+                    "options": ["A 20-year zero coupon bond has more reinvestment rate risk than a 20-year coupon bond.", "For any given maturity, a 1.0 percentage point decrease in the market interest rate would cause a smaller dollar capital gain than the capital loss stemming from a 1.0 percentage point increase in the interest rate.", "From a corporate borrower's point of view, interest paid on bonds is not tax-deductible.", "Price sensitivity as measured by the percentage change in price due to a given change in the required rate of return decreases as a bond's maturity increases.", "For a bond of any maturity, a 1.0 percentage point increase in the market interest rate (rd) causes a larger dollar capital loss than the capital gain stemming from a 1.0 percentage point decrease in the interest rate."],
+                    "answer": "For a bond of any maturity, a 1.0 percentage point increase in the market interest rate (rd) causes a larger dollar capital loss than the capital gain stemming from a 1.0 percentage point decrease in the interest rate.",
+                    "explanation": ""
+                }
+            ]
+        },
+        "sector3": {
+            "title": "Problems",
+            "questions": [
+                {
+                    "q_num": 1,
+                    "topic": "(5.3) Bond valuation",
+                    "type": "mcq",
+                    "question": "The Morrissey Company's bonds mature in 7 years, have a par value of $1,000, and make an annual coupon payment of $70. The market interest rate for the bonds is 8.5%. What is the bond's price?",
+                    "options": ["$923.22", "$946.30", "$969.96", "$994.21", "$1,019.06"],
+                    "answer": "$923.22",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 2,
+                    "topic": "(5.3) Bond valuation",
+                    "type": "mcq",
+                    "question": "D. J. Masson Inc. recently issued noncallable bonds that mature in 10 years. They have a par value of $1,000 and an annual coupon of 5.5%. If the current market interest rate is 7.0%, at what price should the bonds sell?",
+                    "options": ["$829.21", "$850.47", "$872.28", "$894.65", "$917.01"],
+                    "answer": "$894.65",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 3,
+                    "topic": "(5.4) Yield to maturity",
+                    "type": "mcq",
+                    "question": "Ezzell Enterprises noncallable bonds currently sell for $1,165. They have a 15-year maturity, an annual coupon of $95, and a par value of $1,000. What is their yield to maturity?",
+                    "options": ["6.20%", "6.53%", "6.87%", "7.24%", "7.62%"],
+                    "answer": "7.62%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 4,
+                    "topic": "(5.4) Yield to maturity",
+                    "type": "mcq",
+                    "question": "Quigley Inc.'s bonds currently sell for $1,080 and have a par value of $1,000. They pay a $100 annual coupon and have a 15-year maturity, but they can be called in 5 years at $1,125. What is their yield to maturity (YTM)?",
+                    "options": ["8.56%", "9.01%", "9.46%", "9.93%", "10.43%"],
+                    "answer": "9.01%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 5,
+                    "topic": "(5.4) Yield to maturity",
+                    "type": "mcq",
+                    "question": "Consider some bonds with one annual coupon payment of 7.25%. The bonds have a par value of $1,000, a current price of $1,125, and they will mature in 13 years. What is the yield to maturity on these bonds?",
+                    "options": ["5.56%", "5.85%", "6.14%", "6.45%", "6.77%"],
+                    "answer": "5.85%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 6,
+                    "topic": "(5.4) Yield to call",
+                    "type": "mcq",
+                    "question": "Sadik Inc.'s bonds currently sell for $1,280 and have a par value of $1,000. They pay a $135 annual coupon and have a 15-year maturity, but they can be called in 5 years at $1,050. What is their yield to call (YTC)?",
+                    "options": ["6.39%", "6.72%", "7.08%", "7.45%", "7.82%"],
+                    "answer": "7.45%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 7,
+                    "topic": "(5.4) Current yield",
+                    "type": "mcq",
+                    "question": "Garvin Enterprises bonds currently sell for $1,150. They have a 6-year maturity, an annual coupon of $85, and a par value of $1,000. What is their current yield?",
+                    "options": ["7.39%", "7.76%", "8.15%", "8.56%", "8.98%"],
+                    "answer": "7.39%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 8,
+                    "topic": "(5.6) Bond valuation: semiannual coupons",
+                    "type": "mcq",
+                    "question": "Assume that you are considering the purchase of a 15-year bond with an annual coupon rate of 9.5%. The bond has face value of $1,000 and makes semiannual interest payments. If you require an 11.0% nominal yield to maturity on this investment, what is the maximum price you should be willing to pay for the bond?",
+                    "options": ["$891.00", "$913.27", "$936.10", "$959.51", "$983.49"],
+                    "answer": "$891.00",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 9,
+                    "topic": "(5.11) Default risk premium (DRP)",
+                    "type": "mcq",
+                    "question": "If 10-year T-bonds have a yield of 6.2%, 10-year corporate bonds yield 8.5%, the maturity risk premium on all 10-year bonds is 1.3%, and corporate bonds have a 0.4% liquidity premium versus a zero liquidity premium for T-bonds, what is the default risk premium on the corporate bond?",
+                    "options": ["1.90%", "2.09%", "2.30%", "2.53%", "2.78%"],
+                    "answer": "1.90%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 10,
+                    "topic": "(5.3) Bond valuation: annual coupons",
+                    "type": "mcq",
+                    "question": "Wachowicz Corporation issued 15-year, noncallable, 7.5% annual coupon bonds at their par value of $1,000 one year ago. Today, the market interest rate on these bonds is 5.5%. What is the current price of the bonds, given that they now have 14 years to maturity?",
+                    "options": ["$1,077.01", "$1,104.62", "$1,132.95", "$1,162.00", "$1,191.79"],
+                    "answer": "$1,191.79",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 11,
+                    "topic": "(5.4) Yields to maturity and call",
+                    "type": "mcq",
+                    "question": "McCue Inc.'s bonds currently sell for $1,250. They pay a $120 annual coupon, have a 15-year maturity, and a $1,000 par value, but they can be called in 5 years at $1,050. Assume that no costs other than the call premium would be incurred to call and refund the bonds, and also assume that the yield curve is horizontal, with rates expected to remain at current levels on into the future. What is the difference between this bond's YTM and its YTC? (Subtract the YTC from the YTM.)",
+                    "options": ["2.11%", "2.32%", "2.55%", "2.80%", "3.09%"],
+                    "answer": "2.11%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 12,
+                    "topic": "(5.4) Yields to maturity and call",
+                    "type": "mcq",
+                    "question": "Taussig Corp.'s bonds currently sell for $1,150. They have a 6.75% annual coupon rate and a 15-year maturity, but they can be called in 6 years at $1,067.50. Assume that no costs other than the call premium would be incurred to call and refund the bonds, and also assume that the yield curve is horizontal, with rates expected to remain at current levels on into the future. Under these conditions, what rate of return should an investor expect to earn if he or she purchases these bonds, the YTC or the YTM?",
+                    "options": ["3.92%", "4.12%", "4.34%", "4.57%", "4.81%"],
+                    "answer": "4.81%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 13,
+                    "topic": "(5.6) Bond valuation: semiannual coupons",
+                    "type": "mcq",
+                    "question": "Moerdyk Corporation's bonds have a 10-year maturity, a 6.25% semiannual coupon, and a par value of $1,000. The going interest rate (rd) is 4.75%, based on semiannual compounding. What is the bond's price?",
+                    "options": ["1,063.09", "1,090.35", "1,118.31", "1,146.27", "1,174.93"],
+                    "answer": "1,118.31",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 14,
+                    "topic": "(5.6) Market value of semiannual bonds",
+                    "type": "mcq",
+                    "question": "In order to accurately assess the capital structure of a firm, it is necessary to convert its balance sheet figures to a market value basis. KJM Corporation's balance sheet as of today is as follows:\nLong-term debt (bonds, at par) $10,000,000\nPreferred stock $2,000,000\nCommon stock ($10 par) $10,000,000\nRetained earnings $4,000,000\nTotal debt and equity $26,000,000\nThe bonds have a 4.0% coupon rate, payable semiannually, and a par value of $1,000. They mature exactly 10 years from today. The yield to maturity is 12%, so the bonds now sell below par. What is the current market value of the firm's debt?",
+                    "options": ["$5,276,731", "$5,412,032", "$5,547,332", "$7,706,000", "$7,898,650"],
+                    "answer": "$5,412,032",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 15,
+                    "topic": "(5.8) Real risk-free rate, r*",
+                    "type": "mcq",
+                    "question": "5-year Treasury bonds yield 5.5%. The inflation premium (IP) is 1.9%, and the maturity risk premium (MRP) on 5-year bonds is 0.4%. What is the real risk-free rate, r*?",
+                    "options": ["2.59%", "2.88%", "3.20%", "3.52%", "3.87%"],
+                    "answer": "3.20%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 16,
+                    "topic": "(5.9) Inflation premium (IP)",
+                    "type": "mcq",
+                    "question": "Crockett Corporation's 5-year bonds yield 6.85%, and 5-year T-bonds yield 4.75%. The real risk-free rate is r* = 2.80%, the default risk premium for Crockett's bonds is DRP = 0.85% versus zero for T-bonds, the liquidity premium on Crockett's bonds is LP = 1.25%, and the maturity risk premium for all bonds is found with the formula MRP = (t - 1) * 0.1%, where t = number of years to maturity. What is the inflation premium (IP) on 5-year bonds?",
+                    "options": ["1.40%", "1.55%", "1.71%", "1.88%", "2.06%"],
+                    "answer": "1.55%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 17,
+                    "topic": "(5.11) Default risk premium (DRP)",
+                    "type": "mcq",
+                    "question": "Keys Corporation's 5-year bonds yield 7.00%, and 5-year T-bonds yield 5.15%. The real risk-free rate is r* = 3.0%, the inflation premium for 5-year bonds is IP = 1.75%, the liquidity premium for Keys' bonds is LP = 0.75% versus zero for T-bonds, and the maturity risk premium for all bonds is found with the formula MRP = (t - 1) * 0.1%, where t = number of years to maturity. What is the default risk premium (DRP) on Keys' bonds?",
+                    "options": ["0.99%", "1.10%", "1.21%", "1.33%", "1.46%"],
+                    "answer": "1.10%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 18,
+                    "topic": "(5.12) Liquidity premium (LP)",
+                    "type": "mcq",
+                    "question": "Niendorf Corporation's 5-year bonds yield 6.75%, and 5-year T-bonds yield 4.80%. The real risk-free rate is r* = 2.75%, the inflation premium for 5-year bonds is IP = 1.65%, the default risk premium for Niendorf's bonds is DRP = 1.20% versus zero for T-bonds, and the maturity risk premium for all bonds is found with the formula MRP = (t - 1) * 0.1%, where t = number of years to maturity. What is the liquidity premium (LP) on Niendorf's bonds?",
+                    "options": ["0.49%", "0.55%", "0.61%", "0.68%", "0.75%"],
+                    "answer": "0.75%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 19,
+                    "topic": "(5.4) Determining the coupon rate",
+                    "type": "mcq",
+                    "question": "O'Brien Ltd.'s outstanding bonds have a $1,000 par value, and they mature in 25 years. Their nominal yield to maturity is 9.25%, they pay interest semiannually, and they sell at a price of $850. What is the bond's nominal (annual) coupon interest rate?",
+                    "options": ["6.27%", "6.60%", "6.95%", "7.32%", "7.70%"],
+                    "answer": "7.70%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 20,
+                    "topic": "(5.4) Yields to maturity and call",
+                    "type": "mcq",
+                    "question": "Keenan Industries has a bond outstanding with 15 years to maturity, an 8.75% coupon paid semiannually, and a $1,000 par value. The bond has a 6.50% nominal yield to maturity, but it can be called in 6 years at a price of $1,050. What is the bond's nominal yield to call?",
+                    "options": ["5.01%", "5.27%", "5.54%", "5.81%", "6.10%"],
+                    "answer": "5.27%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 21,
+                    "topic": "(5.5) Bond value in future time periods",
+                    "type": "mcq",
+                    "question": "A 25-year, $1,000 par value bond has an 8.5% annual coupon. The bond currently sells for $875. If the yield to maturity remains at its current rate, what will the price be 5 years from now?",
+                    "options": ["$839.31", "$860.83", "$882.90", "$904.97", "$927.60"],
+                    "answer": "$882.90",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 22,
+                    "topic": "(5.6) Bond valuation: effective rates",
+                    "type": "mcq",
+                    "question": "Zumwalt Corporation's Class S bonds have a 12-year maturity, $1,000 par value, and a 5.75% coupon paid semiannually (2.875% each 6 months), and those bonds sell at their par value. Zumwalt's Class A bonds have the same risk, maturity, and par value, but the A bonds pay a 5.75% annual coupon. Neither bond is callable. At what price should the annual payment bond sell?",
+                    "options": ["$943.98", "$968.18", "$993.01", "$1,017.83", "$1,043.28"],
+                    "answer": "$993.01",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 23,
+                    "topic": "(5.6) Bond valuation: original issue discount bonds",
+                    "type": "mcq",
+                    "question": "Cosmic Communications Inc. is planning two new issues of 25-year bonds. Bond Par will be sold at its $1,000 par value, and it will have a 10% semiannual coupon. Bond OID will be an Original Issue Discount bond, and it will also have a 25-year maturity and a $1,000 par value, but its semiannual coupon will be only 6.25%. If both bonds are to provide investors with the same effective yield, how many of the OID bonds must Cosmic issue to raise $3,000,000? Disregard flotation costs, and round your final answer up to a whole number of bonds.",
+                    "options": ["4,228", "4,337", "4,448", "4,562", "4,676"],
+                    "answer": "4,562",
+                    "explanation": ""
+                }
+            ]
+        }
+    }
+}
