@@ -1,0 +1,723 @@
+{
+    "title": "THE COST OF CAPITAL",
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-8 w-8\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10\" /></svg>",
+    "sectors": {
+        "sector1": {
+            "title": "True/False",
+            "questions": [
+                {
+                    "q_num": 1,
+                    "topic": "(10.1) Capital",
+                    "type": "tf",
+                    "question": "\"Capital\" is sometimes defined as the funds supplied by investors.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 2,
+                    "topic": "(10.1) Cost of capital",
+                    "type": "tf",
+                    "question": "The cost of capital should reflect the average cost of the various sources of long-term funds a firm uses to acquire assets.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 3,
+                    "topic": "(10.1) Component costs of capital",
+                    "type": "tf",
+                    "question": "The component costs of capital are market-determined variables in the sense that they are based on investors' required returns.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 4,
+                    "topic": "(10.2) Cost of debt",
+                    "type": "tf",
+                    "question": "The before-tax cost of debt, which is lower than the after-tax cost, is used as the component cost of debt for purposes of developing the firm's WACC.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 5,
+                    "topic": "(10.2) Cost of debt",
+                    "type": "tf",
+                    "question": "The cost of debt is equal to one minus the marginal tax rate multiplied by the average coupon rate on all outstanding debt.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 6,
+                    "topic": "(10.3) Cost of preferred stock",
+                    "type": "tf",
+                    "question": "The cost of preferred stock to a firm must be adjusted to an after-tax figure because 70% of dividends received by a corporation may be excluded from the receiving corporation's taxable income.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 7,
+                    "topic": "(10.4) Cost of common stock",
+                    "type": "tf",
+                    "question": "The cost of common stock is the rate of return the marginal stockholder requires on the firm's common stock.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 8,
+                    "topic": "(10.4) Cost of retained earnings",
+                    "type": "tf",
+                    "question": "For capital budgeting and cost of capital purposes, the firm should always consider retained earnings as the first source of capital, i.e., use these funds first, because retained earnings have no cost to the firm.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 9,
+                    "topic": "(10.4) Cost of retained earnings",
+                    "type": "tf",
+                    "question": "Funds acquired by the firm through retaining earnings have no cost because there are no dividend or interest payments associated with them, and no flotation costs are required to raise them, but capital raised by selling new stock or bonds does have a cost.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 10,
+                    "topic": "(10.4) Cost of retained earnings",
+                    "type": "tf",
+                    "question": "The cost of equity raised by retaining earnings can be less than, equal to, or greater than the cost of external equity raised by selling new issues of common stock, depending on tax rates, flotation costs, the attitude of investors, and other factors.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 11,
+                    "topic": "(10.9) Cost of new common equity",
+                    "type": "tf",
+                    "question": "The firm's cost of external equity raised by issuing new stock is the same as the required rate of return on the firm's outstanding common stock.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 12,
+                    "topic": "(10.9) Cost of new common equity",
+                    "type": "tf",
+                    "question": "The cost of external equity capital raised by issuing new common stock (re) is defined as follows, in words: \"The cost of external equity equals the cost of equity capital from retaining earnings (rs), divided by one minus the percentage flotation cost required to sell the new stock, (1 - F).\"",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 13,
+                    "topic": "(10.9) Cost of new common equity",
+                    "type": "tf",
+                    "question": "If the expected dividend growth rate is zero, then the cost of external equity capital raised by issuing new common stock (re) is equal to the cost of equity capital from retaining earnings (rs) divided by one minus the percentage flotation cost required to sell the new stock, (1 - F). If the expected growth rate is not zero, then the cost of external equity must be found using a different procedure.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 14,
+                    "topic": "(10.10) Specific source capital cost",
+                    "type": "tf",
+                    "question": "Suppose you are the president of a small, publicly-traded corporation. Since you believe that your firm's stock price is temporarily depressed, all additional capital funds required during the current year will be raised using debt. Thus, the appropriate marginal cost of capital for use in capital budgeting during the current year is the after-tax cost of debt.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 15,
+                    "topic": "(Comp: 10.3,10.9) Flotation and capital choice",
+                    "type": "tf",
+                    "question": "The higher the firm's flotation cost for new common equity, the more likely the firm is to use preferred stock, which has no flotation cost, and retained earnings, whose cost is the average return on assets.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 16,
+                    "topic": "(10.2) After-tax cost of debt",
+                    "type": "tf",
+                    "question": "If a firm's marginal tax rate is increased, this would, other things held constant, lower the cost of debt used to calculate its WACC.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 17,
+                    "topic": "(10.10) Specific source capital cost",
+                    "type": "tf",
+                    "question": "In general, firms should use their weighted average cost of capital (WACC) to evaluate capital budgeting projects because most projects are funded with general corporate funds, which come from a variety of sources. However, if the firm plans to use only debt or only equity to fund a particular project, it should use the after-tax cost of that specific type of capital to evaluate that project.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 18,
+                    "topic": "(10.11) Factors affecting WACC",
+                    "type": "tf",
+                    "question": "Suppose the debt ratio (D/TA) is 10%, the current cost of debt is 8%, the current cost of equity is 16%, and the tax rate is 40%. An increase in the debt ratio to 20% would have to decrease the weighted average cost of capital (WACC).",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 19,
+                    "topic": "(Comp: 10.2,10.4,10.10) WACC",
+                    "type": "tf",
+                    "question": "The cost of debt, rd, is normally less than rs, so rd(1 - T) will normally be less than rs. Therefore, as long as the firm is not completely debt financed, the weighted average cost of capital (WACC) will normally be greater than rd(1 - T).",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 20,
+                    "topic": "(Comp: 10.2,10.10) Taxes, rd(1 - T), and WACC",
+                    "type": "tf",
+                    "question": "The lower the firm's tax rate, the lower will be its after-tax cost of debt and WACC, other things held constant.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 21,
+                    "topic": "(Comp: 10.3,10.4) Cost of equity",
+                    "type": "tf",
+                    "question": "Since 70% of preferred dividends received by a corporation is excluded from taxable income, the component cost of equity for a company that pays half of its earnings out as common dividends and half as preferred dividends should, theoretically, be Cost of equity = rs(0.30)(0.50) + rps(1 - T)(0.70)(0.50).",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 22,
+                    "topic": "(Comp: 10.2,10.5) Inflation effects",
+                    "type": "tf",
+                    "question": "If expectations for long-term inflation rose, but the slope of the SML remained constant, this would have a greater impact on the required rate of return on equity, rs, than on the interest rate on long-term debt, rd, for most firms. Therefore, the percentage point increase in the cost of equity would be greater than the increase in the interest rate on long-term debt.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 23,
+                    "topic": "(Comp: 10.2,10.5) Inflation effects",
+                    "type": "tf",
+                    "question": "If investors' aversion to risk rose, causing the slope of the SML to increase, this would have a greater impact on the required rate of return on equity, rs, than on the interest rate on long-term debt, rd, for most firms. Other things held constant, this would lead to an increase in the use of debt and a decrease in the use of equity. However, other things would not stay constant if firms used a lot more debt, as that would increase the riskiness of both debt and equity and thus limit the shift toward debt.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                }
+            ]
+        },
+        "sector2": {
+            "title": "Multiple Choice",
+            "questions": [
+                {
+                    "q_num": 1,
+                    "topic": "(10.1) Capital components",
+                    "type": "mcq",
+                    "question": "Which of the following is NOT a capital component when calculating the weighted average cost of capital (WACC)?",
+                    "options": ["Long-term debt.", "Accounts payable.", "Retained earnings.", "Common stock.", "Preferred stock."],
+                    "answer": "Accounts payable.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 2,
+                    "topic": "(Comp: 10.1-10.4) Capital components",
+                    "type": "mcq",
+                    "question": "For a typical firm, which of the following sequences is CORRECT? All rates are after taxes, and assume the firm operates at its target capital structure.",
+                    "options": ["re > rs > WACC > rd.", "rs > re > rd > WACC.", "WACC > re > rs > rd.", "rd > re > rs > WACC.", "WACC > rd > rs > re."],
+                    "answer": "re > rs > WACC > rd.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 3,
+                    "topic": "(10.11) Internal vs. external common equity",
+                    "type": "mcq",
+                    "question": "Bankston Corporation forecasts that if all of its existing financial policies are adhered to, its proposed capital budget would be so large that it would have to issue new common stock. Since new stock has a higher cost than retained earnings, Bankston would like to avoid issuing new stock. Which of the following actions would reduce its need to issue new common stock?",
+                    "options": ["Increase the percentage of debt in the target capital structure.", "Increase the dividend payout ratio for the upcoming year.", "Increase the proposed capital budget.", "Reduce the amount of short-term bank debt in order to increase the current ratio.", "Reduce the percentage of debt in the target capital structure."],
+                    "answer": "Increase the percentage of debt in the target capital structure.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 4,
+                    "topic": "(10.11) Factors affecting WACC",
+                    "type": "mcq",
+                    "question": "Schalheim Sisters Inc. has always paid out all of its earnings as dividends, and hence has no retained earnings. This same situation is expected to persist in the future. The company uses the CAPM to calculate its cost of equity. Its target capital structure consists of common stock, preferred stock, and debt. Which of the following events would reduce the WACC?",
+                    "options": ["The market risk premium declines.", "The flotation costs associated with issuing new common stock increase.", "The company's beta increases.", "Expected inflation increases.", "The flotation costs associated with issuing preferred stock increase."],
+                    "answer": "The market risk premium declines.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 5,
+                    "topic": "(10.5) Cost of equity: CAPM",
+                    "type": "mcq",
+                    "question": "When working with the CAPM, which of the following factors can be determined with the most precision?",
+                    "options": ["The market risk premium (RPM).", "The beta coefficient, bi, of a relatively safe stock.", "The most appropriate risk-free rate, rRF.", "The expected rate of return on the market, rM.", "The beta coefficient of the market, which is the same as the beta of an average stock."],
+                    "answer": "The beta coefficient of the market, which is the same as the beta of an average stock.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 6,
+                    "topic": "(10.12) Divisional risk",
+                    "type": "mcq",
+                    "question": "Jackson Inc. uses only equity capital, and it has 2 equally-sized divisions. Division A's cost of capital is 10.0%, Division B's cost is 14.0%, and the composite WACC is 12.0%. All of Division A's projects have the same risk, as do all of Division B's projects. However, the projects in Division A have less risk than those in Division B. Which of the following projects should Jackson accept?",
+                    "options": ["A Division B project with a 13% return.", "A Division B project with a 12% return.", "A Division A project with an 11% return.", "A Division A project with a 9% return.", "A Division B project with an 11% return."],
+                    "answer": "A Division A project with an 11% return.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 7,
+                    "topic": "(10.12) Risk and project selection",
+                    "type": "mcq",
+                    "question": "Vang Inc. estimates that its average-risk projects have a WACC of 10%, its below-average risk projects have a WACC of 8%, and its above-average risk projects have a WACC of 12%. Which of the following projects (A, B, and C) should the company accept?",
+                    "options": ["Project B is of below-average risk and has a return of 8.5%.", "Project C is of above-average risk and has a return of 11%.", "Project A is of average risk and has a return of 9%.", "None of the projects should be accepted.", "All of the projects should be accepted."],
+                    "answer": "Project B is of below-average risk and has a return of 8.5%.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 8,
+                    "topic": "(10.12) Risk and project selection",
+                    "type": "mcq",
+                    "question": "Nelson Enterprises, an all-equity firm, has a beta of 2.0. Nelson's chief financial officer is evaluating a project with an expected return of 21%, before any risk adjustment. The risk-free rate is 7%, and the market risk premium is 6%. The project being evaluated is riskier than Nelson's average project, in terms of both its beta risk and its total risk. Which of the following statements is CORRECT?",
+                    "options": ["The project should definitely be accepted because its expected return (before any risk adjustments) is greater than its required return.", "The project should definitely be rejected because its expected return (before risk adjustment) is less than its required return.", "Riskier-than-average projects should have their expected returns increased to reflect their higher risk. Clearly, this would make the project acceptable regardless of the amount of the adjustment.", "The accept/reject decision depends on the firm's risk-adjustment policy. If Nelson's policy is to increase the required return on a riskier-than-average project to 3% over rS, then it should reject the project.", "Capital budgeting projects should be evaluated solely on the basis of their total risk. Thus, insufficient information has been provided to make the accept/reject decision."],
+                    "answer": "The accept/reject decision depends on the firm's risk-adjustment policy. If Nelson's policy is to increase the required return on a riskier-than-average project to 3% over rS, then it should reject the project.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 9,
+                    "topic": "(10.12) Risk-adjusted cost of capital",
+                    "type": "mcq",
+                    "question": "The McCue Company has equal amounts of low-risk, average-risk, and high-risk projects. McCue estimates that its overall WACC is 12%. The CFO believes that this is the correct WACC for the company's average-risk projects, but that a lower rate should be used for lower risk projects and a higher rate for higher risk projects. The CEO disagrees, on the grounds that even though projects have different risks, the WACC used to evaluate each project should be the same because the company obtains capital for all projects from the same sources. If the CEO's position is accepted, what is likely to happen over time?",
+                    "options": ["The company will take on too many high-risk projects and reject too many low-risk projects.", "The company will take on too many low-risk projects and reject too many high-risk projects.", "Things will generally even out over time, and, therefore, the firm's risk should remain constant over time.", "The company's overall WACC should decrease over time because its stock price should be increasing.", "The CEO's recommendation would maximize the firm's intrinsic value."],
+                    "answer": "The company will take on too many high-risk projects and reject too many low-risk projects.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 10,
+                    "topic": "(10.12) Risk-adjusted cost of capital",
+                    "type": "mcq",
+                    "question": "If a typical U.S. company uses the same cost of capital to evaluate all projects, the firm will most likely become",
+                    "options": ["riskier over time, but its intrinsic value will be maximized.", "riskier over time, and its intrinsic value will not be maximized.", "less risky over time, and its intrinsic value will not be maximized.", "less risky over time, and its intrinsic value will be maximized.", "There is no reason to expect its risk position or value to change over time as a result of its use of a single cost of capital."],
+                    "answer": "riskier over time, and its intrinsic value will not be maximized.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 11,
+                    "topic": "(Comp: 10.1-10.4) Capital components",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["When calculating the cost of preferred stock, a company needs to adjust for taxes, because preferred stock dividends are tax deductible.", "All else equal, an increase in a company's stock price will increase its marginal cost of retained earnings, rs.", "All else equal, an increase in a company's stock price will increase its marginal cost of new common equity, re.", "Since the money is readily available, the after-tax cost of retained earnings is usually much lower than the after-tax cost of debt.", "If a company's tax rate increases but the YTM of its noncallable bonds remains the same, the after-tax cost of its debt will fall."],
+                    "answer": "If a company's tax rate increases but the YTM of its noncallable bonds remains the same, the after-tax cost of its debt will fall.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 12,
+                    "topic": "(Comp: 10.1-10.4,10.9) Capital components",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["When calculating the cost of debt, a company needs to adjust for taxes, because interest payments are deductible by the paying corporation.", "When calculating the cost of preferred stock, companies must adjust for taxes, because dividends paid on preferred stock are deductible by the paying corporation.", "Because of tax effects, an increase in the risk-free rate will have a greater effect on the after-tax cost of debt than on the cost of common stock.", "If a company's beta increases, this will increase the cost of equity used to calculate the WACC, but only if the company does not have enough retained earnings to take care of its equity financing and hence needs to issue new stock.", "Higher flotation costs reduce investor returns, and that leads to a reduction in a company's WACC."],
+                    "answer": "When calculating the cost of debt, a company needs to adjust for taxes, because interest payments are deductible by the paying corporation.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 13,
+                    "topic": "(Comp: 10.1-10.5,10.10) Capital components",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["In the WACC calculation, we must adjust the cost of preferred stock (the market yield) to reflect the fact that 70% of the dividends received by corporate investors are excluded from their taxable income.", "We should use historical measures of the component costs from prior financings when estimating a company's WACC for capital budgeting purposes.", "The cost of new equity (re) could possibly be lower than the cost of retained earnings (rs) if the market risk premium, risk-free rate, and the company's beta all decline by a sufficiently large amount.", "Its cost of retained earnings is the rate of return stockholders require on a firm's common stock.", "The component cost of preferred stock is expressed as rp(1 - T), because preferred stock dividends are treated as fixed charges, similar to the treatment of interest on debt."],
+                    "answer": "Its cost of retained earnings is the rate of return stockholders require on a firm's common stock.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 14,
+                    "topic": "(Comp: 10.1,10.4,10.9,10.10) WACC",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["The WACC as used in capital budgeting is an estimate of a company's before-tax cost of capital.", "The percentage flotation costs associated with issuing new common equity are typically smaller than the flotation costs for new debt.", "The WACC as used in capital budgeting is an estimate of the cost of all the capital a company has raised to acquire its assets.", "There is an opportunity cost associated with using retained earnings, hence they are not free.", "The WACC as used in capital budgeting will be simply the after-tax cost of debt if the firm plans to use only debt to finance its capital budget during the coming year."],
+                    "answer": "There is an opportunity cost associated with using retained earnings, hence they are not free.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 15,
+                    "topic": "(Comp: 10.1,10.4,10.9-10.11) WACC",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["A change in a company's target capital structure cannot affect its WACC.", "WACC calculations should be based on the before-tax costs of all the individual capital components.", "Flotation costs associated with issuing new common stock normally reduce the WACC.", "If a company's tax rate increases, then, all else equal, its weighted average cost of capital will decline.", "An increase in the risk-free rate will normally lower the marginal costs of both debt and equity financing."],
+                    "answer": "If a company's tax rate increases, then, all else equal, its weighted average cost of capital will decline.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 16,
+                    "topic": "(Comp: 10.1-10.4,10.10) WACC and capital components",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["The WACC is calculated using before-tax costs for all components.", "The after-tax cost of debt usually exceeds the after-tax cost of equity.", "For a given firm, the after-tax cost of debt is always more expensive than the after-tax cost of preferred stock.", "Retained earnings that were generated in the past and are reflected on the firm's balance sheet are generally available to finance the firm's capital budget during the coming year.", "The WACC that should be used in capital budgeting is the firm's marginal, after-tax cost of capital."],
+                    "answer": "The WACC that should be used in capital budgeting is the firm's marginal, after-tax cost of capital.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 17,
+                    "topic": "(Comp: 10.1-10.4,10.10) WACC and capital components",
+                    "type": "mcq",
+                    "question": "For a company whose target capital structure calls for 50% debt and 50% common equity, which of the following statements is CORRECT?",
+                    "options": ["The cost of equity is always equal to or greater than the cost of debt.", "The WACC is calculated on a before-tax basis.", "The WACC exceeds the cost of equity.", "The interest rate used to calculate the WACC is the average after-tax cost of all the debt the company has outstanding and shown on its balance sheet.", "The cost of retained earnings typically exceeds the cost of new common stock."],
+                    "answer": "The cost of equity is always equal to or greater than the cost of debt.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 18,
+                    "topic": "(Comp: 10.1-10.4,10.9,10.12) Cost of capital",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["If a company assigns the same cost of capital to all of its projects regardless of each project's risk, then the company is likely to reject some safe projects that it actually should accept and to accept some risky projects that it should reject.", "Because of the risk of bankruptcy, the cost of debt is always higher than the cost of equity capital.", "Since debt capital is riskier than equity capital, the after-tax cost of debt is always greater than the WACC.", "Because no flotation costs are required to obtain capital as retained earnings, the cost of retained earnings is generally lower than the after-tax cost of debt.", "Higher flotation costs tend to reduce the cost of equity capital."],
+                    "answer": "If a company assigns the same cost of capital to all of its projects regardless of each project's risk, then the company is likely to reject some safe projects that it actually should accept and to accept some risky projects that it should reject.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 19,
+                    "topic": "(10.12) Risk-adjusted cost of capital",
+                    "type": "mcq",
+                    "question": "Crary Consolidated has 2 divisions of equal size: a computer division and a restaurant division. Its CFO believes that stand-alone restaurant companies typically have a WACC of 8%, while stand-alone computer companies typically have a 12% WACC. He also believes that Crary's restaurant and computer divisions have the same risk as their typical peers. Consequently, Crary estimates that its composite, or corporate, WACC is 10%. A consultant has suggested using an 8% hurdle rate for the restaurant division and a 12% hurdle rate for the computer division. However, Crary's CFO disagrees, and he has assigned a 10% WACC to all projects in both divisions. Which of the following statements is CORRECT?",
+                    "options": ["While Crary's decision not to use risk-adjusted WACCs will result in its accepting more projects in the computer division and fewer projects in its restaurant division than if it followed the consultant's recommendation, this should not affect the firm's intrinsic value.", "Crary's decision not to adjust for risk means, in effect, that it is favoring the restaurant division. Therefore, that division is likely to become a larger part of the consolidated company over time.", "Crary's decision not to adjust for risk means that the company will accept too many projects in the computer business and too few projects in the restaurant business. This will lead to a reduction in the firm's intrinsic value over time.", "Crary's decision to not risk adjust means that the company will accept too many projects in the restaurant business and too few projects in the computer business. This will lead to a reduction in its intrinsic value over time.", "Crary's decision not to risk adjust means that the company will accept too many projects in the computer business and too few projects in the restaurant business. This may affect the firm's capital structure but it will not affect its intrinsic value."],
+                    "answer": "Crary's decision not to adjust for risk means that the company will accept too many projects in the computer business and too few projects in the restaurant business. This will lead to a reduction in the firm's intrinsic value over time.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 20,
+                    "topic": "(10.12) Divisional risk and project selection",
+                    "type": "mcq",
+                    "question": "Safeco Company and Risco Inc are identical in size and capital structure. However, the riskiness of their assets and cash flows are somewhat different, resulting in Safeco having a WACC of 10% and Risco a 12% WACC. Safeco is considering Project X, which has an IRR of 10.5% and is of the same risk as a typical Safeco project. Risco is considering Project Y, which has an IRR of 11.5% and is of the same risk as a typical Risco project. Now assume that the two companies merge and form a new company, Safeco/Risco Inc. Moreover, the new company's market risk is an average of the pre-merger companies market risks, and the merger has no impact on either the cash flows or the risks of Projects X and Y. Which of the following statements is CORRECT?",
+                    "options": ["If the firm evaluates these projects and all other projects at the new overall corporate WACC, it will become riskier over time.", "If evaluated using the correct post-merger WACC, Project X would have a negative NPV.", "After the merger, Safeco/Risco would have a corporate WACC of 11%. Therefore, it should reject Project X but accept Project Y.", "Safeco/Risco's WACC, as a result of the merger, would be 10%.", "After the merger, Safeco/Risco should select Project Y but reject Project X. If the firm does this, its corporate WACC will fall to 10.5%."],
+                    "answer": "If the firm evaluates these projects and all other projects at the new overall corporate WACC, it will become riskier over time.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 21,
+                    "topic": "(Comp: 10.1-10.4) Capital components",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["A cost should be assigned to retained earnings due to the opportunity cost principle, which refers to the fact that the firm's stockholders could themselves earn a return on earnings if they were paid out rather than retained and reinvested.", "The component cost of preferred stock is expressed as rp(1 - T). This follows because preferred stock dividends are treated as fixed charges, and as such they can be deducted by the issuer for tax purposes.", "No cost should be assigned to retained earnings because the firm does not have to pay anything to raise them-they are generated as cash flows by operating assets that were raised in the past, hence they are free.", "Suppose a firm has been losing money and thus is not paying taxes, and this situation is expected to persist into the foreseeable future. In this case, the firm's before-tax and after-tax costs of debt will both be equal to the interest rate on the firm's currently outstanding debt, provided that debt was issued during the past 5 years.", "If a firm has enough retained earnings to fund its capital budget for the coming year, then there is no need to estimate either a cost of equity or a WACC."],
+                    "answer": "A cost should be assigned to retained earnings due to the opportunity cost principle, which refers to the fact that the firm's stockholders could themselves earn a return on earnings if they were paid out rather than retained and reinvested.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 22,
+                    "topic": "(Comp: 10.1-10.5,10.7,10.10) Cost of capital",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["The cost of capital used to evaluate a project should be the cost of the specific type of financing used to fund that project, i.e., it is the after-tax cost of debt if debt is to be used to finance the project or the cost of equity if the project will be financed with equity.", "The after-tax cost of debt that should be used as the component cost when calculating the WACC is the average after-tax cost of all the firm's outstanding debt.", "Suppose some of a publicly-traded firm's stockholders are not diversified; they hold only the one firm's stock. In this case, the CAPM approach will result in an estimated cost of equity that is too low in the sense that if it is used in capital budgeting, projects will be accepted that will not maximize the firm's intrinsic value.", "The cost of equity is generally harder to measure than the cost of debt because there is no stated, contractual cost number on which to base the cost of equity.", "The bond-yield-plus-risk-premium approach is the most sophisticated and objective method for estimating a firm's cost of equity capital."],
+                    "answer": "The cost of equity is generally harder to measure than the cost of debt because there is no stated, contractual cost number on which to base the cost of equity.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 23,
+                    "topic": "(Comp: 10.5-10.8) Cost of equity",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["Surveys indicate that the CAPM is the most widely used method for estimating the cost of equity. However, other methods are also used because CAPM estimates may be subject to error, and people like to use different methods as checks on one another. If all of the methods produce similar results, then decision makers can have more confidence in the estimated cost of equity.", "The DCF model is generally preferred by academics and financial executives over other models for estimating the cost of equity. This is because of the DCF model's logical appeal and also because accurate estimates for its key inputs, the dividend yield and the growth rate, are easy to obtain.", "The bond-yield-plus-risk-premium approach to estimating the cost of equity may not always be accurate, but it has the advantage that its two key inputs, the firm's own cost of debt and its risk premium, can be found by using standardized and objective procedures.", "Although some methods used to estimate the cost of equity are subject to severe limitations, the CAPM is a simple, straightforward, and reliable model that consistently produces accurate cost of equity estimates. In particular, academics and corporate finance people generally agree that its key inputs--beta, the risk-free rate, and the market risk premium--can be estimated with little error.", "The DCF model is preferred by academics and finance practitioners over other cost of capital models because it correctly recognizes that the expected return on a stock consists of a dividend yield plus an expected capital gains yield."],
+                    "answer": "Surveys indicate that the CAPM is the most widely used method for estimating the cost of equity. However, other methods are also used because CAPM estimates may be subject to error, and people like to use different methods as checks on one another. If all of the methods produce similar results, then decision makers can have more confidence in the estimated cost of equity.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 24,
+                    "topic": "(Comp: 10.5,10.6) CAPM and DCF",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["The discounted cash flow method of estimating the cost of equity cannot be used unless the growth rate, g, is expected to be constant forever.", "If the calculated beta underestimates the firm's true investment risk, i.e., if the forward-looking beta that investors think exists exceeds the historical beta, then the CAPM method based on the historical beta will produce an estimate of rs and thus WACC that is too high.", "Beta measures market risk, which is the most relevant risk measure for a publicly-owned firm that seeks to maximize its intrinsic value. This is true even if not all of the firm's stockholders are well diversified.", "An advantage shared by both the DCF and CAPM methods when they are used to estimate the cost of equity is that little or no judgment is required.", "The specific risk premium used in the CAPM is the same as the risk premium used in the bond-yield-plus-risk-premium approach."],
+                    "answer": "Beta measures market risk, which is the most relevant risk measure for a publicly-owned firm that seeks to maximize its intrinsic value. This is true even if not all of the firm's stockholders are well diversified.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 25,
+                    "topic": "(Comp: 10.5,10.7,10.10) WACC",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["The bond-yield-plus-risk-premium approach to estimating the cost of common equity involves adding a risk premium to the interest rate on the company's own long-term bonds. The size of the risk premium for bonds with different ratings is published daily in the Wall Street Journal.", "The WACC is calculated using a before-tax cost for debt equal to the interest rate that must be paid on new debt, along with the after-tax costs for common stock and for preferred stock if it is used.", "An increase in the risk-free rate is likely to reduce the marginal costs of both debt and equity.", "The WACC can change depending on the amount of funds a firm raises during a given year. Moreover, the WACC at each level of funds raised is a weighted average of the marginal costs of each capital component, with the weights based on the firm's target capital structure.", "Beta measures market risk, which is generally the most relevant risk measure for a publicly-owned firm that seeks to maximize its intrinsic value. However, this is not true unless all of the firm's stockholders are well diversified."],
+                    "answer": "The WACC can change depending on the amount of funds a firm raises during a given year. Moreover, the WACC at each level of funds raised is a weighted average of the marginal costs of each capital component, with the weights based on the firm's target capital structure.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 26,
+                    "topic": "(Comp: 10.2-10.3,10.9-10.10) WACC",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["An increase in the flotation cost required to sell a new issue of stock will increase the cost of retained earnings.", "Since its stockholders are not directly responsible for paying a corporation's income taxes, corporations should focus on before-tax cash flows when calculating the WACC.", "An increase in a firm's tax rate will increase the component cost of debt, provided the YTM on the firm's bonds is not affected.", "When the WACC is calculated, it should reflect the cost of new common stock, retained earnings, preferred stock, long-term debt, short-term bank loans if the firm normally finances with bank debt, and accounts payable if the firm normally has accounts payable on its balance sheet.", "If a firm has been suffering accounting losses that are expected to continue into the foreseeable future, and therefore its tax rate is zero, then it is possible for the after-tax cost of preferred stock to be less than the after-tax cost of debt."],
+                    "answer": "If a firm has been suffering accounting losses that are expected to continue into the foreseeable future, and therefore its tax rate is zero, then it is possible for the after-tax cost of preferred stock to be less than the after-tax cost of debt.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 27,
+                    "topic": "(Comp: 10.5,10.12) Beta and project risk",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT? Assume that the firm is a publicly-owned corporation and is seeking to maximize shareholder wealth.",
+                    "options": ["If a firm has a beta that is less than 1.0, say 0.9, this would suggest that the expected returns on its assets are negatively correlated with the returns on most other firms' assets.", "If a firm's managers want to maximize the value of the stock, they should, in theory, concentrate on project risk as measured by the standard deviation of the project's expected future cash flows.", "If a firm evaluates all projects using the same cost of capital, and the CAPM is used to help determine that cost, then its risk as measured by beta will probably decline over time.", "Projects with above-average risk typically have higher than average expected returns. Therefore, to maximize a firm's intrinsic value, its managers should favor high-beta projects over those with lower betas.", "Project A has a standard deviation of expected returns of 20%, while Project B's standard deviation is only 10%. As returns are negatively correlated with both the firm's other assets and the returns on most stocks in the economy, while B's returns are positively correlated. Therefore, Project A is less risky to a firm and should be evaluated with a lower cost of capital."],
+                    "answer": "Project A has a standard deviation of expected returns of 20%, while Project B's standard deviation is only 10%. As returns are negatively correlated with both the firm's other assets and the returns on most stocks in the economy, while B's returns are positively correlated. Therefore, Project A is less risky to a firm and should be evaluated with a lower cost of capital.",
+                    "explanation": ""
+                }
+            ]
+        },
+        "sector3": {
+            "title": "Problems",
+            "questions": [
+                {
+                    "q_num": 1,
+                    "topic": "(10.3) Component cost of preferred stock",
+                    "type": "mcq",
+                    "question": "Hettenhouse Company's perpetual preferred stock sells for $102.50 per share, and it pays a $9.50 annual dividend. If the company were to sell a new preferred issue, it would incur a flotation cost of 4.00% of the price paid by investors. What is the company's cost of preferred stock for use in calculating the WACC?",
+                    "options": ["9.27%", "9.65%", "10.04%", "10.44%", "10.86%"],
+                    "answer": "9.65%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 2,
+                    "topic": "(10.3) Component cost of preferred stock",
+                    "type": "mcq",
+                    "question": "A company's perpetual preferred stock currently trades at $87.50 per share, and it pays an $8.00 annual dividend. If the company were to sell a new preferred issue, it would incur a flotation cost of 5.00% of the issue price. What is the firm's cost of preferred stock?",
+                    "options": ["8.25%", "8.69%", "9.14%", "9.62%", "10.11%"],
+                    "answer": "9.62%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 3,
+                    "topic": "(10.5) Component cost of retained earnings: CAPM",
+                    "type": "mcq",
+                    "question": "Assume that you are a consultant to Magee Inc., and you have been provided with the following data: rRF = 4.00%; RPM = 5.00%; and b = 1.15. What is the cost of equity from retained earnings based on the CAPM approach?",
+                    "options": ["9.75%", "10.04%", "10.34%", "10.65%", "10.97%"],
+                    "answer": "9.75%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 4,
+                    "topic": "(10.5) Component cost of retained earnings: CAPM",
+                    "type": "mcq",
+                    "question": "Scanlon Inc.'s CFO hired you as a consultant to help her estimate the cost of capital. You have been provided with the following data: rRF = 5.00%; RPM = 6.00%; and b = 0.90. Based on the CAPM approach, what is the cost of equity from retained earnings?",
+                    "options": ["9.21%", "9.49%", "9.79%", "10.09%", "10.40%"],
+                    "answer": "10.40%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 5,
+                    "topic": "(10.6) Component cost of retained earnings: DCF, D1",
+                    "type": "mcq",
+                    "question": "Assume that you are a consultant to Broske Inc., and you have been provided with the following data: D1 = $1.30; P0 = $42.50; and g = 7.00% (constant). What is the cost of equity from retained earnings based on the DCF approach?",
+                    "options": ["9.08%", "9.56%", "10.06%", "10.56%", "11.09%"],
+                    "answer": "10.06%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 6,
+                    "topic": "(10.6) Component cost of retained earnings: DCF, D1",
+                    "type": "mcq",
+                    "question": "Lanser Inc. hired you as a consultant to help them estimate its cost of capital. You have been provided with the following data: D1 = $0.80; P0 = $22.50; and g = 5.00% (constant). Based on the DCF approach, what is the cost of equity from retained earnings?",
+                    "options": ["7.34%", "7.72%", "8.13%", "8.56%", "8.98%"],
+                    "answer": "8.56%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 7,
+                    "topic": "(10.7) rs: Bond-yield-plus-risk premium",
+                    "type": "mcq",
+                    "question": "P. Lange Inc. hired your consulting firm to help them estimate the cost of equity. The yield on Lange's bonds is 7.25%, and your firm's economists believe that the cost of equity can be estimated using a risk premium of 3.50% over a firm's own cost of debt. What is an estimate of Lange's cost of equity from retained earnings?",
+                    "options": ["10.75%", "11.18%", "11.63%", "12.09%", "12.58%"],
+                    "answer": "10.75%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 8,
+                    "topic": "(10.10) WACC",
+                    "type": "mcq",
+                    "question": "You were hired as a consultant to Kroncke Company, whose target capital structure is 40% debt, 10% preferred, and 50% common equity. The after-tax cost of debt is 6.00%, the cost of preferred is 7.50%, and the cost of retained earnings is 13.25%. The firm will not be issuing any new stock. What is its WACC?",
+                    "options": ["9.48%", "9.78%", "10.07%", "10.37%", "10.68%"],
+                    "answer": "9.78%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 9,
+                    "topic": "(10.2) Component cost of debt",
+                    "type": "mcq",
+                    "question": "To help finance a major expansion, Delano Development Company sold a noncallable bond several years ago that now has 15 years to maturity. This bond has a 10.25% annual coupon, paid semiannually, it sells at a price of $1,025, and it has a par value of $1,000. If Delano's tax rate is 40%, what component cost of debt should be used in the WACC calculation?",
+                    "options": ["5.11%", "5.37%", "5.66%", "5.96%", "6.25%"],
+                    "answer": "5.96%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 10,
+                    "topic": "(10.5) Component cost of retained earnings: CAPM",
+                    "type": "mcq",
+                    "question": "Several years ago the Pettijohn Company sold a $1,000 par value, noncallable bond that now has 15 years to maturity and a 7.00% annual coupon that is paid semiannually. The bond currently sells for $925, and the company's tax rate is 40%. What is the component cost of debt for use in the WACC calculation?",
+                    "options": ["4.35%", "4.53%", "4.72%", "4.90%", "5.10%"],
+                    "answer": "4.72%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 11,
+                    "topic": "(10.6) Component cost of retained earnings: DCF, D0",
+                    "type": "mcq",
+                    "question": "Assume that Considine Inc. hired you as a consultant to help estimate its cost of capital. You have been provided with the following data: D0 = $0.90; P0 = $22.50; and g = 7.00% (constant). Based on the DCF approach, what is Considine's cost of equity from retained earnings?",
+                    "options": ["9.98%", "10.40%", "10.83%", "11.28%", "11.73%"],
+                    "answer": "11.28%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 12,
+                    "topic": "(10.6) Component cost of retained earnings: DCF, D0",
+                    "type": "mcq",
+                    "question": "Chambliss Inc. hired you as a consultant to help estimate its cost of capital. You have been provided with the following data: D0 = $0.90; P0 = $27.50; and g = 8.00% (constant). Based on the DCF approach, what is the cost of equity from retained earnings?",
+                    "options": ["10.41%", "10.96%", "11.53%", "12.11%", "12.72%"],
+                    "answer": "11.53%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 13,
+                    "topic": "(10.9) re based on DCF, D1",
+                    "type": "mcq",
+                    "question": "Kovach Lumber Company hired you to help estimate its cost of capital. You were provided with the following data: D1 = $1.10; P0 = $27.50; g = 6.00% (constant); and F = 5.00%. What is the cost of equity raised by selling new common stock?",
+                    "options": ["9.41%", "9.80%", "10.21%", "10.62%", "11.04%"],
+                    "answer": "10.21%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 14,
+                    "topic": "(10.9) re based on DCF, D1",
+                    "type": "mcq",
+                    "question": "You were recently hired by Nast Media Inc. to estimate its cost of capital. You were provided with the following data: D1 = $2.00; P0 = $55.00; g = 8.00% (constant); and F = 5.00%. What is the cost of equity raised by selling new common stock?",
+                    "options": ["11.24%", "11.83%", "12.42%", "13.04%", "13.69%"],
+                    "answer": "11.83%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 15,
+                    "topic": "(10.9) Cost of new common stock: DCF and payout ratio",
+                    "type": "mcq",
+                    "question": "LePage Co. expects to earn $2.50 per share during the current year, its expected payout ratio is 55%, its expected constant dividend growth rate is 6.0%, and its common stock currently sells for $22.50 per share. New stock can be sold to the public at the current price, but a flotation cost of 5% would be incurred. What would be the cost of equity from new common stock?",
+                    "options": ["11.81%", "12.43%", "13.05%", "13.71%", "14.39%"],
+                    "answer": "12.43%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 16,
+                    "topic": "(10.10) WACC",
+                    "type": "mcq",
+                    "question": "Schadler Systems is expected to pay a $3.50 dividend at year end (D1 = $3.50), the dividend is expected to grow at a constant rate of 6.50% a year, and the common stock currently sells for $62.50 a share. The before-tax cost of debt is 7.50%, and the tax rate is 40%. The target capital structure consists of 40% debt and 60% common equity. What is the company's WACC if all equity is from retained earnings?",
+                    "options": ["8.35%", "8.70%", "9.06%", "9.42%", "9.80%"],
+                    "answer": "9.06%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 17,
+                    "topic": "(10.10) WACC based on target capital structure",
+                    "type": "mcq",
+                    "question": "You were hired as a consultant to Quigley Company, whose target capital structure is 40% debt, 10% preferred, and 50% common equity. The interest rate on new debt is 6.50%, the yield on the preferred is 6.00%, the cost of retained earnings is 12.25%, and the tax rate is 40%. The firm will not be issuing any new stock. What is Quigley's WACC?",
+                    "options": ["8.29%", "8.62%", "8.96%", "9.32%", "9.69%"],
+                    "answer": "8.29%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 18,
+                    "topic": "(10.10) WACC based on target capital structure",
+                    "type": "mcq",
+                    "question": "Roxie Epoxy's balance sheet shows a total of $50 million long-term debt with a coupon rate of 8.00% and a yield to maturity of 7.00%. This debt currently has a market value of $55 million. The balance sheet also shows that that the company has 20 million shares of common stock, and the book value of the common equity (common stock plus retained earnings) is $65 million. The current stock price is $8.25 per share; stockholders' required return, rs, is 10.00%; and the firm's tax rate is 40%. Based on market value weights, and assuming the firm is currently at its target capital structure, what WACC should Roxie use to evaluate capital budgeting projects?",
+                    "options": ["7.26%", "7.56%", "7.88%", "8.21%", "8.55%"],
+                    "answer": "8.55%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 19,
+                    "topic": "(10.9) rs vs. re",
+                    "type": "mcq",
+                    "question": "Grunewald Co.'s common stock currently sells for $60.00 per share, the company expects to earn $3.00 per share during the current year, its expected payout ratio is 40%, and its expected constant growth rate is 7.00%. New stock can be sold to the public at the current price, but a flotation cost of 9% would be incurred. By how much would the cost of new stock exceed the cost of retained earnings?",
+                    "options": ["0.05%", "0.10%", "0.20%", "0.30%", "0.45%"],
+                    "answer": "0.20%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 20,
+                    "topic": "(10.10) WACC based on target, book, and mkt cap. struc.",
+                    "type": "mcq",
+                    "question": "Bruner Breakfast Foods (BBF) balance sheet shows a total of $20 million long-term debt with a coupon rate of 8.00%. The yield to maturity on this debt is 10.00%, and the debt has a total current market value of $18 million. The balance sheet also shows that that the company has 10 million shares of stock, and total of common equity (common stock plus retained earnings) is $30 million. The current stock price is $4.50 per share, and stockholders' required rate of return, rs, is 12.25%. The company recently decided that its target capital structure should have 50% debt, with the balance being common equity. The tax rate is 40%. Calculate WACCs based on target, book, and market value capital structures, and then find the sum of these three WACCs.",
+                    "options": ["27.04%", "28.17%", "29.34%", "30.51%", "31.73%"],
+                    "answer": "29.34%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 21,
+                    "topic": "(10.10) WACC, equity from RE, must find YTM",
+                    "type": "mcq",
+                    "question": "Malitz Inc. recently hired you as a consultant to estimate the company's WACC. You have obtained the following information. (1) Malitz's noncallable bonds mature in 25 years, have an 8.00% annual coupon, a par value of $1,000, and a market price of $1,075.00. (2) The company's tax rate is 40%. (3) The risk-free rate is 4.50%, the market risk premium is 5.50%, and the stock's beta is 1.20. (4) The target capital structure consists of 35% debt and the balance as common equity. Malitz uses the CAPM to estimate the cost of equity, and it does not expect to issue any new common stock. What is its WACC?",
+                    "options": ["7.13%", "7.51%", "7.90%", "8.32%", "8.76%"],
+                    "answer": "8.76%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 22,
+                    "topic": "(10.10) WACC, equity from retained earnings, uses DCF",
+                    "type": "mcq",
+                    "question": "Assume that you are on the financial staff of Michelson Inc., and you have collected the following data: (1) The yield on the company's outstanding bonds is 8.00%, and its tax rate is 40%. (2) The next expected dividend is $0.65 a share, and the dividend is expected to grow at a constant rate of 6.00% a year. (3) The price of Michelson's stock is $17.50 per share, and the flotation cost for selling new shares is F = 10%. (4) The target capital structure is 45% debt and the balance is common equity. What is Michelson's WACC, assuming it must issue new stock to finance its capital budget?",
+                    "options": ["6.63%", "6.98%", "7.34%", "7.73%", "8.12%"],
+                    "answer": "7.73%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 23,
+                    "topic": "(10.12) Project risk--nonalgorithmic",
+                    "type": "mcq",
+                    "question": "Durst Enterprises, which is debt-free and finances only with equity from retained earnings, is considering five large capital budgeting projects. Its CFO hired you to assist in deciding whether none, one, two, three, four, or five projects should be accepted. You have the following information: (1) rRF = 4.00%; RPM = 5.50%; and b = 1.00. (2) The company adds 5%, 3%, 1%, 0%, or -1% to the corporate WACC when it evaluates projects that differ in risk. (3) Project A is in the -1% category, B is in the 0% group, C is in the +1% group, D is in the +3% group, and E is in the most risky +5% group. (4) Each project has a cost of $25,000. (5) The projects' expected returns are as follows: A = 8.7%, B = 9.60%, C = 10.30%, D = 13.80%, and E = 14.70%. If these are the only projects under consideration, how large should Durst's capital budget be?",
+                    "options": ["$100,000", "$75,000", "$50,000", "$25,000", "$0"],
+                    "answer": "$100,000",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 24,
+                    "topic": "(Comp: 10.5-10.8) Risk premium, CAPM, and DCF",
+                    "type": "mcq",
+                    "question": "Mihov Inc. hired you as a consultant to help estimate its cost of capital. You have been provided with the following data. (1): rd = yield on the firm's bonds = 7.00% and the risk premium over its own debt cost = 4.00%. (2) rRF = 5.00%, RPM = 6.00%, and b = 1.25. (3) D1 = $1.20; P0 = $35.00 and g = 8.00% (constant). You were asked to estimate the cost of equity based on the three most commonly used methods and then to indicate the difference between the highest and lowest of these estimates. What is that difference?",
+                    "options": ["1.13%", "1.50%", "1.88%", "2.34%", "2.58%"],
+                    "answer": "1.50%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 25,
+                    "topic": "(10.2) After-tax cost of debt",
+                    "type": "mcq",
+                    "question": "What is the best estimate of the after-tax cost of debt for CGT?",
+                    "options": ["4.64%", "4.88%", "5.14%", "5.40%", "5.67%"],
+                    "answer": "5.14%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 26,
+                    "topic": "(10.5) CAPM cost of equity",
+                    "type": "mcq",
+                    "question": "Using the CAPM approach, what is the best estimate of the cost of equity for CGT?",
+                    "options": ["13.00%", "13.52%", "14.06%", "14.62%", "15.21%"],
+                    "answer": "13.00%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 27,
+                    "topic": "(Comp: 10.1,10.10) Weights for WACC",
+                    "type": "mcq",
+                    "question": "Which of the following is the best estimate for the weights to be used when calculating the WACC?",
+                    "options": ["wc = 68.2% wd = 31.8%", "wc = 69.9% wd = 30.1%", "wc = 71.6% wd = 28.4%", "wc = 73.4% wd = 26.6%", "wc = 75.3% wd = 24.7%"],
+                    "answer": "wc = 68.2% wd = 31.8%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 28,
+                    "topic": "(10.10) WACC",
+                    "type": "mcq",
+                    "question": "What is the best estimate of the WACC for CGT?",
+                    "options": ["9.88%", "10.18%", "10.50%", "10.81%", "11.14%"],
+                    "answer": "10.50%",
+                    "explanation": ""
+                }
+            ]
+        }
+    }
+}
