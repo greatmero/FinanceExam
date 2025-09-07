@@ -1,0 +1,1193 @@
+{
+    "title": "STOCKS, STOCK VALUATION, AND STOCK MARKET EQUILIBRIUM",
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-8 w-8\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10\" /></svg>",
+    "sectors": {
+        "sector1": {
+            "title": "True/False - Easy",
+            "questions": [
+                {
+                    "q_num": 1,
+                    "topic": "(8.1) Proxy",
+                    "type": "tf",
+                    "question": "A proxy is a document giving one party the authority to act for another party, including the power to vote shares of common stock. A proxy can be an important tool relating to control of the firm.",
+                    "options": [
+                        "True",
+                        "False"
+                    ],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 2,
+                    "topic": "(8.1) Preemptive right",
+                    "type": "tf",
+                    "question": "The preemptive right gives current stockholders the right to purchase, on a pro rata basis, any new shares sold by the firm. This right helps protect current stockholders against both dilution of control and dilution of value.",
+                    "options": [
+                        "True",
+                        "False"
+                    ],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 3,
+                    "topic": "(8.1) Preemptive right",
+                    "type": "tf",
+                    "question": "If a firm's stockholders are given the preemptive right, this means that stockholders have the right to call for a meeting to vote to replace the management. Without the preemptive right, dissident stockholders would have to seek a change in management through a proxy fight.",
+                    "options": [
+                        "True",
+                        "False"
+                    ],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 4,
+                    "topic": "(8.1) Closely held stock",
+                    "type": "tf",
+                    "question": "When a corporation's shares are owned by a few individuals who are associated with the firm's management, we say that the stock is \"closely held.\"",
+                    "options": [
+                        "True",
+                        "False"
+                    ],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 5,
+                    "topic": "(8.1) Public company",
+                    "type": "tf",
+                    "question": "A publicly owned corporation is a company whose shares are held by the investing public, which may include other corporations as well as institutional investors.",
+                    "options": [
+                        "True",
+                        "False"
+                    ],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 6,
+                    "topic": "(8.2) Classified stock",
+                    "type": "tf",
+                    "question": "Classified stock differentiates different classes of common stock, and using it is one way companies can meet special needs such as when owners of a start-up firm need additional equity capital but don't want to relinquish voting control.",
+                    "options": [
+                        "True",
+                        "False"
+                    ],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 7,
+                    "topic": "(8.2) Founders' shares",
+                    "type": "tf",
+                    "question": "Founders' shares are a type of classified stock where the shares are owned by the firm's founders, and they generally have more votes per share than the other classes of common stock.",
+                    "options": [
+                        "True",
+                        "False"
+                    ],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 8,
+                    "topic": "(8.4) Total stock returns",
+                    "type": "tf",
+                    "question": "The total return on a share of stock refers to the dividend yield less any commissions paid when the stock is purchased and sold.",
+                    "options": [
+                        "True",
+                        "False"
+                    ],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 9,
+                    "topic": "(8.4) Common stock cash flows",
+                    "type": "tf",
+                    "question": "The cash flows associated with common stock are more difficult to estimate than those related to bonds because stocks only have residual claims against the company.",
+                    "options": [
+                        "True",
+                        "False"
+                    ],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 10,
+                    "topic": "(8.4) Stock valuation",
+                    "type": "tf",
+                    "question": "According to the basic DCF stock valuation model, the value an investor should assign to a share of stock is dependent on the length of time he or she plans to hold the stock.",
+                    "options": [
+                        "True",
+                        "False"
+                    ],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 11,
+                    "topic": "(8.5) Constant growth model",
+                    "type": "tf",
+                    "question": "The constant growth DCF model used to evaluate the prices of common stocks is essentially the same as the model used to find the price of perpetual preferred stock or any other perpetuity.",
+                    "options": [
+                        "True",
+                        "False"
+                    ],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 12,
+                    "topic": "(8.7) Nonconstant growth model",
+                    "type": "tf",
+                    "question": "According to the nonconstant growth model discussed in the textbook, the discount rate used to find the present value of the expected cash flows during the initial growth period is the same as the discount rate used to find the PVs of cash flows during the subsequent constant growth period.",
+                    "options": [
+                        "True",
+                        "False"
+                    ],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 13,
+                    "topic": "(8.11) Marginal investor and price",
+                    "type": "tf",
+                    "question": "When a new issue of stock is brought to market, it is the marginal investor who determines the price at which the stock will trade.",
+                    "options": [
+                        "True",
+                        "False"
+                    ],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 14,
+                    "topic": "(8.12) Efficient markets hypothesis",
+                    "type": "tf",
+                    "question": "If security markets were truly strong-form efficient, one could never earn a realized return on a stock greater than the marginal investor's expected (and required) rate of return on the stock.",
+                    "options": [
+                        "True",
+                        "False"
+                    ],
+                    "answer": "False",
+                    "explanation": ""
+                }
+            ]
+        },
+        "sector2": {
+            "title": "True/False - Medium",
+            "questions": [
+                {
+                    "q_num": 1,
+                    "topic": "(8.1) Proxy fight",
+                    "type": "tf",
+                    "question": "A proxy fight generally is a battle between management and a group of stockholders who want to install a new management team that will operate the firm differently, or possibly break it up or sell it. Under most companies' bylaws, the dissident group must obtain 80% or more of the votes in order to prevail.",
+                    "options": [
+                        "True",
+                        "False"
+                    ],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 2,
+                    "topic": "(8.11) Stock market equilibrium",
+                    "type": "tf",
+                    "question": "If two firms have the same current dividend and the same expected dividend growth rate, their stocks must sell at the same current price or else the market will not be in equilibrium.",
+                    "options": [
+                        "True",
+                        "False"
+                    ],
+                    "answer": "False",
+                    "explanation": ""
+                }
+            ]
+        },
+        "sector3": {
+            "title": "Multiple Choice: Conceptual - Easy",
+            "questions": [
+                {
+                    "q_num": 1,
+                    "topic": "(8.4) Required return",
+                    "type": "mcq",
+                    "question": "An increase in a firm's expected growth rate would normally cause its required rate of return to",
+                    "options": [
+                        "Increase.",
+                        "Decrease.",
+                        "Fluctuate less than before.",
+                        "Remain constant.",
+                        "Possibly increase, possibly decrease, or possibly have no effect."
+                    ],
+                    "answer": "Possibly increase, possibly decrease, or possibly have no effect.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 2,
+                    "topic": "(8.4) Required return",
+                    "type": "mcq",
+                    "question": "If in the opinion of a given investor a stock's expected return exceeds its required return, this suggests that",
+                    "options": [
+                        "The investor thinks the stock is experiencing supernormal growth.",
+                        "The investor thinks the stock should be sold.",
+                        "The investor thinks the stock is a good buy.",
+                        "The investor thinks management is probably not trying to maximize the price per share.",
+                        "The investor thinks dividends are not likely to be declared."
+                    ],
+                    "answer": "The investor thinks the stock is a good buy.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 3,
+                    "topic": "(8.5) Constant growth model",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "The constant growth model is often appropriate to evaluate start-up companies that do not have a stable history of growth but are expected to reach stable growth within the next year or so.",
+                        "If a stock has a required rate of return rs = 12% and its dividend is expected to grow at a constant rate of 5%, this implies that the stock's dividend yield is 5%.",
+                        "The stock valuation model, P0 = D1/(rs - g), can be used for firms that have expected negative, but constant, growth rates.",
+                        "The price of a stock is the present value of all expected future dividends, discounted at the dividend growth rate.",
+                        "The constant growth model cannot be used for a zero growth stock, where the dividend is expected to remain constant over time."
+                    ],
+                    "answer": "The stock valuation model, P0 = D1/(rs - g), can be used for firms that have expected negative, but constant, growth rates.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 4,
+                    "topic": "(8.12) Efficient markets hypothesis",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "Semistrong-form market efficiency implies that as soon as any public or private information comes into being it is incorporated into stock prices.",
+                        "Weak-form market efficiency implies that recent trends in stock prices are of no use in predicting future stock prices.",
+                        "Market efficiency implies that all stocks should have the same expected return.",
+                        "According to strong-form market efficiency, insiders would find it possible to consistently earn abnormal returns in the stock market even if they have superior knowledge about the company.",
+                        "Studies of the Efficient Markets Hypothesis suggest that neither the weak-form nor the semi-strong forms of efficiency hold, especially for larger companies. However, the market appears to be strong-form efficient because institutional traders make abnormal profits."
+                    ],
+                    "answer": "Weak-form market efficiency implies that recent trends in stock prices are of no use in predicting future stock prices.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 5,
+                    "topic": "(8.12) Efficient markets hypothesis",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "The Efficient Markets Hypothesis suggests that the market does not price stocks fairly; hence, managers should make decisions based on the premise that firms' stocks are undervalued or overvalued.",
+                        "An individual who has information about past stock prices would be able to profit from this information if weak-form market efficiency exists.",
+                        "An individual who has inside information about a publicly traded company should be able to profit from this information if strong-form market efficiency exists.",
+                        "For the Efficient Markets Hypothesis to hold true, every individual investor must be 'rational.'",
+                        "Semistrong-form market efficiency means that stock prices reflect all public, but not necessarily all private, information."
+                    ],
+                    "answer": "Semistrong-form market efficiency means that stock prices reflect all public, but not necessarily all private, information.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 6,
+                    "topic": "(8.12) Efficient markets hypothesis",
+                    "type": "mcq",
+                    "question": "Most studies of stock market efficiency suggest that the stock market is highly efficient in the weak form and reasonably efficient in the semistrong form. Based on these findings, which of the following statements is CORRECT?",
+                    "options": [
+                        "Information disclosed in companies most recent annual reports can be used to consistently beat the market.",
+                        "The stock price for a company has been increasing for the past 6 months. Based on this information, it must be true that the stock price will also increase during the current month.",
+                        "Information you read in The Wall Street Journal today cannot be used to select stocks that will consistently beat the market.",
+                        "Stock prices will respond whenever financial information is released to the public. It does not matter whether this financial information had been expected or not.",
+                        "Managers who have inside information that is not available to the public cannot consistently earn abnormal returns, i.e., returns that are higher than those predicted by the SML."
+                    ],
+                    "answer": "Information you read in The Wall Street Journal today cannot be used to select stocks that will consistently beat the market.",
+                    "explanation": ""
+                }
+            ]
+        },
+        "sector4": {
+            "title": "Multiple Choice: Conceptual - Easy/Medium",
+            "questions": [
+                {
+                    "q_num": 1,
+                    "topic": "(8.4) Required return",
+                    "type": "mcq",
+                    "question": "Stock A has a required return of 10% and a price of $25, and its dividend is expected to grow at a constant rate of 7% per year. Stock B has a required return of 12% and a price of $40, and its dividend is expected to grow at a constant rate of 9% per year. Which of the following statements is CORRECT?",
+                    "options": [
+                        "If the stock market were efficient, these two stocks would have the same price.",
+                        "The two stocks have the same dividend yield.",
+                        "If the stock market were efficient, these two stocks would have the same expected return.",
+                        "The two stocks have the same expected capital gains yield.",
+                        "The two stocks have the same expected year-end dividend."
+                    ],
+                    "answer": "The two stocks have the same dividend yield.",
+                    "explanation": ""
+                }
+            ]
+        },
+        "sector5": {
+            "title": "Multiple Choice: Conceptual - Medium",
+            "questions": [
+                {
+                    "q_num": 1,
+                    "topic": "(8.1) Preemptive right",
+                    "type": "mcq",
+                    "question": "The preemptive right is important to shareholders because it",
+                    "options": [
+                        "Allows managers to buy additional shares below the current market price.",
+                        "Will result in higher dividends per share.",
+                        "Is included in every corporate charter.",
+                        "Protects the current shareholders against a dilution of their ownership interests.",
+                        "Protects bondholders, and thus enables the firm to issue debt with a relatively low interest rate."
+                    ],
+                    "answer": "Protects the current shareholders against a dilution of their ownership interests.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 2,
+                    "topic": "(8.2) Classified stock",
+                    "type": "mcq",
+                    "question": "Companies can issue different classes of common stock. Which of the following statements concerning stock classes is CORRECT?",
+                    "options": [
+                        "All common stocks fall into one of three classes: A, B, and C.",
+                        "All common stocks, regardless of class, must have the same voting rights.",
+                        "All firms have several classes of common stock.",
+                        "All common stock, regardless of class, must pay the same dividend.",
+                        "Some class or classes of common stock may be entitled to more votes per share than other classes."
+                    ],
+                    "answer": "Some class or classes of common stock may be entitled to more votes per share than other classes.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 3,
+                    "topic": "(8.4) Dividend yield and g",
+                    "type": "mcq",
+                    "question": "Stocks A and B have the same price, but Stock A has the higher required rate of return. Which of the following statements is CORRECT?",
+                    "options": [
+                        "If Stock A has a lower dividend yield than Stock B, its expected capital gains yield must be higher than Stock B's.",
+                        "Stock B must have a higher dividend yield than Stock A.",
+                        "Stock A must have a higher dividend yield than Stock B.",
+                        "If Stock A has a higher dividend yield than Stock B, its expected capital gains yield must be lower than Stock B's.",
+                        "Stock A must have both a higher dividend yield and a higher capital gains yield than Stock B."
+                    ],
+                    "answer": "If Stock A has a lower dividend yield than Stock B, its expected capital gains yield must be higher than Stock B's.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 4,
+                    "topic": "(8.5) Declining constant growth stock",
+                    "type": "mcq",
+                    "question": "A stock is expected to pay a year-end dividend of $2.00, i.e., D1 = $2.00. The dividend is expected to decline at a rate of 5% a year forever (g = -5%). If the company's expected and required rate of return is 15%, which of the following statements is CORRECT?",
+                    "options": [
+                        "The company's current stock price is $20.",
+                        "The company's dividend yield 5 years from now is expected to be 10%.",
+                        "The constant growth model cannot be used because the growth rate is negative.",
+                        "The company's expected capital gains yield is 5%.",
+                        "The company's stock price next year is expected to be $9.50."
+                    ],
+                    "answer": "The company's stock price next year is expected to be $9.50.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 5,
+                    "topic": "(8.5) Constant growth: dividend yield and g",
+                    "type": "mcq",
+                    "question": "If two constant growth stocks have the same price and the same required rate of return, which of the following statements is CORRECT?",
+                    "options": [
+                        "The two stocks must have the same dividend per share.",
+                        "If one stock has a higher dividend yield, it will also have a lower dividend growth rate.",
+                        "The two stocks have the same dividend growth rate.",
+                        "The two stocks have the same dividend yield.",
+                        "The stock with the higher dividend yield will have the higher dividend growth rate."
+                    ],
+                    "answer": "If one stock has a higher dividend yield, it will also have a lower dividend growth rate.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 6,
+                    "topic": "(8.5) Constant growth: dividend yield and g",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "The dividend yield on a constant growth stock must be equal to the stock's expected total return less its expected capital gains return.",
+                        "Assume that the required return on a given stock is 13%. If the stock's dividend is growing at a constant rate of 5%, its expected dividend yield is 5% as well.",
+                        "A stock's dividend yield can never exceed its expected growth rate.",
+                        "A required condition for one to use the constant growth model is that the stock's expected growth rate exceeds its required rate of return.",
+                        "Other things held constant, the higher a company's beta coefficient, the lower its required rate of return."
+                    ],
+                    "answer": "The dividend yield on a constant growth stock must be equal to the stock's expected total return less its expected capital gains return.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 7,
+                    "topic": "(8.5) Constant growth model",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "The constant growth model takes into consideration the capital gains investors expect to earn on a stock.",
+                        "Two firms with the same expected dividend and growth rate must also have the same stock price.",
+                        "It is appropriate to use the constant growth model to estimate stock value even if the growth rate is never expected to become constant.",
+                        "If a stock has a required rate of return rs = 12%, and if its dividend is expected to grow at a constant rate of 5%, this implies that the stock's dividend yield is also 5%.",
+                        "The price of a stock is the present value of all expected future dividends, discounted at the dividend growth rate."
+                    ],
+                    "answer": "The constant growth model takes into consideration the capital gains investors expect to earn on a stock.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 8,
+                    "topic": "(8.5) Constant growth model",
+                    "type": "mcq",
+                    "question": "If a stock's dividend is expected to grow at a constant rate of 5% a year, which of the following statements is CORRECT?",
+                    "options": [
+                        "The expected return on the stock is 5% a year.",
+                        "The stock's dividend yield is 5%.",
+                        "The price of the stock is expected to decline in the future.",
+                        "The stock's required return must be equal to or less than 5%.",
+                        "The stock's price one year from now is expected to be 5% above the current price."
+                    ],
+                    "answer": "The stock's price one year from now is expected to be 5% above the current price.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 9,
+                    "topic": "(8.5) Constant growth model",
+                    "type": "mcq",
+                    "question": "Stocks A and B have the same required return and the same price, $25. Stock A's dividend is expected to grow at a constant rate of 10% per year, while Stock B's dividend is expected to grow at a constant rate of 5% per year. Which of the following statements is CORRECT?",
+                    "options": [
+                        "Stock A's expected dividend at t = 1 is only half that of Stock B.",
+                        "Stock A has a higher dividend yield than Stock B.",
+                        "Currently the two stocks have the same price, but over time Stock B's price passes that of A.",
+                        "Since Stock A's growth rate is twice that of Stock B, Stock A's future dividends will always be twice as high as Stock B's.",
+                        "The two stocks should not sell at the same price. If their prices are equal, then a disequilibrium exists."
+                    ],
+                    "answer": "Stock A's expected dividend at t = 1 is only half that of Stock B.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 10,
+                    "topic": "(8.5) Constant growth model",
+                    "type": "mcq",
+                    "question": "Stocks X and Y sell at the same price. Stock X has a required return of 12% while Y's required return is 10%. Stock X's dividend is expected to grow at a constant rate of 6% a year, while Stock Y's dividend is expected to grow at a constant rate of 4%. If the market is in equilibrium so that expected returns equal required returns, which of the following statements is CORRECT?",
+                    "options": [
+                        "Stock X has a higher dividend yield than Stock Y.",
+                        "Stock Y has a higher dividend yield than Stock X.",
+                        "One year from now, Stock X's price is expected to be higher than Stock Y's price.",
+                        "Stock X has the higher expected year-end dividend.",
+                        "Stock Y has a higher capital gains yield."
+                    ],
+                    "answer": "One year from now, Stock X's price is expected to be higher than Stock Y's price.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 11,
+                    "topic": "(8.5) Constant growth model",
+                    "type": "mcq",
+                    "question": "Stock X is expected to pay a dividend of $3.00 at the end of the year, i.e., D1 = $3.00, and that dividend is expected to grow at a constant rate of 6% a year. The stock currently trades at a price of $50 a share. Assume that the stock is in equilibrium, that is, the stock's price equals its intrinsic value. Which of the following statements is CORRECT?",
+                    "options": [
+                        "The stock's required return is 10%.",
+                        "The stock's expected dividend yield and growth rate are equal.",
+                        "The stock's expected dividend yield is 5%.",
+                        "The stock's expected capital gains yield is 5%.",
+                        "The stock's expected price 10 years from now is $100.00."
+                    ],
+                    "answer": "The stock's expected dividend yield and growth rate are equal.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 12,
+                    "topic": "(8.5) Constant growth model",
+                    "type": "mcq",
+                    "question": "Stock X has a required return of 12% and a dividend yield of 5%, and its dividend is expected to grow at a constant rate forever. Stock Y has a required return of 10%, a dividend yield of 3%, and its dividend is expected to grow at a constant rate forever. Both stocks currently sell for $25 per share. Which of the following statements is CORRECT?",
+                    "options": [
+                        "Stock Y pays a higher dividend per share than Stock X.",
+                        "Stock X pays a higher dividend per share than Stock Y.",
+                        "One year from now, Stock X should have the higher price.",
+                        "Stock Y has a lower expected growth rate than Stock X.",
+                        "Stock Y has the higher expected capital gains yield."
+                    ],
+                    "answer": "Stock X pays a higher dividend per share than Stock Y.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 13,
+                    "topic": "(8.5) Constant growth model",
+                    "type": "mcq",
+                    "question": "The expected return on Northeast Corporation's stock is 14%. The stock's dividend is expected to grow at a constant rate of 8%, and it currently sells for $50 a share. Which of the following statements is CORRECT?",
+                    "options": [
+                        "The stock's dividend yield is 7%.",
+                        "The stock's dividend yield is 8%.",
+                        "The current dividend per share is $4.00.",
+                        "The stock price is expected to be $54 a share one year from now.",
+                        "The stock price is expected to be $57 a share one year from now."
+                    ],
+                    "answer": "The stock price is expected to be $54 a share one year from now.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 14,
+                    "topic": "(8.5) Constant growth model and CAPM",
+                    "type": "mcq",
+                    "question": "Stock A has a beta of 1.1 and Stock B's beta is 0.9. The market risk premium is 6%, and the risk-free rate is 6.3%. Both stocks have a constant dividend growth rate of 7%. If the market is in equilibrium, which of the following statements is CORRECT?",
+                    "options": [
+                        "Stock A must have a higher stock price than Stock B.",
+                        "Stock A must have a higher dividend yield than Stock B.",
+                        "Stock B's dividend yield equals its expected dividend growth rate.",
+                        "Stock B must have the higher required return.",
+                        "Stock B could have the higher expected return."
+                    ],
+                    "answer": "Stock A must have a higher dividend yield than Stock B.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 15,
+                    "topic": "(8.10) Preferred stock concepts",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "Preferred stockholders have a priority to income but not to liquidation proceeds over bondholders in the event of bankruptcy.",
+                        "The preferred stock of a given firm is generally less risky to investors than the same firm's common stock.",
+                        "Corporations cannot buy the preferred stocks of other corporations.",
+                        "Preferred dividends are not generally cumulative.",
+                        "A big advantage of preferred stock is that dividends on preferred stocks are tax deductible by the issuing corporation."
+                    ],
+                    "answer": "The preferred stock of a given firm is generally less risky to investors than the same firm's common stock.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 16,
+                    "topic": "(8.10) Preferred stock concepts",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "A major disadvantage of financing with preferred stock is that preferred stockholders typically have super-normal voting rights.",
+                        "Preferred stock is normally expected to provide steadier, more reliable income to investors than the same firm's common stock, and as a result, the expected after-tax yield on the preferred is lower than the after-tax expected return on the common.",
+                        "The preemptive right is a provision in all corporate charters that gives preferred stockholders the right to purchase (on a pro rata basis) new issues of preferred stock.",
+                        "One of the disadvantages to a corporation of owning preferred stock is that 70% of the dividends received represent taxable income to the corporate recipient, whereas interest income would be tax free.",
+                        "One of the advantages to financing with preferred stock is that 70% of the dividends paid out are tax deductible to the issuer."
+                    ],
+                    "answer": "Preferred stock is normally expected to provide steadier, more reliable income to investors than the same firm's common stock, and as a result, the expected after-tax yield on the preferred is lower than the after-tax expected return on the common.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 17,
+                    "topic": "(8.11) Market equilibrium",
+                    "type": "mcq",
+                    "question": "If markets are in equilibrium, which of the following will occur?",
+                    "options": [
+                        "Each stock's expected return should equal its realized return as seen by the marginal investor.",
+                        "Each stock's expected return should equal its required return as seen by the marginal investor.",
+                        "All stocks should have the same expected return as seen by the marginal investor.",
+                        "The expected and required returns on stocks and bonds should be equal.",
+                        "All stocks should have the same realized return during the coming year."
+                    ],
+                    "answer": "Each stock's expected return should equal its required return as seen by the marginal investor.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 18,
+                    "topic": "(8.11) Market equilibrium",
+                    "type": "mcq",
+                    "question": "For a stock to be in equilibrium, that is, for there to be no consistent pressure for its price to depart from its current level, then",
+                    "options": [
+                        "The expected future return must be less than the most recent past realized return.",
+                        "The past realized return must be equal to the expected return during the same period.",
+                        "The required return must equal the realized return in all periods.",
+                        "The expected return must be equal to both the required future return and the past realized return.",
+                        "The expected future returns must be equal to the required return."
+                    ],
+                    "answer": "The expected future returns must be equal to the required return.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 19,
+                    "topic": "(8.12) Market efficiency and stock returns",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "If a stock's beta increased but its growth rate remained the same, then the new equilibrium price of the stock will be higher (assuming dividends continue to grow at the constant growth rate).",
+                        "Market efficiency says that the actual realized returns on all stocks will be equal to the expected rates of return.",
+                        "Weak-form efficiency suggests that tape watchers and chartists can earn profits by discovering patterns as to when stock prices rise or fall.",
+                        "An implication of the semistrong form of the efficient markets hypothesis is that you cannot consistently benefit from trading on information reported in The Wall Street Journal.",
+                        "None of the statements above is correct."
+                    ],
+                    "answer": "An implication of the semistrong form of the efficient markets hypothesis is that you cannot consistently benefit from trading on information reported in The Wall Street Journal.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 20,
+                    "topic": "(8.12) Efficient markets hypothesis",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "If a market is strong-form efficient, this implies that the returns on a firm's bonds and stocks should be identical.",
+                        "If a market is weak-form efficient, this implies that all public information is rapidly incorporated into market prices.",
+                        "If your uncle earned a return higher than the overall stock market last year, this is evidence that the stock market is inefficient.",
+                        "If a market is weak-form efficient, this implies that analyzing its past price history will not enable one to earn an above-normal rate of return on the stock in the future.",
+                        "If a market is strong-form efficient, this implies that all available information is rapidly incorporated into market prices; however, superior returns can consistently be earned on a stock through lots of hard work. Few experts believe that this condition actually exists."
+                    ],
+                    "answer": "If a market is weak-form efficient, this implies that analyzing its past price history will not enable one to earn an above-normal rate of return on the stock in the future.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 21,
+                    "topic": "(8.12) Efficient markets hypothesis",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "If the stock market is weak-form efficient, then one cannot outperform the market even if he or she has private information.",
+                        "If the stock market is semistrong-form efficient, then the expected return on stocks and bonds must be the same.",
+                        "If the stock market is strong-form efficient, then high beta stocks must have the same expected return as low beta stocks.",
+                        "Since the Efficient Markets Hypothesis assumes that markets behave as if all investors were rational, it is not possible to have irrational investors in a rational market.",
+                        "Even though the Efficient Markets Hypothesis (EMH) assumes that markets behave as if all investors were rational, under the EMH it is still possible to have some irrational investors in a rational market."
+                    ],
+                    "answer": "Even though the Efficient Markets Hypothesis (EMH) assumes that markets behave as if all investors were rational, under the EMH it is still possible to have some irrational investors in a rational market.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 22,
+                    "topic": "(8.12) Semistrong-form efficiency",
+                    "type": "mcq",
+                    "question": "If the stock market is semistrong efficient, which of the following statements is CORRECT?",
+                    "options": [
+                        "All stocks should have the same expected returns; however, they may have different realized returns.",
+                        "Investors can outperform the market if they have access to information which has not yet been publicly revealed.",
+                        "In equilibrium, stocks and bonds should have the same expected returns.",
+                        "If the stock market has been performing strongly over the past several months, stock prices are more likely to decline than increase over the next several months.",
+                        "All stocks should have the same expected return."
+                    ],
+                    "answer": "Investors can outperform the market if they have access to information which has not yet been publicly revealed.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 23,
+                    "topic": "(8.12) Semistrong-form efficiency",
+                    "type": "mcq",
+                    "question": "Assume that markets are semistrong-form efficient. Which of the following statements is CORRECT?",
+                    "options": [
+                        "All stocks should have the same expected return.",
+                        "All stocks should have the same realized return.",
+                        "Past stock prices can be successfully used to forecast future stock returns.",
+                        "Investors' most likely returns are those predicted by the SML, but one should not expect to do any better unless he or she has either good luck or access to information that is not publicly available.",
+                        "Investors should expect to earn more than the returns that are predicted by the SML, because if they do not, they should not invest in the stock market."
+                    ],
+                    "answer": "Investors' most likely returns are those predicted by the SML, but one should not expect to do any better unless he or she has either good luck or access to information that is not publicly available.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 24,
+                    "topic": "(8.12) Semistrong-form efficiency",
+                    "type": "mcq",
+                    "question": "Assume that markets are semistrong efficient, but not strong-form efficient. Which of the following statements is CORRECT?",
+                    "options": [
+                        "Each common stock has an expected return equal to that of the overall market.",
+                        "Investors may be able to earn returns above those predicted by the SML if they have access to information which has not been publicly revealed.",
+                        "Investors can expect to earn returns above those predicted by the SML if they have access to public information.",
+                        "Investors should expect to earn more than the returns that are predicted by the SML, because if they do not, they should not invest in the stock market.",
+                        "Investors will never earn more during the coming year than the returns that are predicted by the SML unless they have information that is not available to most other investors."
+                    ],
+                    "answer": "Investors may be able to earn returns above those predicted by the SML if they have access to information which has not been publicly revealed.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 25,
+                    "topic": "(Comp: 8.1,8.2,8.5) Common stock concepts",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": [
+                        "A tracking, or target, stock is the same as the stock of an independent stand-alone company.",
+                        "If a company has two classes of common stock, Class A and Class B, the stocks may pay different dividends, but under all state charters the two classes must have the same voting rights.",
+                        "The preemptive right is a provision in the corporate charter that gives common stockholders the right to purchase (on a pro rata basis) new issues of the firm's common stock.",
+                        "The stock valuation model, P0 = D1/(rs - g), cannot be used for firms that have negative growth rates.",
+                        "The stock valuation model, P0 = D1/(rs - g), can be used only for firms whose growth rates exceed their required return."
+                    ],
+                    "answer": "The preemptive right is a provision in the corporate charter that gives common stockholders the right to purchase (on a pro rata basis) new issues of the firm's common stock.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 26,
+                    "topic": "(Comp: 8.4,8.11) Common stock concepts",
+                    "type": "mcq",
+                    "question": "Stock X has a required return of 10%, while Stock Y has a required return of 12%. Which of the following statements is CORRECT?",
+                    "options": [
+                        "If the market is in equilibrium, and if Stock Y has the lower expected dividend yield, then it must have the higher expected growth rate.",
+                        "If Stock Y and Stock X have the same dividend yield, then Stock Y must have a lower expected capital gains yield than Stock X.",
+                        "If Stock X and Stock Y have the same current dividend and the same expected dividend growth rate, then Stock Y must sell for a higher price.",
+                        "The stocks must sell for the same price.",
+                        "Stock Y must have a higher dividend yield than Stock X."
+                    ],
+                    "answer": "If the market is in equilibrium, and if Stock Y has the lower expected dividend yield, then it must have the higher expected growth rate.",
+                    "explanation": ""
+                }
+            ]
+        },
+        "sector6": {
+            "title": "Multiple Choice: Problems - Easy",
+            "questions": [
+                {
+                    "q_num": 1,
+                    "topic": "(8.5) Constant growth valuation",
+                    "type": "mcq",
+                    "question": "A stock is expected to pay a dividend of $0.75 at the end of the year. The required rate of return is rs = 12.5%, and the expected constant growth rate is g = 8.5%. What is the current stock price?",
+                    "options": [
+                        "$17.82",
+                        "$18.28",
+                        "$18.75",
+                        "$19.22",
+                        "$19.70"
+                    ],
+                    "answer": "$18.75",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 2,
+                    "topic": "(8.5) Constant growth valuation",
+                    "type": "mcq",
+                    "question": "A stock just paid a dividend of D0 = $1.75. The required rate of return is rs = 12.0%, and the constant growth rate is g = 4.0%. What is the current stock price?",
+                    "options": [
+                        "$20.56",
+                        "$21.09",
+                        "$21.63",
+                        "$22.18",
+                        "$22.75"
+                    ],
+                    "answer": "$22.75",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 3,
+                    "topic": "(8.5) Constant growth valuation",
+                    "type": "mcq",
+                    "question": "A share of common stock has just paid a dividend of $2.00. If the expected long-run growth rate for this stock is 5.0%, and if investors' required rate of return is 10.5%, what is the stock price?",
+                    "options": [
+                        "$35.39",
+                        "$36.30",
+                        "$37.23",
+                        "$38.18",
+                        "$39.14"
+                    ],
+                    "answer": "$38.18",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 4,
+                    "topic": "(8.6) Expected dividend yield",
+                    "type": "mcq",
+                    "question": "If D1 = $1.75, g (which is constant) = 4.5%, and P0 = $46, what is the stock's expected dividend yield for the coming year?",
+                    "options": [
+                        "3.26%",
+                        "3.43%",
+                        "3.61%",
+                        "3.80%",
+                        "3.99%"
+                    ],
+                    "answer": "3.80%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 5,
+                    "topic": "(8.6) Expected dividend yield",
+                    "type": "mcq",
+                    "question": "If D0 = $2.25, g (which is constant) = 3.5%, and P0 = $50, what is the stock's expected dividend yield for the coming year?",
+                    "options": [
+                        "4.42%",
+                        "4.66%",
+                        "4.89%",
+                        "5.13%",
+                        "5.39%"
+                    ],
+                    "answer": "4.66%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 6,
+                    "topic": "(8.6) Expected return, dividend and capital gains yields",
+                    "type": "mcq",
+                    "question": "If D1 = $1.50, g (which is constant) = 6.5%, and P0 = $56, what is the stock's expected capital gains yield for the coming year?",
+                    "options": [
+                        "6.50%",
+                        "6.83%",
+                        "7.17%",
+                        "7.52%",
+                        "7.90%"
+                    ],
+                    "answer": "6.50%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 7,
+                    "topic": "(8.6) Expected total return",
+                    "type": "mcq",
+                    "question": "If D1 = $1.25, g (which is constant) = 5.5%, and P0 = $44, what is the stock's expected total return for the coming year?",
+                    "options": [
+                        "7.54%",
+                        "7.73%",
+                        "7.93%",
+                        "8.13%",
+                        "8.34%"
+                    ],
+                    "answer": "8.34%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 8,
+                    "topic": "(8.6) Expected total return",
+                    "type": "mcq",
+                    "question": "If D0 = $2.75, g (which is constant) = 3%, and P0 = $36, what is the stock's expected total return for the coming year?",
+                    "options": [
+                        "9.82%",
+                        "10.07%",
+                        "10.33%",
+                        "10.60%",
+                        "10.87%"
+                    ],
+                    "answer": "10.87%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 9,
+                    "topic": "(8.6) Constant growth rate",
+                    "type": "mcq",
+                    "question": "McDonnell Manufacturing is expected to pay a dividend of $1.50 per share at the end of the year (D1 = $1.50). The stock sells for $34.50 per share, and its required rate of return is 11.5%. The dividend is expected to grow at some constant rate, g, forever. What is the equilibrium expected growth rate?",
+                    "options": [
+                        "6.46%",
+                        "6.63%",
+                        "6.80%",
+                        "6.97%",
+                        "7.15%"
+                    ],
+                    "answer": "7.15%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 10,
+                    "topic": "(8.6) Future price of a constant growth stock",
+                    "type": "mcq",
+                    "question": "Ewert Enterprises' stock currently sells for $30.50 per share. The stock's dividend is projected to increase at a constant rate of 4.50% per year. The required rate of return on the stock, rs, is 10.00%. What is Ewert's expected price 3 years from today?",
+                    "options": [
+                        "$31.61",
+                        "$32.43",
+                        "$33.26",
+                        "$34.11",
+                        "$34.81"
+                    ],
+                    "answer": "$34.81",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 11,
+                    "topic": "(8.6) Future price of a constant growth stock",
+                    "type": "mcq",
+                    "question": "E. M. Roussakis Inc.'s stock currently sells for $45 per share. The stock's dividend is projected to increase at a constant rate of 3.75% per year. The required rate of return on the stock, rs, is 15.50%. What is Roussakis' expected price 5 years from now?",
+                    "options": [
+                        "$48.88",
+                        "$50.14",
+                        "$51.42",
+                        "$52.74",
+                        "$54.09"
+                    ],
+                    "answer": "$54.09",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 12,
+                    "topic": "(8.10) Preferred stock valuation",
+                    "type": "mcq",
+                    "question": "Gary Wells Inc. plans to issue perpetual preferred stock with an annual dividend of $6.50 per share. If the required return on this preferred stock is 6.5%, at what price should the stock sell?",
+                    "options": [
+                        "$90.37",
+                        "$92.69",
+                        "$95.06",
+                        "$97.50",
+                        "$100.00"
+                    ],
+                    "answer": "$100.00",
+                    "explanation": ""
+                }
+            ]
+        },
+        "sector7": {
+            "title": "Multiple Choice: Problems - Medium",
+            "questions": [
+                {
+                    "q_num": 1,
+                    "topic": "(8.5) Constant growth valuation: CAPM",
+                    "type": "mcq",
+                    "question": "The Zumwalt Company is expected to pay a dividend of $2.25 per share at the end of the year, and that dividend is expected to grow at a constant rate of 5.00% per year in the future. The company's beta is 1.15, the market risk premium is 5.50%, and the risk-free rate is 4.00%. What is the company's current stock price?",
+                    "options": [
+                        "$42.25",
+                        "$43.31",
+                        "$44.39",
+                        "$45.50",
+                        "$46.64"
+                    ],
+                    "answer": "$42.25",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 2,
+                    "topic": "(8.5) Constant growth valuation: CAPM",
+                    "type": "mcq",
+                    "question": "The Isberg Company just paid a dividend of $0.80 per share, and that dividend is expected to grow at a constant rate of 6.00% per year in the future. The company's beta is 1.25, the market risk premium is 5.00%, and the risk-free rate is 4.00%. What is the company's current stock price?",
+                    "options": [
+                        "$19.95",
+                        "$20.45",
+                        "$20.96",
+                        "$21.49",
+                        "$22.02"
+                    ],
+                    "answer": "$19.95",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 3,
+                    "topic": "(8.5) Constant growth valuation: CAPM",
+                    "type": "mcq",
+                    "question": "Schnusenberg Corporation just paid a dividend of $0.65 per share, and that dividend is expected to grow at a constant rate of 7.00% per year in the future. The company's beta is 0.95, the required return on the market is 10.50%, and the risk-free rate is 5.00%. What is the company's current stock price?",
+                    "options": [
+                        "$21.57",
+                        "$22.11",
+                        "$22.66",
+                        "$23.22",
+                        "$23.80"
+                    ],
+                    "answer": "$21.57",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 4,
+                    "topic": "(8.5) Constant growth dividend",
+                    "type": "mcq",
+                    "question": "Goode Inc.'s stock has a required rate of return of 11.50%, and it sells for $25.00 per share. Goode's dividend is expected to grow at a constant rate of 7.00% per year. What was Goode's last dividend, D0?",
+                    "options": [
+                        "$0.95",
+                        "$1.05",
+                        "$1.16",
+                        "$1.27",
+                        "$1.40"
+                    ],
+                    "answer": "$1.05",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 5,
+                    "topic": "(8.5) Constant growth dividend",
+                    "type": "mcq",
+                    "question": "McLaughlin Inc.'s stock has a required rate of return of 10.50%, and it sells for $67.50 per share. McLaughlin's dividend is expected to grow at a constant rate of 7.00% per year. What is the expected year-end dividend, D1?",
+                    "options": [
+                        "$2.13",
+                        "$2.36",
+                        "$2.60",
+                        "$2.86",
+                        "$3.14"
+                    ],
+                    "answer": "$2.36",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 6,
+                    "topic": "(8.6) Future price of a constant growth stock",
+                    "type": "mcq",
+                    "question": "Sorenson Corp.'s expected year-end dividend is D1 = $1.50, its required return is rS = 12.00%, its dividend yield is 8.00%, and its growth rate is expected to be constant in the future. What is Sorenson's expected stock price in 7 years, i.e., what is P7?",
+                    "options": [
+                        "$24.67",
+                        "$25.91",
+                        "$27.20",
+                        "$28.56",
+                        "$29.99"
+                    ],
+                    "answer": "$24.67",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 7,
+                    "topic": "(8.8) Free cash flow model",
+                    "type": "mcq",
+                    "question": "You must estimate the intrinsic value of Tsetseko Technologies stock. Tsetseko's end-of-year free cash flow (FCF) is expected to be $17.50 million, and it is expected to grow at a constant rate of 7.00% a year thereafter. The company's WACC is 10.00%. Tsetseko has $125.00 million of long-term debt plus preferred stock, and there are 15.00 million shares of common stock outstanding. What is Tsetseko's estimated intrinsic value per share of common stock?",
+                    "options": [
+                        "$28.16",
+                        "$29.33",
+                        "$30.56",
+                        "$31.78",
+                        "$33.05"
+                    ],
+                    "answer": "$30.56",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 8,
+                    "topic": "(8.8) Free cash flow model",
+                    "type": "mcq",
+                    "question": "You have been assigned the task of using the free cash flow model to estimate Petry Corporation's intrinsic value. Petry's WACC is 10.00%, its end-of-year free cash flow (FCF) is expected to be $150.0 million, the FCFs are expected to grow at a constant rate of 6.00% a year in the future, the company has $200 million of long-term debt plus preferred stock, and it has 50 million shares of common stock outstanding. What is Petry's estimated intrinsic value per share of common stock?",
+                    "options": [
+                        "$66.12",
+                        "$68.52",
+                        "$71.00",
+                        "$73.49",
+                        "$76.06"
+                    ],
+                    "answer": "$71.00",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 9,
+                    "topic": "(8.10) Preferred required return",
+                    "type": "mcq",
+                    "question": "Carter's preferred stock pays a dividend of $1.00 per quarter. If the price of the stock is $50.00, what is its nominal (not effective) annual rate of return?",
+                    "options": [
+                        "7.23%",
+                        "7.41%",
+                        "7.61%",
+                        "7.80%",
+                        "8.00%"
+                    ],
+                    "answer": "8.00%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 10,
+                    "topic": "(8.10) Preferred required return",
+                    "type": "mcq",
+                    "question": "Clinton's preferred stock pays a dividend of $1.00 per quarter. If the price of the stock is $50.00, what is its effective annual (not nominal) rate of return?",
+                    "options": [
+                        "7.30%",
+                        "7.52%",
+                        "7.76%",
+                        "8.00%",
+                        "8.24%"
+                    ],
+                    "answer": "8.24%",
+                    "explanation": ""
+                }
+            ]
+        },
+        "sector8": {
+            "title": "Multiple Choice: Problems - Medium/Hard",
+            "questions": [
+                {
+                    "q_num": 1,
+                    "topic": "(8.7) Nonconstant growth valuation",
+                    "type": "mcq",
+                    "question": "WWW Servers just paid a dividend of D0 = $1.00. Analysts expect the company's dividend to grow by 30% this year, by 10% in Year 2, and at a constant rate of 5% in Year 3 and thereafter. The required return on WWW's stock is 9.00%. What is the best estimate of the stock's current intrinsic value?",
+                    "options": [
+                        "$31.50",
+                        "$32.31",
+                        "$33.14",
+                        "$33.99",
+                        "$34.84"
+                    ],
+                    "answer": "$33.99",
+                    "explanation": ""
+                }
+            ]
+        },
+        "sector9": {
+            "title": "Multiple Choice: Problems - Hard",
+            "questions": [
+                {
+                    "q_num": 1,
+                    "topic": "(8.7) Nonconstant growth valuation",
+                    "type": "mcq",
+                    "question": "Rentz RVs Inc. (RRV) is presently enjoying relatively high growth because of a surge in the demand for recreational vehicles. Management expects earnings and dividends to grow at a rate of 25% for the next 4 years, after which high gas prices will probably reduce the growth rate in earnings and dividends to zero, i.e., g = 0. The company's last dividend, D0, was $1.25. RRV's beta is 1.20, the market risk premium is 5.50%, and the risk-free rate is 3.00%. What is the current price of the common stock?",
+                    "options": [
+                        "$26.77",
+                        "$27.89",
+                        "$29.05",
+                        "$30.21",
+                        "$31.42"
+                    ],
+                    "answer": "$29.05",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 2,
+                    "topic": "(8.7) Nonconstant growth valuation",
+                    "type": "mcq",
+                    "question": "The Upton Company's last dividend was $1.75. Its dividend growth rate is expected to be constant at 18.00% for 2 years, after which dividends are expected to grow at a rate of 6.00% forever. Upton's required return (rs) is 12.00%. What is Upton's current stock price?",
+                    "options": [
+                        "$37.15",
+                        "$38.10",
+                        "$39.06",
+                        "$40.03",
+                        "$41.03"
+                    ],
+                    "answer": "$38.10",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 3,
+                    "topic": "(8.7) Nonconstant growth valuation",
+                    "type": "mcq",
+                    "question": "The Wei Company's last dividend was $1.75. The dividend growth rate is expected to be constant at 1.50% for 2 years, after which dividends are expected to grow at a rate of 8.00% forever. Wei's required return (rs) is 12.00%. What is Wei's current stock price?",
+                    "options": [
+                        "$41.83",
+                        "$43.08",
+                        "$44.38",
+                        "$45.71",
+                        "$47.08"
+                    ],
+                    "answer": "$41.83",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 4,
+                    "topic": "(8.7) Nonconstant growth valuation",
+                    "type": "mcq",
+                    "question": "The Nikko Company's last dividend was $1.50. The dividend growth rate is expected to be constant at 15% for 3 years, after which dividends are expected to grow at a rate of 6% forever. If Nikko's required return (rs) is 11%, what is the company's current stock price?",
+                    "options": [
+                        "$36.69",
+                        "$37.82",
+                        "$38.99",
+                        "$40.20",
+                        "$41.40"
+                    ],
+                    "answer": "$40.20",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 5,
+                    "topic": "(8.7) Nonconstant growth rate--nonalgorithmic",
+                    "type": "mcq",
+                    "question": "Prock Petroleum's stock has a required return of 13%, and the stock sells for $50 per share. The firm just paid a dividend of $1.00, and the dividend is expected to grow by 30% per year for the next 4 years, so D4 = $1.00(1.30)^4 = $2.8561. After t = 4, the dividend is expected to grow at a constant rate of X% per year forever. What is the stock's expected constant growth rate after t = 4, i.e., what is X?",
+                    "options": [
+                        "7.08%",
+                        "7.46%",
+                        "7.85%",
+                        "8.26%",
+                        "8.70%"
+                    ],
+                    "answer": "8.70%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 6,
+                    "topic": "(8.7) Zero current div, nonconstant then constant growth",
+                    "type": "mcq",
+                    "question": "You are an analyst studying Beranek Technologies, which was founded 10 years ago. It has been profitable for the last 5 years, but it has needed all of its earnings to support growth and thus has never paid a dividend. Management has indicated that it plans to pay a $0.50 dividend 3 years from today, then to increase it at a relatively rapid rate for 2 years, and then to increase it at a constant rate of 8.00% thereafter. Your forecast of the future dividend stream, along with the forecasted growth rates, is shown below. Assuming a required return of 11.00%, what is your estimate of Beranek's current intrinsic value? Year 0 1 2 3 4 5 6 7 Growth rate NA NA NA NA 50.00% 25.00% 8.00% 8.00% Dividend $0.00 $0.00 $0.00 $0.50 $0.75 $0.94 $1.01 $1.09",
+                    "options": [
+                        "$19.88",
+                        "$20.39",
+                        "$20.91",
+                        "$21.44",
+                        "$21.98"
+                    ],
+                    "answer": "$21.44",
+                    "explanation": ""
+                }
+            ]
+        },
+        "sector10": {
+            "title": "Multiple Choice: Problems - Very Hard",
+            "questions": [
+                {
+                    "q_num": 1,
+                    "topic": "(8.7) Nonconstant g, required return--nonalgorithmic",
+                    "type": "mcq",
+                    "question": "The S.P. Whitman Company's last dividend was $1.00. The dividend growth rate is expected to be constant at 10% for 3 years, after which dividends are expected to grow at a rate of 6% forever. The current stock price is $15.00. What is Whitman's required return, rs? (Hint: Forecast the dividends for Years 1 to 4. Then you must find the discount rate that causes the PVs of the dividends at t = 1, t = 2, and t = 3 plus the price at t = 3, P3, to equal the actual known price. However, you must first estimate P3, and that requires an estimate of rs. You can make a guess as to rs, find P3 using it, then discount the dividends and the estimated P3 at that rate. If the sum does not equal the known price, then change the value used for rs, and continue until you get P0. This is a laborious, time-consuming process with a calculator, but it's easy with Excel.)",
+                    "options": [
+                        "12.63%",
+                        "13.02%",
+                        "13.42%",
+                        "13.84%",
+                        "14.26%"
+                    ],
+                    "answer": "13.84%",
+                    "explanation": ""
+                }
+            ]
+        }
+    }
+}
