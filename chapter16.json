@@ -1,0 +1,669 @@
+{
+    "title": "CAPITAL STRUCTURE DECISIONS: THE BASICS",
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-8 w-8\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10\" /></svg>",
+    "sectors": {
+        "sector1": {
+            "title": "True/False",
+            "questions": [
+                {
+                    "q_num": 1,
+                    "topic": "(16.1) Bankruptcy costs",
+                    "type": "tf",
+                    "question": "Different borrowers have different risks of bankruptcy, and bankruptcy is costly to lenders. Therefore, lenders charge higher rates to borrowers judged to be more at risk of going bankrupt.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 2,
+                    "topic": "(16.2) Business risk",
+                    "type": "tf",
+                    "question": "A firm's business risk is largely determined by the financial characteristics of its industry, especially by the amount of debt the average firm in the industry uses.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 3,
+                    "topic": "(16.2) Financial risk",
+                    "type": "tf",
+                    "question": "Financial risk refers to the extra risk stockholders bear as a result of using debt as compared with the risk they would bear if no debt were used.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 4,
+                    "topic": "(16.2) Financial risk",
+                    "type": "tf",
+                    "question": "As the text indicates, a firm's financial risk has identifiable market risk and diversifiable risk components.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 5,
+                    "topic": "(16.2) Financial risk",
+                    "type": "tf",
+                    "question": "A firm's capital structure does not affect its calculated free cash flows, because FCF reflects only operating cash flows.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 6,
+                    "topic": "(16.2) Financial leverage",
+                    "type": "tf",
+                    "question": "Whenever a firm borrows money, it is using financial leverage.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 7,
+                    "topic": "(16.2) Use of financial leverage",
+                    "type": "tf",
+                    "question": "The graphical probability distribution of ROE for a firm that uses financial leverage would tend to be more peaked than the distribution if the firm used no leverage, other things held constant.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 8,
+                    "topic": "(16.2) Operating and financial leverage",
+                    "type": "tf",
+                    "question": "Provided a firm does not use an extreme amount of debt, financial leverage typically affects both EPS and EBIT, while operating leverage only affects EBIT.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 9,
+                    "topic": "(16.3) Trade-off theory",
+                    "type": "tf",
+                    "question": "The trade-off theory states that the capital structure decision involves a tradeoff between the costs and benefits of debt financing.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 10,
+                    "topic": "(16.2) Use of debt in financing",
+                    "type": "tf",
+                    "question": "If a firm utilizes debt financing, an X% decline in earnings before interest and taxes (EBIT) will result in a decline in earnings per share that is larger than X.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 11,
+                    "topic": "(16.2) Financial leverage",
+                    "type": "tf",
+                    "question": "Firm A has a higher degree of business risk than Firm B. Firm A can offset this by using less financial leverage. Therefore, the variability of both firms' expected EBITs could actually be identical.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 12,
+                    "topic": "(16.2) Business risk",
+                    "type": "tf",
+                    "question": "Two firms, although they operate in different industries, have the same expected earnings per share and the same standard deviation of expected EPS. Thus, the two firms must have the same business risk.",
+                    "options": ["True", "False"],
+                    "answer": "False",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 13,
+                    "topic": "(16.2) Operating and financial leverage",
+                    "type": "tf",
+                    "question": "It is possible that two firms could have identical financial and operating leverage, yet have different degrees of risk as measured by the variability of EPS.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 14,
+                    "topic": "(16.3) Bankruptcy costs",
+                    "type": "tf",
+                    "question": "If Miller and Modigliani had incorporated the costs of bankruptcy into their model, it is unlikely that they would have concluded that 100% debt financing is optimal.",
+                    "options": ["True", "False"],
+                    "answer": "True",
+                    "explanation": ""
+                }
+            ]
+        },
+        "sector2": {
+            "title": "Multiple Choice",
+            "questions": [
+                {
+                    "q_num": 1,
+                    "topic": "(16.2) Business risk",
+                    "type": "mcq",
+                    "question": "An increase in the debt ratio will generally have no effect on which of these items?",
+                    "options": ["Business risk.", "Total risk.", "Financial risk.", "Market risk.", "The firm's beta."],
+                    "answer": "Business risk.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 2,
+                    "topic": "(16.2) Business risk",
+                    "type": "mcq",
+                    "question": "Business risk is affected by a firm's operations. Which of the following is NOT associated with (or does not contribute to) business risk?",
+                    "options": ["Demand variability.", "Sales price variability.", "The extent to which operating costs are fixed.", "The extent to which interest rates on the firm's debt fluctuate.", "Input price variability."],
+                    "answer": "The extent to which interest rates on the firm's debt fluctuate.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 3,
+                    "topic": "(16.3) Target debt ratio",
+                    "type": "mcq",
+                    "question": "Which of the following events is likely to encourage a company to raise its target debt ratio, other things held constant?",
+                    "options": ["An increase in the corporate tax rate.", "An increase in the personal tax rate.", "An increase in the company's operating leverage.", "The Federal Reserve tightens interest rates in an effort to fight inflation.", "The company's stock price hits a new high."],
+                    "answer": "An increase in the corporate tax rate.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 4,
+                    "topic": "(16.3) Leverage and capital structure",
+                    "type": "mcq",
+                    "question": "Which of the following would increase the likelihood that a company would increase its debt ratio, other things held constant?",
+                    "options": ["An increase in costs incurred when filing for bankruptcy.", "An increase in the corporate tax rate.", "An increase in the personal tax rate.", "The Federal Reserve tightens interest rates in an effort to fight inflation.", "The company's stock price hits a new low."],
+                    "answer": "An increase in the corporate tax rate.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 5,
+                    "topic": "(16.5) Capital structure and WACC",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["Since debt financing raises the firm's financial risk, increasing a company's debt ratio will always increase its WACC.", "Since debt financing is cheaper than equity financing, raising a company's debt ratio will always reduce its WACC.", "Increasing a company's debt ratio will typically reduce the marginal cost of both debt and equity financing. However, this action still may raise the company's WACC.", "Increasing a company's debt ratio will typically increase the marginal cost of both debt and equity financing. However, this action still may lower the company's WACC.", "Since a firm's beta coefficient it not affected by its use of financial leverage, leverage does not affect the cost of equity."],
+                    "answer": "Increasing a company's debt ratio will typically increase the marginal cost of both debt and equity financing. However, this action still may lower the company's WACC.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 6,
+                    "topic": "(16.5) Optimal capital structure",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["The capital structure that maximizes expected EPS also maximizes the price per share of common stock.", "The capital structure that minimizes the interest rate on debt also maximizes the expected EPS.", "The capital structure that minimizes the required return on equity also maximizes the stock price.", "The capital structure that minimizes the WACC also maximizes the price per share of common stock.", "The capital structure that gives the firm the best credit rating also maximizes the stock price."],
+                    "answer": "The capital structure that minimizes the WACC also maximizes the price per share of common stock.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 7,
+                    "topic": "(16.5) Optimal capital structure",
+                    "type": "mcq",
+                    "question": "Based on the information below, what is Ezzel Enterprises' optimal capital structure?",
+                    "options": ["Debt = 40%; Equity = 60%; EPS = $2.95; Stock price = $26.50.", "Debt = 50%; Equity = 50%; EPS = $3.05; Stock price = $28.90.", "Debt = 60%; Equity = 40%; EPS = $3.18; Stock price = $31.20.", "Debt = 80%; Equity = 20%; EPS = $3.42; Stock price = $30.40.", "Debt = 70%; Equity = 30%; EPS = $3.31; Stock price = $30.00."],
+                    "answer": "Debt = 60%; Equity = 40%; EPS = $3.18; Stock price = $31.20.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 8,
+                    "topic": "(16.5) Optimal capital structure",
+                    "type": "mcq",
+                    "question": "Which of the following statements best describes the optimal capital structure?",
+                    "options": ["The optimal capital structure is the mix of debt, equity, and preferred stock that maximizes the company's earnings per share (EPS).", "The optimal capital structure is the mix of debt, equity, and preferred stock that maximizes the company's stock price.", "The optimal capital structure is the mix of debt, equity, and preferred stock that minimizes the company's cost of equity.", "The optimal capital structure is the mix of debt, equity, and preferred stock that minimizes the company's cost of debt.", "The optimal capital structure is the mix of debt, equity, and preferred stock that minimizes the company's cost of preferred stock."],
+                    "answer": "The optimal capital structure is the mix of debt, equity, and preferred stock that maximizes the company's stock price.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 9,
+                    "topic": "(16.5) Financial leverage and EPS",
+                    "type": "mcq",
+                    "question": "Volga Publishing is considering a proposed increase in its debt ratio, which would also increase the company's interest expense. The plan would involve issuing new bonds and using the proceeds to buy back shares of its common stock. The company's CFO thinks the plan will not change total assets or operating income, but that it will increase earnings per share (EPS). Assuming the CFO's estimates are correct, which of the following statements is CORRECT?",
+                    "options": ["Since the proposed plan increases Volga's financial risk, the company's stock price still might fall even if EPS increases.", "If the plan reduces the WACC, the stock price is also likely to decline.", "Since the plan is expected to increase EPS, this implies that net income is also expected to increase.", "If the plan does increase the EPS, the stock price will automatically increase at the same rate.", "Under the plan there will be more bonds outstanding, and that will increase their liquidity and thus lower the interest rate on the currently outstanding bonds."],
+                    "answer": "Since the proposed plan increases Volga's financial risk, the company's stock price still might fall even if EPS increases.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 10,
+                    "topic": "(16.5) Optimal capital structure",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["As a rule, the optimal capital structure is found by determining the debt-equity mix that maximizes expected EPS.", "The optimal capital structure simultaneously maximizes EPS and minimizes the WACC.", "The optimal capital structure minimizes the cost of equity, which is a necessary condition for maximizing the stock price.", "The optimal capital structure simultaneously minimizes the cost of debt, the cost of equity, and the WACC.", "The optimal capital structure simultaneously maximizes stock price and minimizes the WACC."],
+                    "answer": "The optimal capital structure simultaneously maximizes stock price and minimizes the WACC.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 11,
+                    "topic": "(16.5) Target capital structure",
+                    "type": "mcq",
+                    "question": "The firm's target capital structure should be consistent with which of the following statements?",
+                    "options": ["Maximize the earnings per share (EPS).", "Minimize the cost of debt (rd).", "Obtain the highest possible bond rating.", "Minimize the cost of equity (rs).", "Minimize the weighted average cost of capital (WACC)."],
+                    "answer": "Minimize the weighted average cost of capital (WACC).",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 12,
+                    "topic": "(Comp: 16.2,16.5) Business & fin. risk & cap. struc.",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["A firm's business risk is determined solely by the financial characteristics of its industry.", "The factors that affect a firm's business risk are affected by industry characteristics and economic conditions. Unfortunately, these factors are generally beyond the control of the firm's management.", "One of the benefits to a firm of being at or near its target capital structure is that this eliminates any risk of bankruptcy.", "A firm's financial risk can be minimized by diversification.", "The amount of debt in its capital structure can under no circumstances affect a company's business risk."],
+                    "answer": "The factors that affect a firm's business risk are affected by industry characteristics and economic conditions. Unfortunately, these factors are generally beyond the control of the firm's management.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 13,
+                    "topic": "(16.2) Operating leverage",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT? As a firm increases the operating leverage used to produce a given quantity of output, this will",
+                    "options": ["normally lead to an increase in its fixed assets turnover ratio.", "normally lead to a decrease in its business risk.", "normally lead to a decrease in the standard deviation of its expected EBIT.", "normally lead to a decrease in the variability of its expected EPS.", "normally lead to a reduction in its fixed assets turnover ratio."],
+                    "answer": "normally lead to a reduction in its fixed assets turnover ratio.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 14,
+                    "topic": "(16.2) Use of financial leverage",
+                    "type": "mcq",
+                    "question": "If debt financing is used, which of the following is CORRECT?",
+                    "options": ["The percentage change in net operating income will be greater than a given percentage change in net income.", "The percentage change in net operating income will be equal to a given percentage change in net income.", "The percentage change in net income relative to the percentage change in net operating income will depend on the interest rate charged on debt.", "The percentage change in net income will be greater than the percentage change in net operating income.", "The percentage change in sales will be greater than the percentage change in EBIT, which in turn will be greater than the percentage change in net income."],
+                    "answer": "The percentage change in net income will be greater than the percentage change in net operating income.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 15,
+                    "topic": "(16.2) Leverage and capital structure",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT, holding other things constant?",
+                    "options": ["Firms whose assets are relatively liquid tend to have relatively low bankruptcy costs, hence they tend to use relatively little debt.", "An increase in the personal tax rate is likely to increase the debt ratio of the average corporation.", "If changes in the bankruptcy code make bankruptcy less costly to corporations, then this would likely reduce the debt ratio of the average corporation.", "An increase in the company's degree of operating leverage is likely to encourage a company to use more debt in its capital structure.", "An increase in the corporate tax rate is likely to encourage a company to use more debt in its capital structure."],
+                    "answer": "An increase in the corporate tax rate is likely to encourage a company to use more debt in its capital structure.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 16,
+                    "topic": "(16.2) Leverage and capital structure",
+                    "type": "mcq",
+                    "question": "Other things held constant, which of the following events is most likely to encourage a firm to increase the amount of debt in its capital structure?",
+                    "options": ["Its sales become less stable over time.", "The costs that would be incurred in the event of bankruptcy increase.", "Management believes that the firm's stock has become overvalued.", "Its degree of operating leverage increases.", "The corporate tax rate increases."],
+                    "answer": "The corporate tax rate increases.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 17,
+                    "topic": "(16.2) Leverage and capital structure",
+                    "type": "mcq",
+                    "question": "Reynolds Resorts is currently 100% equity financed. The CFO is considering a recapitalization plan under which the firm would issue long-term debt with a yield of 9% and use the proceeds to repurchase common stock. The recapitalization would not change the company's total assets, nor would it affect the firm's basic earning power, which is currently 15%. The CFO believes that this recapitalization would reduce the WACC and increase stock price. Which of the following would also be likely to occur if the company goes ahead with the recapitalization plan?",
+                    "options": ["The company's net income would increase.", "The company's earnings per share would decline.", "The company's cost of equity would increase.", "The company's ROA would increase.", "The company's ROE would decline."],
+                    "answer": "The company's cost of equity would increase.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 18,
+                    "topic": "(16.2) Capital structure, ROA, and ROE",
+                    "type": "mcq",
+                    "question": "Blemker Corporation has $500 million of total assets, its basic earning power is 15%, and it currently has no debt in its capital structure. The CFO is contemplating a recapitalization where it will issue debt at a cost of 10% and use the proceeds to buy back shares of the company's common stock, paying book value. If the company proceeds with the recapitalization, its operating income, total assets, and tax rate will remain unchanged. Which of the following is most likely to occur as a result of the recapitalization?",
+                    "options": ["The ROA would increase.", "The ROA would remain unchanged.", "The basic earning power ratio would decline.", "The basic earning power ratio would increase.", "The ROE would increase."],
+                    "answer": "The ROE would increase.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 19,
+                    "topic": "(16.5) Financial leverage and EPS",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["Increasing financial leverage is one way to increase a firm's basic earning power (BEP).", "If a firm lowered its fixed costs while increasing its variable costs, holding total costs at the present level of sales constant, this would decrease its operating leverage.", "The debt ratio that maximizes EPS generally exceeds the debt ratio that maximizes share price.", "If a company were to issue debt and use the money to repurchase common stock, this action would have no impact on its basic earning power ratio. (Assume that the repurchase has no impact on the company's operating income.)", "If changes in the bankruptcy code made bankruptcy less costly to corporations, this would likely reduce the average corporation's debt ratio."],
+                    "answer": "The debt ratio that maximizes EPS generally exceeds the debt ratio that maximizes share price.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 20,
+                    "topic": "(16.5) Financial leverage and ratios",
+                    "type": "mcq",
+                    "question": "Companies HD and LD have identical tax rates, total assets, and basic earning power ratios, and their basic earning power exceeds their before-tax cost of debt, rd. However, Company HD has a higher debt ratio and thus more interest expense than Company LD. Which of the following statements is CORRECT?",
+                    "options": ["Company HD has a higher net income than Company LD.", "Company HD has a lower ROA than Company LD.", "Company HD has a lower ROE than Company LD.", "The two companies have the same ROA.", "The two companies have the same ROE."],
+                    "answer": "Company HD has a lower ROA than Company LD.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 21,
+                    "topic": "(16.5) Financial leverage and ratios",
+                    "type": "mcq",
+                    "question": "Firms U and L each have the same amount of assets, and both have a basic earning power ratio of 20%. Firm U is unleveraged, i.e., it is 100% equity financed, while Firm L is financed with 50% debt and 50% equity. Firm L's debt has a before-tax cost of 8%. Both firms have positive net income. Which of the following statements is CORRECT?",
+                    "options": ["The two companies have the same times interest earned (TIE) ratio.", "Firm L has a lower ROA than Firm U.", "Firm L has a lower ROE than Firm U.", "Firm L has the higher times interest earned (TIE) ratio.", "Firm L has a higher EBIT than Firm U."],
+                    "answer": "Firm L has a lower ROA than Firm U.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 22,
+                    "topic": "(16.5) Financial leverage and ratios",
+                    "type": "mcq",
+                    "question": "Companies HD and LD have the same total assets, operating income (EBIT), tax rate, and business risk. Company HD, however, has a much higher debt ratio than LD. Also HD's basic earning power (BEP) exceeds its cost of debt (rd). Which of the following statements is CORRECT?",
+                    "options": ["HD should have a higher return on assets (ROA) than LD.", "HD should have a higher times interest earned (TIE) ratio than LD.", "HD should have a higher return on equity (ROE) than LD, but its risk, as measured by the standard deviation of ROE, should also be higher than LD's.", "Given that BEP > rd, HD's stock price must exceed that of LD.", "Given that BEP > rd, LD's stock price must exceed that of HD."],
+                    "answer": "HD should have a higher return on equity (ROE) than LD, but its risk, as measured by the standard deviation of ROE, should also be higher than LD's.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 23,
+                    "topic": "(Comp: 16.2,16.3) Capital structure and WACC",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["A firm can use retained earnings without paying a flotation cost. Therefore, while the cost of retained earnings is not zero, its cost is generally lower than the after-tax cost of debt.", "The capital structure that minimizes a firm's weighted average cost of capital is also the capital structure that maximizes its stock price.", "The capital structure that minimizes the firm's weighted average cost of capital is also the capital structure that maximizes its earnings per share.", "If a firm finds that the cost of debt is less than the cost of equity, increasing its debt ratio must reduce its WACC.", "Other things held constant, if corporate tax rates declined, then the Modigliani-Miller tax-adjusted tradeoff theory would suggest that firms should increase their use of debt."],
+                    "answer": "The capital structure that minimizes a firm's weighted average cost of capital is also the capital structure that maximizes its stock price.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 24,
+                    "topic": "(Comp: 16.2,16.5) Capital structure, WACC, TIE, and EPS",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["The capital structure that maximizes the stock price is also the capital structure that minimizes the weighted average cost of capital (WACC).", "The capital structure that maximizes the stock price is also the capital structure that maximizes earnings per share.", "The capital structure that maximizes the stock price is also the capital structure that maximizes the firm's times interest earned (TIE) ratio.", "Increasing a company's debt ratio will typically reduce the marginal costs of both debt and equity financing; however, this still may raise the company's WACC.", "If Congress were to pass legislation that increases the personal tax rate but decreases the corporate tax rate, this would encourage companies to increase their debt ratios."],
+                    "answer": "The capital structure that maximizes the stock price is also the capital structure that minimizes the weighted average cost of capital (WACC).",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 25,
+                    "topic": "(16.2) Miscellaneous capital structure concepts",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["In general, a firm with low operating leverage also has a small proportion of its total costs in the form of fixed costs.", "There is no reason to think that changes in the personal tax rate would affect firms' capital structure decisions.", "A firm with high business risk is more likely to increase its use of financial leverage than a firm with low business risk, assuming all else equal.", "If a firm's after-tax cost of equity exceeds its after-tax cost of debt, it can always reduce its WACC by increasing its use of debt.", "Suppose a firm has less than its optimal amount of debt. Increasing its use of debt to the point where it is at its optimal capital structure will decrease the costs of both debt and equity financing."],
+                    "answer": "In general, a firm with low operating leverage also has a small proportion of its total costs in the form of fixed costs.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 26,
+                    "topic": "(16.2) Miscellaneous capital structure concepts",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["If corporate tax rates were decreased while other things were held constant, and if the Modigliani-Miller tax-adjusted tradeoff theory of capital structure were correct, this would tend to cause corporations to decrease their use of debt.", "A change in the personal tax rate should not affect firms' capital structure decisions.", "Business risk is differentiated from financial risk by the fact that financial risk reflects only the use of debt, while business risk reflects both the use of debt and such factors as sales variability, cost variability, and operating leverage.", "The optimal capital structure is the one that simultaneously (1) maximizes the price of the firm's stock, (2) minimizes its WACC, and (3) maximizes its EPS.", "If changes in the bankruptcy code make bankruptcy less costly to corporations, then this would likely reduce the debt ratio of the average corporation."],
+                    "answer": "If corporate tax rates were decreased while other things were held constant, and if the Modigliani-Miller tax-adjusted tradeoff theory of capital structure were correct, this would tend to cause corporations to decrease their use of debt.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 27,
+                    "topic": "(16.5) Leverage and capital structure",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["When a company increases its debt ratio, the costs of equity and debt both increase. Therefore, the WACC must also increase.", "The capital structure that maximizes the stock price is generally the capital structure that also maximizes earnings per share.", "All else equal, an increase in the corporate tax rate would tend to encourage a company to increase its debt ratio.", "Since debt financing raises the firm's financial risk, increasing a company's debt ratio will always increase its WACC.", "Since debt is cheaper than equity, increasing a company's debt ratio will always reduce its WACC."],
+                    "answer": "All else equal, an increase in the corporate tax rate would tend to encourage a company to increase its debt ratio.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 28,
+                    "topic": "(16.5) Financial leverage and ratios",
+                    "type": "mcq",
+                    "question": "Companies HD and LD have identical amounts of assets, operating income (EBIT), tax rates, and business risk. Company HD, however, has a much higher debt ratio than LD. Company HD's basic earning power ratio (BEP) exceeds its cost of debt (rd). Which of the following statements is CORRECT?",
+                    "options": ["Company HD has a higher return on assets (ROA) than Company LD.", "Company HD has a higher times interest earned (TIE) ratio than Company LD.", "Company HD has a higher return on equity (ROE) than Company LD, and its risk, as measured by the standard deviation of ROE, is also higher than LD's.", "The two companies have the same ROE.", "Company HD's ROE would be higher if it had no debt."],
+                    "answer": "Company HD has a higher return on equity (ROE) than Company LD, and its risk, as measured by the standard deviation of ROE, is also higher than LD's.",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 29,
+                    "topic": "(16.4) Variations in capital structures",
+                    "type": "mcq",
+                    "question": "Which of the following statements is CORRECT?",
+                    "options": ["Generally, debt-to-total-assets ratios do not vary much among different industries, although they do vary among firms within a given industry.", "Electric utilities generally have very high common equity ratios because their revenues are more volatile than those of firms in most other industries.", "Drug companies (prescription, not illegal!) generally have high debt-to-equity ratios because their earnings are very stable and, thus, they can cover the high interest costs associated with high debt levels.", "Wide variations in capital structures exist both between industries and among individual firms within given industries. These differences are caused by differing business risks and also managerial attitudes.", "Since most stocks sell at or very close to their book values, book value capital structures are almost always adequate for use in estimating firms' costs of capital."],
+                    "answer": "Wide variations in capital structures exist both between industries and among individual firms within given industries. These differences are caused by differing business risks and also managerial attitudes.",
+                    "explanation": ""
+                }
+            ]
+        },
+        "sector3": {
+            "title": "Problems",
+            "questions": [
+                {
+                    "q_num": 1,
+                    "topic": "(16.2) Breakeven point--nonalgorithmic",
+                    "type": "mcq",
+                    "question": "Elephant Books sells paperback books for $7 each. The variable cost per book is $5. At current annual sales of 200,000 books, the publisher is just breaking even. It is estimated that if the authors' royalties are reduced, the variable cost per book will drop by $1. Assume authors' royalties are reduced and sales remain constant; how much more money can the publisher put into advertising (a fixed cost) and still break even?",
+                    "options": ["$600,000", "$466,667", "$333,333", "$200,000", "None of the above"],
+                    "answer": "$200,000",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 2,
+                    "topic": "(16.2) Breakeven analysis",
+                    "type": "mcq",
+                    "question": "DeLong Inc. has fixed operating costs of $470,000, variable costs of $2.80 per unit produced, and its products sell for $4.00 per unit. What is the company's breakeven point, i.e., at what unit sales volume would income equal costs?",
+                    "options": ["391,667", "411,250", "431,813", "453,403", "476,073"],
+                    "answer": "391,667",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 3,
+                    "topic": "(16.2) Breakeven analysis",
+                    "type": "mcq",
+                    "question": "Senbet Ventures is considering starting a new company to produce stereos. The sales price would be set at 1.5 times the variable cost per unit; the VC/unit is estimated to be $2.50; and fixed costs are estimated at $120,000. What sales volume would be required in order to break even, i.e., to have an EBIT of zero for the stereo business?",
+                    "options": ["86,640", "91,200", "96,000", "100,800", "105,840"],
+                    "answer": "96,000",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 4,
+                    "topic": "(16.2) Debt's effect on ROE",
+                    "type": "mcq",
+                    "question": "Vu Enterprises expects to have the following data during the coming year. What is Vu's expected ROE?\nAssets $200,000\nInterest rate 8%\nD/A 65%\nTax rate 40%\nEBIT $25,000",
+                    "options": ["12.51%", "13.14%", "13.80%", "14.49%", "15.21%"],
+                    "answer": "12.51%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 5,
+                    "topic": "(16.2) Net operating income--nonalgorithmic",
+                    "type": "mcq",
+                    "question": "The Congress Company has identified two methods for producing playing cards. One method involves using a machine having a fixed cost of $10,000 and variable costs of $1.00 per deck of cards. The other method would use a less expensive machine (fixed cost = $5,000), but it would require greater variable costs ($1.50 per deck of cards). If the selling price per deck of cards will be the same under each method, at what level of output will the two methods produce the same net operating income (EBIT)?",
+                    "options": ["5,000 decks", "10,000 decks", "15,000 decks", "20,000 decks", "25,000 decks"],
+                    "answer": "10,000 decks",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 6,
+                    "topic": "(16.5) Calculating the unlevered beta",
+                    "type": "mcq",
+                    "question": "Ang Enterprises has a levered beta of 1.10, its capital structure consists of 40% debt and 60% equity, and its tax rate is 40%. What would Ang's beta be if it used no debt, i.e., what is its unlevered beta?",
+                    "options": ["0.64", "0.67", "0.71", "0.75", "0.79"],
+                    "answer": "0.79",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 7,
+                    "topic": "(16.5) Capital structure and value--nonalgorithmic",
+                    "type": "mcq",
+                    "question": "A consultant has collected the following information regarding Young Publishing:\nTotal assets $3,000 million\nTax rate 40%\nOperating income (EBIT) $800 million\nDebt ratio 0%\nInterest expense $0 million\nWACC 10%\nNet income $480 million\nM/B ratio 1.00\nShare price $32.00\nEPS = DPS $3.20\nThe company has no growth opportunities (g = 0), so the company pays out all of its earnings as dividends (EPS = DPS). The consultant believes that if the company moves to a capital structure financed with 20% debt and 80% equity (based on market values) that the cost of equity will increase to 11% and that the pre-tax cost of debt will be 10%. If the company makes this change, what would be the total market value (in millions) of the firm?",
+                    "options": ["$3,200", "$3,600", "$4,000", "$4,200", "$4,800"],
+                    "answer": "$4,800",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 8,
+                    "topic": "(16.2) EBIT and setting the price",
+                    "type": "mcq",
+                    "question": "A group of venture investors is considering putting money into Lemma Books, which wants to produce a new reader for electronic books. The variable cost per unit is estimated at $250, the sales price would be set at twice the VC/unit, fixed costs are estimated at $750,000, and the investors will put up the funds if the project is likely to have an operating income of $500,000 or more. What sales volume would be required in order to meet this profit goal?",
+                    "options": ["4,513", "4,750", "5,000", "5,250", "5,513"],
+                    "answer": "5,000",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 9,
+                    "topic": "(16.2) Differences in ROE",
+                    "type": "mcq",
+                    "question": "Firms HD and LD are identical except for their level of debt and the interest rates they pay on debt--HD has more debt and pays a higher interest rate on that debt. Based on the data given below, what is the difference between the two firms' ROEs?\nApplicable to Both Firms: Assets $200, EBIT $40, Tax rate 35%\nFirm HD's Data: Debt ratio 50%, Interest rate 12%\nFirm LD's Data: Debt ratio 30%, Interest rate 10%",
+                    "options": ["2.18%", "2.29%", "2.41%", "2.54%", "2.66%"],
+                    "answer": "2.41%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 10,
+                    "topic": "(16.5) Calculating levered beta and cost of equity",
+                    "type": "mcq",
+                    "question": "Lauterbach Corporation uses no debt, its beta is 1.10, and its tax rate is 40%. However, the CFO is considering moving to a capital structure with 30% debt and 70% equity. If the risk-free rate is 5.0% and the market risk premium is 6.0%, by how much would the capital structure shift change the firm's cost of equity?",
+                    "options": ["1.53%", "1.70%", "1.87%", "2.05%", "2.26%"],
+                    "answer": "1.70%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 11,
+                    "topic": "(16.5) Calculating levered beta and cost of equity",
+                    "type": "mcq",
+                    "question": "Vafeas Inc.'s capital structure consists of 80% debt and 20% common equity, its beta is 1.60, and its tax rate is 35%. However, the CFO thinks the company has too much debt, and he is considering moving to a capital structure with 40% debt and 60% equity. The risk-free rate is 5.0% and the market risk premium is 6.0%. By how much would the capital structure shift change the firm's cost of equity?",
+                    "options": ["-5.20%", "-5.78%", "-6.36%", "-6.99%", "-7.69%"],
+                    "answer": "-5.78%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 12,
+                    "topic": "(16.5) Cost of equity--unlevering and relevering betas",
+                    "type": "mcq",
+                    "question": "Stephens Electronics is considering a change in its target capital structure, which currently consists of 25% debt and 75% equity. The CFO believes the firm should use more debt, but the CEO is reluctant to increase the debt ratio. The risk-free rate, rRF, is 5.0%, the market risk premium, RPM, is 6.0%, and the firm's tax rate is 40%. Currently, the cost of equity, rs, is 11.5% as determined by the CAPM. What would be the estimated cost of equity if the firm used 60% debt? (Hint: You must first find the current beta and then the unlevered beta to solve the problem.)",
+                    "options": ["10.95%", "11.91%", "12.94%", "14.07%", "15.29%"],
+                    "answer": "15.29%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 13,
+                    "topic": "(16.5) Recapitalization",
+                    "type": "mcq",
+                    "question": "Michaely Inc. is an all-equity firm with 200,000 shares outstanding. It has $2,000,000 of EBIT, which is expected to remain constant in the future. The company pays out all of its earnings, so earnings per share (EPS) equal dividends per shares (DPS). Its tax rate is 40%. The company is considering issuing $5,000,000 of 10.0% bonds and using the proceeds to repurchase stock. The risk-free rate is 6.5%, the market risk premium is 5.0%, and the beta is currently 0.90, but the CFO believes beta would rise to 1.10 if the recapitalization occurs. Assuming that the shares can be repurchased at the price that existed prior to the recapitalization, what would the price be following the recapitalization?",
+                    "options": ["$65.77", "$69.23", "$72.69", "$76.33", "$80.14"],
+                    "answer": "$69.23",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 14,
+                    "topic": "(16.5) Capital structure and P0--nonalgorithmic",
+                    "type": "mcq",
+                    "question": "Dabney Electronics currently has no debt. Its operating income is $20 million and its tax rate is 40%. It pays out all of its net income as dividends and has a zero growth rate. The current stock price is $40 per share, and it has 2.5 million shares of stock outstanding. If it moves to a capital structure that has 40% debt and 60% equity (based on market values), its investment bankers believe its weighted average cost of capital would be 10%. What would its stock price be if it changes to the new capital structure?",
+                    "options": ["$40", "$48", "$52", "$54", "$60"],
+                    "answer": "$48",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 15,
+                    "topic": "(16.5) Hamada equation and rs--nonalgorithmic",
+                    "type": "mcq",
+                    "question": "Simon Software Co. is trying to estimate its optimal capital structure. Right now, Simon has a capital structure that consists of 20% debt and 80% equity, based on market values. (Its D/S ratio is 0.25.) The risk-free rate is 6% and the market risk premium, rM - rRF, is 5%. Currently the company's cost of equity, which is based on the CAPM, is 12% and its tax rate is 40%. What would be Simon's estimated cost of equity if it were to change its capital structure to 50% debt and 50% equity?",
+                    "options": ["13.00%", "13.64%", "14.35%", "14.72%", "15.60%"],
+                    "answer": "14.35%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 16,
+                    "topic": "(16.5) Opt cap struc, Hamada equation--nonalgorithmic",
+                    "type": "mcq",
+                    "question": "Aaron Athletics is trying to determine its optimal capital structure. The company's capital structure consists of debt and common stock. In order to estimate the cost of debt, the company has produced the following table:\nPercent financed with debt (wd) | Percent financed with equity (wc) | Debt-to-equity ratio (D/S) | Bond rating | Before-tax cost of debt\n---|---|---|---|---\n0.10 | 0.90 | 0.11 | AAA | 7.0%\n0.20 | 0.80 | 0.25 | AA | 7.2%\n0.30 | 0.70 | 0.43 | A | 8.0%\n0.40 | 0.60 | 0.67 | BBB | 8.8%\n0.50 | 0.50 | 1.00 | BB | 9.6%\nThe company uses the CAPM to estimate its cost of common equity, rs. The risk-free rate is 5% and the market risk premium is 6%. Aaron estimates that if it had no debt its beta would be 1.0. (Its unlevered beta, bU, equals 1.0.) The company's tax rate, T, is 40%. On the basis of this information, what is the company's optimal capital structure, and what is the firm's cost of capital at this optimal capital structure?",
+                    "options": ["wc = 0.9; wd = 0.1; WACC = 14.96%", "wc = 0.8; wd = 0.2; WACC = 10.96%", "wc = 0.7; wd = 0.3; WACC = 7.83%", "wc = 0.6; wd = 0.4; WACC = 10.15%", "wc = 0.5; wd = 0.5; WACC = 10.18%"],
+                    "answer": "wc = 0.6; wd = 0.4; WACC = 10.15%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 17,
+                    "topic": "(16.5) WACC and recapitalization--nonalgorithmic",
+                    "type": "mcq",
+                    "question": "PP is considering moving to a capital structure that is comprised of 30% debt and 70% equity, based on market values. The debt would have an interest rate of 8%. The new funds would be used to repurchase stock. It is estimated that the increase in risk resulting from the added leverage would cause the required rate of return on equity to rise to 12%. If this plan were carried out, what would be PP's new value of operations?",
+                    "options": ["$484,359", "$487,805", "$521,173", "$560,748", "$584,653"],
+                    "answer": "$487,805",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 18,
+                    "topic": "(16.5) Stock price, recapitalization--nonalgorithmic",
+                    "type": "mcq",
+                    "question": "Now assume that PP is considering changing from its original capital structure to a new capital structure with 35% debt and 65% equity. This results in a weighted average cost of capital equal to 9.4% and a new value of operations of $510,638. Assume PP raises $178,723 in new debt and purchases T-bills to hold until it makes the stock repurchase. What is the stock price per share immediately after issuing the debt but prior to the repurchase?",
+                    "options": ["$45.90", "$48.12", "$51.06", "$53.33", "$58.75"],
+                    "answer": "$51.06",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 19,
+                    "topic": "(16.5) Stock price, recapitalization--nonalgorithmic",
+                    "type": "mcq",
+                    "question": "Assume that PP is considering changing from its original capital structure to a new capital structure with 35% debt and 65% equity. This results in a weighted average cost of capital equal to 9.4% and a new value of operations of $510,638. Assume PP raises $178,723 in new debt and purchases T-bills to hold until it makes the stock repurchase. PP then sells the T-bills and uses the proceeds to repurchase stock. How many shares remain after the repurchase, and what is the stock price per share immediately after the repurchase?",
+                    "options": ["7,500; $71.49", "7,000; $59.57", "6,500; $51.06", "6,649; $53.33", "6,959; $58.78"],
+                    "answer": "6,500; $51.06",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 20,
+                    "topic": "(16.5) WACC and recapitalization",
+                    "type": "mcq",
+                    "question": "If this plan were carried out, what would be VF's new WACC and its new value of operations?",
+                    "options": ["9.64% $497,925", "9.83% $507,884", "10.03% $518,041", "10.23% $528,402", "10.74% $538,970"],
+                    "answer": "9.64% $497,925",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 21,
+                    "topic": "(16.5) Stock price, recapitalization",
+                    "type": "mcq",
+                    "question": "Now assume that VF is considering changing from its original zero debt capital structure to a new capital structure with even more debt. This results in changes in the cost of debt and equity, and thus to a new WACC and a new value of operations. Assume VF raises the amount of new debt indicated below and uses the funds to purchase and hold T-bills until it makes the stock repurchase. What is the stock price per share immediately after issuing the debt but prior to the repurchase?\nDebt/Value = 40%\nValue of new debt = $213,333\nEquity/Value= 60%\nNew WACC = 9.0%",
+                    "options": ["$50.67", "$53.33", "$56.00", "$58.80", "$61.74"],
+                    "answer": "$53.33",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 22,
+                    "topic": "(16.5) Stock price, recapitalization",
+                    "type": "mcq",
+                    "question": "Based on the data in the previous two problems, what would the stock price be if VF issued the new debt and immediately used the proceeds to repurchase stock?",
+                    "options": ["$49.43", "$50.70", "$52.00", "$53.33", "$56.00"],
+                    "answer": "$53.33",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 23,
+                    "topic": "(16.5) WACC and recapitalization--nonalgorithmic",
+                    "type": "mcq",
+                    "question": "BB is considering moving to a capital structure that is comprised of 20% debt and 80% equity, based on market values. The debt would have an interest rate of 7%. The new funds would be used to repurchase stock. It is estimated that the increase in risk resulting from the additional leverage would cause the required rate of return on equity to rise to 14%. If this plan were carried out, what would BB's new value of operations be?",
+                    "options": ["$498,339", "$512,188", "$525,237", "$540,239", "$590,718"],
+                    "answer": "$498,339",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 24,
+                    "topic": "(16.5) Stock price, recapitalization--nonalgorithmic",
+                    "type": "mcq",
+                    "question": "Now assume that BB is considering changing from its original capital structure to a new capital structure with 45% debt and 55% equity. This results in a weighted average cost of capital equal to 10.4% and a new value of operations of $576,923. Assume BB raises $259,615 in new debt and purchases T-bills to hold until it makes the stock repurchase. What is the stock price per share immediately after issuing the debt but prior to the repurchase?",
+                    "options": ["$14.42", "$19.36", "$23.91", "$28.85", "$35.62"],
+                    "answer": "$28.85",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 25,
+                    "topic": "(16.5) Stock price, recapitalization--nonalgorithmic",
+                    "type": "mcq",
+                    "question": "Now assume that BB is considering changing from its original capital structure to a new capital structure with 45% debt and 55% equity. This results in a weighted average cost of capital equal to 10.4% and a new value of operations of $576,923. Assume BB raises $259,615 in new debt and purchases T-bills to hold until it makes the stock repurchase. BB then sells the T-bills and uses the proceeds to repurchase stock. How many shares remain after the repurchase, and what is the stock price per share immediately after the repurchase?",
+                    "options": ["11,001; $28.85", "12,711; $35.62", "13,901; $42.57", "15,220; $54.31", "17,105; $89.67"],
+                    "answer": "11,001; $28.85",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 26,
+                    "topic": "(16.5) Market value and WACC--nonalgorithmic",
+                    "type": "mcq",
+                    "question": "What is AJC's current total market value and weighted average cost of capital?",
+                    "options": ["$600,000; 7.5%", "$600,000; 8.0%", "$800,000; 7.0%", "$800,000; 7.5%", "$800,000; 8.0%"],
+                    "answer": "$800,000; 7.5%",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 27,
+                    "topic": "(16.5) WACC and recapitalization--nonalgorithmic",
+                    "type": "mcq",
+                    "question": "The firm is considering moving to a capital structure that is comprised of 40% debt and 60% equity, based on market values. The new funds would be used to replace the old debt and to repurchase stock. It is estimated that the increase in risk resulting from the additional leverage would cause the required rate of return on debt to rise to 7%, while the required rate of return on equity would rise to 9.5%. If this plan were carried out, what would be AJC's new WACC and total value?",
+                    "options": ["7.38%; $800,008", "7.38%; $813,008", "7.50%; $813,008", "7.50%; $790,008", "7.80%; $790,008"],
+                    "answer": "7.38%; $813,008",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 28,
+                    "topic": "(16.5) Stock price, recapitalization--nonalgorithmic",
+                    "type": "mcq",
+                    "question": "Now assume that AJC is considering changing from its original capital structure to a new capital structure with 50% debt and 50% equity. If it makes this change, its resulting market value would be $820,000. What would be its new stock price per share?",
+                    "options": ["$58", "$59", "$60", "$61", "$62"],
+                    "answer": "$62",
+                    "explanation": ""
+                },
+                {
+                    "q_num": 29,
+                    "topic": "(16.5) No. shares repurchased--nonalgorithmic",
+                    "type": "mcq",
+                    "question": "Now assume that AJC is considering changing from its original capital structure to a new capital structure that results in a stock price of $64 per share. The resulting capital structure would have a $336,000 total market value of equity and a $504,000 market value of debt. How many shares would AJC repurchase in the recapitalization?",
+                    "options": ["4,250", "4,500", "4,750", "5,000", "5,250"],
+                    "answer": "4,750",
+                    "explanation": ""
+                }
+            ]
+        }
+    }
+}
